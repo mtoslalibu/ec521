@@ -19,8 +19,8 @@ Project about exploiting vulnerabilities of smart watches
 ## Authors
 
 * **Mert Toslali** - *Researcher* - [Toslali](https://github.com/mtoslalibu)
-* **Burak Aksar** - *Researcher* - [Aksar](https://github.com/aksarBurak)
-* **Beliz Kaleli** - *Researcher* - [Kaleli](https://github.com/mtoslalibu)
+* **Burak Aksar** - *Researcher* - [Aksar](https://github.com/aksarburak)
+* **Beliz Kaleli** - *Researcher* - [Kaleli](https://github.com/belizkaleli)
 
 
 ## License
