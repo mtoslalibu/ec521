@@ -8,4 +8,5 @@
   ![alt text](https://i.stack.imgur.com/3sqZT.png)
 
   
-* 
+* Authentication Details : https://leojrfs.github.io/writing/miband2-part1-auth/
+  
