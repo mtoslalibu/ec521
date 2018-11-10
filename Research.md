@@ -7,7 +7,7 @@
   * Miband: E3:35:24:53:C2:C1
   
 * node.js & HTML based interaction tool with Miband
- * https://github.com/vshymanskyy/miband-js
+  * https://github.com/vshymanskyy/miband-js
  
   
   
