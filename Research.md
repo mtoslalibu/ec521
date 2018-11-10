@@ -11,4 +11,4 @@
 
 * https://forum.xda-developers.com/android/software/xiaomi-mi-bluetooth-le-band-protocol-t2963581
 * Acccess Miband from Android: https://github.com/paulgavrikov/xiaomi-miband-android
- * Haven't tried yet
+  * Haven't tried yet
