@@ -1,19 +1,25 @@
-# Hacking MiBand2 - EC521
+# Hacking Fitness Trackers - EC521 Term Project 
 
-Project about exploiting vulnerabilities of smart watches
+Project about exploiting vulnerabilities of smart watches specifically worked on Xiaomi Mi Band  2, Fitbit, Nike FuelBand SE Fitness Tracker.
+ 
+## Planned steps 
 
-## Getting Started
+* Detailed examination of Bluetooth Low Energy protocol
+  * Specifically Just WorksTM pairing method
+* ATT & GATT 
+  * UUID characteristcs are analyzed to understand communication details 
+* BT debugger: Bluetooth service analyzer 
+* HCI-tool scanning connections 
+* bluepy:Python interface to Bluetooth LE on Linux
+  * https://github.com/IanHarvey/bluepy
+* Examining bluetooth logs via Anroid HCI logs
+  * Wireshark
+* After getting the log, we have found gATT communication among miband and android phone. 
+* Decompiling the APK
+  * Smali code injection to drop connection between user and miband 
+* Miband2Manager.py - Authenticate to unpaired band using bluepy
+* Sniff data
 
-- Bluetooth service analyzer tool nrf
-- Wrote down device charactheristc ids
-- Enabled bt logging on android
-- Then paired miband to samsung, get the log on to PC
-- After getting the log, we have found gATT communication among miband and android phone. 
-
-
-- Hcitool - Scan devices and connect
-- Miband2Manager.py - Authenticate to unpaired band using bluepy
-- Sniff data
 
 
 ## Authors
@@ -21,7 +27,6 @@ Project about exploiting vulnerabilities of smart watches
 * **Mert Toslali** - *Researcher* - [Toslali](https://github.com/mtoslalibu)
 * **Burak Aksar** - *Researcher* - [Aksar](https://github.com/aksarburak)
 * **Beliz Kaleli** - *Researcher* - [Kaleli](https://github.com/belizkaleli)
-
 
 ## License
 
