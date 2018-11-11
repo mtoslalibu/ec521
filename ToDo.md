@@ -7,7 +7,8 @@
     * https://github.com/Freeyourgadget/Gadgetbridge/wiki/Mi-Band-Firmware-Update
     
  * Firmware update problem is solved. Trying to read heart rate data and others. 
-  * Currently FW: 1.0.0.53, HW: V0.1.3.3
+    * FW: 1.0.0.53, HW: V0.1.3.3
+    * New update, FW:V1.0.1.81 HW:HW: V0.1.3.3, MiFit2 : 3.3.1  
   
   
 * Choose correct APK version to search on reset connection feature 
