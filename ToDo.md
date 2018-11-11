@@ -5,6 +5,10 @@
   * Current firmware version is 1.1.14 and App version is 3.5.0
   * Gadget bridge may help to downgrade the firmware version, still checking
     * https://github.com/Freeyourgadget/Gadgetbridge/wiki/Mi-Band-Firmware-Update
+    
+ * Firmware update problem is solved. Trying to read heart rate data and others. 
+  * Currently FW: 1.0.0.53, HW: V0.1.3.3
+  
   
 * Choose correct APK version to search on reset connection feature 
   * Available APKs: https://www.apkmirror.com/uploads/?q=mi-fit
