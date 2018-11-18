@@ -15,6 +15,13 @@
     * New update, FW:V1.0.1.81 HW: V0.1.3.3, MiFit2 : 3.3.1  
     * HW has to be converted into 0.9.3.4. Find a way out to change hardware version. 
     
+Last Updates - 21 November:
  
-  
+* While transfering hearth data there was a problem in python code, device stucks
+ * Currently, trying to duplicate data transfering part
+ * If it does not works, will switch to node.js based code
+
+* Decompile the apk of the current version 
+ * Start searching for reset function by solving the obfuscation
+	 
   
