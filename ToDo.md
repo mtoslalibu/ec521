@@ -18,10 +18,12 @@
 Last Updates - 21 November:
  
 * While transfering hearth data there was a problem in python code, device stucks
- * Currently, trying to duplicate data transfering part
- * If it does not works, will switch to node.js based code
+   * Currently, trying to duplicate data transfering part
+   * If it does not works, will switch to node.js based code
 
 * Decompile the apk of the current version 
- * Start searching for reset function by solving the obfuscation
+   * Start searching for reset function by solving the obfuscation
 	 
-  
+Last Updates - 26 November:
+
+* Currently updating smali_injection.md file and searching and trying to analyze factory reset function in the app. App version details can be found in smali_injection.md file. 
