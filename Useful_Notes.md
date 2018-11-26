@@ -11,9 +11,9 @@
 * Authentication Details : https://leojrfs.github.io/writing/miband2-part1-auth/
 
 * Reverse Engineering Concepts:
- * DEX file format is in binary file format, it means that it is already compiled. It is for Dalvik Virtual Machine. 
- * JAR package file contains compiled Java class files, similar to ZIP format. 
- * dex2jar Tool: Converts Android's .dex format(binary) to Java's .class format(binary).
- * smali is designed to modify source code, when the bytecode disassembled into smali we can make modifications! It is
-   an assembly language designed for that.
+  * DEX file format is in binary file format, it means that it is already compiled. It is for Dalvik Virtual Machine. 
+  * JAR package file contains compiled Java class files, similar to ZIP format. 
+  * dex2jar Tool: Converts Android's .dex format(binary) to Java's .class format(binary).
+  * smali is designed to modify source code, when the bytecode disassembled into smali we can make modifications! It is
+     an assembly language designed for that.
   
