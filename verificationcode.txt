@@ -26,3 +26,10 @@ mert@Multicore-Ubuntu:~/Documents/mifit3.2.6.apk$
 
 mert@Multicore-Ubuntu:~/Documents/mifit3.2.6.apk$ grep -rn "bind_mili_time_out"
 smali/com/xiaomi/hm/health/R$string.smali:608:.field public static final bind_mili_time_out:I = 0x7f090157
+
+
+
+grep -rn 0x7f090157
+smali/com/xiaomi/hm/health/R$string.smali:608:.field public static final bind_mili_time_out:I = 0x7f090157
+res/values/public.xml:3059:    <public type="string" name="bind_mili_time_out" id="0x7f090157" />
+smali_classes2/com/xiaomi/hm/health/device/reset/ResetDeviceViewModel.smali:478:    const v1, 0x7f090157
