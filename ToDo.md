@@ -27,3 +27,12 @@ Last Updates - 21 November:
 Last Updates - 26 November:
 
 * Currently updating smali_injection.md file and searching and trying to analyze factory reset function in the app. App version details can be found in smali_injection.md file. 
+
+Last Updates - 30 November:
+
+* We successfully changed the smali file for only timeout part in the app. When you choose reset factory settings it asks for the code and code is valid for 40 seconds. We changed this time to 10 seconds and recompiled the app and successfully run on the android phone and it is still able to drop any connected user.
+
+* Now, we are looking at the smali class HMResetDevice and analyzing the 4-digit passcode characteristics. When we understand this mechanism we will bruteforce it or disable that password. 
+
+* At the same time working on the data reading from the MiBand using bluepy based python code, there is an another alternative which is node.js version, trying to fix errors. 
+
