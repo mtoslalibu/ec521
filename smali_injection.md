@@ -17,9 +17,11 @@ Steps and logic for reverse engineering process of MiBand2 app.
 
 
 
-* Above picture shows where the vulnerability lies. There is a hard coded limit, 40000 ms and the other functions inside the code block take part in verification process of the reset code. Checking mechanism is under the obfuscated class g() and some cross check happens inside the this.c() . 
+* Above picture shows where the vulnerability lies. There is a hard coded limit, 40000 ms and the other functions inside the code block take part in verification process of the reset code.
 
-* We changed the functionality of the code in a way that when the reset code is asked, any 4 digits can bypass this mechanism. 
+* After reset factory setting request is sent to the device, callback is given as a() function. If the pin value is correct and put within 40 seconds, following the execution path, the function g() is called which basically sends the reset factory setting command.  
+
+* We changed the functionality of the code in a way that when the reset code is asked, any 4 digits can bypass this mechanism. Resulting in calling the g() function. The MiBand does not store any state wheter the previous pin code transaction was valid. So whenever the g() is called, MiBand Resets itself meaning that dropping the pairing session with any user/app. 
 
 * Overall, as a malicious user you can drop the connection between user and his MiBand by using our modified APK. 
 
