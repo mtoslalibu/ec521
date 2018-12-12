@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="avoid_type">
+        <item>@string/state_close</item>
+        <item>@string/avoid_enable_smart</item>
+        <item>@string/avoid_enable_time</item>
+    </string-array>
+    <string-array name="avoid_type_sub">
+        <item></item>
+        <item>@string/avoid_enable_smart_sub</item>
+        <item>@string/avoid_enable_time_sub</item>
+    </string-array>
+    <string-array name="bmi_for_adualt">
+        <item>کم</item>
+        <item>معمول کا</item>
+        <item>زیادہ</item>
+        <item>بہت زیادہ</item>
+    </string-array>
+    <string-array name="bmi_for_child">
+        <item>معمول کا</item>
+        <item>زیادہ</item>
+        <item>بہت زیادہ</item>
+    </string-array>
+    <string-array name="bmi_for_not_chinese">
+        <item>کم</item>
+        <item>معمول کا</item>
+        <item>بڑھ گیا</item>
+        <item>زیادہ</item>
+        <item>بہت زیادہ</item>
+    </string-array>
+    <string-array name="body_score_leval">
+        <item>بے حد ناقص</item>
+        <item>ناقص</item>
+        <item>معمول کا</item>
+        <item>اچھا</item>
+        <item>بہترین</item>
+    </string-array>
+    <string-array name="body_shape_type_array">
+        <item>پتلا</item>
+        <item>معتدل پتلا</item>
+        <item>پتلا مضبوط</item>
+        <item>ورزش کی کمی</item>
+        <item>متوازن</item>
+        <item>معتدل مضبوط</item>
+        <item>موٹاپا</item>
+        <item>زیادہ وزن</item>
+        <item>گٹھیلا</item>
+    </string-array>
+    <string-array name="bodyfat_content_leval">
+        <item>بہت کم</item>
+        <item>کم</item>
+        <item>معمول کا</item>
+        <item>بڑھ گیا</item>
+        <item>زیادہ</item>
+    </string-array>
+    <string-array name="bone_leval">
+        <item>ناکافی</item>
+        <item>معمول کا</item>
+        <item>اچھا</item>
+    </string-array>
+    <string-array name="brm_leval">
+        <item>ہدف پورا نہیں ہوا</item>
+        <item>ہدف پورا ہوا</item>
+    </string-array>
+    <string-array name="chaohu_help_tips">
+        <item>گھڑی پر بٹن کو دبانے کی کوشش کریں, اگر گھڑی کا اسکرین بند ہے, تو اس کی بیٹری چارج کرنے کے لیے پلگ کریں۔</item>
+        <item>پہلے بلوٹوتھ بند کریں, اور پھر موجودہ ڈیوائس سے جوڑا بنائیں۔</item>
+        <item>اگر بینڈ چارج ہے, لیکن فون اسے نہیں دیکھ سکتا ہے, تو فون کا بلوٹوتھ دوبارہ شروع کرکے آزمائیں۔</item>
+        <item>اگر بلوٹوتھ دوبارہ شروع کرنے سے مسئلہ حل نہیں ہوتا ہے, تو فون کو دوبارہ بوٹ کرنے کی کوشش کریں۔</item>
+        <item>جب آپ ورزش کر رہے ہوں تو گھڑی کا ڈیٹا مطابقت پذیر نہیں کیا جا سکتا ہے۔ سیشن ختم کریں اور پھر کوشش کریں۔</item>
+    </string-array>
+    <string-array name="chaohu_help_title">
+        <item>کیا آپ کی گھڑی چارج ہے؟</item>
+        <item>کیا یہ گھڑی کسی دوسرے ڈیوائس سے جڑی ہوئی ہے؟</item>
+        <item>بلوٹوتھ دوبارہ شروع کرنے کی کوشش کریں</item>
+        <item>اپنا فون دوبارہ بوٹ کرنے کی کوشش کریں</item>
+        <item>ورزش کے دوران ڈیٹا مطابقت پذیر نہیں کر سکتا</item>
+    </string-array>
+    <string-array name="chaohu_setting_run_types">
+        <item>@string/chaohu_setting_run_outdoor</item>
+        <item>@string/chaohu_setting_run_indoor</item>
+        <item>@string/chaohu_setting_run_ride</item>
+        <item>@string/chaohu_setting_run_walk</item>
+    </string-array>
+    <string-array name="colors">
+        <item>@string/blue</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/red</item>
+    </string-array>
+    <string-array name="common_cities">
+        <item>گوانگ ژو</item>
+        <item>شینزین</item>
+        <item>فوشان</item>
+        <item>ڈونگ گوان</item>
+        <item>بیجنگ</item>
+        <item>نانجنگ</item>
+        <item>سوزو</item>
+        <item>چانگ ژو</item>
+        <item>جینان</item>
+        <item>کوئنگ ڈاؤ</item>
+        <item>ہانگزو</item>
+        <item>ننگبو</item>
+        <item>ژینگ ژو</item>
+        <item>کیفینگ</item>
+        <item>شنگھائی</item>
+        <item>شیجیا ژوانگ</item>
+        <item>باؤڈنگ</item>
+        <item>چینگدو</item>
+        <item>میانیانگ</item>
+        <item>شینیانگ</item>
+        <item>ڈالیان</item>
+    </string-array>
+    <string-array name="difficulty_content">
+        <item>New hand for fitness training</item>
+        <item>Had basic fitness experience</item>
+        <item>Had rich fitness experience and built a good shape</item>
+    </string-array>
+    <string-array name="difficulty_title">
+        <item>Elementary</item>
+        <item>Intermediate</item>
+        <item>Advanced</item>
+    </string-array>
+    <string-array name="fitness_goal_content">
+        <item>Aiming to burn fat</item>
+        <item>Aiming to shape body</item>
+        <item>Aiming to build muscles</item>
+    </string-array>
+    <string-array name="fitness_goal_title">
+        <item>Cutting</item>
+        <item>Shaping</item>
+        <item>Bulking</item>
+    </string-array>
+    <string-array name="ges_screen_type">
+        <item>@string/ges_screen_type_all_day</item>
+        <item>@string/ges_screen_type_time</item>
+        <item>@string/ges_screen_type_close</item>
+    </string-array>
+    <string-array name="hr_section">
+        <item>@string/hr_section_warm_up</item>
+        <item>@string/hr_section_fat_burn</item>
+        <item>@string/hr_section_heart_lung_strengthen</item>
+        <item>@string/hr_section_stamina_strengthen</item>
+        <item>@string/hr_section_anaerobic_limit</item>
+        <item>@string/hr_section_other</item>
+    </string-array>
+    <string-array name="hr_sport">
+        <item>دل کی شرح زون: ہلکا</item>
+        <item>دل کی شرح زون: وزن</item>
+        <item>دل کی شرح زون: ایروبک</item>
+        <item>دل کی شرح زون: انیروبک</item>
+        <item>دل کی شرح زون: VO₂ زیادہ سے زیادہ</item>
+    </string-array>
+    <string-array name="hr_sport_new">
+        <item>ہلکی</item>
+        <item>وزن</item>
+        <item>ایروبک</item>
+        <item>انوروبک</item>
+        <item>VO₂ زیادہ سے زیادہ</item>
+    </string-array>
+    <string-array name="lock_screen_type">
+        <item>بند</item>
+        <item>نزدیک</item>
+        <item>دور</item>
+    </string-array>
+    <string-array name="member_add_weight_items">
+        <item>@string/member_add_weight_item_auto</item>
+        <item>@string/member_add_weight_item_manual</item>
+    </string-array>
+    <string-array name="mili_help_tips">
+        <item>"ایک Mi بینڈ 2 یا دوسرے بینڈ کا جوڑا بنانے سے پہلے یہ چیک کرنے کے لیے کہ ڈیوائس چارج ہے یا نہیں بینڈ کو ٹیپ کریں۔
+
+ایک Mi بینڈ یا Mi بینڈ پلس کا جوڑا بنانے سے پہلے بینڈ کو چارج کریں۔"</item>
+        <item>پہلے بلوٹوتھ بند کریں, اور پھر موجودہ ڈیوائس سے جوڑا بنائیں۔</item>
+        <item>اگر بینڈ چارج ہے, لیکن فون اسے نہیں دیکھ سکتا ہے, تو فون کا بلوٹوتھ دوبارہ شروع کرکے آزمائیں۔</item>
+        <item>اگر بلوٹوتھ دوبارہ شروع کرنے سے مسئلہ حل نہیں ہوتا ہے, تو فون کو دوبارہ بوٹ کرنے کی کوشش کریں۔</item>
+    </string-array>
+    <string-array name="mili_help_title">
+        <item>کیا آپ کا بینڈ چارج ہے؟</item>
+        <item>کیا یہ بینڈ کسی دوسرے ڈیوائس سے جڑا ہوا ہے؟</item>
+        <item>بلوٹوتھ دوبارہ شروع کرنے کی کوشش کریں</item>
+        <item>اپنا فون دوبارہ بوٹ کرنے کی کوشش کریں</item>
+    </string-array>
+    <string-array name="mili_pro_display_items">
+        <item>وقت</item>
+        <item>قدم</item>
+        <item>فاصلہ</item>
+        <item>کیلوری</item>
+        <item>دل کی شرح</item>
+        <item>بیٹری</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>جنوری</item>
+        <item>فروری</item>
+        <item>مارچ</item>
+        <item>اپریل</item>
+        <item>مئی</item>
+        <item>جون</item>
+        <item>جولائی</item>
+        <item>اگست</item>
+        <item>ستمبر</item>
+        <item>اکتوبر</item>
+        <item>نومبر</item>
+        <item>دسمبر</item>
+    </string-array>
+    <string-array name="muscle_content_leval">
+        <item>ناکافی</item>
+        <item>معمول کا</item>
+        <item>اچھا</item>
+    </string-array>
+    <string-array name="ring_types">
+        <item>@string/ring_type_default</item>
+        <item>@string/ring_type_incall</item>
+    </string-array>
+    <string-array name="running_months">
+        <item>جنوری</item>
+        <item>فروری</item>
+        <item>مارچ</item>
+        <item>اپریل</item>
+        <item>مئی</item>
+        <item>جون</item>
+        <item>جولائی</item>
+        <item>اگست</item>
+        <item>ستمبر</item>
+        <item>اکتوبر</item>
+        <item>نومبر</item>
+        <item>دسمبر</item>
+    </string-array>
+    <string-array name="setting_hr_freq_types">
+        <item>@string/setting_heartrate_detect_freq_1</item>
+        <item>@string/setting_heartrate_detect_freq_10</item>
+        <item>@string/setting_heartrate_detect_freq_30</item>
+    </string-array>
+    <string-array name="setting_hr_types">
+        <item>@string/setting_heartrate_detect_auto</item>
+        <item>@string/setting_heartrate_detect_sleep</item>
+        <item>@string/setting_heartrate_detect_close</item>
+    </string-array>
+    <string-array name="setting_peyto_apps_array">
+        <item>گھڑی کا چہرہ</item>
+        <item>حیثیت</item>
+        <item>سرگرمیاں</item>
+        <item>موسم</item>
+        <item>الارم</item>
+        <item>ٹائمر</item>
+        <item>قطب نما</item>
+        <item>مزید ترتیبات</item>
+    </string-array>
+    <string-array name="setting_tempo_apps_array">
+        <item>گھڑی کا چہرہ</item>
+        <item>حیثیت</item>
+        <item>اطلاعات</item>
+        <item>سرگرمیاں</item>
+        <item>موسم</item>
+        <item>الارم</item>
+        <item>ٹائمر</item>
+        <item>ترتیبات</item>
+    </string-array>
+    <string-array name="setting_weather_temp_unit_array">
+        <item>@string/setting_weather_temp_c</item>
+        <item>@string/setting_weather_temp_f</item>
+    </string-array>
+    <string-array name="shoes_help_tips">
+        <item>اگر آپ زیادہ دنوں تک اسمارٹ چپ کا استعمال نہیں کریں گے تو یہ کام کرنا بند کر دے گا۔ اسے ہلائیں اور دوبارہ کوشش کریں۔</item>
+        <item>Amazfit اسمارٹ چپ کی مدت 1 سال ہے۔ اگر آپ طویل مدت سے اس کا استعمال کر رہے ہیں, تو ہو سکتا ہے اس میں کوئی پاور نہ بچے۔</item>
+        <item>پہلے بلوٹوتھ بند کریں, اور پھر موجودہ ڈیوائس سے جوڑا بنائیں۔</item>
+        <item>اگر اسمارٹ چپ چارج ہے, لیکن فون نزدیک لانے پر اس کا کھوج نہیں لگایا جا سکتا ہے, تو فون کا بلوٹوتھ ری بوٹ کرنے کی کوشش کریں۔</item>
+        <item>اگر بلوٹوتھ دوبارہ شروع کرنے سے مسئلہ حل نہیں ہوتا ہے, تو فون کو دوبارہ بوٹ کرنے کی کوشش کریں۔</item>
+        <item>ڈیٹا خودکار طور پر مطابقت پذیر کرنے کے لیے دوڑنے والے جوتے پر ٹیپ کریں اور اگلی سرگرمی کے صفحہ میں داخل ہوں</item>
+    </string-array>
+    <string-array name="shoes_help_title">
+        <item>اسمارٹ چپ کو ہلائیں</item>
+        <item>کیا بیٹری چارج ہے؟</item>
+        <item>کیا یہ اسمارٹ چپ کسی دوسرے ڈیوائس سے جڑا ہوا ہے؟</item>
+        <item>بلوٹوتھ دوبارہ شروع کریں</item>
+        <item>اپنا فون دوبارہ بوٹ کرنے کی کوشش کریں</item>
+        <item>اپنے ڈیٹا کو کس طرح مطابقت پذیر کریں؟</item>
+    </string-array>
+    <string-array name="show_body_shape_array">
+        <item>موٹاپا</item>
+        <item>زیادہ وزن</item>
+        <item>گٹھیلا</item>
+        <item>"ورزش کی
+ کمی"</item>
+        <item>متوازن</item>
+        <item>"معتدل
+مضبوط"</item>
+        <item>پتلا</item>
+        <item>"معتدل
+پتلا"</item>
+        <item>"پتلا
+مضبوط"</item>
+    </string-array>
+    <string-array name="timeline_type">
+        <item>سرگرمی</item>
+        <item>دھیرے چلنا</item>
+        <item>چلنا</item>
+        <item>تیزی سے چلنا</item>
+        <item>دوڑنا</item>
+        <item>کھڑے رہنا</item>
+        <item>بیٹھے رہنا</item>
+        <item>ہلکی سرگرمی</item>
+        <item>نہیں پہنا ہے</item>
+        <item>چارج کر رہا ہے…</item>
+        <item>لیٹے رہنا</item>
+    </string-array>
+    <string-array name="train_difficulity">
+        <item>محدود نہیں ہے</item>
+        <item>Elementary, 1</item>
+        <item>Intermediate, 2</item>
+        <item>Advanced, 3</item>
+    </string-array>
+    <string-array name="unbind_device_description">
+        <item>@string/device_band</item>
+        <item>@string/device_weight</item>
+        <item>@string/device_shoe</item>
+        <item>@string/device_watch</item>
+    </string-array>
+    <string-array name="visceral_fat_leval">
+        <item>معمول کا</item>
+        <item>زیادہ</item>
+        <item>بہت زیادہ</item>
+    </string-array>
+    <string-array name="water_leval">
+        <item>ناکافی</item>
+        <item>معمول کا</item>
+        <item>اچھا</item>
+    </string-array>
+    <string-array name="wear_type">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+    </string-array>
+    <string-array name="wear_type_body">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="wear_type_chest">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/chest</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>اتوار</item>
+        <item>پیر</item>
+        <item>منگل</item>
+        <item>بدھ</item>
+        <item>جمعرات</item>
+        <item>جمعہ</item>
+        <item>سنیچر</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>پیر</item>
+        <item>منگل</item>
+        <item>بدھ</item>
+        <item>جمعرات</item>
+        <item>جمعہ</item>
+        <item>ہفتہ</item>
+        <item>اتوار</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>پیر</item>
+        <item>منگل</item>
+        <item>بدھ</item>
+        <item>جمعرات</item>
+        <item>جمعہ</item>
+        <item>سنیچر</item>
+        <item>اتوار</item>
+    </string-array>
+    <string-array name="weight3_body_figures">
+        <item>کم وزن</item>
+        <item>متوازن</item>
+        <item>زیادہ وزن</item>
+        <item>موٹاپا</item>
+    </string-array>
+    <string-array name="weight_bfs_help_tips">
+        <item>پہلے بلوٹوتھ بند کریں, اور پھر موجودہ ڈیوائس سے جوڑا بنائیں۔</item>
+        <item>یہ دیکھنے کے لیے اسکیل پر چڑھیں کہ یہ آپ کا وزن دکھاتا ہے۔ اگر اس میں ایک بیٹری آئیکن نظر آتا ہے, تو بیٹری تبدیل کریں۔</item>
+        <item>اگر پیمانے پر قدم رکھنے پر کوئی ردعمل نہیں ہوتا ہے, تو چیک کریں کہ کیا بیٹری ٹھیک طرح سے لگی ہے۔</item>
+        <item>اگر بیٹری چارج ہے, جبکہ آپ ابھی بھی فون نزدیک لانے پر ڈیوائس تلاش نہیں کر پا رہے ہیں, تو فون کا بلوٹوتھ دوبارہ شروع کرنے کی کوشش کریں۔</item>
+        <item>اگر بلوٹوتھ دوبارہ شروع کرنے سے مسئلہ حل نہیں ہوتا ہے, تو فون کو دوبارہ بوٹ کرنے کی کوشش کریں۔</item>
+    </string-array>
+    <string-array name="weight_bfs_help_title">
+        <item>کیا یہ اسکیل کسی دوسرے ڈیوائس سے جڑا ہوا ہے؟</item>
+        <item>اسکیل کی بیٹری چیک کریں</item>
+        <item>کیا بیٹریاں ٹھیک سے انسٹال ہیں؟</item>
+        <item>بلوٹوتھ دوبارہ اسٹارٹ کرنے کی کوشش کریں</item>
+        <item>اپنا فون دوبارہ بوٹ کرنے کی کوشش کریں</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>معمول کا</item>
+        <item>زیادہ وزن</item>
+        <item>موٹاپا</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_not_chinese">
+        <item>کم وزن</item>
+        <item>معمول کا</item>
+        <item>زیادہ وزن</item>
+        <item>موٹاپا I</item>
+        <item>موٹاپا II</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>" کلوگرام"</item>
+        <item>" جن"</item>
+        <item>" lbs"</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+        <item>@string/weight_bfs_unit_jin</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array_no_jin">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+    </string-array>
+</resources>

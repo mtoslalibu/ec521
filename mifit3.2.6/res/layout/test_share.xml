@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="#fff8f8f8" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:background="@drawable/baby_weight_adult_with_baby" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:scaleType="centerCrop" />
+        <RelativeLayout android:gravity="center" android:id="@id/share_logo" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/running_share_pane_margin">
+            <ImageView android:gravity="center" android:id="@id/tv_logo" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/app_icon_small" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/black_80_percent" android:gravity="center" android:layout_width="wrap_content" android:layout_height="22.0dip" android:text="小米运动" android:layout_marginStart="9.0dip" android:layout_toEndOf="@id/tv_logo" />
+        </RelativeLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/share_pane_container" android:layout_width="fill_parent" android:layout_height="76.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

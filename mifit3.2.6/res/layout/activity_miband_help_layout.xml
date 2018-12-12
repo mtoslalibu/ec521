@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v4.view.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+        <com.xiaomi.hm.health.view.indicator.CirclePageIndicator android:layout_gravity="bottom|center" android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="70.0dip" app:fillColor="#ffffffff" app:pageColor="#33ffffff" app:radius="3.649994dip" app:gap="12.0dip" app:strokeWidth="0.0dip" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+</LinearLayout>

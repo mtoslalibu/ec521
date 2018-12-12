@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bf3_list_health" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/weighting_title_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:text="@string/weighting_weight_title" android:layout_centerHorizontal="true" />
+    <com.xiaomi.hm.health.subview.WeightingDynamicWeightView android:id="@id/weight_dynamic_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:layout_below="@id/weighting_title_id" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/weighting_result_op_rl" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="36.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/weighting_bf_help" android:layout_width="80.0dip" android:layout_height="60.0dip" android:text="@string/weighting_weight_bf_help" android:layout_marginStart="44.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white80" android:gravity="center" android:id="@id/weighting_bf_abandon" android:layout_width="80.0dip" android:layout_height="60.0dip" android:text="@string/weighting_weight_bf_abandon" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/weighting_bf_save" android:layout_width="80.0dip" android:layout_height="60.0dip" android:text="@string/weighting_weight_bf_save" android:layout_marginEnd="44.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

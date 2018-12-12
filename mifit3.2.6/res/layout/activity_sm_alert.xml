@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:huami="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.hm.health.baseui.widget.TipComponent android:id="@id/tip_sms_per" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/sm_enable" android:layout_width="fill_parent" android:layout_height="wrap_content" huami:itemTitle="@string/enable_sm_alert" huami:itemSummary="@string/enable_sm_alert_tips" huami:itemSwitch="true" />
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/sm_strange" android:layout_width="fill_parent" android:layout_height="wrap_content" huami:itemTitle="@string/strange_number_tips" huami:itemSwitch="true" />
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/sm_contact" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" huami:itemTitle="@string/show_contact_info_tips" huami:itemSummary="@string/show_sms_info_summary" huami:itemSwitch="true" />
+</LinearLayout>

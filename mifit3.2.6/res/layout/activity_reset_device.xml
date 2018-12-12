@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="@color/black80" android:id="@id/device_reset_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="98.0dip" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/black60" android:id="@id/device_reset_sub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_below="@id/device_reset_title" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/device_reset_connect" android:layout_width="fill_parent" android:layout_height="360.0dip" android:layout_marginTop="151.0dip">
+        <com.xiaomi.hm.health.device.view.HMLoadingView android:id="@id/loading_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_miband" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/vibrate_img" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_miband_vibrate" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/device_reset_input" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="82.0dip" android:layout_below="@id/device_reset_sub">
+        <com.xiaomi.hm.health.device.view.VerifyCodeView android:id="@id/input_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="77.0dip" android:layout_marginEnd="77.0dip" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/device_reset_ble" android:visibility="gone" android:layout_width="120.0dip" android:layout_height="190.0dip" android:layout_marginTop="61.0dip" android:layout_below="@id/device_reset_sub" android:layout_centerHorizontal="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_phone" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_bluetooth" android:layout_centerInParent="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="39.0dip" android:src="@drawable/img_accept" android:layout_marginStart="75.0dip" />
+    </RelativeLayout>
+    <TextView android:id="@id/cancel_tv" android:text="@string/cancel" style="@style/BindBottomTextStyle" />
+    <TextView android:id="@id/cancel_left" android:visibility="invisible" android:text="@string/cancel" android:layout_marginStart="33.0dip" android:layout_alignParentStart="true" style="@style/BindBottomTextStyle" />
+    <TextView android:id="@id/confirm_right" android:visibility="invisible" android:text="@string/confirm" android:layout_marginEnd="33.0dip" android:layout_alignParentEnd="true" style="@style/BindBottomTextStyle" />
+</RelativeLayout>

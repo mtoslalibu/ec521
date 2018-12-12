@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff8f8f8" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/result_view" android:layout_width="fill_parent" android:layout_height="64.0dip" layout="@layout/search_result_list_item" />
+    <FrameLayout android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textColor="#ff959595" android:layout_gravity="center" android:background="@color/main_ui_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_search_result_empty" android:drawableTop="@drawable/ic_search_user_empty" android:drawablePadding="20.0dip" />
+    </FrameLayout>
+</LinearLayout>

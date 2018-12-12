@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff8f8f8" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/running_gps_dialog_desc" android:textColor="#cd000000" android:id="@id/run_indoor_no_step_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/running_indoor_unsupport_step" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/running_gps_dialog_desc" android:textColor="#ff1674e9" android:id="@id/run_indoor_no_tip_again_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/running_indoor_no_tips_again" android:layout_below="@id/run_indoor_no_step_text" android:layout_centerHorizontal="true" />
+</RelativeLayout>

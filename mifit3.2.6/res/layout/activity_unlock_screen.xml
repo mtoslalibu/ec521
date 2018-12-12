@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/unlock_screen_set_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:clickable="false" android:layout_width="fill_parent" android:layout_height="42.0dip" android:paddingStart="@dimen/common_item_padding" android:paddingEnd="@dimen/common_item_padding">
+                    <TextView android:textSize="11.299988sp" android:textColor="@color/black40" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/first_set_lock_screen_pw" />
+                </FrameLayout>
+                <View android:background="@color/divide" android:layout_width="fill_parent" android:layout_height="@dimen/divider" />
+                <FrameLayout android:id="@id/set_unlock_screen_password_layout" android:background="@drawable/bg_item" android:clickable="true" android:layout_width="fill_parent" android:layout_height="58.0dip" android:paddingStart="@dimen/common_item_padding" android:paddingEnd="@dimen/common_item_padding">
+                    <TextView android:textSize="15.0sp" android:textColor="@color/black70" android:gravity="center_vertical" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="270.0dip" android:text="@string/lock_screen_first_step" />
+                    <ImageView android:layout_gravity="end|center" android:id="@id/set_unlock_screen_password_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/default_end_arrow" />
+                    <TextView android:textSize="11.299988sp" android:textColor="@color/black70" android:layout_gravity="end|center" android:id="@id/set_unlock_screen_password_text_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/screen_lock_text_tip" />
+                </FrameLayout>
+                <View android:layout_gravity="bottom" android:background="@color/divide" android:layout_width="fill_parent" android:layout_height="@dimen/divider" />
+                <FrameLayout android:clickable="false" android:layout_width="fill_parent" android:layout_height="42.0dip" android:paddingStart="@dimen/common_item_padding" android:paddingEnd="@dimen/common_item_padding">
+                    <TextView android:textSize="11.299988sp" android:textColor="@color/black40" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/check_lock_screen_pw" />
+                </FrameLayout>
+                <View android:background="@color/divide" android:layout_width="fill_parent" android:layout_height="@dimen/divider" />
+                <FrameLayout android:id="@id/set_miband_unlock_layout" android:background="@drawable/bg_item" android:clickable="true" android:layout_width="fill_parent" android:layout_height="58.0dip" android:paddingStart="@dimen/common_item_padding" android:paddingEnd="@dimen/common_item_padding">
+                    <TextView android:textSize="15.0sp" android:textColor="@color/black70" android:gravity="center_vertical" android:id="@id/set_miband_unlock_text" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="270.0dip" android:text="@string/lock_screen_second_step" />
+                    <ImageView android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/default_end_arrow" />
+                </FrameLayout>
+                <View android:layout_gravity="bottom" android:background="@color/divide" android:layout_width="fill_parent" android:layout_height="@dimen/divider" />
+            </LinearLayout>
+            <include layout="@layout/unlock_distance_layout" />
+            <RelativeLayout android:id="@id/has_unlock_with_bracelet_ll" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="15.0sp" android:textColor="@color/black70" android:gravity="center_horizontal" android:id="@id/unlock_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:text="@string/unlock_screen_title" android:layout_centerHorizontal="true" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/black20" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/unlock_screen_tips" android:layout_below="@id/unlock_title_tv" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="10.0sp" android:textColor="@color/dark_sky_blue_three" android:id="@id/unlock_screen_invalid_tv" android:paddingBottom="30.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unlock_screen_invalid" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <View android:layout_gravity="bottom" android:id="@id/miui_mask_view" android:background="#77f7f7f7" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/non_miui_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.xiaomi.hm.health.baseui.widget.TipComponent android:id="@id/tips" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/black50" android:id="@id/tips_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="78.69998dip" android:text="@string/unlock_for_smartlock_tip_step1" android:layout_below="@id/tips" android:layout_marginStart="67.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/black50" android:id="@id/tips_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/unlock_for_smartlock_tip_step2" android:layout_below="@id/tips_1" android:layout_marginStart="67.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/black50" android:id="@id/no_miui_step_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/unlock_for_smartlock_tip_step3" android:layout_below="@id/tips_2" android:layout_marginStart="67.0dip" />
+            <FrameLayout android:id="@id/smartlock_fl" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <TextView android:id="@id/start_setting" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginBottom="24.0dip" android:text="@string/unlock_for_smartlock_start_setting" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" style="@style/single_button" />
+            </FrameLayout>
+        </RelativeLayout>
+        <View android:layout_gravity="bottom" android:id="@id/normal_mask_view" android:background="#77f7f7f7" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</FrameLayout>

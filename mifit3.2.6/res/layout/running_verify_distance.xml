@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textColor="#99ffffff" android:id="@id/btn_verify_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/running_indoor_distance_verify" />
+        <View android:id="@id/start_pos" android:background="#99ffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+    <Button android:textSize="12.0sp" android:textColor="#ccffffff" android:id="@id/btn_save_distance" android:background="@drawable/btn_save_verify_distance" android:layout_width="fill_parent" android:layout_height="41.0dip" android:layout_marginTop="30.0dip" android:layout_marginBottom="23.299988dip" android:text="@string/running_btn_save" android:layout_marginStart="23.299988dip" android:layout_marginEnd="23.299988dip" />
+</LinearLayout>

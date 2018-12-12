@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:huami="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/discovery_cache_item" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" huami:itemTitle="@string/clear_discovery_cache" />
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/training_cache_item" android:layout_width="fill_parent" android:layout_height="wrap_content" huami:itemTitle="@string/clear_training_cache" huami:itemDivider="gone" />
+</LinearLayout>

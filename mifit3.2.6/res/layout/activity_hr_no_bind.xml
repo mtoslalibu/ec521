@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/heart_rate_light" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="23.299988sp" android:textColor="@color/white90" android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/hr_no_bind_title" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/white40" android:gravity="center" android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.299988dip" android:text="@string/hr_no_bind_sub_title" android:layout_below="@id/title" android:layout_centerHorizontal="true" />
+    <com.xiaomi.hm.health.baseui.ProgressView android:layout_width="173.29999dip" android:layout_height="173.29999dip" android:layout_marginTop="67.0dip" android:src="@drawable/bind_mili_icon" android:layout_below="@id/sub_title" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/white60" android:gravity="center" android:id="@id/know" android:background="@drawable/unbind_corner_rect" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginTop="13.299988dip" android:layout_marginBottom="23.299988dip" android:text="@string/hr_no_bind_know" android:layout_alignParentBottom="true" android:layout_marginStart="26.699982dip" android:layout_marginEnd="26.699982dip" />
+</RelativeLayout>

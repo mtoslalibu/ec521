@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_item" android:layout_width="fill_parent" android:layout_height="120.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imv_background_item" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_checked_bg" android:background="@color/orange80" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/tx_option_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SportTrainingTitleBlack" />
+        <TextView android:id="@id/tx_option_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" style="@style/SportTrainingSubtitleBlack" />
+    </LinearLayout>
+</FrameLayout>

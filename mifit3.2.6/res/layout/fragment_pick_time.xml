@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/bg_rect" android:layout_width="fill_parent" android:layout_height="@dimen/alarm_wheel_hight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/gap" android:background="@color/black10" android:layout_width="5.6999817dip" android:layout_height="fill_parent">
+        <View android:background="@color/personinfo_color_yellow" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+    </LinearLayout>
+</LinearLayout>

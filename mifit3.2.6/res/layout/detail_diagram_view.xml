@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#0effffff" android:layout_width="fill_parent" android:layout_height="261.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="56.099976dip">
+        <ImageView android:id="@id/run_diagram_icon" android:layout_width="22.699982dip" android:layout_height="22.699982dip" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" />
+        <TextView android:textSize="12.699982sp" android:textColor="@color/white80" android:id="@id/run_diagram_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/run_diagram_icon" />
+        <TextView android:textSize="12.699982sp" android:textColor="@color/white80" android:id="@id/run_diagram_subtitle1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="28.699982dip" android:layout_toEndOf="@id/run_diagram_title" />
+        <TextView android:textSize="12.699982sp" android:textColor="@color/white80" android:id="@id/run_diagram_subtitle2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="16.299988dip" android:layout_toEndOf="@id/run_diagram_subtitle1" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/run_diagram_container" android:layout_width="fill_parent" android:layout_height="204.9dip" android:layout_marginStart="13.599976dip" android:layout_marginEnd="13.599976dip" />
+</LinearLayout>

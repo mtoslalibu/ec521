@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <ImageView android:id="@id/sleep_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sort_sleep" android:layout_centerVertical="true" android:layout_marginStart="17.0dip" android:layout_alignParentStart="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="13.0dip" android:layout_toStartOf="@id/sleep_subview_score" android:layout_toEndOf="@id/sleep_icon">
+            <TextView android:textSize="15.0sp" android:textColor="@color/black70" android:gravity="center_vertical" android:id="@id/sleep_total_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:id="@id/sleep_deep_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/sleep_subview_total_time_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="13.0dip" android:layout_alignParentEnd="true">
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="30.0sp" android:textColor="@color/black70" android:id="@id/sleep_subview_total_time_value1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="km" android:layout_marginEnd="3.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:id="@id/sleep_subview_total_time_unit1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" />
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="30.0sp" android:textColor="@color/black70" android:id="@id/sleep_subview_total_time_value2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="km" android:layout_marginEnd="3.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:id="@id/sleep_subview_total_time_unit2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/sleep_subview_edit_time_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/sleep_subview_time_layout" android:layout_width="fill_parent" android:layout_height="75.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="24.0sp" android:textColor="@color/black70" android:id="@id/sleep_subview1_hour_value1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="km" />
+                <TextView android:textSize="11.0sp" android:textColor="@color/black40" android:id="@id/sleep_subview1_hour_unit1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="24.0sp" android:textColor="@color/black70" android:id="@id/sleep_subview1_hour_value2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="km" />
+                <TextView android:textSize="11.0sp" android:textColor="@color/black40" android:id="@id/sleep_subview1_hour_unit2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="11.0sp" android:textColor="@color/black40" android:layout_gravity="center_horizontal" android:id="@id/sleep_subview1_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/sleep_subview2_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="24.0sp" android:textColor="@color/black70" android:id="@id/sleep_subview2_hour_value1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="km" />
+                <TextView android:textSize="11.0sp" android:textColor="@color/black40" android:id="@id/sleep_subview2_hour_unit1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="24.0sp" android:textColor="@color/black70" android:id="@id/sleep_subview2_hour_value2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="km" />
+                <TextView android:textSize="11.0sp" android:textColor="@color/black40" android:id="@id/sleep_subview2_hour_unit2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="11.0sp" android:textColor="@color/black40" android:layout_gravity="center_horizontal" android:id="@id/sleep_subview2_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="24.0sp" android:textColor="@color/black70" android:id="@id/sleep_subview3_hour_value1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="km" />
+                <TextView android:textSize="11.0sp" android:textColor="@color/black40" android:id="@id/sleep_subview3_hour_unit1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="24.0sp" android:textColor="@color/black70" android:id="@id/sleep_subview3_hour_value2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="km" />
+                <TextView android:textSize="11.0sp" android:textColor="@color/black40" android:id="@id/sleep_subview3_hour_unit2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="11.0sp" android:textColor="@color/black40" android:layout_gravity="center_horizontal" android:id="@id/sleep_subview3_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/chart_container_layout" android:layout_width="fill_parent" android:layout_height="34.0dip">
+        <RelativeLayout android:id="@id/chart_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="9.0sp" android:textColor="@color/white80" android:layout_gravity="start|bottom|center" android:id="@id/sleep_subview_left_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:fontFamily="km" android:layout_marginStart="6.0dip" />
+        <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="9.0sp" android:textColor="@color/white80" android:layout_gravity="end|bottom|center" android:id="@id/sleep_subview_right_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:fontFamily="km" android:layout_marginEnd="6.0dip" />
+    </FrameLayout>
+</LinearLayout>

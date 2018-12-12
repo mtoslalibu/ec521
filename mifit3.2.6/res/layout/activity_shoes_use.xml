@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="@color/black80" android:gravity="center" android:id="@id/shoes_use_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="98.0dip" android:text="@string/shoes_use_title" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/black60" android:gravity="center" android:id="@id/shoes_use_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/shoes_use_tips" android:layout_below="@id/shoes_use_title" android:layout_centerHorizontal="true" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="229.0dip" android:layout_centerHorizontal="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_put_in" android:layout_marginStart="164.4dip" />
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:src="@drawable/img_h_mchip" />
+    </FrameLayout>
+    <TextView android:id="@id/shoes_use_ok_btn" android:text="@string/shoes_use_ok" style="@style/BindBottomTextStyle" />
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_top" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="@dimen/image_header_max_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imv_header" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:background="@color/black50" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_bottom" android:paddingBottom="@dimen/padding_bottom_max" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.xiaomi.hm.health.training.ui.widget.UpDownTextItem android:id="@id/udti_kcalorie" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:textPadding="5.0dip" app:upText="@string/unit_kcalorie" app:upTextSize="12.0sp" app:upTextColor="@color/white60" app:downTextSize="24.0sp" app:downTextColor="@color/white100" app:downTextFontfamily="km" />
+        <View android:background="@color/white40" android:layout_width="@dimen/divider" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+        <com.xiaomi.hm.health.training.ui.widget.UpDownTextItem android:id="@id/udti_time" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:textPadding="5.0dip" app:upText="@string/minute_time" app:upTextSize="12.0sp" app:upTextColor="@color/white60" app:downTextSize="24.0sp" app:downTextColor="@color/white100" app:downTextFontfamily="km" />
+        <View android:id="@id/header_right_divider" android:background="@color/white40" android:layout_width="@dimen/divider" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+        <com.xiaomi.hm.health.training.ui.widget.UpDownTextItem android:id="@id/udti_difficulity" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:textPadding="2.0dip" app:upText="@string/difficulity" app:upTextSize="12.0sp" app:upTextColor="@color/white60" app:downTextSize="18.0sp" app:downTextColor="@color/white100" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_change" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/ll_bottom">
+        <ImageView android:id="@id/imv_back" android:padding="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back_white" />
+        <ImageView android:id="@id/imv_share" android:padding="14.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_share" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/imv_more" android:padding="14.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_more_action" android:layout_alignParentEnd="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white100" android:gravity="center" android:id="@id/tx_training_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginBottom="1.0dip" android:maxLines="1" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white80" android:gravity="center" android:id="@id/tx_subtitle_one" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxLines="3" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white80" android:gravity="center" android:id="@id/tx_subtitle_two" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxLines="3" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

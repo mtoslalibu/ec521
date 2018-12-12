@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="avoid_type">
+        <item>@string/state_close</item>
+        <item>@string/avoid_enable_smart</item>
+        <item>@string/avoid_enable_time</item>
+    </string-array>
+    <string-array name="avoid_type_sub">
+        <item></item>
+        <item>@string/avoid_enable_smart_sub</item>
+        <item>@string/avoid_enable_time_sub</item>
+    </string-array>
+    <string-array name="bmi_for_adualt">
+        <item>נמוך</item>
+        <item>רגיל</item>
+        <item>גבוה</item>
+        <item>גבוה מאוד</item>
+    </string-array>
+    <string-array name="bmi_for_child">
+        <item>רגיל</item>
+        <item>גבוה</item>
+        <item>גבוה מאוד</item>
+    </string-array>
+    <string-array name="bmi_for_not_chinese">
+        <item>נמוך</item>
+        <item>רגיל</item>
+        <item>מעל הרמה הרגילה</item>
+        <item>גבוה</item>
+        <item>גבוה מאוד</item>
+    </string-array>
+    <string-array name="body_score_leval">
+        <item>נמוך מאוד</item>
+        <item>נמוך</item>
+        <item>רגיל</item>
+        <item>טוב</item>
+        <item>מצוין</item>
+    </string-array>
+    <string-array name="body_shape_type_array">
+        <item>רזון</item>
+        <item>רזון מאוזן</item>
+        <item>רזון שרירי</item>
+        <item>חוסר בפעילות גופנית</item>
+        <item>מאוזן</item>
+        <item>שרירי מאוזן</item>
+        <item>שמן</item>
+        <item>משקל עודף</item>
+        <item>חסון</item>
+    </string-array>
+    <string-array name="bodyfat_content_leval">
+        <item>נמוכה מאוד</item>
+        <item>נמוכה</item>
+        <item>רגילה</item>
+        <item>מעל הרמה הרגילה</item>
+        <item>גבוהה</item>
+    </string-array>
+    <string-array name="bone_leval">
+        <item>בלתי מספקת</item>
+        <item>רגילה</item>
+        <item>טובה</item>
+    </string-array>
+    <string-array name="brm_leval">
+        <item>היעדים לא הושגו</item>
+        <item>היעד הושג</item>
+    </string-array>
+    <string-array name="chaohu_help_tips">
+        <item>נסה ללחוץ על הכפתור שעל גבי השעון, במידה ומסך השעון כבוי, חבר אותו למטען על מנת לטעון את הסוללה שלו.</item>
+        <item>כבה את Bluetooth תחילה, ולאחר מכן צמד עם ההתקן הנוכחי.</item>
+        <item>במידה והצמיד טעון, אך הטלפון לא מצליח לזהות אותו, נסה לאתחל את ה-Bluetooth של הטלפון.</item>
+        <item>במידה והפעלה מחדש של Bluetooth אינה פותרת את הבעיה, נסה לאתחל את המכשיר.</item>
+        <item>לא ניתן לסנכרן את נתוני השעון במהלך פעילות גופנית. סיים את הפעילות ונסה שוב.</item>
+    </string-array>
+    <string-array name="chaohu_help_title">
+        <item>האם השעון שלך טעון?</item>
+        <item>האם שעון זה מצומד למכשיר אחר?</item>
+        <item>נסה להפעיל מחדש את Bluetooth</item>
+        <item>נסה לאתחל את הטלפון שלך</item>
+        <item>לא ניתן לסנכרן נתונים במהלך אימונים</item>
+    </string-array>
+    <string-array name="chaohu_setting_run_types">
+        <item>@string/chaohu_setting_run_outdoor</item>
+        <item>@string/chaohu_setting_run_indoor</item>
+        <item>@string/chaohu_setting_run_ride</item>
+        <item>@string/chaohu_setting_run_walk</item>
+    </string-array>
+    <string-array name="colors">
+        <item>@string/blue</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/red</item>
+    </string-array>
+    <string-array name="common_cities">
+        <item>"גואנגז'ו"</item>
+        <item>"שנז'ן"</item>
+        <item>פושאן</item>
+        <item>דונגגואן</item>
+        <item>"בייג'ינג"</item>
+        <item>"נאנג'ינג"</item>
+        <item>"סוז'ואו"</item>
+        <item>"צ'אנגז'ואו"</item>
+        <item>"ג'ינאן"</item>
+        <item>"צ'ינגדאו"</item>
+        <item>"האנגז'ואו"</item>
+        <item>נינגבו</item>
+        <item>"ז'אנגז'ואו"</item>
+        <item>קייפנג</item>
+        <item>שנגחאי</item>
+        <item>"שיג'יז'ואנג"</item>
+        <item>באודינג</item>
+        <item>"צ'נגדו"</item>
+        <item>מיאניאנג</item>
+        <item>שניאנג</item>
+        <item>דאליין</item>
+    </string-array>
+    <string-array name="difficulty_content">
+        <item>חדש בתחום אימוני הכושר</item>
+        <item>בעל נסיון בסיסי באימוני כושר</item>
+        <item>בעל נסיון עשיר וכושר גופני טוב</item>
+    </string-array>
+    <string-array name="difficulty_title">
+        <item>בסיסי</item>
+        <item>בינוני</item>
+        <item>מתקדם</item>
+    </string-array>
+    <string-array name="fitness_goal_content">
+        <item>מכוון לשריפת שומן</item>
+        <item>מכוון לעיצוב הגוף</item>
+        <item>מכוון לבניית שרירים</item>
+    </string-array>
+    <string-array name="fitness_goal_title">
+        <item>חיתוך</item>
+        <item>עיצוב</item>
+        <item>ניפוח</item>
+    </string-array>
+    <string-array name="ges_screen_type">
+        <item>@string/ges_screen_type_all_day</item>
+        <item>@string/ges_screen_type_time</item>
+        <item>@string/ges_screen_type_close</item>
+    </string-array>
+    <string-array name="hr_section">
+        <item>@string/hr_section_warm_up</item>
+        <item>@string/hr_section_fat_burn</item>
+        <item>@string/hr_section_heart_lung_strengthen</item>
+        <item>@string/hr_section_stamina_strengthen</item>
+        <item>@string/hr_section_anaerobic_limit</item>
+        <item>@string/hr_section_other</item>
+    </string-array>
+    <string-array name="hr_sport">
+        <item>אזור קצב הלב: קל</item>
+        <item>אזור קצב הלב: משקל</item>
+        <item>אזור קצב הלב: אירובי</item>
+        <item>אזור קצב הלב: אנאירובי</item>
+        <item>אזור קצב הלב: VO₂ מקס</item>
+    </string-array>
+    <string-array name="hr_sport_new">
+        <item>קל</item>
+        <item>משקל</item>
+        <item>אירובי</item>
+        <item>אנאירובי</item>
+        <item>VO₂ מקס</item>
+    </string-array>
+    <string-array name="lock_screen_type">
+        <item>סגירה</item>
+        <item>קרוב</item>
+        <item>רחוק</item>
+    </string-array>
+    <string-array name="member_add_weight_items">
+        <item>@string/member_add_weight_item_auto</item>
+        <item>@string/member_add_weight_item_manual</item>
+    </string-array>
+    <string-array name="mili_help_tips">
+        <item>"לחץ על הצמיד על מנת לבדוק האם ההתקן טעון לפני שתבצע צימוד של Mi Band 2 או של צמיד אחר.
+
+טען את הצמיד לפני ביצוע צימוד של Mi Band או של Mi Band Pulse."</item>
+        <item>כבה את Bluetooth תחילה, ולאחר מכן צמד עם ההתקן הנוכחי.</item>
+        <item>במידה והצמיד טעון, אך הטלפון לא מצליח לזהות אותו, נסה לאתחל את Bluetooth הטלפון.</item>
+        <item>במידה והפעלה מחדש של Bluetooth אינה פותרת את הבעיה, נסה לאתחל את המכשיר.</item>
+    </string-array>
+    <string-array name="mili_help_title">
+        <item>האם הצמיד שלך טעון?</item>
+        <item>האם צמיד זה מצומד למכשיר אחר?</item>
+        <item>נסה להפעיל מחדש את Bluetooth</item>
+        <item>נסה לאתחל את הטלפון שלך</item>
+    </string-array>
+    <string-array name="mili_pro_display_items">
+        <item>שעה</item>
+        <item>צעדים</item>
+        <item>מרחק</item>
+        <item>קלוריות</item>
+        <item>קצב הלב</item>
+        <item>סוללה</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>ינו</item>
+        <item>פבר</item>
+        <item>מרץ</item>
+        <item>אפר</item>
+        <item>מאי</item>
+        <item>יונ</item>
+        <item>יול</item>
+        <item>אוג</item>
+        <item>ספט</item>
+        <item>אוק</item>
+        <item>נוב</item>
+        <item>דצמ</item>
+    </string-array>
+    <string-array name="muscle_content_leval">
+        <item>בלתי מספקת</item>
+        <item>רגילה</item>
+        <item>טובה</item>
+    </string-array>
+    <string-array name="ring_types">
+        <item>@string/ring_type_default</item>
+        <item>@string/ring_type_incall</item>
+    </string-array>
+    <string-array name="running_months">
+        <item>ינו</item>
+        <item>פבר</item>
+        <item>מרץ</item>
+        <item>אפר</item>
+        <item>מאי</item>
+        <item>יונ</item>
+        <item>יול</item>
+        <item>אוג</item>
+        <item>ספט</item>
+        <item>אוק</item>
+        <item>נוב</item>
+        <item>דצמ</item>
+    </string-array>
+    <string-array name="setting_hr_freq_types">
+        <item>@string/setting_heartrate_detect_freq_1</item>
+        <item>@string/setting_heartrate_detect_freq_10</item>
+        <item>@string/setting_heartrate_detect_freq_30</item>
+    </string-array>
+    <string-array name="setting_hr_types">
+        <item>@string/setting_heartrate_detect_auto</item>
+        <item>@string/setting_heartrate_detect_sleep</item>
+        <item>@string/setting_heartrate_detect_close</item>
+    </string-array>
+    <string-array name="setting_peyto_apps_array">
+        <item>פני השעון</item>
+        <item>סטטוס</item>
+        <item>פעילויות</item>
+        <item>מזג אויר</item>
+        <item>שעון מעורר</item>
+        <item>טיימר</item>
+        <item>מצפן</item>
+        <item>הגדרות נוספות</item>
+    </string-array>
+    <string-array name="setting_tempo_apps_array">
+        <item>פני השעון</item>
+        <item>סטטוס</item>
+        <item>התראות</item>
+        <item>פעילויות</item>
+        <item>מזג אויר</item>
+        <item>שעון מעורר</item>
+        <item>טיימר</item>
+        <item>הגדרות</item>
+    </string-array>
+    <string-array name="setting_weather_temp_unit_array">
+        <item>@string/setting_weather_temp_c</item>
+        <item>@string/setting_weather_temp_f</item>
+    </string-array>
+    <string-array name="shoes_help_tips">
+        <item>השבב חכם יפסיקו לעבוד במידה ולא תשתמש בו למשך זמן רב. נער אותו ונסה שוב.</item>
+        <item>משך חיי הסוללה של Amazfit Smart Chip הוא שנה 1. במידה והשתמשת בו לתקופה ארוכה יותר, יתכן כי לא נותרה אנרגיה לשימוש.</item>
+        <item>כבה את Bluetooth תחילה, ולאחר מכן צמד עם ההתקן הנוכחי.</item>
+        <item>במידה והשבב החכם טעון, אך לא ניתן לזהותו כאשר הינך מקרב אליו את הטלפון, נסה לאתחל את ה-Bluetooth של הטלפון.</item>
+        <item>במידה והפעלה מחדש של Bluetooth אינה פותרת את הבעיה, נסה לאתחל את המכשיר.</item>
+        <item>לחץ על נתוני נעלי הריצה והיכנס לעמוד הפעילות הבא על מנת לסנכרן נתונים באופן אוטומטי</item>
+    </string-array>
+    <string-array name="shoes_help_title">
+        <item>נער את השבב החכם</item>
+        <item>האם הסוללה טעונה?</item>
+        <item>האם שבב חכם זה מצומד למכשיר אחר?</item>
+        <item>הפעל מחדש את Bluetooth</item>
+        <item>נסה לאתחל את הטלפון שלך</item>
+        <item>כיצד לסנכרן את הנתונים שלך?</item>
+    </string-array>
+    <string-array name="show_body_shape_array">
+        <item>שמן</item>
+        <item>משקל עודף</item>
+        <item>חסון</item>
+        <item>"חוסר
+בפעילות גופנית"</item>
+        <item>מאוזן</item>
+        <item>"שרירי
+מאוזן"</item>
+        <item>רזון</item>
+        <item>"רזון
+מאוזן"</item>
+        <item>"רזון
+שרירי"</item>
+    </string-array>
+    <string-array name="timeline_type">
+        <item>פעילות</item>
+        <item>הליכה איטית</item>
+        <item>הליכה</item>
+        <item>הליכה מהירה</item>
+        <item>ריצה</item>
+        <item>עמידה</item>
+        <item>ישיבה</item>
+        <item>פעילות קלה</item>
+        <item>פעילות שאינה מעייפת</item>
+        <item>טוען…</item>
+        <item>שכיבה</item>
+    </string-array>
+    <string-array name="train_difficulity">
+        <item>ללא הגבלה</item>
+        <item>בסיסי, 1</item>
+        <item>בינוני, 2</item>
+        <item>מתקדם, 3</item>
+    </string-array>
+    <string-array name="unbind_device_description">
+        <item>@string/device_band</item>
+        <item>@string/device_weight</item>
+        <item>@string/device_shoe</item>
+        <item>@string/device_watch</item>
+    </string-array>
+    <string-array name="visceral_fat_leval">
+        <item>רגילה</item>
+        <item>גבוהה</item>
+        <item>גבוהה מאוד</item>
+    </string-array>
+    <string-array name="water_leval">
+        <item>בלתי מספקת</item>
+        <item>רגילה</item>
+        <item>טובה</item>
+    </string-array>
+    <string-array name="wear_type">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+    </string-array>
+    <string-array name="wear_type_body">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="wear_type_chest">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/chest</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>ראשון</item>
+        <item>שני</item>
+        <item>שלישי</item>
+        <item>רביעי</item>
+        <item>חמישי</item>
+        <item>שישי</item>
+        <item>שבת</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>שני</item>
+        <item>שלישי</item>
+        <item>רביעי</item>
+        <item>חמישי</item>
+        <item>שישי</item>
+        <item>שבת</item>
+        <item>ראשון</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>שני</item>
+        <item>שלישי</item>
+        <item>רביעי</item>
+        <item>חמישי</item>
+        <item>שישי</item>
+        <item>שבת</item>
+        <item>ראשון</item>
+    </string-array>
+    <string-array name="weight3_body_figures">
+        <item>תת-משקל</item>
+        <item>מאוזן</item>
+        <item>משקל עודף</item>
+        <item>שמן</item>
+    </string-array>
+    <string-array name="weight_bfs_help_tips">
+        <item>כבה את Bluetooth תחילה, ולאחר מכן צמד עם ההתקן הנוכחי.</item>
+        <item>עלה על המשקל על מנת לבדוק האם הוא מציג את משקלך. במידה והוא מציג סמל של סוללה, החלף את הסוללות.</item>
+        <item>במידה ולא מתקבלת תגובה לאחר עליתך על המשקל, בדוק האם הסוללות מותקנות כראוי.</item>
+        <item>במידה והסוללה טעונה, אך בכל זאת אינך מסוגל לאתר את ההתקן גם לאחר קירוב הטלפון, נסה להפעיל מחדש את ה-Bluetooth של הטלפון.</item>
+        <item>במידה והפעלה מחדש של Bluetooth אינה פותרת את הבעיה, נסה לאתחל את המכשיר.</item>
+    </string-array>
+    <string-array name="weight_bfs_help_title">
+        <item>האם משקל זה מצומד למכשיר אחר?</item>
+        <item>בדוק את סוללת המשקל</item>
+        <item>האם הסוללות מותקנות כראוי?</item>
+        <item>נסה להפעיל מחדש את Bluetooth</item>
+        <item>נסה לאתחל את הטלפון שלך</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>רגיל</item>
+        <item>משקל עודף</item>
+        <item>שמן</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_not_chinese">
+        <item>תת-משקל</item>
+        <item>רגיל</item>
+        <item>משקל עודף</item>
+        <item>שמן I</item>
+        <item>שמן II</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>" ק\"ג"</item>
+        <item>" ג'ין"</item>
+        <item>" ליברות"</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+        <item>@string/weight_bfs_unit_jin</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array_no_jin">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+    </string-array>
+</resources>

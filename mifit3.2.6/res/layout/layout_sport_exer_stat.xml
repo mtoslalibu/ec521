@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:id="@id/stat_exer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view_forground" android:background="@color/bf_mon_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+    <RelativeLayout android:id="@id/real_stat_group_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="72.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/stat_main_data" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="324" android:layout_centerHorizontal="true" android:fontFamily="km" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/stat_main_data_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unit_min_long" android:layout_alignBaseline="@id/stat_main_data" android:layout_marginStart="4.5dip" android:layout_toEndOf="@id/stat_main_data" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/stat_exer_times" android:layout_width="wrap_content" android:layout_height="23.0dip" android:layout_marginTop="-5.0dip" android:text="0次运动" android:drawablePadding="4.0dip" android:layout_below="@id/stat_main_data" android:layout_centerHorizontal="true" android:drawableEnd="@drawable/ic_arrow_r_12" />
+    </RelativeLayout>
+</RelativeLayout>

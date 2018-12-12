@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff8f8f8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/bind_alipay_img_container" android:background="#ff00aecb" android:layout_width="fill_parent" android:layout_height="361.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="28.0dip" android:src="@drawable/third_party_access_alipay" android:contentDescription="@string/app_name" />
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/black60" android:gravity="center" android:id="@id/bind_alipay_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/bind_alipay_tips" android:layout_below="@id/bind_alipay_img_container" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/black60" android:gravity="center" android:id="@id/bind_alipay_btn" android:background="@drawable/common_corner_rect" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginTop="13.299988dip" android:layout_marginBottom="23.299988dip" android:text="@string/bind_alipay_btn" android:layout_alignParentBottom="true" android:layout_marginStart="26.699982dip" android:layout_marginEnd="26.699982dip" />
+</RelativeLayout>

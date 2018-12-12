@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="6.0dip" android:layout_marginStart="@dimen/common_item_padding" android:layout_marginEnd="@dimen/common_item_padding">
+        <EditText android:textSize="14.0sp" android:textColor="@color/black70" android:textColorHint="@color/black20" android:id="@id/edit_uid" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/friend_search_hint" android:maxLength="10" android:inputType="number" android:textCursorDrawable="@null" android:layout_marginStart="8.0dip" android:layout_marginEnd="50.0dip" />
+        <View android:layout_gravity="end|center" android:background="@color/divide" android:layout_width="@dimen/divider" android:layout_height="20.0dip" android:layout_marginEnd="40.0dip" />
+        <android.support.v7.widget.AppCompatImageView android:layout_gravity="end|center" android:id="@id/search" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/warn_search" android:tint="#ff999999" android:layout_marginEnd="13.0dip" />
+    </FrameLayout>
+</LinearLayout>

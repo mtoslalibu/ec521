@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/main_ui_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/bind_weixin_new_img_ll" android:background="#ff00aecb" android:layout_width="fill_parent" android:layout_height="361.0dip" android:paddingStart="@dimen/mili_margin" android:paddingEnd="@dimen/mili_margin">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="28.0dip" android:src="@drawable/third_party_access_q_q" android:contentDescription="@string/app_name" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/font_size_qq_down" android:textColor="@color/black60" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/bind_weibo_health_tip" android:layout_below="@id/bind_weixin_new_img_ll" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/black60" android:gravity="center" android:id="@id/start_bind" android:background="@drawable/common_corner_rect" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginTop="13.299988dip" android:layout_marginBottom="23.299988dip" android:text="@string/bind_weibo_health" android:layout_alignParentBottom="true" android:layout_marginStart="26.699982dip" android:layout_marginEnd="26.699982dip" />
+    <TextView android:textSize="@dimen/font_size_qq_name" android:textColor="@color/black60" android:id="@id/binded_qq_nickname" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/bind_weixin_new_img_ll" android:layout_centerHorizontal="true" />
+</RelativeLayout>

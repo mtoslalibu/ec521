@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="avoid_type">
+        <item>@string/state_close</item>
+        <item>@string/avoid_enable_smart</item>
+        <item>@string/avoid_enable_time</item>
+    </string-array>
+    <string-array name="avoid_type_sub">
+        <item></item>
+        <item>@string/avoid_enable_smart_sub</item>
+        <item>@string/avoid_enable_time_sub</item>
+    </string-array>
+    <string-array name="bmi_for_adualt">
+        <item>కనిష్టంగా ఉంది</item>
+        <item>సాధారణం</item>
+        <item>ఎక్కువ</item>
+        <item>చాలా ఎక్కువ</item>
+    </string-array>
+    <string-array name="bmi_for_child">
+        <item>సాధారణం</item>
+        <item>ఎక్కువ</item>
+        <item>చాలా ఎక్కువ</item>
+    </string-array>
+    <string-array name="bmi_for_not_chinese">
+        <item>తక్కువగా ఉంది</item>
+        <item>సాధారణం</item>
+        <item>Increased</item>
+        <item>అధికం</item>
+        <item>చాలా ఎక్కువ</item>
+    </string-array>
+    <string-array name="body_score_leval">
+        <item>దారుణంగా ఉంది</item>
+        <item>బాగా లేదు</item>
+        <item>సాధారణం</item>
+        <item>బాగా ఉంది</item>
+        <item>అద్భుతం</item>
+    </string-array>
+    <string-array name="body_shape_type_array">
+        <item>పలచని</item>
+        <item>సమతుల్యమైన పలచని కండరాలు</item>
+        <item>పలచని కండరాలు</item>
+        <item>వ్యాయామం లేదు</item>
+        <item>సమతుల్యంగా ఉంది</item>
+        <item>సమతుల్యమైన సాధారణ కండరాలు</item>
+        <item>స్థూలకాయం</item>
+        <item>ఎక్కువ బరువు</item>
+        <item>మందమైన-సెట్</item>
+    </string-array>
+    <string-array name="bodyfat_content_leval">
+        <item>చాలా తక్కువ</item>
+        <item>తక్కువ</item>
+        <item>సాధారణం</item>
+        <item>Increased</item>
+        <item>అధికం</item>
+    </string-array>
+    <string-array name="bone_leval">
+        <item>తగిన స్థాయిలో లేదు</item>
+        <item>సాధారణం</item>
+        <item>బాగా ఉంది</item>
+    </string-array>
+    <string-array name="brm_leval">
+        <item>లక్ష్యాలను చేరుకోలేదు</item>
+        <item>లక్ష్యం చేరుకున్నారు</item>
+    </string-array>
+    <string-array name="chaohu_help_tips">
+        <item>Try to press the button on the watch, if the watch screen is off, plug it in to charge its battery.</item>
+        <item>మొదట బ్లూటూత్ ఆఫ్ చేసి, ఆపై ప్రస్తుత పరికరాన్ని జత చేయండి.</item>
+        <item>బ్యాండ్ ఛార్జ్ అయి ఉండి, కానీ ఫోన్ దానిని గుర్తించలేకపోతే, ఫోన్ బ్లూటూత్‌ని రీస్టార్ట్ చేసి ప్రయత్నించండి.</item>
+        <item>బ్లూటూత్‌ను పునఃప్రారంభించినా కూడా సమస్య పరిష్కారం కాకపోతే, మీ ఫోన్‌ను రీబూట్ చేసి ప్రయత్నించండి.</item>
+        <item>"Watch data can't be synced when you're doing exercise. End the session and try again."</item>
+    </string-array>
+    <string-array name="chaohu_help_title">
+        <item>మీ వాచ్ ఛార్జ్ అయి ఉందా?</item>
+        <item>ఈ వాచ్ మరో పరికరంతో జత చేయబడిందా?</item>
+        <item>బ్లూటూత్‌ని రీస్టార్ట్ చేయడాన్ని ప్రయత్నించండి</item>
+        <item>మీ ఫోన్‌ని రీబూట్ చేసి ప్రయత్నించండి</item>
+        <item>"Can't sync data during workouts"</item>
+    </string-array>
+    <string-array name="chaohu_setting_run_types">
+        <item>@string/chaohu_setting_run_outdoor</item>
+        <item>@string/chaohu_setting_run_indoor</item>
+        <item>@string/chaohu_setting_run_ride</item>
+        <item>@string/chaohu_setting_run_walk</item>
+    </string-array>
+    <string-array name="colors">
+        <item>@string/blue</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/red</item>
+    </string-array>
+    <string-array name="common_cities">
+        <item>గ్వాంగ్‌జూ</item>
+        <item>షెంజెన్</item>
+        <item>Foshan</item>
+        <item>Dongguan</item>
+        <item>బీజింగ్</item>
+        <item>Nanjing</item>
+        <item>Suzhou</item>
+        <item>Changzhou</item>
+        <item>Jinan</item>
+        <item>Qingdao</item>
+        <item>Hangzhou</item>
+        <item>Ningbo</item>
+        <item>Zhengzhou</item>
+        <item>Kaifeng</item>
+        <item>షాంఘై</item>
+        <item>Shijiazhuang</item>
+        <item>Baoding</item>
+        <item>Chengdu</item>
+        <item>Mianyang</item>
+        <item>Shenyang</item>
+        <item>Dalian</item>
+    </string-array>
+    <string-array name="difficulty_content">
+        <item>ఫిట్‌నెస్ శిక్షణ కోసం కొత్త చేయి</item>
+        <item>ప్రాథమిక ఫిట్‌నెస్ అనుభవం ఉంది</item>
+        <item>మెరుగైన ఫిట్‌నెస్ అనుభవం ఉంది మరియు మంచి శరీరాకృతి కలిగి ఉన్నాను</item>
+    </string-array>
+    <string-array name="difficulty_title">
+        <item>ప్రాథమిక</item>
+        <item>మాధ్యమిక</item>
+        <item>అధునాతన</item>
+    </string-array>
+    <string-array name="fitness_goal_content">
+        <item>క్రొవ్వు కరిగించుకునే లక్ష్యం</item>
+        <item>సరైన శరీరాకృతిని పొందే లక్ష్యం</item>
+        <item>కండలు తిరిగిన శరీరాన్ని సాధించే లక్ష్యం</item>
+    </string-array>
+    <string-array name="fitness_goal_title">
+        <item>కటింగ్</item>
+        <item>షేపింగ్</item>
+        <item>బల్కింగ్</item>
+    </string-array>
+    <string-array name="ges_screen_type">
+        <item>@string/ges_screen_type_all_day</item>
+        <item>@string/ges_screen_type_time</item>
+        <item>@string/ges_screen_type_close</item>
+    </string-array>
+    <string-array name="hr_section">
+        <item>@string/hr_section_warm_up</item>
+        <item>@string/hr_section_fat_burn</item>
+        <item>@string/hr_section_heart_lung_strengthen</item>
+        <item>@string/hr_section_stamina_strengthen</item>
+        <item>@string/hr_section_anaerobic_limit</item>
+        <item>@string/hr_section_other</item>
+    </string-array>
+    <string-array name="hr_sport">
+        <item>గుండె స్పందన రేటు పరిధి: తేలికపాటి</item>
+        <item>గుండె స్పందన రేటు పరిధి: బరువైన</item>
+        <item>గుండె స్పందన రేటు పరిధి: ఏరోబిక్</item>
+        <item>గుండె స్పందన రేటు పరిధి: ఎనరోబిక్</item>
+        <item>గుండె స్పందన రేటు పరిధి: VO₂ గరిష్టం</item>
+    </string-array>
+    <string-array name="hr_sport_new">
+        <item>తెలికపాటి</item>
+        <item>బరువు</item>
+        <item>ఏరోబిక్</item>
+        <item>అనరోబిక్</item>
+        <item>VO₂ గరిష్టం</item>
+    </string-array>
+    <string-array name="lock_screen_type">
+        <item>ముసివేయి</item>
+        <item>సమీపం</item>
+        <item>దూరం</item>
+    </string-array>
+    <string-array name="member_add_weight_items">
+        <item>@string/member_add_weight_item_auto</item>
+        <item>@string/member_add_weight_item_manual</item>
+    </string-array>
+    <string-array name="mili_help_tips">
+        <item>"Tap the band to check if the device is charged before you pair a Mi Band 2 or other bands.
+
+Charge the band before you pair a Mi Band or Mi Band Pulse."</item>
+        <item>మొదట బ్లూటూత్ ఆఫ్ చేసి, ఆపై ప్రస్తుత పరికరాన్ని జత చేయండి.</item>
+        <item>బ్యాండ్ ఛార్జ్ అయి ఉండి, కానీ ఫోన్ దానిని గుర్తించలేకపోతే, ఫోన్ బ్లూటూత్‌ని రీస్టార్ట్ చేసి ప్రయత్నించండి.</item>
+        <item>బ్లూటూత్‌ను పునఃప్రారంభించినా కూడా సమస్య పరిష్కారం కాకపోతే, ఫోన్‌ను రీబూట్ చేసి ప్రయత్నించండి.</item>
+    </string-array>
+    <string-array name="mili_help_title">
+        <item>మీ బ్యాండ్ ఛార్జ్ అయి ఉందా?</item>
+        <item>ఈ బ్యాండ్ మరో పరికరంతో జత చేయబడిందా?</item>
+        <item>బ్లూటూత్‌ని రీస్టార్ట్ చేయడాన్ని ప్రయత్నించండి</item>
+        <item>మీ ఫోన్‌ని రీబూట్ చేసి ప్రయత్నించండి</item>
+    </string-array>
+    <string-array name="mili_pro_display_items">
+        <item>సమయం</item>
+        <item>అడుగులు</item>
+        <item>దూరం</item>
+        <item>కేలరీలు</item>
+        <item>గుండె స్పందన రేటు</item>
+        <item>Battery</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>జన</item>
+        <item>ఫిబ్ర</item>
+        <item>మార్చి</item>
+        <item>ఏప్రిల్</item>
+        <item>మే</item>
+        <item>జూన్</item>
+        <item>జులై</item>
+        <item>ఆగస్టు</item>
+        <item>సెప్టెం</item>
+        <item>అక్టో</item>
+        <item>నవం</item>
+        <item>డిసెం</item>
+    </string-array>
+    <string-array name="muscle_content_leval">
+        <item>తగిన స్థాయిలో లేదు</item>
+        <item>సాధారణం</item>
+        <item>బాగా ఉంది</item>
+    </string-array>
+    <string-array name="ring_types">
+        <item>@string/ring_type_default</item>
+        <item>@string/ring_type_incall</item>
+    </string-array>
+    <string-array name="running_months">
+        <item>జన</item>
+        <item>ఫిబ్ర</item>
+        <item>మార్చి</item>
+        <item>ఏప్రిల్</item>
+        <item>మే</item>
+        <item>జూన్</item>
+        <item>జులై</item>
+        <item>ఆగస్టు</item>
+        <item>సెప్టెం</item>
+        <item>అక్టో</item>
+        <item>నవం</item>
+        <item>డిసెం</item>
+    </string-array>
+    <string-array name="setting_hr_freq_types">
+        <item>@string/setting_heartrate_detect_freq_1</item>
+        <item>@string/setting_heartrate_detect_freq_10</item>
+        <item>@string/setting_heartrate_detect_freq_30</item>
+    </string-array>
+    <string-array name="setting_hr_types">
+        <item>@string/setting_heartrate_detect_auto</item>
+        <item>@string/setting_heartrate_detect_sleep</item>
+        <item>@string/setting_heartrate_detect_close</item>
+    </string-array>
+    <string-array name="setting_peyto_apps_array">
+        <item>వాచ్ ఫేస్</item>
+        <item>స్థితి</item>
+        <item>కార్యకలాపాలు</item>
+        <item>వాతావరణం</item>
+        <item>అలారం</item>
+        <item>టైమర్</item>
+        <item>దిక్సూచి</item>
+        <item>మరిన్ని సెట్టింగ్‌‍లు</item>
+    </string-array>
+    <string-array name="setting_tempo_apps_array">
+        <item>వాచ్ ఫేస్</item>
+        <item>స్థితి</item>
+        <item>నోటిఫికేషన్‌లు</item>
+        <item>కార్యకలాపాలు</item>
+        <item>వాతావరణం</item>
+        <item>అలారం</item>
+        <item>టైమర్</item>
+        <item>సెట్టింగ్‌లు</item>
+    </string-array>
+    <string-array name="setting_weather_temp_unit_array">
+        <item>@string/setting_weather_temp_c</item>
+        <item>@string/setting_weather_temp_f</item>
+    </string-array>
+    <string-array name="shoes_help_tips">
+        <item>"Smart chip will stop working if you don't use it for a long time. Shake it and try again."</item>
+        <item>Amazfit స్మార్ట్ చిప్ యొక్క బ్యాటరీ జీవితకాలం 1 సంవత్సరం. మీరు దానిని సుదీర్ఘ సమయంపాటు ఉపయోగించనట్లయితే, దానిలో పవర్ ఉండకపోవచ్చు.</item>
+        <item>మొదట బ్లూటూత్ ఆఫ్ చేసి, ఆపై ప్రస్తుత పరికరాన్ని జత చేయండి.</item>
+        <item>స్మార్ట్ చిప్ ఛార్జ్ చేసి ఉండి, దానిని మీరు ఫోన్‌కి దగ్గరగా తీసుకొచ్చినప్పుడు గుర్తించబడనట్లయితే, ఫోన్ యొక్క బ్లూటూత్‌ని రీబూట్ చేసేందుకు ప్రయత్నించండి.</item>
+        <item>బ్లూటూత్‌ను పునఃప్రారంభించినా కూడా సమస్య పరిష్కారం కాకపోతే, ఫోన్‌ను రీబూట్ చేసి ప్రయత్నించండి.</item>
+        <item>డేటాని స్వయంచాలకంగా సింక్ చేసేందుకు పరుగు షూస్ డేటాని ట్యాప్ చేసి, తరువాతి కార్యకలాపాన్ని నమోదు చేయండి</item>
+    </string-array>
+    <string-array name="shoes_help_title">
+        <item>స్మార్ట్ చిప్‌ని కదిలించండి</item>
+        <item>బ్యాటరీ ఛార్జ్ చేయబడిందా?</item>
+        <item>ఈ స్మార్ట్ చిప్ మరో పరికరంతో జత చేయబడిందా?</item>
+        <item>బ్లూటూత్ రీస్టార్ట్ చేయండి</item>
+        <item>మీ ఫోన్‌ని రీబూట్ చేసి ప్రయత్నించండి</item>
+        <item>మీ డేటాని ఎలా సింక్ చేయాలి?</item>
+    </string-array>
+    <string-array name="show_body_shape_array">
+        <item>స్థూలకాయం</item>
+        <item>ఎక్కువ బరువు</item>
+        <item>మందమైన-సెట్</item>
+        <item>"వ్యాయామం
+లేదు"</item>
+        <item>సమతుల్యంగా ఉంది</item>
+        <item>"సమతుల్యమైన
+సాధారణ కండరాలు"</item>
+        <item>పలచని</item>
+        <item>"సమతుల్యమైన
+పలచని కండరాలు"</item>
+        <item>"పలచని
+కండరాలు"</item>
+    </string-array>
+    <string-array name="timeline_type">
+        <item>కార్యకలాపం</item>
+        <item>నెమ్మదైన నడక</item>
+        <item>నడక</item>
+        <item>వేగవంతమైన నడక</item>
+        <item>పరుగు</item>
+        <item>నిలబడటం</item>
+        <item>కూర్చోవడం</item>
+        <item>తేలికపాటి కార్యకలాపం</item>
+        <item>ధరించలేదు</item>
+        <item>ఛార్జ్ అవుతోంది…</item>
+        <item>పడుకొని విశ్రాంతి</item>
+    </string-array>
+    <string-array name="train_difficulity">
+        <item>పరిమితం కాదు</item>
+        <item>ప్రాథమిక, 1</item>
+        <item>మాధ్యమిక, 2</item>
+        <item>అధునాతన, 3</item>
+    </string-array>
+    <string-array name="unbind_device_description">
+        <item>@string/device_band</item>
+        <item>@string/device_weight</item>
+        <item>@string/device_shoe</item>
+        <item>@string/device_watch</item>
+    </string-array>
+    <string-array name="visceral_fat_leval">
+        <item>సాధారణం</item>
+        <item>ఎక్కువ</item>
+        <item>చాలా ఎక్కువ</item>
+    </string-array>
+    <string-array name="water_leval">
+        <item>తగిన స్థాయిలో లేదు</item>
+        <item>సాధారణం</item>
+        <item>బాగా ఉంది</item>
+    </string-array>
+    <string-array name="wear_type">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+    </string-array>
+    <string-array name="wear_type_body">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="wear_type_chest">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/chest</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>ఆది</item>
+        <item>సోమ</item>
+        <item>మంగళ</item>
+        <item>బుధ</item>
+        <item>గురు</item>
+        <item>శుక్ర</item>
+        <item>శని</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>సోమవారం</item>
+        <item>మంగళవారం</item>
+        <item>బుధవారం</item>
+        <item>గురువారం</item>
+        <item>శుక్రవారం</item>
+        <item>శనివారం</item>
+        <item>ఆదివారం</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>సోమ</item>
+        <item>మంగళ</item>
+        <item>బుధ</item>
+        <item>గురు</item>
+        <item>శుక్ర</item>
+        <item>శని</item>
+        <item>ఆది</item>
+    </string-array>
+    <string-array name="weight3_body_figures">
+        <item>తక్కువ బరువు</item>
+        <item>సమతౌల్యంగా ఉంది</item>
+        <item>ఎక్కువ బరువు</item>
+        <item>స్థూలకాయం</item>
+    </string-array>
+    <string-array name="weight_bfs_help_tips">
+        <item>మొదట బ్లూటూత్ ఆఫ్ చేసి, ఆపై ప్రస్తుత పరికరాన్ని జత చేయండి.</item>
+        <item>స్కేల్ మీ బరువుని చూపిస్తుందో లేదో తనిఖీ చేసేందుకు దానిపై ఎక్కండి. అది బ్యాటరీ చిహ్నాన్ని చూపిస్తున్నట్లయితే, బ్యాటరీలను మార్చండి.</item>
+        <item>మీరు స్కేల్‌పై ఎక్కినప్పుడు ఎటువంటి స్పందన లేకపోతే, బ్యాటరీలు సరిగ్గా అమర్చి ఉన్నాయో లేదో తనిఖీ చేయండి.</item>
+        <item>బ్యాటరీ ఛార్జ్ చేయబడి ఉండి, మీరు దానిని ఫోన్‌కి దగ్గరగా తెచ్చిన తరువాత ఇప్పటికీ పరికరాన్ని గుర్తించలేకపోతున్నట్లయితే, ఫోన్ యొక్క బ్లూటూత్‌ని రీస్టార్ట్ చేయడాన్ని ప్రయత్నించండి.</item>
+        <item>బ్లూటూత్‌ను పునఃప్రారంభించినా కూడా సమస్య పరిష్కారం కాకపోతే, మీ ఫోన్‌ను రీబూట్ చేసి ప్రయత్నించండి.</item>
+    </string-array>
+    <string-array name="weight_bfs_help_title">
+        <item>ఈ స్కేల్ మరో పరికరంతో జత చేయబడిందా?</item>
+        <item>స్కేల్ బ్యాటరీ తనిఖీ చేయండి</item>
+        <item>బ్యాటరీలు సరిగ్గా ఇన్‌స్టాల్ చేసారా?</item>
+        <item>బ్లూటూత్‌ని రీస్టార్ట్ చేయడాన్ని ప్రయత్నించండి</item>
+        <item>మీ ఫోన్‌ని రీబూట్ చేసి ప్రయత్నించండి</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>సాధారణ</item>
+        <item>ఎక్కువ బరువు</item>
+        <item>స్థూలకాయం</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_not_chinese">
+        <item>తక్కువ బరువు</item>
+        <item>సాధారణ</item>
+        <item>ఎక్కువ బరువు</item>
+        <item>స్థూలకాయం I</item>
+        <item>స్థూలకాయం II</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>" కేజీ"</item>
+        <item>" జిన్"</item>
+        <item>" పౌండ్లు"</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+        <item>@string/weight_bfs_unit_jin</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array_no_jin">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+    </string-array>
+</resources>

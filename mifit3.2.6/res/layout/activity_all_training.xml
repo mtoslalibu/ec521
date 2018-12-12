@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/pale_grey" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View style="@style/VerticalDivider" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_filter_banner" android:layout_width="fill_parent" android:layout_height="34.0dip" android:baselineAligned="false">
+        <com.xiaomi.hm.health.training.ui.widget.SpinnerLayout android:id="@id/spl_difficulity" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:expandDrawableResId="@drawable/ic_expand_more" app:collapseDrawableResId="@drawable/ic_expand_less" app:spinnerText="@string/not_limit_difficulity" app:spinnerTextSize="12.0sp" app:spinnerTextColor="@color/black_60" />
+        <View android:background="@color/black20" android:layout_width="@dimen/divider" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" />
+        <com.xiaomi.hm.health.training.ui.widget.SpinnerLayout android:id="@id/spl_body_part" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:expandDrawableResId="@drawable/ic_expand_more" app:collapseDrawableResId="@drawable/ic_expand_less" app:spinnerText="@string/not_limit_body_part" app:spinnerTextSize="12.0sp" app:spinnerTextColor="@color/black_60" />
+        <View android:background="@color/black20" android:layout_width="@dimen/divider" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" />
+        <com.xiaomi.hm.health.training.ui.widget.SpinnerLayout android:id="@id/spl_gender" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:expandDrawableResId="@drawable/ic_expand_more" app:collapseDrawableResId="@drawable/ic_expand_less" app:spinnerText="@string/not_limit_instrument" app:spinnerTextSize="12.0sp" app:spinnerTextColor="@color/black_60" />
+    </LinearLayout>
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srlEnableRefresh="true" app:srlEnableLoadmore="true" app:srlEnableAutoLoadmore="true" app:srlEnableLoadmoreWhenContentNotFull="true">
+        <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</LinearLayout>

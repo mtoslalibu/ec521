@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xiaomi.hm.health.view.pager.HMViewPager android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/indicator" />
+    <View android:background="@color/black20" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_above="@id/indicator" />
+    <com.xiaomi.hm.health.view.pager.TabPageIndicator android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="54.599976dip" android:layout_alignParentBottom="true" />
+    <com.xiaomi.hm.health.view.scroll.HMExpandHeadView android:id="@id/mask_view" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+</merge>

@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="avoid_type">
+        <item>@string/state_close</item>
+        <item>@string/avoid_enable_smart</item>
+        <item>@string/avoid_enable_time</item>
+    </string-array>
+    <string-array name="avoid_type_sub">
+        <item></item>
+        <item>@string/avoid_enable_smart_sub</item>
+        <item>@string/avoid_enable_time_sub</item>
+    </string-array>
+    <string-array name="bmi_for_adualt">
+        <item>ต่ำ</item>
+        <item>ปกติ</item>
+        <item>สูง</item>
+        <item>สูงมาก</item>
+    </string-array>
+    <string-array name="bmi_for_child">
+        <item>ปกติ</item>
+        <item>สูง</item>
+        <item>สูงมาก</item>
+    </string-array>
+    <string-array name="bmi_for_not_chinese">
+        <item>ต่ำ</item>
+        <item>ปกติ</item>
+        <item>ค่อนข้างสูง</item>
+        <item>สูง</item>
+        <item>สูงมาก</item>
+    </string-array>
+    <string-array name="body_score_leval">
+        <item>แย่มาก</item>
+        <item>แย่</item>
+        <item>ปกติ</item>
+        <item>ดี</item>
+        <item>ดีมาก</item>
+    </string-array>
+    <string-array name="body_shape_type_array">
+        <item>ผอม</item>
+        <item>ผอมแบบสมดุล</item>
+        <item>ผอมแบบมีกล้ามเนื้อ</item>
+        <item>ขาดการออกกำลังกาย</item>
+        <item>ยอดคงเหลือ</item>
+        <item>สมดุลกล้ามเนื้อ</item>
+        <item>อ้วน</item>
+        <item>น้ำหนักตัวเกิน</item>
+        <item>ร่างหนา</item>
+    </string-array>
+    <string-array name="bodyfat_content_leval">
+        <item>ต่ำมาก</item>
+        <item>ต่ำ</item>
+        <item>ปกติ</item>
+        <item>ค่อนข้างสูง</item>
+        <item>สูง</item>
+    </string-array>
+    <string-array name="bone_leval">
+        <item>ไม่พอ</item>
+        <item>ปกติ</item>
+        <item>ดี</item>
+    </string-array>
+    <string-array name="brm_leval">
+        <item>คุณไม่ได้บรรลุเป้าหมาย</item>
+        <item>บรรลุเป้าหมายแล้ว</item>
+    </string-array>
+    <string-array name="chaohu_help_tips">
+        <item>ลองกดปุ่มบนนาฬิกาหากหน้าจอนาฬิกาปิดอยู่ให้เสียบปลั๊กเพื่อชาร์จแบตเตอรี่</item>
+        <item>ปิดบลูทูธก่อน แล้วจับคู่กับอุปกรณ์ปัจจุบัน</item>
+        <item>หากแบนด์ชาร์จอยู่ แต่โทรศัพท์ยังคงหาแบนด์ไม่พบ ให้ลองปิด-เปิดบลูทูธของโทรศัพท์ดู</item>
+        <item>หากลองปิด-เปิดสัญญาณบลูทูธแล้วยังมีปัญหาอยู่ กรุณาลองรีบูตโทรศัพท์ของคุณใหม่</item>
+        <item>ไม่สามารถซิงค์ข้อมูลนาฬิการะหว่างออกกำลังกายได้ สิ้นสุดเซสชัน และลองอีกครั้ง</item>
+    </string-array>
+    <string-array name="chaohu_help_title">
+        <item>คุณได้ชาร์จนาฬิกาหรือยัง?</item>
+        <item>นาฬิกาถูกจับคู่ไว้กับอุปกรณ์อื่นหรือไม่?</item>
+        <item>ลองปิด-เปิดบลูทูธใหม่</item>
+        <item>ลองรีบูตโทรศัพท์ของคุณใหม่</item>
+        <item>ไม่สามารถซิงค์ข้อมูลระหว่างออกกำลังกายได้</item>
+    </string-array>
+    <string-array name="chaohu_setting_run_types">
+        <item>@string/chaohu_setting_run_outdoor</item>
+        <item>@string/chaohu_setting_run_indoor</item>
+        <item>@string/chaohu_setting_run_ride</item>
+        <item>@string/chaohu_setting_run_walk</item>
+    </string-array>
+    <string-array name="colors">
+        <item>@string/blue</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/red</item>
+    </string-array>
+    <string-array name="common_cities">
+        <item>กวางเจา</item>
+        <item>เซินเจิ้น</item>
+        <item>ฝอซาน</item>
+        <item>ตงกวน</item>
+        <item>ปักกิ่ง</item>
+        <item>หนานจิง</item>
+        <item>ซูโจว</item>
+        <item>ฉางโจว</item>
+        <item>จี่หนาน</item>
+        <item>ชิงเต่า</item>
+        <item>หางโจว</item>
+        <item>หนิงโป</item>
+        <item>เจิ้งโจว</item>
+        <item>ไคเฟิง</item>
+        <item>เซี่ยงไฮ้</item>
+        <item>สือเจียจวง</item>
+        <item>เปาติ้ง</item>
+        <item>เฉิงตู</item>
+        <item>เหมียนหยาง</item>
+        <item>เสิ่นหยาง</item>
+        <item>ต้าเหลียน</item>
+    </string-array>
+    <string-array name="difficulty_content">
+        <item>ออกกำลังกายมือใหม่</item>
+        <item>มีพื้นฐานการออกกำลังกาย</item>
+        <item>มีประสบการณ์การออกกำลังกายและมีรูปร่างที่ดี</item>
+    </string-array>
+    <string-array name="difficulty_title">
+        <item>ขั้นต้น</item>
+        <item>ระดับกลาง</item>
+        <item>ขั้นสูง</item>
+    </string-array>
+    <string-array name="fitness_goal_content">
+        <item>การเผาผลาญไขมัน</item>
+        <item>เป้าหมายเพื่อรูปร่างที่ดูดี</item>
+        <item>เป้าหมายเพื่อสร้างกล้ามเนื้อ</item>
+    </string-array>
+    <string-array name="fitness_goal_title">
+        <item>ลดน้ำหนัก</item>
+        <item>สร้างรูปร่าง</item>
+        <item>เพิ่มน้ำหนัก</item>
+    </string-array>
+    <string-array name="ges_screen_type">
+        <item>@string/ges_screen_type_all_day</item>
+        <item>@string/ges_screen_type_time</item>
+        <item>@string/ges_screen_type_close</item>
+    </string-array>
+    <string-array name="hr_section">
+        <item>@string/hr_section_warm_up</item>
+        <item>@string/hr_section_fat_burn</item>
+        <item>@string/hr_section_heart_lung_strengthen</item>
+        <item>@string/hr_section_stamina_strengthen</item>
+        <item>@string/hr_section_anaerobic_limit</item>
+        <item>@string/hr_section_other</item>
+    </string-array>
+    <string-array name="hr_sport">
+        <item>ช่วงอัตราการเต้นหัวใจ: เบา</item>
+        <item>ช่วงอัตราการเต้นหัวใจ: หนัก</item>
+        <item>ช่วงอัตราการเต้นหัวใจ: แอโรบิก</item>
+        <item>ช่วงอัตราการเต้นหัวใจ: ไม่ใช่แอโรบิก</item>
+        <item>ช่วงอัตราการเต้นหัวใจ: VO₂ สูงสุด</item>
+    </string-array>
+    <string-array name="hr_sport_new">
+        <item>ผ่อนคลาย</item>
+        <item>เผาผลาญ</item>
+        <item>แอโรบิก</item>
+        <item>ไม่ใช่แอโรบิค</item>
+        <item>VO₂ max</item>
+    </string-array>
+    <string-array name="lock_screen_type">
+        <item>แนบชิด</item>
+        <item>ใกล้</item>
+        <item>ไกล</item>
+    </string-array>
+    <string-array name="member_add_weight_items">
+        <item>@string/member_add_weight_item_auto</item>
+        <item>@string/member_add_weight_item_manual</item>
+    </string-array>
+    <string-array name="mili_help_tips">
+        <item>"แตะแบนด์เพื่อตรวจสอบอุปกรณ์ว่ามีแบตอยู่ก่อนการจับคู่ Mi แบนด์2 หรืออื่นๆ 
+
+ชาร์จแบนด์ก่อนจับคู่ Mi แบนด์ หรือ Mi แบนด์ Pulse"</item>
+        <item>ปิดบลูทูธก่อน แล้วจับคู่กับอุปกรณ์ปัจจุบัน</item>
+        <item>หากแบนด์ชาร์จอยู่ แต่โทรศัพท์ยังคงหาแบนด์ไม่พบ ให้ลองปิด-เปิดบลูทูธของโทรศัพท์ดู</item>
+        <item>หากลองปิด-เปิดสัญญาณบลูทูธแล้วยังมีปัญหาอยู่ กรุณาลองรีบูตโทรศัพท์ของคุณดู</item>
+    </string-array>
+    <string-array name="mili_help_title">
+        <item>คุณได้ชาร์จแบนด์หรือยัง?</item>
+        <item>แบนด์ถูกจับคู่ไว้กับอุปกรณ์อื่นหรือไม่?</item>
+        <item>ลองปิด-เปิดบลูทูธใหม่</item>
+        <item>ลองรีบูตโทรศัพท์ของคุณใหม่</item>
+    </string-array>
+    <string-array name="mili_pro_display_items">
+        <item>ระยะเวลา</item>
+        <item>จำนวนก้าว</item>
+        <item>ระยะทาง</item>
+        <item>แคลอรี่</item>
+        <item>อัตราการเต้นหัวใจ</item>
+        <item>แบตเตอรี่</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>ม.ค.</item>
+        <item>ก.พ.</item>
+        <item>มี.ค.</item>
+        <item>เม.ย.</item>
+        <item>พ.ค.</item>
+        <item>มิ.ย.</item>
+        <item>ก.ค.</item>
+        <item>ส.ค.</item>
+        <item>ก.ย.</item>
+        <item>ต.ค.</item>
+        <item>พ.ย.</item>
+        <item>ธ.ค.</item>
+    </string-array>
+    <string-array name="muscle_content_leval">
+        <item>ไม่พอ</item>
+        <item>มาตรฐาน</item>
+        <item>ดี</item>
+    </string-array>
+    <string-array name="ring_types">
+        <item>@string/ring_type_default</item>
+        <item>@string/ring_type_incall</item>
+    </string-array>
+    <string-array name="running_months">
+        <item>ม.ค.</item>
+        <item>ก.พ.</item>
+        <item>มี.ค.</item>
+        <item>เม.ย.</item>
+        <item>พ.ค.</item>
+        <item>มิ.ย.</item>
+        <item>ก.ค.</item>
+        <item>ส.ค.</item>
+        <item>ก.ย.</item>
+        <item>ต.ค.</item>
+        <item>พ.ย.</item>
+        <item>ธ.ค.</item>
+    </string-array>
+    <string-array name="setting_hr_freq_types">
+        <item>@string/setting_heartrate_detect_freq_1</item>
+        <item>@string/setting_heartrate_detect_freq_10</item>
+        <item>@string/setting_heartrate_detect_freq_30</item>
+    </string-array>
+    <string-array name="setting_hr_types">
+        <item>@string/setting_heartrate_detect_auto</item>
+        <item>@string/setting_heartrate_detect_sleep</item>
+        <item>@string/setting_heartrate_detect_close</item>
+    </string-array>
+    <string-array name="setting_peyto_apps_array">
+        <item>หน้าปัดนาฬิกา</item>
+        <item>สถานะ</item>
+        <item>การออกกำลังกาย</item>
+        <item>สภาพอากาศ</item>
+        <item>การปลุก</item>
+        <item>ตั้งเวลา</item>
+        <item>เข็มทิศ</item>
+        <item>การตั้งค่าเพิ่มเติม</item>
+    </string-array>
+    <string-array name="setting_tempo_apps_array">
+        <item>หน้าปัดนาฬิกา</item>
+        <item>สถานะ</item>
+        <item>เงื่อนไข</item>
+        <item>การออกกำลังกาย</item>
+        <item>สภาพอากาศ</item>
+        <item>การปลุก</item>
+        <item>การตั้งเวลา</item>
+        <item>การตั้งค่า</item>
+    </string-array>
+    <string-array name="setting_weather_temp_unit_array">
+        <item>@string/setting_weather_temp_c</item>
+        <item>@string/setting_weather_temp_f</item>
+    </string-array>
+    <string-array name="shoes_help_tips">
+        <item>สมาร์ทชิปจะหยุดทำงานถ้าคุณไม่ได้ใช้เป็นเวลานาน ลองเขย่ามันและลองอีกครั้ง</item>
+        <item>แบตเตอรี่ Amazfit สมาร์ทชิปอยู่ได้ 1 ปี หากคุณใช้นานกว่านั้น แบตอาจจะหมดไปแล้ว</item>
+        <item>ปิดบลูทูธก่อน แล้วจับคู่กับอุปกรณ์ปัจจุบัน</item>
+        <item>หากสมาร์ทชิปชาร์จเต็มแล้ว แต่ไม่สามารถตรวจพบได้เมื่อคุณนำโทรศัพท์ใกล้มัน ลองรีบูตบลูทูธของโทรศัพท์</item>
+        <item>หากลองปิด-เปิดบลูทูธแล้วยังมีปัญหาอยู่ กรุณาลองรีบูตโทรศัพท์ของคุณดู</item>
+        <item>แตะข้อมูลรองเท้าวิ่ง และใส่หน้ากิจกรรมถัดไปเพื่อซิงค์ข้อมูลโดยอัตโนมัติ</item>
+    </string-array>
+    <string-array name="shoes_help_title">
+        <item>เขย่าสมาร์ทชิป</item>
+        <item>แบตเตอรี่ชาร์จแล้วหรือยัง?</item>
+        <item>สมาร์ทชิปถูกจับคู่ไว้กับอุปกรณ์อื่นหรือไม่?</item>
+        <item>ปิด-เปิดบลูทูธใหม่</item>
+        <item>ลองรีบูตโทรศัพท์ของคุณใหม่</item>
+        <item>ซิงค์ข้อมูลของคุณอย่างไร?</item>
+    </string-array>
+    <string-array name="show_body_shape_array">
+        <item>น้ำหนักมาก</item>
+        <item>น้ำหนักตัวเกิน</item>
+        <item>หนา</item>
+        <item>"ขาด
+การออกกำลังกาย"</item>
+        <item>ยอดคงเหลือ</item>
+        <item>"สมดุล
+กล้ามเนื้อ"</item>
+        <item>ผอม</item>
+        <item>"สมดุล
+ผอม"</item>
+        <item>"ผอม
+สมดุล"</item>
+    </string-array>
+    <string-array name="timeline_type">
+        <item>กิจกรรม</item>
+        <item>เดินช้า</item>
+        <item>การเดิน</item>
+        <item>เดินเร็ว</item>
+        <item>การวิ่ง</item>
+        <item>การยืน</item>
+        <item>การนั่ง</item>
+        <item>ออกกำลังกายกลางแจ้ง</item>
+        <item>ไม่ใส่</item>
+        <item>กำลังชาร์จ...</item>
+        <item>นอน</item>
+    </string-array>
+    <string-array name="train_difficulity">
+        <item>ไม่จำกัด</item>
+        <item>ขั้นต้น 1</item>
+        <item>ระดับกลาง 2</item>
+        <item>ขั้นสูง 3</item>
+    </string-array>
+    <string-array name="unbind_device_description">
+        <item>@string/device_band</item>
+        <item>@string/device_weight</item>
+        <item>@string/device_shoe</item>
+        <item>@string/device_watch</item>
+    </string-array>
+    <string-array name="visceral_fat_leval">
+        <item>ปกติ</item>
+        <item>สูง</item>
+        <item>สูงมาก</item>
+    </string-array>
+    <string-array name="water_leval">
+        <item>ไม่พอ</item>
+        <item>ปกติ</item>
+        <item>ดี</item>
+    </string-array>
+    <string-array name="wear_type">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+    </string-array>
+    <string-array name="wear_type_body">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="wear_type_chest">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/chest</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>อา.</item>
+        <item>จ.</item>
+        <item>อังคาร</item>
+        <item>พ.</item>
+        <item>พฤหัส</item>
+        <item>ศ.</item>
+        <item>ส.</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>จันทร์</item>
+        <item>อังคาร</item>
+        <item>พุธ</item>
+        <item>พฤหัสบดี</item>
+        <item>ศุกร์</item>
+        <item>เสาร์</item>
+        <item>อาทิตย์</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>จันทร์</item>
+        <item>อังคาร</item>
+        <item>พุธ</item>
+        <item>พฤหัส</item>
+        <item>ศุกร์</item>
+        <item>เสาร์</item>
+        <item>อาทิตย์</item>
+    </string-array>
+    <string-array name="weight3_body_figures">
+        <item>ผอม</item>
+        <item>สมดุล</item>
+        <item>น้ำหนักเกิน</item>
+        <item>อ้วน</item>
+    </string-array>
+    <string-array name="weight_bfs_help_tips">
+        <item>ปิดบลูทูธก่อน แล้วจับคู่กับอุปกรณ์ปัจจุบัน</item>
+        <item>ขึ้นบนเครื่องชั่งเพื่อดูว่าเครื่องได้แสดงน้ำหนักตัวของคุณหรือไม่ หากแสดงไอคอนแบตเตอรี่ต่ำ ให้ทำการเปลี่ยนถ่านใหม่</item>
+        <item>หากไม่มีการตอบสนองเมื่อคุณขึ้นบนเครื่องชั่ง กรุณาตรวจสอบให้แน่ใจว่าใส่ถ่านอย่างถูกต้อง</item>
+        <item>หากชาร์จแบตเตอรี่อยู่ในขณะที่คุณยังคงไม่สามารถหาอุปกรณ์หลังจากที่คุณนำโทรศัพท์เข้าใกล้ได้ ให้ลองรีสตาร์ทบลูทูธของโทรศัพท์</item>
+        <item>หากลองปิด-เปิดสัญญาณบลูทูธแล้วยังมีปัญหาอยู่ กรุณาลองรีบูตโทรศัพท์ของคุณใหม่</item>
+    </string-array>
+    <string-array name="weight_bfs_help_title">
+        <item>เครื่องชั่งถูกจับคู่ไว้กับเครื่องอื่นหรือไม่?</item>
+        <item>ตรวจสอบแบตของเครื่องชั่ง</item>
+        <item>ตรวจสอบให้แน่ใจว่าได้ใส่ถ่านถูกต้องแล้ว?</item>
+        <item>ลองปิด-เปิดบลูทูธใหม่</item>
+        <item>ลองรีบูตโทรศัพท์ของคุณใหม่</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>ปกติ</item>
+        <item>น้ำหนักตัวเกิน</item>
+        <item>อ้วน</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_not_chinese">
+        <item>ผอม</item>
+        <item>ปกติ</item>
+        <item>น้ำหนักตัวเกิน</item>
+        <item>อ้วนระดับ 1</item>
+        <item>อ้วนระดับ 2</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>" กก."</item>
+        <item>" จิน(500ก.)"</item>
+        <item>" ป."</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+        <item>@string/weight_bfs_unit_jin</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array_no_jin">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+    </string-array>
+</resources>

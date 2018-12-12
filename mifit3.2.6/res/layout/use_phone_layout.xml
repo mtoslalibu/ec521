@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="@color/black80" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/text_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="98.0dip" android:text="@string/use_phone_tips1" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/black60" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/use_phone_tips2" android:layout_below="@id/text_tips" android:layout_centerHorizontal="true" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="82.0dip" android:src="@drawable/img_phone" android:layout_below="@id/subtitle" android:layout_centerHorizontal="true" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="136.0dip" android:src="@drawable/img_steps" android:layout_below="@id/subtitle" android:layout_centerHorizontal="true" android:alpha="0.5" />
+    <TextView android:id="@id/gotIt" android:text="@string/got_it" style="@style/BindBottomTextStyle" />
+</RelativeLayout>

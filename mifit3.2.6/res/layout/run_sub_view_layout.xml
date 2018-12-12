@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <ImageView android:id="@id/run_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="17.0dip" android:layout_alignParentStart="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="14.0dip" android:layout_toStartOf="@id/sport_subview_value_layout" android:layout_toEndOf="@id/run_icon">
+            <TextView android:textSize="15.0sp" android:textColor="@color/black70" android:gravity="center_vertical" android:id="@id/run_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:id="@id/run_subtitle_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/sport_subview_value_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="13.0dip" android:layout_alignParentEnd="true">
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="30.0sp" android:textColor="@color/black70" android:id="@id/sport_subview_value1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="km" android:layout_marginEnd="3.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:id="@id/sport_subview_unit1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" />
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="30.0sp" android:textColor="@color/black70" android:id="@id/sport_subview_value2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="km" android:layout_marginEnd="3.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:id="@id/sport_subview_unit2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="75.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="24.0sp" android:textColor="@color/black70" android:id="@id/run_subview_first_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="km" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:id="@id/run_subview_first_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:layout_gravity="center_horizontal" android:id="@id/run_subview_first_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/run_subview_second_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="24.0sp" android:textColor="@color/black70" android:id="@id/run_subview_second_title_value1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="km" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:id="@id/run_subview_second_title_unit1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="24.0sp" android:textColor="@color/black70" android:id="@id/run_subview_second_title_value2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="km" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:id="@id/run_subview_second_title_unit2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:layout_gravity="center_horizontal" android:id="@id/run_subview_second_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="24.0sp" android:textColor="@color/black70" android:id="@id/run_subview_third_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="km" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:id="@id/run_subview_third_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:layout_gravity="center_horizontal" android:id="@id/run_subview_third_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

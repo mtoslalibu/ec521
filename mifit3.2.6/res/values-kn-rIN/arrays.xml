@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="avoid_type">
+        <item>@string/state_close</item>
+        <item>@string/avoid_enable_smart</item>
+        <item>@string/avoid_enable_time</item>
+    </string-array>
+    <string-array name="avoid_type_sub">
+        <item></item>
+        <item>@string/avoid_enable_smart_sub</item>
+        <item>@string/avoid_enable_time_sub</item>
+    </string-array>
+    <string-array name="bmi_for_adualt">
+        <item>ಕಡಿಮೆ</item>
+        <item>ಸಹಜ</item>
+        <item>ಹೆಚ್ಚು</item>
+        <item>ಸಾಕಷ್ಟು ಎತ್ತರ</item>
+    </string-array>
+    <string-array name="bmi_for_child">
+        <item>ಸಹಜ</item>
+        <item>ಹೆಚ್ಚು</item>
+        <item>ಸಾಕಷ್ಟು ಎತ್ತರ</item>
+    </string-array>
+    <string-array name="bmi_for_not_chinese">
+        <item>ಕಡಿಮೆ</item>
+        <item>ಸಹಜ</item>
+        <item>ಹೆಚ್ಚಿದೆ</item>
+        <item>ಹೆಚ್ಚು</item>
+        <item>ತುಂಬಾ ಹೆಚ್ಚು</item>
+    </string-array>
+    <string-array name="body_score_leval">
+        <item>ತುಂಬಾ ಕೆಟ್ಟದಾಗಿದೆ</item>
+        <item>ಚೆನ್ನಾಗಿಲ್ಲ</item>
+        <item>ಸಹಜ</item>
+        <item>ಉತ್ತಮ</item>
+        <item>ಅತ್ಯುತ್ತಮ</item>
+    </string-array>
+    <string-array name="body_shape_type_array">
+        <item>ಸ್ಕಿನ್ನೀ</item>
+        <item>ಬ್ಯಾಲೆನ್ಸ್‌ ಮಾಡಲಾದ ಸ್ಕಿನ್ನೀ</item>
+        <item>ಸ್ಕಿನ್ನೀ ಸ್ನಾಯುಸಾಮರ್ಥ್ಯ</item>
+        <item>ವ್ಯಾಯಾಮದ ಕೊರತೆ</item>
+        <item>ಸಮತೋಲಿತ</item>
+        <item>ಬ್ಯಾಲೆನ್ಸ್‌ ಮಾಡಲಾದ ಸ್ನಾಯು ಸಾಮರ್ಥ್ಯ</item>
+        <item>ಬೊಜ್ಜು</item>
+        <item>ಹೆಚ್ಚು ತೂಕ</item>
+        <item>ಥಿಕ್‌-ಸೆಟ್‌</item>
+    </string-array>
+    <string-array name="bodyfat_content_leval">
+        <item>ಅತೀ ಕಡಿಮೆ</item>
+        <item>ಕಡಿಮೆ</item>
+        <item>ಸಹಜ</item>
+        <item>ಹೆಚ್ಚಿದೆ</item>
+        <item>ಹೆಚ್ಚು</item>
+    </string-array>
+    <string-array name="bone_leval">
+        <item>ಸಾಕಾಗದ</item>
+        <item>ಸಹಜ</item>
+        <item>ಉತ್ತಮ</item>
+    </string-array>
+    <string-array name="brm_leval">
+        <item>ಗುರಿಗಳನ್ನು ತಲುಪಲಾಗಲಿಲ್ಲ</item>
+        <item>ಗುರಿ ತಲುಪಿದ್ದೀರಿ</item>
+    </string-array>
+    <string-array name="chaohu_help_tips">
+        <item>ವಾಚ್‌ ಮೇಲಿನ ಬಟನ್‌ ಒತ್ತಿ, ವಾಚ್‌ ಪರದೆ ಆಫ್‌ ಆಗಿದ್ದರೆ, ಅದರ ಬ್ಯಾಟರಿ ಚಾರ್ಜ್‌ ಮಾಡಲು ಅದನ್ನು ಪ್ಲಗ್‌ ಇನ್‌ ಮಾಡಿ.</item>
+        <item>ಬ್ಲೂಟೂತ್ ಆಫ್‌ ಮಾಡಿ, ಬಳಿಕ ಪ್ರಸ್ತುತ ಡಿವೈಸ್‌ ಜೊತೆ ಜೋಡಿ ಮಾಡಿ.</item>
+        <item>ಬ್ಯಾಂಡ್ ಚಾರ್ಜ್ ಆಗಿದ್ದರೂ, ಫೋನ್‌ನಲ್ಲಿ ಕಾಣಿಸದಿದ್ದರೆ, ಫೋನ್‌ನ ಬ್ಲೂಟೂತ್ ಮರುಪ್ರಾರಂಭಿಸಿ.</item>
+        <item>ಒಂದು ವೇಳೆ ಬ್ಲೂಟೂತ್ ಮರುಪ್ರಾರಂಭಿಸುವುದರಿಂದ ಸಮಸ್ಯೆ ಬಗೆಹರಿಯದಿದ್ದರೆ, ನಿಮ್ಮ ಫೋನ್ ರೀಬೂಟ್ ಮಾಡಿ.</item>
+        <item>ನೀವು ವ್ಯಾಯಾಮ ಮಾಡುವಾಗ ವಾಚ್‌ ಡೇಟಾವನ್ನು ಸಿಂಕ್‌ ಮಾಡಲಾಗುವುದಿಲ್ಲ. ಸೆಶನ್‌ ಪೂರ್ಣಗೊಳಿಸಿ, ಬಳಿಕ ಪ್ರಯತ್ನಿಸಿ.</item>
+    </string-array>
+    <string-array name="chaohu_help_title">
+        <item>ನಿಮ್ಮ ವಾಚ್‌ ಚಾರ್ಜ್‌ ಆಗಿದೆಯೇ?</item>
+        <item>ಈ ವಾಚ್‌ ಇನ್ನೊಂದು ಡಿವೈಸ್‌ ಜತೆ ಜೋಡಿಯಾಗಿದೆಯೇ?</item>
+        <item>ಬ್ಲೂಟೂತ್ ಮರುಪ್ರಾರಂಭಿಸಲು ಪ್ರಯತ್ನಿಸಿ</item>
+        <item>ಫೋನ್ ರಿಬೂಟ್ ಮಾಡಿ</item>
+        <item>ವ್ಯಾಯಾಮದ ಸಮಯದಲ್ಲಿ ಡೇಟಾ ಸಿಂಕ್‌ ಮಾಡಲಾಗುವುದಿಲ್ಲ</item>
+    </string-array>
+    <string-array name="chaohu_setting_run_types">
+        <item>@string/chaohu_setting_run_outdoor</item>
+        <item>@string/chaohu_setting_run_indoor</item>
+        <item>@string/chaohu_setting_run_ride</item>
+        <item>@string/chaohu_setting_run_walk</item>
+    </string-array>
+    <string-array name="colors">
+        <item>@string/blue</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/red</item>
+    </string-array>
+    <string-array name="common_cities">
+        <item>ಗುವಾಂಗ್‌ಜೂ</item>
+        <item>ಶೆನ್‌ಝೆನ್‌</item>
+        <item>ಫೋಶನ್‌</item>
+        <item>ಡಾಂಗ್‌ಉನ್‌</item>
+        <item>ಬೀಜಿಂಗ್</item>
+        <item>ನನ್‌ಜಿಂಗ್‌</item>
+        <item>ಸೂಝೂ</item>
+        <item>ಚಾಂಗ್‌ಝೂ</item>
+        <item>ಜಿನನ್‌</item>
+        <item>ಕಿಂಗ್‌ಡೋ</item>
+        <item>ಹಾಂಗ್‌ಝೋ</item>
+        <item>ನಿಂಗ್‌ಬೋ</item>
+        <item>ಝೆಂಗ್‌ಝೋ</item>
+        <item>ಕೈಫೆಂಗ್‌</item>
+        <item>ಶಾಂಘಾಯಿ</item>
+        <item>ಶಿಜಿಯಝಂಗ್‌</item>
+        <item>ಬೋಡಿಂಗ್‌</item>
+        <item>ಚೆಂಗ್‌ಡು</item>
+        <item>ಮಿಯನ್ಯಾಂಗ್‌</item>
+        <item>ಶೆನ್ಯಾಂಗ್‌</item>
+        <item>ಡಲಿಯನ್‌</item>
+    </string-array>
+    <string-array name="difficulty_content">
+        <item>ಫಿಟ್‌ನೆಸ್‌ ತರಬೇತಿಗೆ ಹೊಸ ಬ್ಯಾಂಡ್‌</item>
+        <item>ಫಿಟ್‌ನೆಸ್‌ನಲ್ಲಿ ಪ್ರಾಥಮಿಕ ಅನುಭವವಿದೆ</item>
+        <item>ಸಾಕಷ್ಟು ಅನುಭವ ಇದೆ ಮತ್ತು ಉತ್ತಮ ಆಕಾರ ಬೆಳೆಸಿಕೊಂಡಿದ್ದೇನೆ</item>
+    </string-array>
+    <string-array name="difficulty_title">
+        <item>ಪ್ರಾಥಮಿಕ ಹಂತ</item>
+        <item>ಮಧ್ಯಮ ಹಂತ</item>
+        <item>ಸುಧಾರಿತ ಹಂತ</item>
+    </string-array>
+    <string-array name="fitness_goal_content">
+        <item>ಕೊಬ್ಬು ಕರಗಿಸುವ ಗುರಿ</item>
+        <item>ದೇಹದ ಆಕಾರ ಚೆಂದವಾಗಿಸುವ ಗುರಿ</item>
+        <item>ಸ್ನಾಯುಗಳನ್ನು ಬೆಳೆಸುವ ಗುರಿ</item>
+    </string-array>
+    <string-array name="fitness_goal_title">
+        <item>ತೆಳ್ಳಗಾಗುವುದು</item>
+        <item>ಆಕಾರ ಪಡೆದುಕೊಳ್ಳುವುದು</item>
+        <item>ಸ್ನಾಯುಗಳನ್ನು ಬೆಳೆಸಿಕೊಳ್ಳುವುದು</item>
+    </string-array>
+    <string-array name="ges_screen_type">
+        <item>@string/ges_screen_type_all_day</item>
+        <item>@string/ges_screen_type_time</item>
+        <item>@string/ges_screen_type_close</item>
+    </string-array>
+    <string-array name="hr_section">
+        <item>@string/hr_section_warm_up</item>
+        <item>@string/hr_section_fat_burn</item>
+        <item>@string/hr_section_heart_lung_strengthen</item>
+        <item>@string/hr_section_stamina_strengthen</item>
+        <item>@string/hr_section_anaerobic_limit</item>
+        <item>@string/hr_section_other</item>
+    </string-array>
+    <string-array name="hr_sport">
+        <item>ಹೃದಯಬಡಿತ ಝೋನ್: ಹಗುರ</item>
+        <item>ಹೃದಯಬಡಿತ ಝೋನ್: ತೂಕ</item>
+        <item>ಹೃದಯಬಡಿತ ಝೋನ್: ಏರೋಬಿಕ್‌</item>
+        <item>ಹೃದಯಬಡಿತ ಝೋನ್: ಅನೇರೋಬಿಕ್</item>
+        <item>ಹೃದಯಬಡಿತ ಝೋನ್‌: VO₂ ಗರಿಷ್ಠ</item>
+    </string-array>
+    <string-array name="hr_sport_new">
+        <item>ಹಗುರ</item>
+        <item>ತೂಕ</item>
+        <item>ಏರೋಬಿಕ್</item>
+        <item>ಏರೋಬಿಕ್</item>
+        <item>VO₂ ಮ್ಯಾಕ್ಸ್</item>
+    </string-array>
+    <string-array name="lock_screen_type">
+        <item>ಮುುಚ್ಚು</item>
+        <item>ಹತ್ತಿರ</item>
+        <item>ದೂರ</item>
+    </string-array>
+    <string-array name="member_add_weight_items">
+        <item>@string/member_add_weight_item_auto</item>
+        <item>@string/member_add_weight_item_manual</item>
+    </string-array>
+    <string-array name="mili_help_tips">
+        <item>"Mi ಬ್ಯಾಂಡ್‌ 2 ಅಥವಾ ಇತರೆ ಬ್ಯಾಂಡ್‌ಗಳಿಗೆ ಜೋಡಿ ಮಾಡುವ ಮೊದಲು ಡಿವೈಸ್‌ ಚಾರ್ಜ್‌ ಆಗಿದೆಯೇ ಎಂಬುದನ್ನು ಪರಿಶೀಲಿಸಿ.
+
+ Mi ಬ್ಯಾಂಡ್‌ ಅಥವಾ Mi ಬ್ಯಾಂಡ್‌ ಪಲ್ಸ್‌ಗೆ ಜೋಡಿ ಮಾಡುವ ಮೊದಲು ಬ್ಯಾಂಡ್‌ ಅನ್ನು ಚಾರ್ಜ್‌ ಮಾಡಿ."</item>
+        <item>ಬ್ಲೂಟೂತ್ ಆಫ್‌ ಮಾಡಿ, ಬಳಿಕ ಪ್ರಸ್ತುತ ಫೋನ್‌ ಜೊತೆ ಜೊಡಿ ಮಾಡಿ.</item>
+        <item>ಬ್ಯಾಂಡ್ ಚಾರ್ಜ್ ಆಗಿದ್ದರೂ, ಫೋನ್‌ನಲ್ಲಿ ಕಾಣಿಸದಿದ್ದರೆ, ಫೋನ್‌ನ ಬ್ಲೂಟೂತ್ ಮರುಪ್ರಾರಂಭಿಸಿ.</item>
+        <item>ಒಂದು ವೇಳೆ ಬ್ಲೂಟೂತ್ ಮರುಪ್ರಾರಂಭಿಸುವುದರಿಂದ ಸಮಸ್ಯೆ ಬಗೆಹರಿಯದಿದ್ದರೆ, ನಿಮ್ಮ ಫೋನ್ ರೀಬೂಟ್ ಮಾಡುವ ಮೂಲಕ ಪ್ರಯತ್ನಿಸಿ.</item>
+    </string-array>
+    <string-array name="mili_help_title">
+        <item>ನಿಮ್ಮ ಬ್ಯಾಂಡ್‌ ಚಾರ್ಜ್‌ ಆಗಿದೆಯೇ?</item>
+        <item>ಈ ಬ್ಯಾಂಡ್‌ ಇನ್ನೊಂದು ಫೋನ್‌ ಜತೆ ಜೋಡಿಯಾಗಿದೆಯೇ?</item>
+        <item>ಬ್ಲೂಟೂತ್ ಮರುಹೊಂದಿಸಲು ಪ್ರಯತ್ನಿಸಿ</item>
+        <item>ಫೋನ್ ರಿಬೂಟ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="mili_pro_display_items">
+        <item>ಸಮಯ</item>
+        <item>ಹಾಕಿದ ಹೆಜ್ಜೆಗಳು</item>
+        <item>ದೂರ</item>
+        <item>ಕ್ಯಾಲೊರಿಗಳು</item>
+        <item>ಹೃದಯ ಬಡಿತ</item>
+        <item>ಬ್ಯಾಟರಿ</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>ಜನ</item>
+        <item>ಫೆಬ್ರು</item>
+        <item>ಮಾ</item>
+        <item>ಏಪ್ರಿ</item>
+        <item>ಮೇ</item>
+        <item>ಜೂ</item>
+        <item>ಜುಲೈ</item>
+        <item>ಆಗ</item>
+        <item>ಸೆಪ್ಟೆ</item>
+        <item>ಅಕ್ಟೋ</item>
+        <item>ನವಂ</item>
+        <item>ಡಿಸೆಂ</item>
+    </string-array>
+    <string-array name="muscle_content_leval">
+        <item>ಸಾಕಾಗದ</item>
+        <item>ಸಹಜ</item>
+        <item>ಉತ್ತಮ</item>
+    </string-array>
+    <string-array name="ring_types">
+        <item>@string/ring_type_default</item>
+        <item>@string/ring_type_incall</item>
+    </string-array>
+    <string-array name="running_months">
+        <item>ಜನ</item>
+        <item>ಫೆಬ್ರು</item>
+        <item>ಮಾ</item>
+        <item>ಏಪ್ರಿ</item>
+        <item>ಮೇ</item>
+        <item>ಜೂ</item>
+        <item>ಜುಲೈ</item>
+        <item>ಆಗ</item>
+        <item>ಸೆಪ್ಟೆ</item>
+        <item>ಅಕ್ಟೋ</item>
+        <item>ನವಂ</item>
+        <item>ಡಿಸೆಂ</item>
+    </string-array>
+    <string-array name="setting_hr_freq_types">
+        <item>@string/setting_heartrate_detect_freq_1</item>
+        <item>@string/setting_heartrate_detect_freq_10</item>
+        <item>@string/setting_heartrate_detect_freq_30</item>
+    </string-array>
+    <string-array name="setting_hr_types">
+        <item>@string/setting_heartrate_detect_auto</item>
+        <item>@string/setting_heartrate_detect_sleep</item>
+        <item>@string/setting_heartrate_detect_close</item>
+    </string-array>
+    <string-array name="setting_peyto_apps_array">
+        <item>ವಾಚ್‌ ಫೇಸ್‌</item>
+        <item>ಸ್ಟೇಟಸ್‌</item>
+        <item>ಚಟುವಟಿಕೆಗಳು</item>
+        <item>ಹವಾಮಾನ</item>
+        <item>ಅಲಾರಾಂ</item>
+        <item>ಟೈಮರ್‌</item>
+        <item>ದಿಕ್ಸೂಚಿ</item>
+        <item>ಇನ್ನಷ್ಟು ಸೆಟ್ಟಿಂಗ್‌ಗಳು</item>
+    </string-array>
+    <string-array name="setting_tempo_apps_array">
+        <item>ವಾಚ್‌ ಮೇಲ್ಭಾಗ</item>
+        <item>ಸ್ಟೇಟಸ್‌</item>
+        <item>ಅಧಿಸೂಚನೆಗಳು</item>
+        <item>ಚಟುವಟಿಕೆಗಳು</item>
+        <item>ಹವಾಮಾನ</item>
+        <item>ಅಲಾರಾಂ</item>
+        <item>ಟೈಮರ್‌</item>
+        <item>ಸೆಟ್ಟಿಂಗ್‌ಗಳು</item>
+    </string-array>
+    <string-array name="setting_weather_temp_unit_array">
+        <item>@string/setting_weather_temp_c</item>
+        <item>@string/setting_weather_temp_f</item>
+    </string-array>
+    <string-array name="shoes_help_tips">
+        <item>ನೀವು ಸ್ಮಾರ್ಟ್‌ ಚಿಪ್‌ ಅನ್ನು ತುಂಬಾ ಕಾಲ ಬಳಸದೇ ಇದ್ದರೆ ಸ್ಥಗಿತಗೊಳ್ಳುತ್ತದೆ. ಅಲುಗಾಡಿಸಿ.</item>
+        <item>ಅಮೇಜ್‌ಫಿಟ್‌ ಸ್ಮಾರ್ಟ್‌ ಚಿಪ್‌ ಬ್ಯಾಟರಿ ಬಾಳಿಕೆ 1 ವರ್ಷ. ತುಂಬಾ ಹಿಂದಿನಿಂದ ಬಳಸುತ್ತಿದ್ದೀರಿ ಎಂದಾದರೆ, ಅದರಲ್ಲೀಗ ಪವರ್ ಉಳಿದಂತಿಲ್ಲ.</item>
+        <item>ಬ್ಲೂಟೂತ್ ಆಫ್‌ ಮಾಡಿ, ಬಳಿಕ ಪ್ರಸ್ತುತ ಡಿವೈಸ್‌ ಜೊತೆ ಜೋಡಿ ಮಾಡಿ.</item>
+        <item>ಸ್ಮಾರ್ಟ್‌ ಚಿಪ್‌ ಅನ್ನು ಚಾರ್ಜ್‌ ಮಾಡಿದ್ದರೆ, ಆದರೆ ಫೋನನ್ನು ಅದರ ಸಮೀಪ ತಂದರೂ ಅದು ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತಿಲ್ಲವಾದರೆ, ಫೋನಿನ ಬ್ಲೂಟೂತ್‌ ಅನ್ನು ರಿಬೂಟ್‌ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿ.</item>
+        <item>ಒಂದು ವೇಳೆ ಬ್ಲೂಟೂತ್ ಮರುಪ್ರಾರಂಭಿಸುವುದರಿಂದ ಸಮಸ್ಯೆ ಬಗೆಹರಿಯದಿದ್ದರೆ, ನಿಮ್ಮ ಫೋನ್ ರೀಬೂಟ್ ಮಾಡಿ.</item>
+        <item>ಡೇಟಾವನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸಿಂಕ್‌ ಮಾಡಲು ರನ್ನಿಂಗ್‌ ಶೂಗಳ ಡೇಟಾವನ್ನು ಟ್ಯಾಪ್‌ ಮಾಡಿ ಮತ್ತು ನಂತರದ ಚಟುವಟಿಕೆ ಪುಟವನ್ನು ನಮೂದಿಸಿ</item>
+    </string-array>
+    <string-array name="shoes_help_title">
+        <item>ಸ್ಮಾರ್ಟ್‌ ಚಿಪ್‌ ಅಲುಗಾಡಿಸಿ</item>
+        <item>ಬ್ಯಾಟರಿ ಚಾರ್ಜ್‌ ಆಗಿದೆಯೇ?</item>
+        <item>ಈ ಸ್ಮಾರ್ಟ್‌ ಚಿಪ್‌ ಅನ್ನು ಮತ್ತೊಂದು ಫೋನ್‌‌ ಜೊತೆ ಜೋಡಿಸಲಾಗಿದೆಯೇ?</item>
+        <item>ಬ್ಲೂಟೂತ್ ಮರುಪ್ರಾರಂಭಿಸಿ</item>
+        <item>ಫೋನ್ ರಿಬೂಟ್ ಮಾಡಿ</item>
+        <item>ಡೇಟಾ ಸಿಂಕ್ ಮಾಡುವುದು ಹೇಗೆ?</item>
+    </string-array>
+    <string-array name="show_body_shape_array">
+        <item>ಬೊಜ್ಜು</item>
+        <item>ಹೆಚ್ಚು ತೂಕ</item>
+        <item>ಥಿಕ್‌-ಸೆಟ್‌</item>
+        <item>"ವ್ಯಾಯಾಮದ
+ ಕೊರತೆ"</item>
+        <item>ಬ್ಯಾಲೆನ್ಸ್‌ ಮಾಡಲಾಗಿದೆ</item>
+        <item>"ಬ್ಯಾಲೆನ್ಸ್‌ ಮಾಡಲಾದ
+ಸ್ನಾಯು ಸಾಮರ್ಥ್ಯ"</item>
+        <item>ಸ್ಕಿನ್ನೀ</item>
+        <item>"ಬ್ಯಾಲೆನ್ಸ್‌ ಮಾಡಲಾದ
+ಸ್ಕಿನ್ನೀ"</item>
+        <item>"ಸ್ಕಿನ್ನೀ
+ಸ್ನಾಯುಸಾಮರ್ಥ್ಯ"</item>
+    </string-array>
+    <string-array name="timeline_type">
+        <item>ಚಟುವಟಿಕೆ</item>
+        <item>ನಿಧಾನ ನಡಿಗೆ</item>
+        <item>ನಡಿಗೆ</item>
+        <item>ವೇಗದ ನಡಿಗೆ</item>
+        <item>ರನ್ನಿಂಗ್</item>
+        <item>ನಿಲ್ಲುವಿಕೆ</item>
+        <item>ಕುಳಿತುಕೊಳ್ಳುವಿಕೆ</item>
+        <item>ಹಗುರು ಚಟುವಟಿಕೆ</item>
+        <item>ಧರಿಸಿಲ್ಲ</item>
+        <item>ಚಾರ್ಜ್ ಆಗುತ್ತಿದೆ…</item>
+        <item>ಮಲಗು</item>
+    </string-array>
+    <string-array name="train_difficulity">
+        <item>ಮಿತಿಯಿಲ್ಲ</item>
+        <item>ಪ್ರಾಥಮಿಕ ಹಂತ, 1</item>
+        <item>ಮಧ್ಯಮ ಹಂತ, 2</item>
+        <item>ಸುಧಾರಿತ ಹಂತ, 3</item>
+    </string-array>
+    <string-array name="unbind_device_description">
+        <item>@string/device_band</item>
+        <item>@string/device_weight</item>
+        <item>@string/device_shoe</item>
+        <item>@string/device_watch</item>
+    </string-array>
+    <string-array name="visceral_fat_leval">
+        <item>ಸಹಜ</item>
+        <item>ಹೆಚ್ಚು</item>
+        <item>ಸಾಕಷ್ಟು ಎತ್ತರ</item>
+    </string-array>
+    <string-array name="water_leval">
+        <item>ಸಾಕಾಗದ</item>
+        <item>ಸಹಜ</item>
+        <item>ಉತ್ತಮ</item>
+    </string-array>
+    <string-array name="wear_type">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+    </string-array>
+    <string-array name="wear_type_body">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="wear_type_chest">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/chest</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>ಭಾನು</item>
+        <item>ಸೋಮ</item>
+        <item>ಮಂಗಳ</item>
+        <item>ಬುಧ</item>
+        <item>ಗುರು</item>
+        <item>ಶುಕ್ರ</item>
+        <item>ಶನಿ</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>ಸೋಮವಾರ</item>
+        <item>ಮಂಗಳವಾರ</item>
+        <item>ಬುಧವಾರ</item>
+        <item>ಗುರುವಾರ</item>
+        <item>ಶುಕ್ರವಾರ</item>
+        <item>ಶನಿವಾರ</item>
+        <item>ರವಿವಾರ</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>ಸೋಮ</item>
+        <item>ಮಂಗಳ</item>
+        <item>ಬುಧ</item>
+        <item>ಗುರು</item>
+        <item>ಶುಕ್ರ</item>
+        <item>ಶನಿ</item>
+        <item>ರವಿ</item>
+    </string-array>
+    <string-array name="weight3_body_figures">
+        <item>ಕಡಿಮೆ ತೂಕ</item>
+        <item>ಸಮತೋಲಿತ</item>
+        <item>ಹೆಚ್ಚು ತೂಕ</item>
+        <item>ಬೊಜ್ಜು</item>
+    </string-array>
+    <string-array name="weight_bfs_help_tips">
+        <item>ಬ್ಲೂಟೂತ್ ಆಫ್‌ ಮಾಡಿ, ಬಳಿಕ ಪ್ರಸ್ತುತ ಡಿವೈಸ್‌ ಜೊತೆ ಜೋಡಿ ಮಾಡಿ.</item>
+        <item>ಸ್ಕೇಲ್ ಮೇಲೆ ಹೆಜ್ಜೆಯಿಟ್ಟು ಅದು ನಿಮ್ಮ ತೂಕ ತೋರಿಸುತ್ತದೋ ನೋಡಿ. ಅದು ಬ್ಯಾಟರಿ ಐಕಾನ್ ತೋರಿಸಿದರೆ, ಬ್ಯಾಟರಿ ಬದಲಾಯಿಸಿ.</item>
+        <item>ನೀವು ಸ್ಕೇಲ್ ಮೇಲೆ ನಿಂತಾಗ ಯಾವುದೇ ಪ್ರತಿಕ್ರಿಯೆ ತೋರಿಸದಿದ್ದರೆ, ಅದರ ಬ್ಯಾಟರಿ ಸರಿಯಾಗಿ ಹೊಂದಿಸಲಾಗಿದೆಯೇ ಪರಿಶೀಲಿಸಿ.</item>
+        <item>ಬ್ಯಾಟರಿ ಚಾರ್ಜ್‌ ಆಗಿದ್ದರೂ, ಫೋನನ್ನು ಸಮೀಪ ತಂದ ಮೇಲೂ ಡಿವೈಸ್‌ ಕಾಣಿಸದಿದ್ದರೆ, ಫೋನ್‌ನ ಬ್ಲೂಟೂತ್‌ ಅನ್ನು ಮರುಪ್ರಾರಂಭಿಸಿ.</item>
+        <item>ಒಂದು ವೇಳೆ ಬ್ಲೂಟೂತ್ ಮರುಪ್ರಾರಂಭಿಸುವುದರಿಂದ ಸಮಸ್ಯೆ ಬಗೆಹರಿಯದಿದ್ದರೆ, ನಿಮ್ಮ ಫೋನ್ ರೀಬೂಟ್ ಮಾಡಿ.</item>
+    </string-array>
+    <string-array name="weight_bfs_help_title">
+        <item>ಈ ಸ್ಕೇಲ್ ಅನ್ನು ಮತ್ತೊಂದು ಡಿವೈಸ್‌ ಜೊತೆ ಜೋಡಿಸಲಾಗಿದೆಯೇ?</item>
+        <item>ಸ್ಕೇಲ್‌ನ ಬ್ಯಾಟರಿ ಪರೀಕ್ಷಿಸಿ</item>
+        <item>ಬ್ಯಾಟರಿಯನ್ನು ಸರಿಯಾಗಿ ಸ್ಥಾಪಿಸಲಾಗಿದೆಯೇ?</item>
+        <item>ಬ್ಲೂಟೂತ್ ಮರುಪ್ರಾರಂಭಿಸಲು ಪ್ರಯತ್ನಿಸಿ</item>
+        <item>ಫೋನ್ ರಿಬೂಟ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>ಸಹಜ</item>
+        <item>ಹೆಚ್ಚು ತೂಕ</item>
+        <item>ಬೊಜ್ಜು</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_not_chinese">
+        <item>ಕಡಿಮೆ ತೂಕ</item>
+        <item>ಸಹಜ</item>
+        <item>ಹೆಚ್ಚು ತೂಕ</item>
+        <item>ಅತೀ ಬೊಜ್ಜು</item>
+        <item>ವಿಪರೀತ ಬೊಜ್ಜು</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>" ಕಿ.ಗ್ರಾಂ"</item>
+        <item>" jin"</item>
+        <item>" lbs"</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+        <item>@string/weight_bfs_unit_jin</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array_no_jin">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+    </string-array>
+</resources>

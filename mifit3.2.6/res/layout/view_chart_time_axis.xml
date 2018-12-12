@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/time_axis_height" android:paddingStart="3.2999878dip" android:paddingEnd="3.2999878dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:id="@id/time1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/timeAxisStyle" />
+    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:gravity="end|center" android:id="@id/time2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/timeAxisStyle" />
+</LinearLayout>

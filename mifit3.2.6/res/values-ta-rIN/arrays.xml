@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="avoid_type">
+        <item>@string/state_close</item>
+        <item>@string/avoid_enable_smart</item>
+        <item>@string/avoid_enable_time</item>
+    </string-array>
+    <string-array name="avoid_type_sub">
+        <item></item>
+        <item>@string/avoid_enable_smart_sub</item>
+        <item>@string/avoid_enable_time_sub</item>
+    </string-array>
+    <string-array name="bmi_for_adualt">
+        <item>குறைவு</item>
+        <item>இயல்பு</item>
+        <item>அதிகம்</item>
+        <item>மிக அதிகம்</item>
+    </string-array>
+    <string-array name="bmi_for_child">
+        <item>இயல்பு</item>
+        <item>அதிகம்</item>
+        <item>மிக அதிகம்</item>
+    </string-array>
+    <string-array name="bmi_for_not_chinese">
+        <item>குறைவு</item>
+        <item>இயல்பு</item>
+        <item>அதிகரித்துள்ளது</item>
+        <item>அதிகம்</item>
+        <item>மிக அதிகம்</item>
+    </string-array>
+    <string-array name="body_score_leval">
+        <item>மிகவும் மோசம்</item>
+        <item>மோசம்</item>
+        <item>இயல்பு</item>
+        <item>நன்று</item>
+        <item>மிகச்சிறப்பு</item>
+    </string-array>
+    <string-array name="body_shape_type_array">
+        <item>ஒல்லி</item>
+        <item>சமநிலையில் ஒல்லி</item>
+        <item>ஒல்லி தசைபிடிப்பு</item>
+        <item>உடற்பயிற்சி போதாது</item>
+        <item>சமநிலை</item>
+        <item>திடகாத்திரமான தசைகள்</item>
+        <item>பருமன்</item>
+        <item>அதிக எடை</item>
+        <item>தடிமன்</item>
+    </string-array>
+    <string-array name="bodyfat_content_leval">
+        <item>மிகவும் குறைவு</item>
+        <item>குறைவு</item>
+        <item>இயல்பு</item>
+        <item>அதிகரித்துள்ளது</item>
+        <item>அதிகம்</item>
+    </string-array>
+    <string-array name="bone_leval">
+        <item>போதுமானது அல்ல</item>
+        <item>இயல்பு</item>
+        <item>நன்று</item>
+    </string-array>
+    <string-array name="brm_leval">
+        <item>இலக்குகளை அடையவில்லை</item>
+        <item>இலக்கை எட்டினீர்கள்</item>
+    </string-array>
+    <string-array name="chaohu_help_tips">
+        <item>வாட்ச்சில் ஒரு பொத்தானை அழுத்த முயலவும், வாட்ச் திரை அணைக்கப்பட்டிருந்தால், அதன் பேட்டரியை சார்ஜ் செய்யவும்.</item>
+        <item>ப்ளூடூத்தை முதலில் அணைக்கவும், பிறகு தற்போதைய சாதனத்துடன் பிணைக்கவும்.</item>
+        <item>பேண்ட் சார்ஜ் செய்யப்பட்டிருந்தாலும், ஃபோனால் அதைக் கண்டறிய முடியவில்லை என்றால், ஃபோனில் ப்ளூடூத்தை மறுதொடக்கம் செய்வதை முயற்சி செய்யவும்.</item>
+        <item>ப்ளூடூத்தை மறுதொடக்கம் செய்வது சிக்கலைத் தீர்க்கவில்லை என்றால், ஃபோனை மறுதொடக்கம் செய்வதை முயற்சிக்கவும்.</item>
+        <item>நீங்கள் உடற்பயிற்சி செய்யும்போது, வாட்ச் தரவை ஒத்திசைக்க முடியாது. அமர்வை முடித்து விட்டு, மீண்டும் முயலவும்.</item>
+    </string-array>
+    <string-array name="chaohu_help_title">
+        <item>உங்கள் வாட்ச் சார்ஜ் ஆகியுள்ளதா?</item>
+        <item>இந்த வாட்ச் மற்றொரு சாதனத்துடன் பிணைக்கப்பட்டுள்ளதா?</item>
+        <item>ப்ளூடூத்தை மறுதொடக்கம் செய்ய முயலவும்</item>
+        <item>ஃபோனை மறுதொடக்கம் செய்வதை முயற்சி செய்யவும்</item>
+        <item>உடற்பயிற்சிகளின்போது தரவை ஒத்திசைக்க முடியாது</item>
+    </string-array>
+    <string-array name="chaohu_setting_run_types">
+        <item>@string/chaohu_setting_run_outdoor</item>
+        <item>@string/chaohu_setting_run_indoor</item>
+        <item>@string/chaohu_setting_run_ride</item>
+        <item>@string/chaohu_setting_run_walk</item>
+    </string-array>
+    <string-array name="colors">
+        <item>@string/blue</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/red</item>
+    </string-array>
+    <string-array name="common_cities">
+        <item>குவாங்சூ</item>
+        <item>ஷென்ஷென்</item>
+        <item>போஷான்</item>
+        <item>டாங்குவான்</item>
+        <item>பெய்ஜிங்</item>
+        <item>நான்ஜிங்</item>
+        <item>சூஷோவ்</item>
+        <item>சாங்ஷாவ்</item>
+        <item>ஜிஹான்</item>
+        <item>குங்டாவ்</item>
+        <item>ஹேங்சோவ்</item>
+        <item>நிங்போ</item>
+        <item>ஷெங்சோவ்</item>
+        <item>கைஃபெங்</item>
+        <item>ஷாங்காய்</item>
+        <item>ஷிஜியாஜுவாங்</item>
+        <item>பவோடிங்</item>
+        <item>செங்க்டூ</item>
+        <item>மியான்யாங்</item>
+        <item>ஷென்யாங்</item>
+        <item>டைலன்</item>
+    </string-array>
+    <string-array name="difficulty_content">
+        <item>ஃபிட்னஸ் பயிற்சிக்கான புதிய கை</item>
+        <item>அடிப்படை உடற்பயிற்சி அனுபவம் உள்ளது</item>
+        <item>நல்ல உடல்நல அனுபவத்தையும், அழகான வடிவத்தையும் பெற்றிருக்கிறார்</item>
+    </string-array>
+    <string-array name="difficulty_title">
+        <item>ஆரம்பநிலை</item>
+        <item>இடைநிலை</item>
+        <item>மேம்பட்டவை</item>
+    </string-array>
+    <string-array name="fitness_goal_content">
+        <item>கொழுப்பை எரிப்பது இலக்கு</item>
+        <item>உடலை அழகான வடிவத்திற்கு கொண்டு வருதல் இலக்கு</item>
+        <item>தசைகளை உருவாக்கும் இலக்கு</item>
+    </string-array>
+    <string-array name="fitness_goal_title">
+        <item>குறைத்தல்</item>
+        <item>அழகான வடிவம்</item>
+        <item>பெருத்தல்</item>
+    </string-array>
+    <string-array name="ges_screen_type">
+        <item>@string/ges_screen_type_all_day</item>
+        <item>@string/ges_screen_type_time</item>
+        <item>@string/ges_screen_type_close</item>
+    </string-array>
+    <string-array name="hr_section">
+        <item>@string/hr_section_warm_up</item>
+        <item>@string/hr_section_fat_burn</item>
+        <item>@string/hr_section_heart_lung_strengthen</item>
+        <item>@string/hr_section_stamina_strengthen</item>
+        <item>@string/hr_section_anaerobic_limit</item>
+        <item>@string/hr_section_other</item>
+    </string-array>
+    <string-array name="hr_sport">
+        <item>இதயத் துடிப்பு பகுதி: லேசானது</item>
+        <item>இதயத் துடிப்பு பகுதி: வெயிட்</item>
+        <item>இதயத் துடிப்பு பகுதி: ஏரோபிக்</item>
+        <item>இதயத் துடிப்பு பகுதி: ஏரோபிக் அல்லாதது</item>
+        <item>இதயத் துடிப்பு பகுதி: VO₂ max</item>
+    </string-array>
+    <string-array name="hr_sport_new">
+        <item>லேசானது</item>
+        <item>எடை</item>
+        <item>ஏரோபிக்</item>
+        <item>ஏரோபிக் அல்லாதது</item>
+        <item>VO₂ மேக்ஸ்</item>
+    </string-array>
+    <string-array name="lock_screen_type">
+        <item>மூடு</item>
+        <item>அருகே</item>
+        <item>தொலைவில்</item>
+    </string-array>
+    <string-array name="member_add_weight_items">
+        <item>@string/member_add_weight_item_auto</item>
+        <item>@string/member_add_weight_item_manual</item>
+    </string-array>
+    <string-array name="mili_help_tips">
+        <item>"நீங்கள் Mi பேண்ட் 2 ஐப் பிணைப்பதற்கு முன்பு, சாதனம் சார்ஜ் ஆகியுள்ளதா என்று சரிபார்க்க பேண்டைத் தட்டவும், டெம்போ பேண்ட் அல்லது மற்ற சாதனங்கள்.
+
+Mi பேண்ட் அல்லது Mi பேண்ட் பல்ஸ் உடன் பிணைப்பதற்கு முன்பு பேண்டை சார்ஜ் செய்யவும்."</item>
+        <item>ப்ளூடூத்தை முதலில் அணைக்கவும், பிறகு தற்போதைய சாதனத்துடன் பிணைக்கவும்.</item>
+        <item>பேண்ட் சார்ஜ் செய்யப்பட்டிருந்தாலும், ஃபோனால் அதைக் கண்டறிய முடியவில்லை என்றால், ஃபோனில் ப்ளூடூத்தை மறுதொடக்கம் செய்வதை முயற்சி செய்யவும்.</item>
+        <item>ப்ளூடூத்தை மறுதொடக்கம் செய்வது சிக்கலைத் தீர்க்கவில்லை என்றால், ஃபோனை மறுதொடக்கம் செய்வதை முயலவும்.</item>
+    </string-array>
+    <string-array name="mili_help_title">
+        <item>உங்கள் பேண்டை சார்ஜ் செய்தீர்களா?</item>
+        <item>இந்த பேண்ட் மற்றொரு சாதனத்துடன் பிணைக்கப்பட்டுள்ளதா?</item>
+        <item>ப்ளூடூத்தை மறுதொடக்கம் செய்ய முயலவும்</item>
+        <item>சாதனத்தை மறுதொடக்கம் செய்வதை முயற்சி செய்யவும்</item>
+    </string-array>
+    <string-array name="mili_pro_display_items">
+        <item>நேரம்</item>
+        <item>அடிகள்</item>
+        <item>தூரம்</item>
+        <item>கலோரிகள்</item>
+        <item>இதய துடிப்பு</item>
+        <item>பேட்டரி</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>ஜன</item>
+        <item>பிப்</item>
+        <item>மார்</item>
+        <item>ஏப்</item>
+        <item>மே</item>
+        <item>ஜூன்</item>
+        <item>ஜூலை</item>
+        <item>ஆக</item>
+        <item>செப்</item>
+        <item>அக்</item>
+        <item>நவ</item>
+        <item>டிச</item>
+    </string-array>
+    <string-array name="muscle_content_leval">
+        <item>போதுமானது அல்ல</item>
+        <item>இயல்பு</item>
+        <item>நன்று</item>
+    </string-array>
+    <string-array name="ring_types">
+        <item>@string/ring_type_default</item>
+        <item>@string/ring_type_incall</item>
+    </string-array>
+    <string-array name="running_months">
+        <item>ஜன</item>
+        <item>பிப்</item>
+        <item>மார்</item>
+        <item>ஏப்</item>
+        <item>மே</item>
+        <item>ஜூன்</item>
+        <item>ஜூலை</item>
+        <item>ஆக</item>
+        <item>செப்</item>
+        <item>அக்</item>
+        <item>நவ</item>
+        <item>டிச</item>
+    </string-array>
+    <string-array name="setting_hr_freq_types">
+        <item>@string/setting_heartrate_detect_freq_1</item>
+        <item>@string/setting_heartrate_detect_freq_10</item>
+        <item>@string/setting_heartrate_detect_freq_30</item>
+    </string-array>
+    <string-array name="setting_hr_types">
+        <item>@string/setting_heartrate_detect_auto</item>
+        <item>@string/setting_heartrate_detect_sleep</item>
+        <item>@string/setting_heartrate_detect_close</item>
+    </string-array>
+    <string-array name="setting_peyto_apps_array">
+        <item>வாட்ச்சின் முகப்பு</item>
+        <item>நிலை</item>
+        <item>செயல்பாடுகள்</item>
+        <item>வானிலை</item>
+        <item>அலாரம்</item>
+        <item>டைமர்</item>
+        <item>காம்பஸ்</item>
+        <item>கூடுதல் அமைப்புகள்</item>
+    </string-array>
+    <string-array name="setting_tempo_apps_array">
+        <item>வாட்ச்சின் முகப்பு</item>
+        <item>நிலை</item>
+        <item>அறிவிப்புகள்</item>
+        <item>செயல்பாடுகள்</item>
+        <item>வானிலை</item>
+        <item>அலாரம்</item>
+        <item>டைமர்</item>
+        <item>அமைப்புகள்</item>
+    </string-array>
+    <string-array name="setting_weather_temp_unit_array">
+        <item>@string/setting_weather_temp_c</item>
+        <item>@string/setting_weather_temp_f</item>
+    </string-array>
+    <string-array name="shoes_help_tips">
+        <item>நீண்ட நேரம் பயன்படுத்தாமல் இருந்தால், ஸ்மார்ட் சிப் செயல்படுவதை நிறுத்தி விடும். அதை அசைத்து மீண்டும் முயலவும்.</item>
+        <item>Amazfit ஸ்மார்ட் சிப்பின் பேட்டரி ஆயுள் 1 ஆண்டு. நீண்ட காலமாக அதைப் பயன்படுத்துகிறீர்கள் என்றால், அதில் ஆற்றல் எதுவுமில்லாமல் இருக்கலாம்.</item>
+        <item>ப்ளூடூத்தை முதலில் அணைக்கவும், பிறகு தற்போதைய சாதனத்துடன் பிணைக்கவும்.</item>
+        <item>ஸ்மார்ட் சிப் சார்ஜ் செய்யப்பட்டிருந்தும், கண்டறியப்படவில்லை என்றால், ஃபோனை அதற்கு நெருக்கமாக கொண்டு வரவும். ஃபோனின் ப்ளூடூத்தை மறுதொடக்கம் செய்ய முயலவும்.</item>
+        <item>ப்ளூடூத்தை மறுதொடக்கம் செய்வது சிக்கலைத் தீர்க்கவில்லை என்றால், ஃபோனை மறுதொடக்கம் செய்வதை முயலவும்.</item>
+        <item>ரன்னிங் ஷூக்களின் தரவைத் தட்டி, அடுத்த செயல்பாடு பக்கத்திற்குச் சென்று, தரவைத் தானாகவே ஒத்திசைக்கலாம்</item>
+    </string-array>
+    <string-array name="shoes_help_title">
+        <item>ஸ்மார்ட் சிப்பை அசைக்கவும்</item>
+        <item>பேட்டரி சார்ஜ் ஆகியுள்ளதா?</item>
+        <item>இந்த ஸ்மார்ட் சிப் மற்றொரு சாதனத்துடன் பிணைக்கப்பட்டுள்ளதா?</item>
+        <item>ப்ளூடூத்தை மறுதொடக்கம் செய்க</item>
+        <item>சாதனத்தை மறுதொடக்கம் செய்வதை முயற்சி செய்யவும்</item>
+        <item>தரவை எப்படி ஒத்திசைப்பது?</item>
+    </string-array>
+    <string-array name="show_body_shape_array">
+        <item>பருமன்</item>
+        <item>அதிக எடை</item>
+        <item>தடிமன்</item>
+        <item>"உடற்பயிற்சி
+போதாது"</item>
+        <item>சமநிலை</item>
+        <item>"திடகாத்திரமான
+ தசைகள்"</item>
+        <item>ஒல்லி</item>
+        <item>"சமநிலையில்
+ஒல்லி"</item>
+        <item>"ஒல்லி
+ தசைபிடிப்பு"</item>
+    </string-array>
+    <string-array name="timeline_type">
+        <item>செயல்பாடு</item>
+        <item>மெதுவான நடை</item>
+        <item>நடை</item>
+        <item>வேக நடை</item>
+        <item>ஒட்டம்</item>
+        <item>நிற்பது</item>
+        <item>அமர்ந்திருப்பது</item>
+        <item>எடை செயல்பாடு</item>
+        <item>அணிந்திருக்காத நேரம்</item>
+        <item>மின்னூட்டுகிறது…</item>
+        <item>கீழே படுத்திருப்பது</item>
+    </string-array>
+    <string-array name="train_difficulity">
+        <item>வரம்பில்லை</item>
+        <item>ஆரம்பநிலை, 1</item>
+        <item>இடைநிலை, 2</item>
+        <item>மேம்பட்டநிலை, 3</item>
+    </string-array>
+    <string-array name="unbind_device_description">
+        <item>@string/device_band</item>
+        <item>@string/device_weight</item>
+        <item>@string/device_shoe</item>
+        <item>@string/device_watch</item>
+    </string-array>
+    <string-array name="visceral_fat_leval">
+        <item>இயல்பு</item>
+        <item>அதிகம்</item>
+        <item>மிக அதிகம்</item>
+    </string-array>
+    <string-array name="water_leval">
+        <item>போதுமானது அல்ல</item>
+        <item>இயல்பு</item>
+        <item>நன்று</item>
+    </string-array>
+    <string-array name="wear_type">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+    </string-array>
+    <string-array name="wear_type_body">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="wear_type_chest">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/chest</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>ஞாயி</item>
+        <item>திங்</item>
+        <item>செவ்</item>
+        <item>புத</item>
+        <item>வியா</item>
+        <item>வெள்</item>
+        <item>சனி</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>திங்கட்கிழமை</item>
+        <item>செவ்வாய்க்கிழமை</item>
+        <item>புதன்கிழமை</item>
+        <item>வியாழக்கிழமை</item>
+        <item>வெள்ளிக்கிழமை</item>
+        <item>சனிக்கிழமை</item>
+        <item>ஞாயிற்றுக்கிழமை</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>திங்</item>
+        <item>செவ்</item>
+        <item>புத</item>
+        <item>வியா</item>
+        <item>வெள்</item>
+        <item>சனி</item>
+        <item>ஞாயி</item>
+    </string-array>
+    <string-array name="weight3_body_figures">
+        <item>எடைகுறைவு</item>
+        <item>சமநிலை</item>
+        <item>அதிக எடை</item>
+        <item>பருமன்</item>
+    </string-array>
+    <string-array name="weight_bfs_help_tips">
+        <item>ப்ளூடூத்தை முதலில் அணைக்கவும், பிறகு தற்போதைய சாதனத்துடன் பிணைக்கவும்.</item>
+        <item>உங்கள் எடையைக் காண்பிக்கிறதா என்று பார்க்க, ஸ்கேலின் மேல் நிற்கலாம், அது பேட்டரி ஐகானைக் காண்பித்தால், பேட்டரியை மாற்றவும்.</item>
+        <item>ஸ்கேலின் மேல் நிற்கும்போது, எந்தவொரு மறுவினையும் இல்லையென்றால், பேட்டரி சரியாக நிறுவப்பட்டுள்ளதா என்று சோதிக்கவும்.</item>
+        <item>பேட்டரி சார்ஜ் ஆகிய நிலையிலும், ஃபோனை அதற்கு அருகே கொண்டு வந்த பிறகும் உங்களால் சாதனத்தைக் கண்டறிய முடியவில்லை என்றால், ஃபோனின் ப்ளூடூத்தை மறுதொடக்கம் செய்வதை முயலவும்.</item>
+        <item>ப்ளூடூத்தை மறுதொடக்கம் செய்வது சிக்கலைத் தீர்க்கவில்லை என்றால், ஃபோனை மறுதொடக்கம் செய்வதை முயற்சிக்கவும்.</item>
+    </string-array>
+    <string-array name="weight_bfs_help_title">
+        <item>இந்த ஸ்கேல் மற்றொரு சாதனத்துடன் பிணைக்கப்பட்டுள்ளதா?</item>
+        <item>ஸ்கேலின் பேட்டரியைச் சரிபார்க்கவும்</item>
+        <item>பேட்டரிகள் சரியாக நிறுவப்பட்டுள்ளனவா?</item>
+        <item>ப்ளூடூத்தை மறுதொடக்கம் செய்ய முயலவும்</item>
+        <item>ஃபோனை மறுதொடக்கம் செய்வதை முயற்சி செய்யவும்</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>இயல்பானது</item>
+        <item>அதிக எடை</item>
+        <item>பருமன்</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_not_chinese">
+        <item>எடைகுறைவு</item>
+        <item>இயல்பானது</item>
+        <item>அதிக எடை</item>
+        <item>பருமன் I</item>
+        <item>பருமன் II</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>" கிகி"</item>
+        <item>" jin"</item>
+        <item>" பவுண்ட்"</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+        <item>@string/weight_bfs_unit_jin</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array_no_jin">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+    </string-array>
+</resources>

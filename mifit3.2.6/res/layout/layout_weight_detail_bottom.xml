@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bg_color_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/black20" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="66.69998dip" android:paddingStart="30.0dip" android:paddingEnd="30.0dip">
+        <RelativeLayout android:id="@id/statistic_ll" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginEnd="22.0dip">
+            <ImageView android:id="@id/statistic_iv" android:background="@drawable/statistics_icon_selector" android:layout_width="33.299988dip" android:layout_height="33.299988dip" android:layout_marginTop="11.0dip" android:scaleType="centerInside" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="9.299988sp" android:textColor="@color/black_40_percent" android:id="@id/statistic_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.6999817dip" android:text="@string/statistic" android:layout_below="@id/statistic_iv" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/manual_weight_ll" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginEnd="22.0dip">
+            <ImageView android:id="@id/record_iv" android:layout_width="33.299988dip" android:layout_height="33.299988dip" android:layout_marginTop="11.0dip" android:src="@drawable/edit_alarm_selector" android:scaleType="centerInside" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="9.299988sp" android:textColor="@color/black_40_percent" android:id="@id/record_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.6999817dip" android:text="@string/record_weight" android:layout_below="@id/record_iv" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/holdbaby_weight_ll" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginEnd="22.0dip">
+            <ImageView android:id="@id/holdbaby_iv" android:layout_width="33.299988dip" android:layout_height="33.299988dip" android:layout_marginTop="11.0dip" android:src="@drawable/baby_hold_selector" android:scaleType="centerInside" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="9.299988sp" android:textColor="@color/black_40_percent" android:id="@id/holdbaby_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.6999817dip" android:text="@string/hold_baby_weight" android:layout_below="@id/holdbaby_iv" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/delete_ll" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/delete_iv" android:layout_width="33.299988dip" android:layout_height="33.299988dip" android:layout_marginTop="11.0dip" android:src="@drawable/delete_selector" android:scaleType="centerInside" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="9.299988sp" android:textColor="@color/black_40_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.6999817dip" android:text="@string/delete_weight" android:layout_below="@id/delete_iv" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

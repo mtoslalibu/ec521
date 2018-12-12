@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/contain_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/up_layout" android:layout_width="fill_parent" android:layout_height="292.0dip">
+        <RelativeLayout android:id="@id/no_shape_ll" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="20.699982sp" android:textColor="@color/white90" android:id="@id/cannot_analyze_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cannot_analyze" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/white70" android:gravity="center" android:id="@id/reason_tv" android:paddingTop="9.699982dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/cannot_analyze_tv" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/has_shape_ll" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:id="@id/shape_iv" android:layout_width="48.0dip" android:layout_height="76.0dip" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="20.0sp" android:textColor="@color/black80" android:gravity="center" android:id="@id/shape_type_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_below="@id/shape_iv" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/shape_rl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="42.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="18.0dip">
+        <RelativeLayout android:background="@drawable/body_shape_hor_line_color" android:layout_width="fill_parent" android:layout_height="18.0dip" android:layout_alignBottom="@id/left_line_rl" android:layout_marginStart="7.0dip" android:layout_marginEnd="18.0dip">
+            <ImageView android:background="@drawable/shape_higher_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:text="@string/muscle_rate" android:layout_alignBottom="@id/left_line_rl" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/left_line_rl" android:background="@drawable/body_shape_hor_line_color" android:layout_width="18.0dip" android:layout_height="240.0dip">
+            <ImageView android:background="@drawable/shape_higher_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <ImageView android:background="@drawable/shape_lower_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:gravity="center" android:id="@id/en_radio_tv" android:visibility="gone" android:layout_width="190.0dip" android:layout_height="wrap_content" android:text="@string/body_fat_rate" android:layout_alignBottom="@id/left_line_rl" android:layout_marginStart="1.0dip" android:layout_marginEnd="17.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:id="@id/zh_radio_tv" android:visibility="visible" android:layout_width="11.299988dip" android:layout_height="wrap_content" android:text="@string/body_fat_rate" android:layout_centerVertical="true" android:layout_marginStart="3.0dip" android:layout_alignParentStart="true" />
+        <GridView android:id="@id/gridview" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:listSelector="@null" android:numColumns="3" android:layout_marginStart="18.0dip" android:layout_marginEnd="36.0dip" android:layout_toEndOf="@id/left_line_rl" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/dialog_empty_area" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/report_user_more" android:background="@drawable/dialog_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/report_user_first" android:text="@string/private_message_report_first" style="@style/ReportTopStyle" />
+            <View android:background="@color/black20" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <TextView android:id="@id/report_user_second" android:text="@string/private_message_report_second" style="@style/ReportBaseStyle" />
+            <View android:background="@color/black20" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <TextView android:id="@id/report_user_third" android:text="@string/private_message_report_third" style="@style/ReportBaseStyle" />
+            <View android:background="@color/black20" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <TextView android:id="@id/report_user_forth" android:text="@string/private_message_report_forth" style="@style/ReportBottomStyle" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/report_user_single" android:background="@drawable/dialog_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:text="@string/private_message_report" style="@style/ReportDialogStyle" />
+        </FrameLayout>
+        <FrameLayout android:background="@drawable/dialog_bg" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_marginTop="8.0dip">
+            <TextView android:id="@id/report_user_cancel" android:text="@string/private_message_cancel" style="@style/ReportDialogStyle" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

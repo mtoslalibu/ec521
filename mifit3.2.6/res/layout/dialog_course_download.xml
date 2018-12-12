@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view_other" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/round_rect_white_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textColor="@color/black70" android:gravity="center" android:id="@id/tx_suggest_download" android:padding="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/suggest_download_all_training" />
+        <View android:background="@color/black20" android:layout_width="fill_parent" android:layout_height="@dimen/divider" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/black70" android:gravity="center" android:id="@id/item_download_all" android:padding="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/download_all_training" />
+        <View android:background="@color/black20" android:layout_width="fill_parent" android:layout_height="@dimen/divider" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/black70" android:gravity="center" android:id="@id/item_download_current" android:padding="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/download_current_day_training" />
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/black70" android:gravity="center" android:id="@id/btn_cancel" android:background="@drawable/round_rect_white_bg" android:padding="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/cancel" />
+</LinearLayout>

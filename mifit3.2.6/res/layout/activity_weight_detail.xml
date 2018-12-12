@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.hm.health.view.VerticalScrollView android:background="@color/pale_grey" android:paddingBottom="66.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:background="@color/bg_color_white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/weight_value_ll_picker" android:background="@color/bg_weight_title_color" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/weight_rl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="38.0dip">
+                    <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="58.0sp" android:textColor="@color/white" android:id="@id/weight_value_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/empty_value" android:fontFamily="km" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/unitTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/empty_value" android:layout_alignBaseline="@id/weight_value_tv" android:layout_marginStart="2.0dip" android:layout_toEndOf="@id/weight_value_tv" />
+                </RelativeLayout>
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/bmi_ll" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="12.0sp" android:textColor="@color/white60" android:layout_gravity="center_vertical" android:id="@id/bmi_value_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/empty_value" />
+                    <View android:layout_gravity="center_vertical" android:background="@color/white" android:layout_width="1.0dip" android:layout_height="11.0dip" android:layout_marginStart="6.0dip" />
+                    <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="12.0sp" android:textColor="@color/white60" android:layout_gravity="center_vertical" android:id="@id/bmi_value_tv_shape" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/empty_value" android:layout_marginStart="6.0dip" />
+                </LinearLayout>
+                <RelativeLayout android:gravity="center" android:id="@id/chart_container" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginTop="20.0dip" />
+            </LinearLayout>
+            <com.xiaomi.hm.health.weight.view.WeightLoadingStatus android:id="@id/loading_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <RelativeLayout android:id="@id/user_picker_ll" android:background="@color/bg_weight_title_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/weight_value_ll_picker">
+                <ImageView android:layout_width="16.0dip" android:layout_height="10.0dip" android:src="@drawable/ic_triangle" android:layout_centerHorizontal="true" />
+                <com.xiaomi.hm.health.weight.view.WeightUserQuickPicker android:id="@id/user_picker" android:background="@color/pale_grey_two" android:layout_width="wrap_content" android:layout_height="@dimen/weight_user_picker_content_height" android:layout_marginTop="10.0dip" />
+            </RelativeLayout>
+            <View android:id="@id/line_split1" android:background="@color/black_20_percent" android:layout_width="fill_parent" android:layout_height="@dimen/divider_slp_info" android:layout_below="@id/user_picker_ll" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/weight_navi_rl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_below="@id/line_split1">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="75.0dip" android:layout_weight="1.0">
+                    <com.xiaomi.hm.health.view.UnitTextView android:textSize="24.0sp" android:textColor="@color/black70" android:layout_gravity="center_horizontal" android:id="@id/weight_change_last_uv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:unitSize="9.0sp" app:unitColor="@color/black40" app:typeface="km" />
+                    <com.xiaomi.hm.health.view.HMTextViewDrawable android:textSize="11.0sp" android:textColor="@color/black40" android:layout_gravity="center_horizontal" android:id="@id/weight_change_last_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/compare_to_last_time" android:drawablePadding="4.0dip" android:drawableStart="@drawable/icon_arrow_down" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:isAliganCenter="false" />
+                </LinearLayout>
+                <View android:layout_gravity="center" android:background="@color/divide" android:layout_width="@dimen/divider" android:layout_height="36.0dip" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="75.0dip" android:layout_weight="1.0">
+                    <com.xiaomi.hm.health.view.UnitTextView android:textSize="24.0sp" android:textColor="@color/black70" android:layout_gravity="center_horizontal" android:id="@id/weight_change_mon_uv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:unitSize="9.0sp" app:unitColor="@color/black40" app:typeface="km" />
+                    <com.xiaomi.hm.health.view.HMTextViewDrawable android:textSize="11.0sp" android:textColor="@color/black40" android:layout_gravity="center_horizontal" android:id="@id/weight_change_mon_nav_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bf3_mon_pre_title" android:drawablePadding="4.0dip" android:drawableStart="@drawable/icon_arrow_down" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:isAliganCenter="false" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:id="@id/line_split2" android:background="@color/pale_grey" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_below="@id/weight_navi_rl" />
+            <RelativeLayout android:orientation="vertical" android:id="@id/weight_compare_ll" android:layout_width="fill_parent" android:layout_height="245.0dip" android:layout_below="@id/line_split2">
+                <TextView android:textSize="14.0sp" android:textColor="@color/bf3_list_health" android:id="@id/weight_compare_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="9.0sp" android:textColor="@color/black40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bf3_weight_compare_subtitle" android:layout_below="@id/weight_compare_title" android:layout_centerHorizontal="true" />
+                <RelativeLayout android:id="@id/weight_compare_chart" android:layout_width="fill_parent" android:layout_height="135.0dip" android:layout_marginBottom="18.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" />
+                <View android:background="@color/pale_grey" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/weight_body_type_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/weight_compare_ll">
+                <RelativeLayout android:id="@id/no_bmi_ll" android:background="@color/pale_grey_two" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="156.0dip">
+                    <TextView android:textSize="12.0sp" android:textColor="@color/black20" android:id="@id/no_bmi_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_bmi_for_height" android:drawableTop="@drawable/bf3_baby_error" android:drawablePadding="3.0dip" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:orientation="vertical" android:id="@id/has_bmi_ll" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black_70" android:id="@id/figures_value_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="37.299988dip" android:text="@string/body_figures" android:layout_centerHorizontal="true" />
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/figures_value_tv" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip">
+                        <com.xiaomi.hm.health.baseui.widget.WeightFigureView android:layout_gravity="center" android:id="@id/weight_figure_view" android:layout_width="fill_parent" android:layout_height="fill_parent" weight:type="unmoveable" xmlns:weight="http://schemas.android.com/apk/res-auto" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <View android:background="@color/pale_grey" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.xiaomi.hm.health.view.VerticalScrollView>
+    <include android:id="@id/bottom_layout" android:layout_width="fill_parent" android:layout_height="66.0dip" android:layout_alignParentBottom="true" layout="@layout/layout_weight_detail_bottom" />
+</RelativeLayout>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_day_report_title_rank">
+        <item quantity="other">今天超过了%d%%的用户</item>
+        <item quantity="one">今天超过了%d%%的用户</item>
+        <item quantity="few">今天超过了%d%%的用户</item>
+    </plurals>
+    <plurals name="bf3_compare_last_mon">
+        <item quantity="other">Palyginus su prieš %1$dd.</item>
+        <item quantity="one">Palyginus su prieš %1$dd.</item>
+        <item quantity="few">Palyginus su prieš %1$dd.</item>
+    </plurals>
+    <plurals name="bodyfat_3_health">
+        <item quantity="other">Pasiekta %d tikslų</item>
+        <item quantity="one">Pasiektas %d tikslas</item>
+        <item quantity="few">Pasiekti %d tikslai</item>
+    </plurals>
+    <plurals name="bodyfat_3_need_attention">
+        <item quantity="other">%d elementų reikalauja jūsų dėmesio</item>
+        <item quantity="one">%d elementas reikalauja jūsų dėmesio</item>
+        <item quantity="few">%d elementai reikalauja jūsų dėmesio</item>
+    </plurals>
+    <plurals name="bodyfat_3_not_up_to_standard">
+        <item quantity="other">%d elementų nepasiekė tikslų</item>
+        <item quantity="one">%d elementas nepasiekė tikslo</item>
+        <item quantity="few">%d elementai nepasiekė tikslų</item>
+    </plurals>
+    <plurals name="course_will_start_xdays_after">
+        <item quantity="other">Kursas prasideda po %d dienų</item>
+        <item quantity="one">Kursas prasideda po %d dienos</item>
+        <item quantity="few">Kursas prasideda po %d dienų</item>
+    </plurals>
+    <plurals name="download_time">
+        <item quantity="other">%d atsiuntimų</item>
+        <item quantity="one">%d atsiuntimas</item>
+        <item quantity="few">%d atsiuntimai</item>
+    </plurals>
+    <plurals name="exercise_total_runtimes">
+        <item quantity="other">%1$d veiklų</item>
+        <item quantity="one">%1$d veikla</item>
+        <item quantity="few">%1$d veiklos</item>
+    </plurals>
+    <plurals name="have_finish_x_times_training">
+        <item quantity="other">Atlikta %d treniruočių sesijų</item>
+        <item quantity="one">Atlikta %d treniruočių sesija</item>
+        <item quantity="few">Atliktos %d treniruočių sesijos</item>
+    </plurals>
+    <plurals name="how_many_times">
+        <item quantity="other">%d sesijų</item>
+        <item quantity="one">%d sesija</item>
+        <item quantity="few">%d sesijos</item>
+    </plurals>
+    <plurals name="incoming_call_delay_dialog_alert_tips">
+        <item quantity="other">来电%d秒后提醒我</item>
+        <item quantity="one">来电%d秒后提醒我</item>
+        <item quantity="few">来电%d秒后提醒我</item>
+    </plurals>
+    <plurals name="input_out_of_max">
+        <item quantity="other">Įveskite iki %d simbolių</item>
+        <item quantity="one">Įveskite iki %d simbolio</item>
+        <item quantity="few">Įveskite iki %d simbolių</item>
+    </plurals>
+    <plurals name="message_center_hour">
+        <item quantity="other">%d hours ago</item>
+        <item quantity="one">%d hour ago</item>
+        <item quantity="few">%d hours ago</item>
+    </plurals>
+    <plurals name="message_center_minute">
+        <item quantity="other">%d minutes ago</item>
+        <item quantity="one">%d minute ago</item>
+        <item quantity="few">%d minutes ago</item>
+    </plurals>
+    <plurals name="mili_setting_last_charge">
+        <item quantity="other">%dd. nuo paskutinio įkrovimo</item>
+        <item quantity="one">%dd. nuo paskutinio įkrovimo</item>
+        <item quantity="few">%dd. nuo paskutinio įkrovimo</item>
+    </plurals>
+    <plurals name="next_rest_time">
+        <item quantity="other">%d\"</item>
+        <item quantity="one">%d\"</item>
+        <item quantity="few">%d\"</item>
+    </plurals>
+    <plurals name="next_rest_time_seconds">
+        <item quantity="other">%d秒</item>
+        <item quantity="one">%d秒</item>
+        <item quantity="few">%d秒</item>
+    </plurals>
+    <plurals name="numberFoot">
+        <item quantity="other">%s pėdų</item>
+        <item quantity="one">%s pėda</item>
+        <item quantity="few">%s pėdos</item>
+    </plurals>
+    <plurals name="numberInch">
+        <item quantity="other">%s colių</item>
+        <item quantity="one">%s colis</item>
+        <item quantity="few">%s coliai</item>
+    </plurals>
+    <plurals name="people_attended">
+        <item quantity="other">%d dalyvių</item>
+        <item quantity="one">%d dalyvis</item>
+        <item quantity="few">%d dalyviai</item>
+    </plurals>
+    <plurals name="picker_number_of_items_selected">
+        <item quantity="other">Pasirinkta %1$d elementų</item>
+        <item quantity="one">Pasirinktas %1$d elementas</item>
+        <item quantity="few">Pasirinkti %1$d elementai</item>
+    </plurals>
+    <plurals name="run_insurance_remain_time_day">
+        <item quantity="other">跑步险剩余时间不足%1$d天, 点击续保</item>
+        <item quantity="one">跑步险剩余时间不足%1$d天, 点击续保</item>
+        <item quantity="few">跑步险剩余时间不足%1$d天, 点击续保</item>
+    </plurals>
+    <plurals name="running_history_record_sync_fail_unsync_count">
+        <item quantity="other">还有%d条数据未同步</item>
+        <item quantity="one">还有%d条数据未同步</item>
+        <item quantity="few">还有%d条数据未同步</item>
+    </plurals>
+    <plurals name="running_history_record_unsync_count">
+        <item quantity="other">你有%d条数据未同步</item>
+        <item quantity="one">你有%d条数据未同步</item>
+        <item quantity="few">你有%d条数据未同步</item>
+    </plurals>
+    <plurals name="running_record_cycle_times">
+        <item quantity="other">骑行 %1$d次</item>
+        <item quantity="one">骑行 %1$d次</item>
+        <item quantity="few">骑行 %1$d次</item>
+    </plurals>
+    <plurals name="running_record_elli_times">
+        <item quantity="other">椭圆机 %1$d次</item>
+        <item quantity="one">椭圆机 %1$d次</item>
+        <item quantity="few">椭圆机 %1$d次</item>
+    </plurals>
+    <plurals name="running_record_run_times">
+        <item quantity="other">跑步 %1$d次</item>
+        <item quantity="one">跑步 %1$d次</item>
+        <item quantity="few">跑步 %1$d次</item>
+    </plurals>
+    <plurals name="running_record_training_times">
+        <item quantity="other">训练 %1$d次</item>
+        <item quantity="one">训练 %1$d次</item>
+        <item quantity="few">训练 %1$d次</item>
+    </plurals>
+    <plurals name="running_record_walk_times">
+        <item quantity="other">健走 %1$d次</item>
+        <item quantity="one">健走 %1$d次</item>
+        <item quantity="few">健走 %1$d次</item>
+    </plurals>
+    <plurals name="running_record_workout_times">
+        <item quantity="other">锻炼 %1$d次</item>
+        <item quantity="one">锻炼 %1$d次</item>
+        <item quantity="few">锻炼 %1$d次</item>
+    </plurals>
+    <plurals name="share_continue_max_day">
+        <item quantity="other">个人最高纪录%d天</item>
+        <item quantity="one">个人最高纪录%d天</item>
+        <item quantity="few">个人最高纪录%d天</item>
+    </plurals>
+    <plurals name="share_step_rank">
+        <item quantity="other">超过%d%%的用户</item>
+        <item quantity="one">超过%d%%的用户</item>
+        <item quantity="few">超过%d%%的用户</item>
+    </plurals>
+    <plurals name="sleep_3_goal_title">
+        <item quantity="other">比%d%%的用户睡得香</item>
+        <item quantity="one">比%d%%的用户睡得香</item>
+        <item quantity="few">比%d%%的用户睡得香</item>
+    </plurals>
+    <plurals name="start_train_after_x_day">
+        <item quantity="other">Prasideda po %s dienų</item>
+        <item quantity="one">Prasideda po %s dienos</item>
+        <item quantity="few">Prasideda po %s dienų</item>
+    </plurals>
+    <plurals name="step_3_fr_header_rate_compare">
+        <item quantity="other">超过了%d%%的用户</item>
+        <item quantity="one">超过了%d%%的用户</item>
+        <item quantity="few">超过了%d%%的用户</item>
+    </plurals>
+    <plurals name="step_top_goal">
+        <item quantity="other">个人最高纪录%d天</item>
+        <item quantity="one">个人最高纪录%d天</item>
+        <item quantity="few">个人最高纪录%d天</item>
+    </plurals>
+    <plurals name="total_record_data">
+        <item quantity="other">共记录%d天, 累计</item>
+        <item quantity="one">共记录%d天, 累计</item>
+        <item quantity="few">共记录%d天, 累计</item>
+    </plurals>
+    <plurals name="train_day_format">
+        <item quantity="other">Paskutinė treniruotė: prieš %d dienų</item>
+        <item quantity="one">Paskutinė treniruotė: prieš %d dieną</item>
+        <item quantity="few">Paskutinė treniruotė: prieš %d dienas</item>
+    </plurals>
+    <plurals name="training_consume_time_min">
+        <item quantity="other">已训练 %1$d 分钟</item>
+        <item quantity="one">已训练 %1$d 分钟</item>
+        <item quantity="few">已训练 %1$d 分钟</item>
+    </plurals>
+    <plurals name="training_consume_time_sec">
+        <item quantity="other">已训练 %1$d 秒</item>
+        <item quantity="one">已训练 %1$d 秒</item>
+        <item quantity="few">已训练 %1$d 秒</item>
+    </plurals>
+    <plurals name="training_notify_content">
+        <item quantity="other">Jūs jau treniruojatės %1$d d. Atlikite dar %3$s pratimų, kurių trukmė %2$dm.</item>
+        <item quantity="one">Jūs jau treniruojatės %1$d d. Atlikite dar %3$s pratimą, kurio trukmė %2$dm.</item>
+        <item quantity="few">Jūs jau treniruojatės %1$d d. Atlikite dar %3$s pratimus, kurių trukmė %2$dm.</item>
+    </plurals>
+    <plurals name="training_playing_title_time">
+        <item quantity="other"> %1$d  sek.</item>
+        <item quantity="one"> %1$d  sek.</item>
+        <item quantity="few"> %1$d  sek.</item>
+    </plurals>
+    <plurals name="training_playing_title_times">
+        <item quantity="other"> %1$d  kartų</item>
+        <item quantity="one"> %1$d  kartą</item>
+        <item quantity="few"> %1$d  kartus</item>
+    </plurals>
+    <plurals name="training_rest_interval_time">
+        <item quantity="other">休息 %1$d 秒</item>
+        <item quantity="one">休息 %1$d 秒</item>
+        <item quantity="few">休息 %1$d 秒</item>
+    </plurals>
+    <plurals name="with_minute_time">
+        <item quantity="other">%d分钟</item>
+        <item quantity="one">%d分钟</item>
+        <item quantity="few">%d分钟</item>
+    </plurals>
+    <plurals name="with_unit_times">
+        <item quantity="other">%d次</item>
+        <item quantity="one">%d次</item>
+        <item quantity="few">%d次</item>
+    </plurals>
+</resources>

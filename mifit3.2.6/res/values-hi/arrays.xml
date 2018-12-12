@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="avoid_type">
+        <item>@string/state_close</item>
+        <item>@string/avoid_enable_smart</item>
+        <item>@string/avoid_enable_time</item>
+    </string-array>
+    <string-array name="avoid_type_sub">
+        <item></item>
+        <item>@string/avoid_enable_smart_sub</item>
+        <item>@string/avoid_enable_time_sub</item>
+    </string-array>
+    <string-array name="bmi_for_adualt">
+        <item>कम</item>
+        <item>सामान्य</item>
+        <item>उच्च</item>
+        <item>बहुत ही ज्यादा</item>
+    </string-array>
+    <string-array name="bmi_for_child">
+        <item>सामान्य</item>
+        <item>उच्च</item>
+        <item>बहुत ही ज्यादा</item>
+    </string-array>
+    <string-array name="bmi_for_not_chinese">
+        <item>कम</item>
+        <item>सामान्य</item>
+        <item>बढ़ा हुआ</item>
+        <item>उच्च</item>
+        <item>बहुत ही ज्यादा</item>
+    </string-array>
+    <string-array name="body_score_leval">
+        <item>बहुत ख़राब</item>
+        <item>ख़राब</item>
+        <item>सामान्य</item>
+        <item>अच्छा</item>
+        <item>उत्कृष्ट</item>
+    </string-array>
+    <string-array name="body_shape_type_array">
+        <item>पतला</item>
+        <item>संतुलित पतला</item>
+        <item>पतली पेशी</item>
+        <item>व्यायाम का अभाव</item>
+        <item>संतुलित</item>
+        <item>संतुलित मांसल</item>
+        <item>मोटापा</item>
+        <item>अधिक वज़न</item>
+        <item>गठीला</item>
+    </string-array>
+    <string-array name="bodyfat_content_leval">
+        <item>बहुत कम</item>
+        <item>कम</item>
+        <item>सामान्य</item>
+        <item>बढ़ा हुआ</item>
+        <item>उच्च</item>
+    </string-array>
+    <string-array name="bone_leval">
+        <item>अपर्याप्त</item>
+        <item>सामान्य</item>
+        <item>अच्छा</item>
+    </string-array>
+    <string-array name="brm_leval">
+        <item>लक्ष्य पूरा नहीं कर पाएं</item>
+        <item>लक्ष्य पूरा हुआ</item>
+    </string-array>
+    <string-array name="chaohu_help_tips">
+        <item>घड़ी में मौजूद बटन को दबाकर देखें, यदि घड़ी का स्क्रीन बंद है, तो उसकी बैटरी चार्ज करने के लिए उसे प्लग में लगाएं.</item>
+        <item>पहले ब्लूटूथ बंद करें, और तब वर्तमान डिवाइस के साथ पेयर करें.</item>
+        <item>यदि बैंड को चार्ज किया गया है, लेकिन फ़ोन इसे देख नहीं पा रहा है, तो फ़ोन के ब्लुटूथ को पुनः प्रारंभ करके देखें.</item>
+        <item>यदि ब्लुटूथ को पुनः प्रारंभ करने से समस्या का हल नहीं होता है, तो अपने फ़ोन को रीबूट करके देखें.</item>
+        <item>कसरत कराते समय घड़ी का डेटा सिंक नहीं किया जा सकता. सत्र समाप्त करें और पुनः प्रयास करें.</item>
+    </string-array>
+    <string-array name="chaohu_help_title">
+        <item>क्या आपकी घड़ी को चार्ज किय गया था?</item>
+        <item>क्या यह घड़ी किसी अन्य डिवाइस के साथ पेयर किया हुआ है?</item>
+        <item>ब्लूटूथ को पुनः प्रारंभ करके देखें</item>
+        <item>अपने फ़ोन को रीबूट करके देखें</item>
+        <item>कसरत कराते समय डेटा सिंक नहीं किया जा सकता</item>
+    </string-array>
+    <string-array name="chaohu_setting_run_types">
+        <item>@string/chaohu_setting_run_outdoor</item>
+        <item>@string/chaohu_setting_run_indoor</item>
+        <item>@string/chaohu_setting_run_ride</item>
+        <item>@string/chaohu_setting_run_walk</item>
+    </string-array>
+    <string-array name="colors">
+        <item>@string/blue</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/red</item>
+    </string-array>
+    <string-array name="common_cities">
+        <item>गुआंगज़ौ</item>
+        <item>शेन्ज़ेन</item>
+        <item>फोशान</item>
+        <item>डॉग्यान</item>
+        <item>बीजिंग</item>
+        <item>नानजिंग</item>
+        <item>सूज़ौ</item>
+        <item>सैंगशो</item>
+        <item>जिनान</item>
+        <item>क़िंगदाओ</item>
+        <item>हांग्जो</item>
+        <item>निंग्बो</item>
+        <item>झेंग्झौ</item>
+        <item>कैफेंग</item>
+        <item>शंघाई</item>
+        <item>शीज़ीयाज़ूआंग</item>
+        <item>बाओडिंग</item>
+        <item>चेंग्दू</item>
+        <item>मियानयंग</item>
+        <item>शेन्यांग</item>
+        <item>डेलियन</item>
+    </string-array>
+    <string-array name="difficulty_content">
+        <item>स्वास्थ्य प्रशिक्षण के लिए नए हाथ</item>
+        <item>बुनियादी स्वास्थ्य अनुभव था</item>
+        <item>बढ़िया स्वास्थ्य अनुभव रहा है और अच्छा आकार पा लिया था</item>
+    </string-array>
+    <string-array name="difficulty_title">
+        <item>प्राथमिक</item>
+        <item>मध्यवर्ती</item>
+        <item>उन्नत</item>
+    </string-array>
+    <string-array name="fitness_goal_content">
+        <item>वसा घटाने का लक्ष्य है</item>
+        <item>शरीर को आकार में लाने का लक्ष्य है</item>
+        <item>मांसपेशियां बनाने का लक्ष्य है</item>
+    </string-array>
+    <string-array name="fitness_goal_title">
+        <item>काटना</item>
+        <item>आकार देना</item>
+        <item>फूलना</item>
+    </string-array>
+    <string-array name="ges_screen_type">
+        <item>@string/ges_screen_type_all_day</item>
+        <item>@string/ges_screen_type_time</item>
+        <item>@string/ges_screen_type_close</item>
+    </string-array>
+    <string-array name="hr_section">
+        <item>@string/hr_section_warm_up</item>
+        <item>@string/hr_section_fat_burn</item>
+        <item>@string/hr_section_heart_lung_strengthen</item>
+        <item>@string/hr_section_stamina_strengthen</item>
+        <item>@string/hr_section_anaerobic_limit</item>
+        <item>@string/hr_section_other</item>
+    </string-array>
+    <string-array name="hr_sport">
+        <item>हृदय गति क्षेत्र: हल्का</item>
+        <item>हृदय गति क्षेत्र: वज़न</item>
+        <item>हृदय गति क्षेत्र: ऐरोबिक</item>
+        <item>हृदय गति क्षेत्र: ऐनेरोबिक</item>
+        <item>हृदय गति क्षेत्र: VO₂ अधिकतम</item>
+    </string-array>
+    <string-array name="hr_sport_new">
+        <item>हल्का</item>
+        <item>वज़न</item>
+        <item>एरोबिक</item>
+        <item>ऐनाएरोबिक</item>
+        <item>VO₂ मैक्स</item>
+    </string-array>
+    <string-array name="lock_screen_type">
+        <item>बंद करें</item>
+        <item>पास</item>
+        <item>दूर</item>
+    </string-array>
+    <string-array name="member_add_weight_items">
+        <item>@string/member_add_weight_item_auto</item>
+        <item>@string/member_add_weight_item_manual</item>
+    </string-array>
+    <string-array name="mili_help_tips">
+        <item>"Mi बैंड 2 या अन्य बैंड्स को पेयर करने से पहले डिवाइस को चार्ज किया गया है या नहीं, यह देखने के लिए बैंड को टैप करें.
+
+Mi बैंड या Mi बैंड पल्स पेयर करने से पहले बैंड को चार्ज करें."</item>
+        <item>पहले ब्लूटूथ बंद करें, और तब वर्तमान डिवाइस के साथ पेयर करें.</item>
+        <item>यदि बैंड को चार्ज किया गया है, लेकिन फ़ोन इसे देख नहीं पा रहा है, तो फ़ोन के ब्लुटूथ को पुनः प्रारंभ करके देखें.</item>
+        <item>यदि ब्लुटूथ को पुनः प्रारंभ करने से समस्या का हल नहीं होता है, तो फ़ोन को रीबूट करके देखें.</item>
+    </string-array>
+    <string-array name="mili_help_title">
+        <item>क्या आपका बैंड चार्ज है?</item>
+        <item>क्या यह बैंड किसी अन्य डिवाइस के साथ पेयर किया हुआ है?</item>
+        <item>ब्लूटूथ को पुनः प्रारंभ करके देखें</item>
+        <item>अपने फ़ोन को रीबूट करके देखें</item>
+    </string-array>
+    <string-array name="mili_pro_display_items">
+        <item>समय</item>
+        <item>कदम</item>
+        <item>दूरी</item>
+        <item>कैलोरी</item>
+        <item>हृदय गति</item>
+        <item>बैटरी</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>जन</item>
+        <item>फ़र</item>
+        <item>मार्च</item>
+        <item>अप्रैल</item>
+        <item>मई</item>
+        <item>जून</item>
+        <item>जुल</item>
+        <item>अग</item>
+        <item>सितं</item>
+        <item>अक्टू</item>
+        <item>नवं</item>
+        <item>दिसं</item>
+    </string-array>
+    <string-array name="muscle_content_leval">
+        <item>अपर्याप्त</item>
+        <item>सामान्य</item>
+        <item>अच्छा</item>
+    </string-array>
+    <string-array name="ring_types">
+        <item>@string/ring_type_default</item>
+        <item>@string/ring_type_incall</item>
+    </string-array>
+    <string-array name="running_months">
+        <item>जन</item>
+        <item>फ़र</item>
+        <item>मार्च</item>
+        <item>अप्रैल</item>
+        <item>मई</item>
+        <item>जून</item>
+        <item>जुल</item>
+        <item>अग</item>
+        <item>सितं</item>
+        <item>अक्टू</item>
+        <item>नवं</item>
+        <item>दिसं</item>
+    </string-array>
+    <string-array name="setting_hr_freq_types">
+        <item>@string/setting_heartrate_detect_freq_1</item>
+        <item>@string/setting_heartrate_detect_freq_10</item>
+        <item>@string/setting_heartrate_detect_freq_30</item>
+    </string-array>
+    <string-array name="setting_hr_types">
+        <item>@string/setting_heartrate_detect_auto</item>
+        <item>@string/setting_heartrate_detect_sleep</item>
+        <item>@string/setting_heartrate_detect_close</item>
+    </string-array>
+    <string-array name="setting_peyto_apps_array">
+        <item>घड़ी का चेहरा</item>
+        <item>स्थिति</item>
+        <item>गतिविधियां</item>
+        <item>मौसम</item>
+        <item>अलार्म</item>
+        <item>टाइमर</item>
+        <item>कंपास</item>
+        <item>और सेटिंग्स</item>
+    </string-array>
+    <string-array name="setting_tempo_apps_array">
+        <item>घड़ी का चेहरा</item>
+        <item>स्थिति</item>
+        <item>सूचनाएंं</item>
+        <item>गतिविधियां</item>
+        <item>मौसम</item>
+        <item>अलार्म</item>
+        <item>टाइमर</item>
+        <item>सेटिंग</item>
+    </string-array>
+    <string-array name="setting_weather_temp_unit_array">
+        <item>@string/setting_weather_temp_c</item>
+        <item>@string/setting_weather_temp_f</item>
+    </string-array>
+    <string-array name="shoes_help_tips">
+        <item>स्मार्ट चिप को अगर लंबे समय तक उपयोग नहीं किया जाता है, तो वह काम करना बंद कर देगा. उसे हिलाएं और पुनः प्रयास करें</item>
+        <item>Amazfit स्मार्ट चिप का बैटरी जीवन 1 वर्ष है. यदि आप इसका उपयोग बहुत समय से कर रहे हैं, तो शायद इसकी बैटरी खत्म हो गई हो.</item>
+        <item>पहले ब्लूटूथ बंद करें, और तब वर्तमान डिवाइस के साथ पेयर करें.</item>
+        <item>यदि स्मार्ट चिप को चार्ज किया गया है, लेकिन उसे फ़ोन के पास लाने पर उसका पता नहीं लग पा रहा हो, तो फ़ोन के ब्लुटूथ को रीबूट करके देखें.</item>
+        <item>यदि ब्लुटूथ को पुनः प्रारंभ करने से समस्या का हल नहीं होता है, तो फ़ोन को रीबूट करके देखें.</item>
+        <item>रनिंग जूते डेटा पर टैप करें और डेटा स्वतः सिंक करने के लिए अगली गतिविधि पृष्ठ में प्रवेश करें</item>
+    </string-array>
+    <string-array name="shoes_help_title">
+        <item>स्मार्ट चिप को हिलाएं</item>
+        <item>क्या बैटरी चार्ज की गई है?</item>
+        <item>क्या यह स्मार्ट चिप किसी अन्य डिवाइस के साथ पेयर किया हुआ है?</item>
+        <item>ब्लूटूथ पुन: प्रारंभ करें</item>
+        <item>अपने फ़ोन को रीबूट करके देखें</item>
+        <item>डेटा कैसे सिंक करें?</item>
+    </string-array>
+    <string-array name="show_body_shape_array">
+        <item>मोटापा</item>
+        <item>अधिक वज़न</item>
+        <item>गठीला</item>
+        <item>"व्यायाम का
+अभाव"</item>
+        <item>संतुलित</item>
+        <item>"संतुलित
+मांसल"</item>
+        <item>पतला</item>
+        <item>"संतुलित
+पतला"</item>
+        <item>"पतला
+मांसल"</item>
+    </string-array>
+    <string-array name="timeline_type">
+        <item>गतिविधि</item>
+        <item>धीमी गति से चलना</item>
+        <item>पैदल चलना</item>
+        <item>तेज चलना</item>
+        <item>दौड़ना</item>
+        <item>खड़े रहना</item>
+        <item>बैठे रहना</item>
+        <item>हल्की गतिविधि</item>
+        <item>नहीं पहना है</item>
+        <item>चार्ज हो रहा है...</item>
+        <item>लेटे रहना</item>
+    </string-array>
+    <string-array name="train_difficulity">
+        <item>सीमित नहीं</item>
+        <item>प्राथमिक, 1</item>
+        <item>मध्यवर्ती, 2</item>
+        <item>उन्नत, 3</item>
+    </string-array>
+    <string-array name="unbind_device_description">
+        <item>@string/device_band</item>
+        <item>@string/device_weight</item>
+        <item>@string/device_shoe</item>
+        <item>@string/device_watch</item>
+    </string-array>
+    <string-array name="visceral_fat_leval">
+        <item>सामान्य</item>
+        <item>उच्च</item>
+        <item>बहुत ही ज्यादा</item>
+    </string-array>
+    <string-array name="water_leval">
+        <item>अपर्याप्त</item>
+        <item>सामान्य</item>
+        <item>अच्छा</item>
+    </string-array>
+    <string-array name="wear_type">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+    </string-array>
+    <string-array name="wear_type_body">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="wear_type_chest">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/chest</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>रवि</item>
+        <item>सोम</item>
+        <item>मंगल</item>
+        <item>बुध</item>
+        <item>गुरू</item>
+        <item>शुक्र</item>
+        <item>शनि</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>सोमवार</item>
+        <item>मंगलवार</item>
+        <item>बुधवार</item>
+        <item>गुरुवार</item>
+        <item>शुक्रवार</item>
+        <item>शनिवार</item>
+        <item>रविवार</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>सोम</item>
+        <item>मंगल</item>
+        <item>बुध</item>
+        <item>गुरू</item>
+        <item>शुक्र</item>
+        <item>शनि</item>
+        <item>रवि</item>
+    </string-array>
+    <string-array name="weight3_body_figures">
+        <item>कम वजन</item>
+        <item>संतुलित</item>
+        <item>अधिक वज़न</item>
+        <item>मोटापा</item>
+    </string-array>
+    <string-array name="weight_bfs_help_tips">
+        <item>पहले ब्लूटूथ बंद करें, और तब वर्तमान डिवाइस के साथ पेयर करें.</item>
+        <item>यह देखने के लिए स्केल के ऊपर चढ़ें कि वह आपका वजन दिखा रहा है या नहीं. यदि वह बैटरी आइकन दिखाता है, तो बैटरियां बदलें.</item>
+        <item>यदि स्केल पर चढ़ने के बाद कोई प्रतिक्रिया नहीं मिल रही है, तो इसकी जांच करें कि बैटरियां सही तरीके से इंस्टॉल किया गया है या नहीं.</item>
+        <item>यदि बैटरी को चार्ज किया गया है, पर फ़ोन को डिवाइस के पास लाने के बावजूद आप डिवाइस को नहीं ढूंढ़ पा रहे हैं, तो फ़ोन के ब्लुटूथ को पुनःप्रारंभ करके देखें.</item>
+        <item>यदि ब्लुटूथ को पुनः प्रारंभ करने से समस्या का हल नहीं होता है, तो अपने फ़ोन को रीबूट करके देखें.</item>
+    </string-array>
+    <string-array name="weight_bfs_help_title">
+        <item>क्या यह स्केल किसी अन्य डिवाइस के साथ पेयर किया हुआ है?</item>
+        <item>स्केल की बैटरी जांचें</item>
+        <item>क्या बैटरियां सही तरीके से इंस्टॉल की गई हैं?</item>
+        <item>ब्लूटूथ को पुनः प्रारंभ करके देखें</item>
+        <item>अपने फ़ोन को रीबूट करके देखें</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>सामान्य</item>
+        <item>अधिक वज़न</item>
+        <item>मोटापा</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_not_chinese">
+        <item>कम वजन</item>
+        <item>सामान्य</item>
+        <item>अधिक वज़न</item>
+        <item>मोटापा I</item>
+        <item>मोटापा II</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>" किग्रा"</item>
+        <item>" जिन"</item>
+        <item>"  lbs"</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+        <item>@string/weight_bfs_unit_jin</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array_no_jin">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+    </string-array>
+</resources>

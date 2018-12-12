@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_view" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/summary_header" android:background="@color/training_summary_bg_end_color" android:layout_width="fill_parent" android:layout_height="@dimen/training_summary_header_height" />
+    <LinearLayout android:orientation="vertical" android:id="@id/summary_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/summary_content_layout" android:layout_width="fill_parent" android:layout_height="360.0dip">
+            <RelativeLayout android:orientation="vertical" android:id="@id/summary_detail_layout" android:background="@drawable/training_brief_summary_content_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/training_brief_summary_content" android:layout_centerHorizontal="true" />
+                <RelativeLayout android:id="@id/training_title_info" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="24.0sp" android:textColor="@color/white100" android:id="@id/training_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:layout_centerHorizontal="true" />
+                    <TextView android:textSize="24.0sp" android:textColor="@color/white100" android:id="@id/training_times" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_below="@id/training_name" android:layout_centerHorizontal="true" />
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_below="@id/training_times" android:layout_centerHorizontal="true">
+                        <ImageView android:id="@id/training_device_logo" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/ic_share_mifit_logo" />
+                        <TextView android:textSize="9.599976sp" android:textColor="@color/white80" android:id="@id/training_device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/MiFit" android:layout_marginStart="4.299988dip" />
+                        <TextView android:textSize="9.599976sp" android:textColor="@color/white80" android:id="@id/training_start_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6.799988dip" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/training_detail_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" android:layout_below="@id/training_title_info">
+                    <LinearLayout style="@style/TrainingSummaryItem">
+                        <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:id="@id/training_time" style="@style/TrainingSummaryItemValue" />
+                        <TextView android:text="@string/cost_time" style="@style/TrainingSummaryItemTitle" />
+                    </LinearLayout>
+                    <LinearLayout style="@style/TrainingSummaryItem">
+                        <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:id="@id/training_action_count" style="@style/TrainingSummaryItemValue" />
+                        <TextView android:text="@string/action" style="@style/TrainingSummaryItemTitle" />
+                    </LinearLayout>
+                    <LinearLayout style="@style/TrainingSummaryItem">
+                        <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:id="@id/training_burn" style="@style/TrainingSummaryItemValue" />
+                        <TextView android:text="@string/cal_with_unit" style="@style/TrainingSummaryItemTitle" />
+                    </LinearLayout>
+                </LinearLayout>
+                <com.huami.ad.view.TextLinkAdView android:id="@id/ad_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_below="@id/training_detail_info" android:layout_centerHorizontal="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:textColor="@color/white70" app:badgeColor="@color/white70" app:hasUnderline="true" />
+            </RelativeLayout>
+            <ImageView android:id="@id/watermark" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/share_finish_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:background="@drawable/ico_successful" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/black80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="130.0dip" android:text="@string/share_success" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip">
+                    <View android:layout_gravity="center_vertical" android:background="#ff4c4c4c" android:layout_width="0.0dip" android:layout_height="0.30000007dip" android:layout_weight="1.0" />
+                    <TextView android:textSize="13.0sp" android:textColor="@color/black80" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_continue_to" />
+                    <View android:layout_gravity="center_vertical" android:background="#ff4c4c4c" android:layout_width="0.0dip" android:layout_height="0.30000007dip" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <RelativeLayout android:id="@id/oper_circle_share_layout" android:background="@color/grayWithe100" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/share_pane_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" />
+            <RelativeLayout android:id="@id/only_share_to_circle_layout" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:layout_marginBottom="26.0dip" android:layout_alignParentTop="true">
+                <ImageView android:id="@id/take_photo" android:background="@drawable/icon_summary_camera" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_marginStart="6.0dip" android:layout_marginEnd="36.0dip" android:layout_alignParentEnd="true" />
+                <View android:id="@id/input_divide_line" android:background="@color/training_summary_input_line" android:layout_width="fill_parent" android:layout_height="0.30000007dip" android:layout_marginTop="30.0dip" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" />
+                <Button android:textSize="13.0sp" android:textColor="@color/black80" android:id="@id/share_to_circle_btn" android:background="@drawable/click_btn_bg_3" android:layout_width="fill_parent" android:layout_height="40.69998dip" android:text="@string/share_to_mi_circle" android:layout_alignParentBottom="true" android:textAllCaps="false" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" style="?android:attr/borderlessButtonStyle" />
+                <EditText android:textSize="14.0sp" android:textColor="@color/black80" android:textColorHint="@color/black30" android:gravity="start|center|top" android:id="@id/circle_content" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="6.0dip" android:layout_marginBottom="26.0dip" android:hint="@string/share_to_mi_circle_content_hint" android:drawablePadding="4.0dip" android:layout_above="@id/share_to_circle_btn" android:layout_alignTop="@id/take_photo" android:drawableStart="@drawable/ico_pen" android:layout_marginStart="36.0dip" android:layout_marginEnd="4.0dip" android:layout_toStartOf="@id/take_photo" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/summary_close_btn" android:layout_width="26.899994dip" android:layout_height="26.899994dip" android:layout_marginTop="6.899994dip" android:src="@drawable/icon_close_summary" android:layout_marginEnd="13.399994dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/dialog_container" android:background="@drawable/dialog_bg" android:layout_width="300.0dip" android:layout_height="wrap_content">
+        <TextView android:textSize="15.0sp" android:textColor="@color/black70" android:layout_gravity="center_horizontal" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:layout_gravity="center_horizontal" android:id="@id/tips_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+        <View android:background="@color/black20" android:layout_width="fill_parent" android:layout_height="@dimen/divider" android:layout_marginTop="7.0dip" />
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/peyto_container" android:layout_width="136.0dip" android:layout_height="233.0dip" android:layout_marginTop="25.0dip">
+            <ImageView android:layout_width="136.0dip" android:layout_height="233.0dip" android:src="@drawable/img_amazfit_watch_bg" />
+            <com.xiaomi.hm.health.view.GifMovieView android:id="@id/gif_view" android:background="@color/black20" android:visibility="gone" android:layout_width="87.0dip" android:layout_height="87.0dip" android:layout_marginTop="69.0dip" android:layout_marginStart="21.0dip" />
+            <ImageView android:id="@id/thumbnail_img" android:background="@color/black20" android:layout_width="87.0dip" android:layout_height="87.0dip" android:layout_marginTop="69.0dip" android:scaleType="fitXY" android:layout_marginStart="21.0dip" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/tempo_container" android:visibility="gone" android:layout_width="90.0dip" android:layout_height="157.0dip" android:layout_marginTop="29.0dip">
+            <ImageView android:layout_width="90.0dip" android:layout_height="157.0dip" android:src="@drawable/img_temp_bg" />
+            <com.xiaomi.hm.health.view.GifMovieView android:layout_gravity="center_horizontal" android:id="@id/tempo_gif_view" android:background="@color/black20" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="80.0dip" android:layout_marginTop="34.0dip" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/tempo_thumbnail_img" android:background="@color/black20" android:layout_width="40.0dip" android:layout_height="80.0dip" android:layout_marginTop="34.0dip" android:scaleType="fitXY" />
+        </FrameLayout>
+        <TextView android:textSize="12.0sp" android:textColor="@color/black60" android:layout_gravity="center_horizontal" android:id="@id/error_tips_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+        <com.xiaomi.hm.health.device.watch_skin.WatchSkinProgressView android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="52.0dip" />
+    </LinearLayout>
+</FrameLayout>

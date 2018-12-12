@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/null_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_no_alarm" />
+                    <TextView android:textSize="14.699982sp" android:textColor="@color/black10" android:gravity="center" android:id="@id/null_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.699982dip" android:text="@string/alarm_null_data_tip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/alarm_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <RelativeLayout android:id="@id/alarm_tip_rl" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="42.0dip">
+                        <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:id="@id/alarm_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="7.299988dip" android:text="@string/miband_tips" android:layout_marginStart="@dimen/common_item_padding" android:layout_marginEnd="@dimen/common_item_padding" />
+                        <View android:background="@color/divide" android:layout_width="fill_parent" android:layout_height="@dimen/divider" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/common_item_padding" android:layout_marginEnd="@dimen/common_item_padding" />
+                    </RelativeLayout>
+                    <android.support.v7.widget.RecyclerView android:id="@id/alarm_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+                    <View android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                </LinearLayout>
+            </FrameLayout>
+            <RelativeLayout android:layout_gravity="bottom" android:background="@color/white" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/chart_bottom_bar_height">
+                <View android:background="@color/divide" android:layout_width="fill_parent" android:layout_height="@dimen/divider" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/alarm_edit_parent" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <TextView android:textSize="9.0sp" android:textColor="@color/black40" android:gravity="center" android:id="@id/alarm_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit" android:drawableTop="@drawable/edit_alarm_selector" android:drawablePadding="3.0dip" />
+                    <TextView android:textSize="9.0sp" android:textColor="@color/black40" android:gravity="center" android:id="@id/alarm_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/smart_alarm_add" android:drawableTop="@drawable/btn_add_family_selector" android:drawablePadding="3.0dip" android:layout_marginStart="50.0dip" />
+                </LinearLayout>
+                <TextView android:textSize="9.299988sp" android:textColor="@color/black40" android:gravity="center" android:id="@id/alarm_done" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/smart_alarm_done" android:drawableTop="@drawable/smart_alarm_done" android:drawablePadding="4.6999817dip" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <View android:layout_gravity="bottom" android:id="@id/mask_view" android:background="#77f7f7f7" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

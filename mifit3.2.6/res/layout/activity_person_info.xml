@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/personinfo_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:baseui="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@color/trans" android:layout_width="fill_parent" android:layout_height="@dimen/person_info_head_height">
+        <View android:background="@drawable/mine_head_bg" android:layout_width="fill_parent" android:layout_height="@dimen/person_info_head_bg_height" android:layout_alignParentTop="true" />
+        <RelativeLayout android:id="@id/person_info_avatar_rl" android:background="@color/trans" android:layout_width="@dimen/person_avatar_size" android:layout_height="@dimen/person_avatar_size" android:layout_marginTop="@dimen/person_avatar_margin_top" android:layout_centerHorizontal="true">
+            <com.xiaomi.hm.health.baseui.circleimageview.HMCircleImageView android:id="@id/person_info_avatar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/setting_avatar_default" baseui:civ_border_width="1.2999878dip" baseui:civ_border_color="@color/white_60" baseui:civ_fill_color="@color/white60" baseui:hm_civ_mask_color="@color/black30" baseui:hm_civ_show_mask="true" />
+            <ImageView android:layout_width="@dimen/person_info_camera" android:layout_height="@dimen/person_info_camera" android:src="@drawable/setting_camera" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/person_info_head_id_text_size" android:textColor="@color/white" android:id="@id/person_info_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/person_info_head_id_margin_top" android:layout_below="@id/person_info_avatar_rl" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/person_info_head_info_text_size" android:textColor="@color/black40" android:gravity="center_vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/person_info_head_info_height" android:text="@string/person_info_head_info" android:layout_alignParentBottom="true" android:paddingStart="@dimen/common_item_padding" android:paddingEnd="@dimen/common_item_padding" />
+        <View android:background="@color/black_20_percent" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/person_info_item_margin" android:layout_marginEnd="@dimen/common_item_padding" />
+    </RelativeLayout>
+    <ListView android:id="@id/person_info_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" android:dividerHeight="0.0dip" />
+    <View android:background="@color/divide" android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
+</LinearLayout>

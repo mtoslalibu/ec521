@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/pale_grey" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/ll_header" android:background="@drawable/exercise_history_chart_bg" android:layout_width="fill_parent" android:layout_height="310.0dip" android:layout_alignParentTop="true">
+        <RelativeLayout android:id="@id/sport_top_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_alignParentTop="true">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="14.0dip" android:layout_alignParentStart="true">
+                <TextView android:textSize="@dimen/maintab_sport_weather_air_text_size" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GPS" />
+                <com.xiaomi.hm.health.ui.sportfitness.view.GPSSignalIndicator android:id="@id/gps_signal" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginStart="4.0dip" />
+            </LinearLayout>
+            <ImageView android:id="@id/sport_setting_img" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sport_setting" android:scaleType="centerInside" android:layout_centerVertical="true" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/stat_exer_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_below="@id/sport_top_layout">
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="72.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/stat_main_data" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:fontFamily="km" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="bottom" android:id="@id/stat_main_data_unit" android:paddingBottom="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unit_km" android:layout_alignBaseline="@id/stat_main_data" android:layout_marginStart="4.5dip" android:layout_toEndOf="@id/stat_main_data" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/stat_exer_times" android:layout_width="wrap_content" android:layout_height="23.0dip" android:layout_marginTop="-5.0dip" android:text="0次运动" android:layout_below="@id/stat_main_data" android:layout_centerHorizontal="true" android:drawableEnd="@drawable/ic_arrow_r_12" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginBottom="18.0dip" android:layout_alignParentBottom="true">
+            <TextView android:textSize="11.0sp" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/sport_run_outdoor" android:paddingTop="14.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/running_sports_type_running" android:drawableTop="@drawable/ic_running_24" android:drawablePadding="4.0dip" android:layout_weight="1.0" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/sport_run_indoor" android:paddingTop="14.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/running_sports_type_indoor_running" android:drawableTop="@drawable/ic_treadmill_24" android:drawablePadding="4.0dip" android:layout_weight="1.0" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/sport_cycling" android:paddingTop="14.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/sports_type_bike_ride" android:drawableTop="@drawable/ic_ride_24" android:drawablePadding="4.0dip" android:layout_weight="1.0" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/sport_walk" android:paddingTop="14.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/running_sports_type_walking" android:drawableTop="@drawable/ic_walking_24" android:drawablePadding="4.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/sport_triangle_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <ImageView android:layout_width="18.0dip" android:layout_height="10.0dip" android:src="@drawable/ic_triangle_up" android:scaleType="centerInside" android:layout_weight="1.0" />
+            <ImageView android:layout_width="18.0dip" android:layout_height="10.0dip" android:src="@drawable/ic_triangle_up" android:scaleType="centerInside" android:layout_weight="1.0" />
+            <ImageView android:layout_width="18.0dip" android:layout_height="10.0dip" android:src="@drawable/ic_triangle_up" android:scaleType="centerInside" android:layout_weight="1.0" />
+            <ImageView android:layout_width="18.0dip" android:layout_height="10.0dip" android:src="@drawable/ic_triangle_up" android:scaleType="centerInside" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:id="@id/start_running_button_container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ll_header">
+        <Button android:textSize="@dimen/font_size_30" android:textColor="@color/font_color_c8" android:id="@id/start_running_button" android:background="@drawable/sport_main_start_btn_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/running_start" android:layout_centerInParent="true" android:textAllCaps="false" />
+    </RelativeLayout>
+</RelativeLayout>

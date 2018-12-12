@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="avoid_type">
+        <item>@string/state_close</item>
+        <item>@string/avoid_enable_smart</item>
+        <item>@string/avoid_enable_time</item>
+    </string-array>
+    <string-array name="avoid_type_sub">
+        <item></item>
+        <item>@string/avoid_enable_smart_sub</item>
+        <item>@string/avoid_enable_time_sub</item>
+    </string-array>
+    <string-array name="bmi_for_adualt">
+        <item>偏低</item>
+        <item>標準</item>
+        <item>偏高</item>
+        <item>高</item>
+    </string-array>
+    <string-array name="bmi_for_child">
+        <item>標準</item>
+        <item>偏高</item>
+        <item>高</item>
+    </string-array>
+    <string-array name="bmi_for_not_chinese">
+        <item>偏低</item>
+        <item>標準</item>
+        <item>偏高</item>
+        <item>高</item>
+        <item>非常高</item>
+    </string-array>
+    <string-array name="body_score_leval">
+        <item>很差</item>
+        <item>較差</item>
+        <item>一般</item>
+        <item>良好</item>
+        <item>優秀</item>
+    </string-array>
+    <string-array name="body_shape_type_array">
+        <item>偏瘦型</item>
+        <item>偏瘦肌肉型</item>
+        <item>健美肌肉型</item>
+        <item>缺乏肌肉型</item>
+        <item>標準型</item>
+        <item>標準肌肉型</item>
+        <item>隱性肥胖型</item>
+        <item>偏胖型</item>
+        <item>結實型偏胖型</item>
+    </string-array>
+    <string-array name="bodyfat_content_leval">
+        <item>低</item>
+        <item>偏低</item>
+        <item>標準</item>
+        <item>偏高</item>
+        <item>高</item>
+    </string-array>
+    <string-array name="bone_leval">
+        <item>不足</item>
+        <item>標準</item>
+        <item>優</item>
+    </string-array>
+    <string-array name="brm_leval">
+        <item>未達標</item>
+        <item>達標</item>
+    </string-array>
+    <string-array name="chaohu_help_tips">
+        <item>請先嘗試按壓手錶按鍵，如果螢幕未點亮，可將手錶接上充電器進行充電, 以確保有電。</item>
+        <item>可先將該手機藍牙關閉, 然後再使用目前手機進行綁定。</item>
+        <item>如果手錶有電, 且手機貼近後仍無法搜尋到, 可以嘗試重新開機手機藍牙。</item>
+        <item>如果重啟藍牙無效, 請嘗試重啟手機。</item>
+        <item>當手錶處於運動過程中, App將無法同步到手錶的資料, 請在結束運動後嘗試重新同步。</item>
+    </string-array>
+    <string-array name="chaohu_help_title">
+        <item>手錶是否有電？</item>
+        <item>附近有其他手機之前連接過手錶？</item>
+        <item>嘗試重新開啟藍牙</item>
+        <item>嘗試重啟手機</item>
+        <item>運動中無法同步資料</item>
+    </string-array>
+    <string-array name="chaohu_setting_run_types">
+        <item>@string/chaohu_setting_run_outdoor</item>
+        <item>@string/chaohu_setting_run_indoor</item>
+        <item>@string/chaohu_setting_run_ride</item>
+        <item>@string/chaohu_setting_run_walk</item>
+    </string-array>
+    <string-array name="colors">
+        <item>@string/body</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="common_cities">
+        <item>廣州</item>
+        <item>深圳</item>
+        <item>佛山</item>
+        <item>東莞</item>
+        <item>北京</item>
+        <item>南京</item>
+        <item>蘇州</item>
+        <item>常州</item>
+        <item>濟南</item>
+        <item>青島</item>
+        <item>杭州</item>
+        <item>寧波</item>
+        <item>鄭州</item>
+        <item>開封</item>
+        <item>上海</item>
+        <item>石家莊</item>
+        <item>保定</item>
+        <item>成都</item>
+        <item>綿陽</item>
+        <item>瀋陽</item>
+        <item>大連</item>
+    </string-array>
+    <string-array name="difficulty_content">
+        <item>未進行過正式的健身訓練</item>
+        <item>有一定的健身基礎</item>
+        <item>有豐富的健身經驗, 擁有令人羡慕的身材</item>
+    </string-array>
+    <string-array name="difficulty_title">
+        <item>初級</item>
+        <item>中級</item>
+        <item>高級</item>
+    </string-array>
+    <string-array name="fitness_goal_content">
+        <item>有一定的贅肉或者肥胖, 希望變苗條</item>
+        <item>身體勻稱, 想雕刻更清晰的肌肉線條</item>
+        <item>希望擁有強健的肌肉型態及力量</item>
+    </string-array>
+    <string-array name="fitness_goal_title">
+        <item>減脂</item>
+        <item>塑型</item>
+        <item>增肌</item>
+    </string-array>
+    <string-array name="ges_screen_type">
+        <item>@string/ges_screen_type_all_day</item>
+        <item>@string/ges_screen_type_time</item>
+        <item>@string/ges_screen_type_close</item>
+    </string-array>
+    <string-array name="hr_section">
+        <item>@string/hr_section_warm_up</item>
+        <item>@string/hr_section_fat_burn</item>
+        <item>@string/hr_section_heart_lung_strengthen</item>
+        <item>@string/hr_section_heart_lung_strengthen</item>
+        <item>@string/hr_section_anaerobic_limit</item>
+        <item>@string/hr_section_other</item>
+    </string-array>
+    <string-array name="hr_sport">
+        <item>心率區間: 熱身放鬆</item>
+        <item>心率區間: 脂肪燃燒</item>
+        <item>心率區間: 心肺強化</item>
+        <item>心率區間: 耐力強化</item>
+        <item>心率區間: 無氧極限</item>
+    </string-array>
+    <string-array name="hr_sport_new">
+        <item>熱身放鬆</item>
+        <item>脂肪燃燒</item>
+        <item>心肺強化</item>
+        <item>耐力強化</item>
+        <item>無氧極限</item>
+    </string-array>
+    <string-array name="lock_screen_type">
+        <item>貼近</item>
+        <item>適中</item>
+        <item>稍遠</item>
+    </string-array>
+    <string-array name="member_add_weight_items">
+        <item>@string/member_add_weight_item_auto</item>
+        <item>@string/member_add_weight_item_manual</item>
+    </string-array>
+    <string-array name="mili_help_tips">
+        <item>"如果綁定小米手環2或其他手環, 請先嘗試點觸手環按鍵, 如果螢幕未點亮, 可將手環接上充電器進行充電, 以確保有電。 
+
+如果綁定小米手環或小米手環光感版, 可將手環放在充電器上, 以確保有電。"</item>
+        <item>可先將該手機藍牙關閉, 然後再使用目前手機進行綁定。</item>
+        <item>如果手環有電, 且手機貼近後仍無法搜尋到, 可以嘗試重新開啟手機藍牙。</item>
+        <item>如果重啟藍牙無效, 請嘗試重啟手機。</item>
+    </string-array>
+    <string-array name="mili_help_title">
+        <item>手環是否有電？</item>
+        <item>附近有其他手機之前連接過手環？</item>
+        <item>嘗試重啟藍牙</item>
+        <item>嘗試重啟手機</item>
+    </string-array>
+    <string-array name="mili_pro_display_items">
+        <item>時間</item>
+        <item>步數</item>
+        <item>里程</item>
+        <item>熱量</item>
+        <item>心率</item>
+        <item>剩餘電量</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+    <string-array name="muscle_content_leval">
+        <item>不足</item>
+        <item>標準</item>
+        <item>優</item>
+    </string-array>
+    <string-array name="ring_types">
+        <item>@string/ring_type_default</item>
+        <item>@string/ring_type_incall</item>
+    </string-array>
+    <string-array name="running_months">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
+    <string-array name="setting_hr_freq_types">
+        <item>@string/setting_heartrate_detect_freq_1</item>
+        <item>@string/setting_heartrate_detect_freq_10</item>
+        <item>@string/setting_heartrate_detect_freq_30</item>
+    </string-array>
+    <string-array name="setting_hr_types">
+        <item>@string/setting_heartrate_detect_auto</item>
+        <item>@string/setting_heartrate_detect_sleep</item>
+        <item>@string/setting_heartrate_detect_close</item>
+    </string-array>
+    <string-array name="setting_peyto_apps_array">
+        <item>錶盤</item>
+        <item>狀態</item>
+        <item>運動</item>
+        <item>天氣</item>
+        <item>鬧鐘</item>
+        <item>計時器</item>
+        <item>指南針</item>
+        <item>設定</item>
+    </string-array>
+    <string-array name="setting_tempo_apps_array">
+        <item>錶盤</item>
+        <item>狀態</item>
+        <item>通知</item>
+        <item>運動</item>
+        <item>天氣</item>
+        <item>鬧鐘</item>
+        <item>計時器</item>
+        <item>設定</item>
+    </string-array>
+    <string-array name="setting_weather_temp_unit_array">
+        <item>@string/setting_weather_temp_c</item>
+        <item>@string/setting_weather_temp_f</item>
+    </string-array>
+    <string-array name="shoes_help_tips">
+        <item>晶片長時間不用會停止工作, 所以請嘗試晃動晶片後再試試。</item>
+        <item>華米晶片可以運行1年, 如果已經使用超過該時間, 可能是沒電了。</item>
+        <item>可先將該手機藍牙關閉, 然後再使用目前手機進行綁定。</item>
+        <item>如果晶片有電, 且手機貼近後仍無法搜尋到, 可以嘗試重新開機手機藍牙。</item>
+        <item>如果重啟藍牙無效, 請嘗試重啟手機。</item>
+        <item>點選首頁跑鞋里程的資料展示入口, 進入跑鞋詳情頁即可自動同步資料。</item>
+    </string-array>
+    <string-array name="shoes_help_title">
+        <item>請嘗試晃動晶片</item>
+        <item>晶片是否有電</item>
+        <item>附近有其他手機連接過晶片？</item>
+        <item>嘗試重新開啟藍牙</item>
+        <item>嘗試重啟手機</item>
+        <item>如何同步資料?</item>
+    </string-array>
+    <string-array name="show_body_shape_array">
+        <item>隱性肥胖</item>
+        <item>偏胖型</item>
+        <item>"結實型
+偏胖"</item>
+        <item>"缺乏
+運動型"</item>
+        <item>標準型</item>
+        <item>"標準
+肌肉型"</item>
+        <item>偏瘦型</item>
+        <item>"偏瘦
+肌肉型"</item>
+        <item>"健美
+肌肉型"</item>
+    </string-array>
+    <string-array name="timeline_type">
+        <item>活動</item>
+        <item>慢走</item>
+        <item>走路</item>
+        <item>快走</item>
+        <item>跑步</item>
+        <item>站立</item>
+        <item>靜坐</item>
+        <item>輕微活動</item>
+        <item>未佩戴</item>
+        <item>充電中</item>
+        <item>躺</item>
+    </string-array>
+    <string-array name="train_difficulity">
+        <item>不限難度</item>
+        <item>初級,1</item>
+        <item>中級,2</item>
+        <item>高級,3</item>
+    </string-array>
+    <string-array name="unbind_device_description">
+        <item>@string/device_band</item>
+        <item>@string/device_weight</item>
+        <item>@string/device_shoe</item>
+        <item>@string/device_watch</item>
+    </string-array>
+    <string-array name="visceral_fat_leval">
+        <item>標準</item>
+        <item>偏高</item>
+        <item>高</item>
+    </string-array>
+    <string-array name="water_leval">
+        <item>不足</item>
+        <item>標準</item>
+        <item>優</item>
+    </string-array>
+    <string-array name="wear_type">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+    </string-array>
+    <string-array name="wear_type_body">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="wear_type_chest">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/chest</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>日</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>週一</item>
+        <item>週二</item>
+        <item>週三</item>
+        <item>週四</item>
+        <item>週五</item>
+        <item>週六</item>
+        <item>週日</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>日</item>
+    </string-array>
+    <string-array name="weight3_body_figures">
+        <item>偏輕</item>
+        <item>標準</item>
+        <item>偏重</item>
+        <item>過重</item>
+    </string-array>
+    <string-array name="weight_bfs_help_tips">
+        <item>可先將該手機藍牙關閉，然後再使用目前手機進行綁定。</item>
+        <item>你可以站到裝置上觀察是否顯示出你的體重, 如果顯示電池耗盡圖示, 請更換電池後再試。</item>
+        <item>如果站到裝置上沒有任何反應, 請打開電池蓋檢查電池安裝是否正確。</item>
+        <item>如果電池有電, 且手機貼近後仍無法搜尋到, 可以嘗試重啟手機藍牙。</item>
+        <item>如果重啟藍牙無效, 請嘗試重啟手機。</item>
+    </string-array>
+    <string-array name="weight_bfs_help_title">
+        <item>附近有其他手機之前連接過裝置？</item>
+        <item>電量是否足夠?</item>
+        <item>電池安裝是否正確?</item>
+        <item>嘗試重啟藍牙</item>
+        <item>嘗試重啟手機</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>適中</item>
+        <item>超重</item>
+        <item>肥胖</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_not_chinese">
+        <item>過輕</item>
+        <item>適中</item>
+        <item>過重</item>
+        <item>肥胖</item>
+        <item>非常肥胖</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>公斤</item>
+        <item>斤</item>
+        <item>磅</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+        <item>@string/weight_bfs_unit_jin</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array_no_jin">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+    </string-array>
+</resources>

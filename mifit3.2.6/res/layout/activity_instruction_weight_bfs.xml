@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/weight_mon_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v4.view.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+        <com.xiaomi.hm.health.view.indicator.CirclePageIndicator android:layout_gravity="bottom|center" android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="33.299988dip" app:fillColor="#ffffffff" app:pageColor="#33ffffff" app:radius="2.5dip" app:gap="8.0dip" app:strokeWidth="0.0dip" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/page_2_layout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="152.0dip" android:src="@drawable/instruction_weight_floor" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="155.0dip" android:src="@drawable/weight_bfs_standing" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="219.0dip" android:layout_marginStart="37.299988dip">
+            <TextView android:textSize="12.0sp" android:textColor="@color/white60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/instruction_weight_page6_t1" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/instruction_weight_l1" android:layout_marginStart="@dimen/instruction_weight_page6_l1_left" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:textColor="@color/white60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="277.0dip" android:text="@string/play_weight_bfs_page2_tip2" android:layout_marginStart="265.0dip" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="293.1953dip" android:src="@drawable/instruction_weight_l2" android:layout_marginStart="218.79999dip" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="393.0dip" android:layout_marginStart="@dimen/instruction_weight_page6_txt3_left">
+            <TextView android:textSize="12.0sp" android:textColor="@color/white60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/instruction_weight_page6_t3" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/instruction_weight_l3" android:layout_marginStart="5.5dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/page_3_layout" android:background="@drawable/weight_bfs_set_unit_bg" android:visibility="invisible" android:layout_width="240.0dip" android:layout_height="226.69998dip" android:layout_marginTop="155.0dip" android:layout_centerHorizontal="true">
+        <TextView android:textSize="9.0sp" android:textColor="@color/white40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="44.0dip" android:text="@string/weight_set_unit" android:layout_marginStart="34.0dip" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="77.29999dip" android:src="@drawable/weight_bfs_unit_arrow" android:layout_marginStart="18.0dip" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/white60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="77.0dip" android:text="@string/weight_bfs_unit_kg" android:layout_marginStart="34.0dip" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/white60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="118.29999dip" android:text="@string/weight_bfs_unit_pound" android:layout_marginStart="34.0dip" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/white60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="159.69998dip" android:text="@string/weight_bfs_unit_jin" android:layout_marginStart="34.0dip" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/page_3_layout_no_jin" android:background="@drawable/weight_bfs_set_unit_bg_no_jin" android:visibility="invisible" android:layout_width="240.0dip" android:layout_height="226.69998dip" android:layout_marginTop="155.0dip" android:layout_centerHorizontal="true">
+        <TextView android:textSize="9.0sp" android:textColor="@color/white40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65.0dip" android:text="@string/weight_set_unit" android:layout_marginStart="34.0dip" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="98.5dip" android:src="@drawable/weight_bfs_unit_arrow" android:layout_marginStart="18.0dip" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/white60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="98.0dip" android:text="@string/weight_bfs_unit_kg" android:layout_marginStart="34.0dip" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/white60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="139.29999dip" android:text="@string/weight_bfs_unit_pound" android:layout_marginStart="34.0dip" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/page_4_5_layout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="155.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/big_weight_bfs" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/image_battery_low" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:src="@drawable/weight_bfs_low_power" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/image_over_max" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:src="@drawable/weightbfs_ol" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/running_primary_color" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="45.0dip" android:paddingStart="12.599976dip" android:paddingEnd="12.599976dip">
+        <Button android:id="@id/common_title_left_button" android:background="@null" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_centerVertical="true" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginStart="80.0dip" android:layout_marginEnd="80.0dip">
+            <TextView android:textSize="14.699982sp" android:textColor="@color/running_title_bar_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/common_title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/common_title_right_button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+            <Button android:id="@id/common_title_right_button_2" android:background="@null" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginEnd="5.0dip" />
+            <Button android:id="@id/common_title_right_button" android:background="@null" android:layout_width="28.0dip" android:layout_height="28.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="38.69998dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/tabsLayoutContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/tabIndicator" android:background="@color/running_detail_tab_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <android.support.v4.view.ViewPager android:id="@id/detailContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

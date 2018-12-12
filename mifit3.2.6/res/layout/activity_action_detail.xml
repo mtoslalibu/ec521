@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.widget.NestedScrollView android:background="@color/white100" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.exoplayer2.ui.SimpleExoPlayerView android:id="@id/sfv_video" android:background="@color/pale_grey" android:layout_width="fill_parent" android:layout_height="202.0dip" app:resize_mode="fill" app:surface_type="surface_view" app:default_artwork="@drawable/icon_default_item_head" app:use_controller="false" />
+            <com.xiaomi.hm.health.training.ui.widget.HtmlRichText android:textColor="@color/black60" android:id="@id/wbv_content" android:padding="18.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_bottom" android:background="@color/orange100" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/imv_pre" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ic_back_white" android:scaleType="centerInside" />
+        <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="24.0sp" android:textColor="@color/white100" android:gravity="center" android:id="@id/tx_page_index" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:fontFamily="km" />
+        <ImageView android:id="@id/imv_next" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ic_arrow_next" android:scaleType="centerInside" />
+    </LinearLayout>
+</LinearLayout>

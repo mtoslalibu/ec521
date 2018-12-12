@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:huami="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/account_bind" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:onClick="onClick" huami:itemTitle="@string/setting_account_bind" huami:itemDivider="gone" />
+    <LinearLayout android:orientation="vertical" android:id="@id/setting_top" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_below="@id/account_bind">
+        <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/unit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClick" huami:itemTitle="@string/setting_unit" />
+        <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/notifi" android:layout_width="fill_parent" android:layout_height="wrap_content" huami:itemTitle="@string/notification_switch_title" huami:itemSummary="@string/notification_switch_subtitle" huami:itemSwitch="true" huami:itemDivider="gone" />
+    </LinearLayout>
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/cache" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/setting_top" android:onClick="onClick" huami:itemTitle="@string/setting_cache" />
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/update" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/cache" android:onClick="onClick" huami:itemTitle="@string/setting_update">
+        <View android:layout_gravity="end|center" android:id="@id/red_dot" android:background="@drawable/ic_red_circle" android:visibility="visible" android:layout_width="7.0dip" android:layout_height="7.0dip" android:layout_marginEnd="44.0dip" />
+    </com.xiaomi.hm.health.baseui.widget.ItemView>
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/experience_beta" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/update" android:onClick="onClick" huami:itemTitle="@string/setting_beta" />
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/feedback" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/experience_beta" android:onClick="onClick" huami:itemTitle="@string/mine_item_feedback" />
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/about" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/feedback" android:onClick="onClick" huami:itemTitle="@string/setting_about" huami:itemDivider="gone" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/tangerine" android:id="@id/logout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginBottom="24.0dip" android:text="@string/logout" android:layout_alignParentBottom="true" android:onClick="onClick" android:layout_marginStart="@dimen/common_item_padding" android:layout_marginEnd="@dimen/common_item_padding" style="@style/single_button" />
+</RelativeLayout>

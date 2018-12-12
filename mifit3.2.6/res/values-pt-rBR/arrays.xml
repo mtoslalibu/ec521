@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="avoid_type">
+        <item>@string/state_close</item>
+        <item>@string/avoid_enable_smart</item>
+        <item>@string/avoid_enable_time</item>
+    </string-array>
+    <string-array name="avoid_type_sub">
+        <item></item>
+        <item>@string/avoid_enable_smart_sub</item>
+        <item>@string/avoid_enable_time_sub</item>
+    </string-array>
+    <string-array name="bmi_for_adualt">
+        <item>Baixo</item>
+        <item>Normal</item>
+        <item>Alto</item>
+        <item>Muito alto</item>
+    </string-array>
+    <string-array name="bmi_for_child">
+        <item>Normal</item>
+        <item>Alto</item>
+        <item>Muito alto</item>
+    </string-array>
+    <string-array name="bmi_for_not_chinese">
+        <item>Baixo</item>
+        <item>Normal</item>
+        <item>Elevado</item>
+        <item>Alto</item>
+        <item>Muito alto</item>
+    </string-array>
+    <string-array name="body_score_leval">
+        <item>Muito baixo</item>
+        <item>Baixo</item>
+        <item>Normal</item>
+        <item>Bom</item>
+        <item>Excelente</item>
+    </string-array>
+    <string-array name="body_shape_type_array">
+        <item>Magro</item>
+        <item>Magro equilibrado</item>
+        <item>Musculoso magro</item>
+        <item>Sedentário</item>
+        <item>Balanceado</item>
+        <item>Musculoso balanceado</item>
+        <item>Obeso</item>
+        <item>Sobrepeso</item>
+        <item>Entroncado</item>
+    </string-array>
+    <string-array name="bodyfat_content_leval">
+        <item>Muito baixa</item>
+        <item>Baixa</item>
+        <item>Normal</item>
+        <item>Elevada</item>
+        <item>Alta</item>
+    </string-array>
+    <string-array name="bone_leval">
+        <item>Insuficiente</item>
+        <item>Normal</item>
+        <item>Boa</item>
+    </string-array>
+    <string-array name="brm_leval">
+        <item>Meta não atingida</item>
+        <item>Meta atingida</item>
+    </string-array>
+    <string-array name="chaohu_help_tips">
+        <item>Tente pressionar o botão no relógio, se a tela do relógio estiver desligada, conecte-o para carregar a bateria.</item>
+        <item>Desative o Bluetooth primeiro, então faça o pareamento neste dispositivo.</item>
+        <item>Se a Mi Band estiver carregada e ainda assim o telefone não localizá-la, tente reiniciar o Bluetooth do telefone.</item>
+        <item>Se reiniciar o Bluetooth não solucionar o problema, tente reiniciar o telefone.</item>
+        <item>Os dados do relógio não podem ser sincronizados enquanto você estiver fazendo exercícios. Encerre a sessão e tente novamente.</item>
+    </string-array>
+    <string-array name="chaohu_help_title">
+        <item>Seu relógio está carregado?</item>
+        <item>Este relógio esta pareado a outro dispositivo?</item>
+        <item>Tente reiniciar o Bluetooth</item>
+        <item>Tente reiniciar seu telefone</item>
+        <item>Não é possível sincronizar durante treinos</item>
+    </string-array>
+    <string-array name="chaohu_setting_run_types">
+        <item>@string/chaohu_setting_run_outdoor</item>
+        <item>@string/chaohu_setting_run_indoor</item>
+        <item>@string/chaohu_setting_run_ride</item>
+        <item>@string/chaohu_setting_run_walk</item>
+    </string-array>
+    <string-array name="colors">
+        <item>@string/blue</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/red</item>
+    </string-array>
+    <string-array name="common_cities">
+        <item>Guangzhou</item>
+        <item>Shenzhen</item>
+        <item>Foshan</item>
+        <item>Dongguan</item>
+        <item>Beijing</item>
+        <item>Nanjing</item>
+        <item>Suzhou</item>
+        <item>Changzhou</item>
+        <item>Jinan</item>
+        <item>Qingdao</item>
+        <item>Hangzhou</item>
+        <item>Ningbo</item>
+        <item>Zhengzhou</item>
+        <item>Kaifeng</item>
+        <item>Shanghai</item>
+        <item>Shijiazhuang</item>
+        <item>Baoding</item>
+        <item>Chengdu</item>
+        <item>Mianyang</item>
+        <item>Shenyang</item>
+        <item>Dalian</item>
+    </string-array>
+    <string-array name="difficulty_content">
+        <item>Novato em treinamentos físicos</item>
+        <item>Experiência básica em treinamentos físicos</item>
+        <item>Grande experiência em treinamentos físicos</item>
+    </string-array>
+    <string-array name="difficulty_title">
+        <item>Iniciante</item>
+        <item>Intermediário</item>
+        <item>Avançado</item>
+    </string-array>
+    <string-array name="fitness_goal_content">
+        <item>Focado na queima de gordura corporal</item>
+        <item>Focado na melhoria da forma física</item>
+        <item>Focado no aumento de massa muscular</item>
+    </string-array>
+    <string-array name="fitness_goal_title">
+        <item>Cutting</item>
+        <item>Shaping</item>
+        <item>Bulking</item>
+    </string-array>
+    <string-array name="ges_screen_type">
+        <item>@string/ges_screen_type_all_day</item>
+        <item>@string/ges_screen_type_time</item>
+        <item>@string/ges_screen_type_close</item>
+    </string-array>
+    <string-array name="hr_section">
+        <item>@string/hr_section_warm_up</item>
+        <item>@string/hr_section_fat_burn</item>
+        <item>@string/hr_section_heart_lung_strengthen</item>
+        <item>@string/hr_section_stamina_strengthen</item>
+        <item>@string/hr_section_anaerobic_limit</item>
+        <item>@string/hr_section_other</item>
+    </string-array>
+    <string-array name="hr_sport">
+        <item>Zona de frequência cardíaca: Aquecimento</item>
+        <item>Zona de frequência cardíaca: Perda de peso</item>
+        <item>Zona de frequência cardíaca: Aeróbico</item>
+        <item>Zona de frequência cardíaca: Anaeróbico</item>
+        <item>Zona de frequência cardíaca: VO₂ max</item>
+    </string-array>
+    <string-array name="hr_sport_new">
+        <item>Aquecimento</item>
+        <item>Perda de peso</item>
+        <item>Aeróbico</item>
+        <item>Anaeróbico</item>
+        <item>Máx. VO₂</item>
+    </string-array>
+    <string-array name="lock_screen_type">
+        <item>Próximo</item>
+        <item>Perto</item>
+        <item>Longe</item>
+    </string-array>
+    <string-array name="member_add_weight_items">
+        <item>@string/member_add_weight_item_auto</item>
+        <item>@string/member_add_weight_item_manual</item>
+    </string-array>
+    <string-array name="mili_help_tips">
+        <item>"Toque na Mi Band para verificar se o dispositivo está carregado antes de parear a Mi Band 2 ou outras pulseiras.
+
+Carregue a pulseira antes de parear uma Mi Band ou Mi Band Pulse."</item>
+        <item>Desative o Bluetooth primeiro, e então faça o pareamento neste dispositivo.</item>
+        <item>Se a Mi Band estiver carregada e ainda assim o telefone não localizá-la, tente reiniciar o Bluetooth.</item>
+        <item>Se reiniciar o Bluetooth não resolver o problema, tente reiniciar o seu telefone.</item>
+    </string-array>
+    <string-array name="mili_help_title">
+        <item>Sua Mi Band está carregada?</item>
+        <item>Esta Mi Band está pareada a outro dispositivo?</item>
+        <item>Tente reiniciar o Bluetooth</item>
+        <item>Tente reiniciar seu telefone</item>
+    </string-array>
+    <string-array name="mili_pro_display_items">
+        <item>Hora</item>
+        <item>Passos</item>
+        <item>Distância</item>
+        <item>Calorias</item>
+        <item>Frequência cardíaca</item>
+        <item>Bateria</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>Jan</item>
+        <item>Fev</item>
+        <item>Mar</item>
+        <item>Abr</item>
+        <item>Mai</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Ago</item>
+        <item>Set</item>
+        <item>Out</item>
+        <item>Nov</item>
+        <item>Dez</item>
+    </string-array>
+    <string-array name="muscle_content_leval">
+        <item>Insuficiente</item>
+        <item>Normal</item>
+        <item>Boa</item>
+    </string-array>
+    <string-array name="ring_types">
+        <item>@string/ring_type_default</item>
+        <item>@string/ring_type_incall</item>
+    </string-array>
+    <string-array name="running_months">
+        <item>Jan</item>
+        <item>Fev</item>
+        <item>Mar</item>
+        <item>Abr</item>
+        <item>Mai</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Ago</item>
+        <item>Set</item>
+        <item>Out</item>
+        <item>Nov</item>
+        <item>Dez</item>
+    </string-array>
+    <string-array name="setting_hr_freq_types">
+        <item>@string/setting_heartrate_detect_freq_1</item>
+        <item>@string/setting_heartrate_detect_freq_10</item>
+        <item>@string/setting_heartrate_detect_freq_30</item>
+    </string-array>
+    <string-array name="setting_hr_types">
+        <item>@string/setting_heartrate_detect_auto</item>
+        <item>@string/setting_heartrate_detect_sleep</item>
+        <item>@string/setting_heartrate_detect_close</item>
+    </string-array>
+    <string-array name="setting_peyto_apps_array">
+        <item>Face do relógio</item>
+        <item>Status</item>
+        <item>Atividades</item>
+        <item>Clima</item>
+        <item>Alarme</item>
+        <item>Timer</item>
+        <item>Bússola</item>
+        <item>Mais configurações</item>
+    </string-array>
+    <string-array name="setting_tempo_apps_array">
+        <item>Face do relógio</item>
+        <item>Status</item>
+        <item>Notificações</item>
+        <item>Atividades</item>
+        <item>Clima</item>
+        <item>Alarme</item>
+        <item>Timer</item>
+        <item>Configurações</item>
+    </string-array>
+    <string-array name="setting_weather_temp_unit_array">
+        <item>@string/setting_weather_temp_c</item>
+        <item>@string/setting_weather_temp_f</item>
+    </string-array>
+    <string-array name="shoes_help_tips">
+        <item>O Smart Chip parará de funcionar se você não usá-lo por um longo período. Agite-o e tente novamente.</item>
+        <item>A vida útil da bateria do Smart Chip Amazfit é de 1 ano. Se você já usa o sensor por um longo período, talvez a bateria já tenha se esgotado.</item>
+        <item>Desative o Bluetooth primeiro, então faça o pareamento neste dispositivo.</item>
+        <item>Se o Smart Chip está carregado mas não é detectado quando está próximo do telefone, tente reiniciar o Bluetooth do telefone.</item>
+        <item>Se reiniciar o Bluetooth não solucionar o problema, tente reiniciar o telefone.</item>
+        <item>Toque nos dados dos tênis de corrida e entre na página de atividades para sincronizar os dados automaticamente</item>
+    </string-array>
+    <string-array name="shoes_help_title">
+        <item>Agite o Smart Chip</item>
+        <item>A bateria está carregada?</item>
+        <item>Este Smart Chip está pareado a outro dispositivo?</item>
+        <item>Reinicie o Bluetooth</item>
+        <item>Tente reiniciar seu telefone</item>
+        <item>Como sincronizar seus dados?</item>
+    </string-array>
+    <string-array name="show_body_shape_array">
+        <item>Obeso</item>
+        <item>Sobrepeso</item>
+        <item>Entroncado</item>
+        <item>Sedentário</item>
+        <item>Balanceado</item>
+        <item>"Musculoso
+balanceado"</item>
+        <item>Magro</item>
+        <item>"Magro
+balanceado"</item>
+        <item>"Musculoso
+magro"</item>
+    </string-array>
+    <string-array name="timeline_type">
+        <item>Atividade</item>
+        <item>Caminhada lenta</item>
+        <item>Caminhada</item>
+        <item>Caminhada rápida</item>
+        <item>Corrida</item>
+        <item>Em pé</item>
+        <item>Sentado</item>
+        <item>Atividade leve</item>
+        <item>Não usando</item>
+        <item>Carregando…</item>
+        <item>Deitado</item>
+    </string-array>
+    <string-array name="train_difficulity">
+        <item>Sem limites</item>
+        <item>Iniciante, 1</item>
+        <item>Intermediário, 2</item>
+        <item>Avançado, 3</item>
+    </string-array>
+    <string-array name="unbind_device_description">
+        <item>@string/device_band</item>
+        <item>@string/device_weight</item>
+        <item>@string/device_shoe</item>
+        <item>@string/device_watch</item>
+    </string-array>
+    <string-array name="visceral_fat_leval">
+        <item>Normal</item>
+        <item>Alta</item>
+        <item>Muito alta</item>
+    </string-array>
+    <string-array name="water_leval">
+        <item>Insuficiente</item>
+        <item>Normal</item>
+        <item>Boa</item>
+    </string-array>
+    <string-array name="wear_type">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+    </string-array>
+    <string-array name="wear_type_body">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="wear_type_chest">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/chest</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>Dom</item>
+        <item>Seg</item>
+        <item>Ter</item>
+        <item>Qua</item>
+        <item>Qui</item>
+        <item>Sex</item>
+        <item>Sáb</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>Segunda</item>
+        <item>Terça</item>
+        <item>Quarta</item>
+        <item>Quinta</item>
+        <item>Sexta</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>Seg</item>
+        <item>Ter</item>
+        <item>Qua</item>
+        <item>Qui</item>
+        <item>Sex</item>
+        <item>Sáb</item>
+        <item>Dom</item>
+    </string-array>
+    <string-array name="weight3_body_figures">
+        <item>Subpeso</item>
+        <item>Balanceado</item>
+        <item>Sobrepeso</item>
+        <item>Obeso</item>
+    </string-array>
+    <string-array name="weight_bfs_help_tips">
+        <item>Desative o Bluetooth primeiro, então faça o pareamento neste dispositivo.</item>
+        <item>Suba na balança para verificar se ela exibe seu peso. Se ela exibir o ícone de bateria, substitua-as.</item>
+        <item>Se não houver resposta quando você subir na balança, verifique se as baterias estão corretamente instaladas.</item>
+        <item>Se a bateria estiver carregada e ainda assim o dispositivo não for encontrado ao trazer o telefone mais perto, tente reiniciar o Bluetooth do telefone.</item>
+        <item>Se reiniciar o Bluetooth não solucionar o problema, tente reiniciar o telefone.</item>
+    </string-array>
+    <string-array name="weight_bfs_help_title">
+        <item>Esta balança está pareada com outro dispositivo?</item>
+        <item>Verifique a bateria da balança</item>
+        <item>As baterias estão instaladas corretamente?</item>
+        <item>Tente reiniciar o Bluetooth</item>
+        <item>Tente reiniciar seu telefone</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>Normal</item>
+        <item>Sobrepeso</item>
+        <item>Obeso</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_not_chinese">
+        <item>Subpeso</item>
+        <item>Normal</item>
+        <item>Sobrepeso</item>
+        <item>Obeso I</item>
+        <item>Obeso II</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>" kg"</item>
+        <item>" Jin"</item>
+        <item>" lbs"</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+        <item>@string/weight_bfs_unit_jin</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array_no_jin">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+    </string-array>
+</resources>

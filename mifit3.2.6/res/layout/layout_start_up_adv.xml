@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_color_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/center_iv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/gif_view_ll" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.xiaomi.hm.health.view.GifMovieView android:id="@id/gif_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/start_up_bottom" android:background="#fff8f8f8" android:layout_width="fill_parent" android:layout_height="@dimen/start_up_adv_bar_height" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/start_up_logo" android:layout_width="@dimen/start_up_adv_bar_ll_size" android:layout_height="@dimen/start_up_adv_bar_ll_size" android:src="@drawable/app_icon" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+            <TextView android:textSize="@dimen/start_up_adv_bar_text_size_big" android:textColor="#99000000" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/app_name" android:layout_weight="11.0" android:layout_marginStart="@dimen/start_up_adv_bar_ll_margin" android:layout_toEndOf="@id/start_up_logo" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/start_up_enter_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+            <TextView android:textSize="14.0sp" android:textColor="#807b7b7b" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/start_up_enter" />
+            <ImageView android:layout_width="@dimen/start_up_enter_size" android:layout_height="@dimen/start_up_enter_size" android:src="@drawable/start_up_enter" android:layout_marginEnd="@dimen/start_up_enter_marging_left" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

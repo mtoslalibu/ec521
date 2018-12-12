@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="avoid_type">
+        <item>@string/state_close</item>
+        <item>@string/avoid_enable_smart</item>
+        <item>@string/avoid_enable_time</item>
+    </string-array>
+    <string-array name="avoid_type_sub">
+        <item></item>
+        <item>@string/avoid_enable_smart_sub</item>
+        <item>@string/avoid_enable_time_sub</item>
+    </string-array>
+    <string-array name="bmi_for_adualt">
+        <item>Matala</item>
+        <item>Normaali</item>
+        <item>Korkea</item>
+        <item>Erittäin korkea</item>
+    </string-array>
+    <string-array name="bmi_for_child">
+        <item>Normaali</item>
+        <item>Korkea</item>
+        <item>Erittäin korkea</item>
+    </string-array>
+    <string-array name="bmi_for_not_chinese">
+        <item>Matala</item>
+        <item>Normaali</item>
+        <item>Kohonnut</item>
+        <item>Korkea</item>
+        <item>Erittäin korkea</item>
+    </string-array>
+    <string-array name="body_score_leval">
+        <item>Erittäin huono</item>
+        <item>Huono</item>
+        <item>Normaali</item>
+        <item>Hyvä</item>
+        <item>Erinomainen</item>
+    </string-array>
+    <string-array name="body_shape_type_array">
+        <item>Laiha</item>
+        <item>Tasapainoinen laiha</item>
+        <item>Laiha lihaksikas</item>
+        <item>Uupuu liikuntaa</item>
+        <item>Tasapainoinen</item>
+        <item>Tasapainoinen lihaksikas</item>
+        <item>Liikalihava</item>
+        <item>Ylipaino</item>
+        <item>Vanttera</item>
+    </string-array>
+    <string-array name="bodyfat_content_leval">
+        <item>Hyvin alhainen</item>
+        <item>Matala</item>
+        <item>Normaali</item>
+        <item>Kohonnut</item>
+        <item>Korkea</item>
+    </string-array>
+    <string-array name="bone_leval">
+        <item>Riittämätön</item>
+        <item>Normaali</item>
+        <item>Hyvä</item>
+    </string-array>
+    <string-array name="brm_leval">
+        <item>Tavoitetta ei saavutettu</item>
+        <item>Tavoite saavutettu</item>
+    </string-array>
+    <string-array name="chaohu_help_tips">
+        <item>Yritä painaa nappulaa kellosta, jos kellon näyttö on sammuneena, liitä se lataukseen.</item>
+        <item>Kytke Bluetooth ensin pois päältä, sitten muodosta laitepari nykyiseen laitteeseen.</item>
+        <item>Jos ranneke on ladattu, mutta puhelin ei löydä sitä, yritä käynnistää puhelimen Bluetooth uudelleen.</item>
+        <item>Jos Bluetoothin uudelleen käynnistäminen ei ratkaise ongelmaa, kokeile käynnistää puhelin uudestaan.</item>
+        <item>Kellon tietoja ei voida synkronoida kun teet harjoitusta. Lopeta sessio ja yritä uudelleen.</item>
+    </string-array>
+    <string-array name="chaohu_help_title">
+        <item>Onko kellosi ladattu?</item>
+        <item>Onko tämä kello yhdistetty toiseen laitteeseen?</item>
+        <item>Yritä käynnistää Bluetooth uudelleen</item>
+        <item>Kokeile käynnistää puhelin uudelleen</item>
+        <item>Tietoja ei voida synkronoida harjoittelun aikana</item>
+    </string-array>
+    <string-array name="chaohu_setting_run_types">
+        <item>@string/chaohu_setting_run_outdoor</item>
+        <item>@string/chaohu_setting_run_indoor</item>
+        <item>@string/chaohu_setting_run_ride</item>
+        <item>@string/chaohu_setting_run_walk</item>
+    </string-array>
+    <string-array name="colors">
+        <item>@string/blue</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/red</item>
+    </string-array>
+    <string-array name="common_cities">
+        <item>Guangzhou</item>
+        <item>Shenzhen</item>
+        <item>Foshan</item>
+        <item>Dongguan</item>
+        <item>Peking</item>
+        <item>Nanjing</item>
+        <item>Suzhou</item>
+        <item>Changzhou</item>
+        <item>Jinan</item>
+        <item>Qingdao</item>
+        <item>Hangzhou</item>
+        <item>Ningbo</item>
+        <item>Zhengzhou</item>
+        <item>Kaifeng</item>
+        <item>Shanghai</item>
+        <item>Shijiazhuang</item>
+        <item>Baoding</item>
+        <item>Chengdu</item>
+        <item>Mianyang</item>
+        <item>Shenyang</item>
+        <item>Dalian</item>
+    </string-array>
+    <string-array name="difficulty_content">
+        <item>Noviisi kuntoiluun</item>
+        <item>Perus liikunta kokemusta</item>
+        <item>Laajaa liikunta kokemusta ja hyvä kunto</item>
+    </string-array>
+    <string-array name="difficulty_title">
+        <item>Alkeet</item>
+        <item>Keskiverto</item>
+        <item>Kehittynyt</item>
+    </string-array>
+    <string-array name="fitness_goal_content">
+        <item>Tavoitteena polttaa rasvaa</item>
+        <item>Tavoitteena muokata kehoa</item>
+        <item>Tavoitteena kasvattaa lihaksia</item>
+    </string-array>
+    <string-array name="fitness_goal_title">
+        <item>Kavennus</item>
+        <item>Muotoilu</item>
+        <item>Bulkkaus</item>
+    </string-array>
+    <string-array name="ges_screen_type">
+        <item>@string/ges_screen_type_all_day</item>
+        <item>@string/ges_screen_type_time</item>
+        <item>@string/ges_screen_type_close</item>
+    </string-array>
+    <string-array name="hr_section">
+        <item>@string/hr_section_warm_up</item>
+        <item>@string/hr_section_fat_burn</item>
+        <item>@string/hr_section_heart_lung_strengthen</item>
+        <item>@string/hr_section_stamina_strengthen</item>
+        <item>@string/hr_section_anaerobic_limit</item>
+        <item>@string/hr_section_other</item>
+    </string-array>
+    <string-array name="hr_sport">
+        <item>Sykealue: Kevyt</item>
+        <item>Sykealue: Peruskestävyys</item>
+        <item>Sykealue: Aerobinen</item>
+        <item>Sykealue: Anaerobinen</item>
+        <item>Sykealue: VO₂ maksimi</item>
+    </string-array>
+    <string-array name="hr_sport_new">
+        <item>Kevyt</item>
+        <item>Peruskestävyys</item>
+        <item>Aerobinen</item>
+        <item>Anaerobinen</item>
+        <item>VO₂ maksimi</item>
+    </string-array>
+    <string-array name="lock_screen_type">
+        <item>Sulje</item>
+        <item>Lähellä</item>
+        <item>Kaukaa</item>
+    </string-array>
+    <string-array name="member_add_weight_items">
+        <item>@string/member_add_weight_item_auto</item>
+        <item>@string/member_add_weight_item_manual</item>
+    </string-array>
+    <string-array name="mili_help_tips">
+        <item>"Napauta ranneketta tarkistaaksesi onko laiteessa virtaa ennen kuin muodostat laiteparin Mi Band 2 tai muilla rannekkeilla.
+
+Lataa ranneke ennen kuin muodostat laiteparin Mi Bandilla tai Mi Band Pulsella."</item>
+        <item>Kytke Bluetooth ensin pois päältä, sitten muodosta laitepari nykyiseen laitteeseen.</item>
+        <item>Jos ranneke on ladattu, mutta puhelin ei löydä sitä, yritä käynnistää puhelimen Bluetooth uudelleen.</item>
+        <item>Jos Bluetoothin uudelleen käynnistäminen ei ratkaise ongelmaa, kokeile käynnistää puhelin uudestaan.</item>
+    </string-array>
+    <string-array name="mili_help_title">
+        <item>Onko rannekkeesi ladattu?</item>
+        <item>Onko tämä ranneke yhdistetty toiseen laitteeseen?</item>
+        <item>Yritä käynnistää Bluetooth uudelleen</item>
+        <item>Kokeile käynnistää puhelin uudelleen</item>
+    </string-array>
+    <string-array name="mili_pro_display_items">
+        <item>Aika</item>
+        <item>Askeleet</item>
+        <item>Matka</item>
+        <item>Kalorit</item>
+        <item>Syke</item>
+        <item>Akku</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>Tammikuu</item>
+        <item>Helmikuu</item>
+        <item>Maaliskuu</item>
+        <item>Huhtikuu</item>
+        <item>Toukokuu</item>
+        <item>Kesäkuu</item>
+        <item>Heinäkuu</item>
+        <item>Elokuu</item>
+        <item>Syyskuu</item>
+        <item>Lokakuu</item>
+        <item>Marraskuu</item>
+        <item>Joulukuu</item>
+    </string-array>
+    <string-array name="muscle_content_leval">
+        <item>Riittämätön</item>
+        <item>Normaali</item>
+        <item>Hyvä</item>
+    </string-array>
+    <string-array name="ring_types">
+        <item>@string/ring_type_default</item>
+        <item>@string/ring_type_incall</item>
+    </string-array>
+    <string-array name="running_months">
+        <item>Tammi</item>
+        <item>Helmi</item>
+        <item>Maalis</item>
+        <item>Huhti</item>
+        <item>Touko</item>
+        <item>Kesä</item>
+        <item>Heinä</item>
+        <item>Elo</item>
+        <item>Syys</item>
+        <item>Loka</item>
+        <item>Marras</item>
+        <item>Joulu</item>
+    </string-array>
+    <string-array name="setting_hr_freq_types">
+        <item>@string/setting_heartrate_detect_freq_1</item>
+        <item>@string/setting_heartrate_detect_freq_10</item>
+        <item>@string/setting_heartrate_detect_freq_30</item>
+    </string-array>
+    <string-array name="setting_hr_types">
+        <item>@string/setting_heartrate_detect_auto</item>
+        <item>@string/setting_heartrate_detect_sleep</item>
+        <item>@string/setting_heartrate_detect_close</item>
+    </string-array>
+    <string-array name="setting_peyto_apps_array">
+        <item>Kellotaulu</item>
+        <item>Tila</item>
+        <item>Aktiviteetit</item>
+        <item>Sää</item>
+        <item>Herätys</item>
+        <item>Ajastin</item>
+        <item>Kompassi</item>
+        <item>Lisää asetuksia</item>
+    </string-array>
+    <string-array name="setting_tempo_apps_array">
+        <item>Kellotaulu</item>
+        <item>Tila</item>
+        <item>Ilmoitukset</item>
+        <item>Aktiviteetit</item>
+        <item>Sää</item>
+        <item>Herätys</item>
+        <item>Ajastin</item>
+        <item>Asetukset</item>
+    </string-array>
+    <string-array name="setting_weather_temp_unit_array">
+        <item>@string/setting_weather_temp_c</item>
+        <item>@string/setting_weather_temp_f</item>
+    </string-array>
+    <string-array name="shoes_help_tips">
+        <item>Älysiru lakkaa toimimasta, jos et käytä sitä pitkään aikaan. Ravista sitä ja yritä uudelleen.</item>
+        <item>Amazfit älysirun paristo kestää 1 vuoden. Jos olet käyttänyt sitä pitempään, voi virta olla loppu.</item>
+        <item>Kytke Bluetooth ensin pois päältä, sitten muodosta laitepari nykyiseen laitteeseen.</item>
+        <item>Jos älysirussa on virtaa, mutta lähellä oleva puhelin ei silti löydä sitä, yritä käynnistää puhelimen Bluetooth uudelleen.</item>
+        <item>Jos Bluetoothin uudelleen käynnistäminen ei ratkaise ongelmaa, kokeile käynnistää puhelin uudestaan.</item>
+        <item>Valitse juoksukenkien tiedot ja siirry seuraava aktiviteetti-sivulle synkronoidaksesi tiedot automaattisesti</item>
+    </string-array>
+    <string-array name="shoes_help_title">
+        <item>Ravista älysirua</item>
+        <item>On akku ladattu?</item>
+        <item>Onko tämä älysiru yhdistetty toiseen laitteeseen?</item>
+        <item>Käynnistä Bluetooth uudelleen</item>
+        <item>Kokeile käynnistää puhelin uudelleen</item>
+        <item>Miten synkronoida tiedot?</item>
+    </string-array>
+    <string-array name="show_body_shape_array">
+        <item>Liikalihava</item>
+        <item>Ylipaino</item>
+        <item>Vanttera</item>
+        <item>"Uupuu
+liikuntaa"</item>
+        <item>Tasapainoinen</item>
+        <item>"Tasapainoinen
+lihaksikas"</item>
+        <item>Laiha</item>
+        <item>"Tasapainoinen
+laiha"</item>
+        <item>"Laiha
+lihaksikas"</item>
+    </string-array>
+    <string-array name="timeline_type">
+        <item>Toiminta</item>
+        <item>Hidas kävely</item>
+        <item>Kävely</item>
+        <item>Nopea kävely</item>
+        <item>Juoksu</item>
+        <item>Seisominen</item>
+        <item>Istuminen</item>
+        <item>Kevyt aktiivisuus</item>
+        <item>Ei käytössä</item>
+        <item>Ladataan…</item>
+        <item>Makuulla</item>
+    </string-array>
+    <string-array name="train_difficulity">
+        <item>Ei rajoitettu</item>
+        <item>Alkeet, 1</item>
+        <item>Keskiverto, 2</item>
+        <item>Kehittynyt, 3</item>
+    </string-array>
+    <string-array name="unbind_device_description">
+        <item>@string/device_band</item>
+        <item>@string/device_weight</item>
+        <item>@string/device_shoe</item>
+        <item>@string/device_watch</item>
+    </string-array>
+    <string-array name="visceral_fat_leval">
+        <item>Normaali</item>
+        <item>Korkea</item>
+        <item>Erittäin korkea</item>
+    </string-array>
+    <string-array name="water_leval">
+        <item>Riittämätön</item>
+        <item>Normaali</item>
+        <item>Hyvä</item>
+    </string-array>
+    <string-array name="wear_type">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+    </string-array>
+    <string-array name="wear_type_body">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="wear_type_chest">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/chest</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>Su</item>
+        <item>Ma</item>
+        <item>Ti</item>
+        <item>Ke</item>
+        <item>To</item>
+        <item>Pe</item>
+        <item>La</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>Maanantai</item>
+        <item>Tiistai</item>
+        <item>Keskiviikko</item>
+        <item>Torstai</item>
+        <item>Perjantai</item>
+        <item>Lauantai</item>
+        <item>Sunnuntai</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>Ma</item>
+        <item>Ti</item>
+        <item>Ke</item>
+        <item>To</item>
+        <item>Pe</item>
+        <item>La</item>
+        <item>Su</item>
+    </string-array>
+    <string-array name="weight3_body_figures">
+        <item>Alipainoinen</item>
+        <item>Tasapainoinen</item>
+        <item>Ylipaino</item>
+        <item>Liikalihava</item>
+    </string-array>
+    <string-array name="weight_bfs_help_tips">
+        <item>Kytke Bluetooth ensin pois päältä, sitten muodosta laitepari nykyiseen laitteeseen.</item>
+        <item>"Astu vaa'alle tarkistaaksesi näyttääkö se painosi. Jos se näyttää pariston kuvakkeen, vaihda paristot."</item>
+        <item>"Jos vaa'alle astuessa ei tapahdu mitään, tarkista että paristot on asennettu oikein."</item>
+        <item>Jos paristoissa on virtaa ja lähellä oleva puhelin ei silti löydä sitä, yritä käynnistää puhelimen Bluetooth uudelleen.</item>
+        <item>Jos Bluetoothin uudelleen käynnistäminen ei ratkaise ongelmaa, kokeile käynnistää puhelin uudestaan.</item>
+    </string-array>
+    <string-array name="weight_bfs_help_title">
+        <item>Onko tämä vaaka yhdistetty toiseen laitteeseen?</item>
+        <item>"Tarkista vaa'an paristot"</item>
+        <item>Onko paristot asennettu oikein?</item>
+        <item>Yritä käynnistää Bluetooth uudelleen</item>
+        <item>Kokeile käynnistää puhelin uudelleen</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>Normaali</item>
+        <item>Ylipaino</item>
+        <item>Liikalihava</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_not_chinese">
+        <item>Alipainoinen</item>
+        <item>Normaali</item>
+        <item>Ylipaino</item>
+        <item>Liikalihava l</item>
+        <item>Liikalihava ll</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>" kg"</item>
+        <item>" Jin"</item>
+        <item>" lbs"</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+        <item>@string/weight_bfs_unit_jin</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array_no_jin">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+    </string-array>
+</resources>

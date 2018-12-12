@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff4f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="#ff0000ff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mili_margin" android:text="业务服务器" />
+    <include android:id="@id/set_business_url" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/layout_set_url_item" />
+    <TextView android:textColor="#ff0000ff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mili_margin" android:text="账号服务器" />
+    <include android:id="@id/set_account_url" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/layout_set_url_item" />
+    <TextView android:textSize="@dimen/click_button_text_size" android:textColor="@color/change_sport_goal_confirm_txt" android:gravity="center" android:id="@id/set_test_url_commit" android:background="@drawable/change_sport_goal_button" android:layout_width="fill_parent" android:layout_height="@dimen/click_button_h" android:layout_margin="@dimen/mili_margin" android:text="@string/change_sport_goal_confirm" />
+</LinearLayout>

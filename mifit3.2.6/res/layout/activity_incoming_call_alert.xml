@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:huami="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.hm.health.baseui.widget.TipComponent android:layout_gravity="start" android:id="@id/call_permission_tips" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/incoming_call_enable" android:layout_width="fill_parent" android:layout_height="wrap_content" huami:itemTitle="@string/enable_incoming_call_alert" huami:itemSummary="@string/enable_incoming_call_alert_tips" huami:itemSwitch="true" />
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/strange_number_alert" android:layout_width="fill_parent" android:layout_height="wrap_content" huami:itemTitle="@string/strange_number_tips" huami:itemSwitch="true" />
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/show_contact_info_alert" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" huami:itemTitle="@string/show_contact_info_tips" huami:itemSummary="@string/show_contact_info_summary" huami:itemSwitch="true" />
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/incoming_call_delay_enable" android:layout_width="fill_parent" android:layout_height="wrap_content" huami:itemTitle="@string/delay_alert" huami:itemSwitch="true" />
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/incoming_call_delay" android:layout_width="fill_parent" android:layout_height="wrap_content" huami:itemTitle="@string/delay_alert_time" huami:itemValue="@string/incoming_call_delay_alert_tips" />
+</LinearLayout>

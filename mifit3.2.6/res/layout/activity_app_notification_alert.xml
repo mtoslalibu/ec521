@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xiaomi.hm.health.ui.smartplay.appnotify.view.AppList android:id="@id/notifi_app_list" android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="never" />
+    <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/chart_bottom_bar_height">
+        <View android:background="@color/divide" android:layout_width="fill_parent" android:layout_height="@dimen/divider" />
+        <TextView android:textSize="9.299988sp" android:textColor="@color/black40" android:gravity="center" android:layout_gravity="center" android:id="@id/add_notification_app_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/edit_app" android:drawableTop="@drawable/app_notify_edit_button_press" android:drawablePadding="4.6999817dip" />
+        <View android:layout_gravity="bottom" android:id="@id/btn_mask_view" android:background="#77f7f7f7" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/dialog_empty_area" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="#fff4f5f5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/main_ui_content_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_marginBottom="25.0dip" android:text="@string/choose_device_please" android:paddingStart="@dimen/mili_margin" android:paddingEnd="@dimen/mili_margin" />
+        <include android:layout_width="fill_parent" android:layout_height="1.0px" layout="@layout/divider_horizontal" />
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_item" android:clickable="true" android:layout_width="fill_parent" android:layout_height="90.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/imv_device_type_mili" android:background="@drawable/bg_item" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="0.0dip" android:src="@drawable/arrow_single_choice_orange" android:layout_weight="1.0" android:paddingStart="7.0dip" android:paddingEnd="7.0dip" />
+                <include android:layout_width="fill_parent" android:layout_height="1.0px" layout="@layout/divider_horizontal" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/imv_device_type_shoes" android:background="@drawable/bg_item" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="0.0dip" android:src="@drawable/arrow_single_choice_orange" android:layout_weight="1.0" android:paddingStart="7.0dip" android:paddingEnd="7.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="12.699982sp" android:textColor="@color/main_ui_title_color" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tx_device_type_mili" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <include android:layout_width="fill_parent" android:layout_height="1.0px" layout="@layout/divider_horizontal" />
+                <TextView android:textSize="12.699982sp" android:textColor="@color/main_ui_title_color" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tx_device_type_shoes" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

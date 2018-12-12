@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/item_frame_layout" android:background="@drawable/running_detail_speedpace_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip" android:layout_alignParentStart="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/speed_item_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/speed_item_sub_layout" android:background="@color/running_pace_progress" android:layout_width="0.0dip" android:layout_height="30.0dip" android:layout_weight="5.0">
+                <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="16.0sp" android:textColor="@color/run_white_80_percent" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/km_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="公里" android:layout_weight="1.0" android:fontFamily="din-med" />
+                <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="16.0sp" android:textColor="@color/run_white_80_percent" android:gravity="end|center" android:layout_gravity="center_vertical" android:id="@id/speed_min_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="公里" android:layout_weight="1.0" android:fontFamily="din-med" />
+            </LinearLayout>
+            <ProgressBar android:id="@id/speed_progress" android:layout_width="0.0dip" android:layout_height="30.0dip" android:max="500" android:progress="20" android:progressDrawable="@drawable/running_detail_speedpace_progress_drawable" android:layout_weight="11.0" style="?android:attr/progressBarStyleHorizontal" />
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="16.0sp" android:textColor="@color/run_white_50_percent" android:gravity="center" android:id="@id/spendtime_text" android:layout_width="0.0dip" android:layout_height="30.0dip" android:text="00:06:38" android:layout_weight="4.0" android:fontFamily="din-med" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

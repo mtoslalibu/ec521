@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/item_chat_time" style="@style/ChatTimeStyle" />
+    <android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/item_chat_time">
+        <ImageView android:id="@id/item_chat_avatar" style="@style/AvatarEndStyle" />
+        <TextView android:id="@id/item_chat_content" style="@style/ChatMeStyle" />
+        <ImageView android:id="@id/item_chat_failure" style="@style/FailureMeStyle" />
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

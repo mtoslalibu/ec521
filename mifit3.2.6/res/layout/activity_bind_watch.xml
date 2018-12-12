@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="@color/black80" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="98.0dip" android:text="@string/bind_amazfit_watch_title" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/black60" android:id="@id/sub_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/bind_amazfit_watch_subtitle" android:layout_below="@id/title_tv" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/bind_watch_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="112.0dip" android:src="@drawable/img_amazfitwatch" android:layout_below="@id/sub_title_tv" android:layout_centerHorizontal="true" />
+    <TextView android:id="@id/left_tv" android:text="@string/cancel" android:layout_marginStart="37.0dip" style="@style/BindLeftTextStyle" />
+    <TextView android:id="@id/right_tv" android:text="@string/bind_watch" android:layout_marginEnd="37.0dip" style="@style/BindRightTextStyle" />
+</RelativeLayout>

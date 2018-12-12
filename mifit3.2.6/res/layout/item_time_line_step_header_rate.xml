@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="223.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/step_header_rate_ll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="33.0dip" android:layout_centerHorizontal="true">
+        <TextView android:textSize="14.0sp" android:textColor="@color/stp_blue" android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" android:text="@string/step_rate_pre" />
+        <com.xiaomi.hm.health.view.UnitTextView android:textSize="24.0sp" android:textColor="@color/stp_blue" android:layout_gravity="bottom" android:id="@id/step_header_rate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="pt-din" android:layout_marginStart="3.0dip" app:unitSize="14.0sp" app:unitColor="@color/stp_blue" />
+    </LinearLayout>
+    <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="9.0sp" android:textColor="@color/black40" android:id="@id/step_header_rate_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/step_3_fr_header_rate_sub" android:layout_below="@id/step_header_rate_ll" android:layout_centerHorizontal="true" android:fontFamily="pt-din" />
+    <RelativeLayout android:id="@id/chart_container_rate" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="26.0dip" android:layout_below="@id/step_header_rate_subtitle" android:layout_alignParentBottom="true" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" />
+    <View android:background="@color/pale_grey" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="14.0sp" android:textColor="@color/black70" android:textColorHint="@color/black20" android:gravity="start|center|top" android:id="@id/remind_title_edit" android:background="@color/white" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="110.0dip" android:hint="@string/event_remind_input_title" android:maxLength="16" android:textCursorDrawable="@null" android:paddingStart="18.0dip" android:paddingEnd="18.0dip" />
+    <RelativeLayout android:id="@id/period_container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="58.0dip" android:layout_marginTop="8.0dip" android:layout_below="@id/remind_title_edit">
+        <TextView android:textSize="15.0sp" android:textColor="@color/black70" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/event_remind_period" android:layout_centerVertical="true" android:layout_marginStart="18.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/black60" android:gravity="center" android:id="@id/period_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/event_remind_once" android:drawablePadding="6.0dip" android:layout_centerVertical="true" android:drawableEnd="@drawable/ic_arrow_right" android:layout_marginEnd="18.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/black_40" android:id="@id/time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="9.0dip" android:layout_above="@id/divider" android:layout_centerHorizontal="true" />
+    <View android:id="@id/divider" android:background="@color/black20" android:layout_width="fill_parent" android:layout_height="@dimen/divider" android:layout_above="@id/time_container" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/time_container" android:layout_width="fill_parent" android:layout_height="203.0dip" android:layout_alignParentBottom="true">
+        <kankan.wheel.widget.WheelView android:id="@id/date_wheel" android:layout_width="120.0dip" android:layout_height="fill_parent" />
+        <View android:id="@id/divider_1" android:background="@color/black20" android:layout_width="@dimen/divider" android:layout_height="fill_parent" />
+        <kankan.wheel.widget.WheelView android:id="@id/ap_pm_wheel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <View android:background="@color/black20" android:layout_width="@dimen/divider" android:layout_height="fill_parent" />
+        <kankan.wheel.widget.WheelView android:id="@id/hour_wheel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <View android:background="@color/black20" android:layout_width="@dimen/divider" android:layout_height="fill_parent" />
+        <kankan.wheel.widget.WheelView android:id="@id/minute_wheel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

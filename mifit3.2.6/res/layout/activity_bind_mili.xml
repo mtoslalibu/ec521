@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/device_bind_rl" android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="@color/black80" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="98.0dip" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/black60" android:id="@id/sub_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_below="@id/title_tv" android:layout_centerHorizontal="true" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="360.0dip" android:layout_marginTop="151.0dip">
+        <com.xiaomi.hm.health.device.view.HMLoadingView android:id="@id/loading_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="center" android:id="@id/device_img" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center" android:id="@id/vibrate_img" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_miband_vibrate" />
+        <RelativeLayout android:layout_gravity="center" android:id="@id/bind_weight_rl" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="52.0sp" android:textColor="@color/dark_sky_blue_three" android:id="@id/bind_weight_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="000.0" android:layout_centerInParent="true" android:fontFamily="km" />
+            <TextView android:textSize="13.399994sp" android:textColor="@color/upgrade_progress_color" android:id="@id/bind_weight_value_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/bind_weight_value" android:layout_toEndOf="@id/bind_weight_value" />
+        </RelativeLayout>
+    </FrameLayout>
+    <ImageView android:id="@id/accept_img" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="276.0dip" android:src="@drawable/img_accept" android:layout_marginStart="192.0dip" />
+    <ImageView android:id="@id/normandy_left_img" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="303.0dip" android:src="@drawable/img_left_zzzz" android:layout_marginStart="119.0dip" android:layout_alignParentStart="true" />
+    <ImageView android:id="@id/normandy_right_img" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="303.0dip" android:src="@drawable/img_right_zzzz" android:layout_marginStart="119.0dip" android:layout_marginEnd="119.0dip" android:layout_alignParentEnd="true" />
+    <TextView android:id="@id/cancel_tv" android:text="@string/cancel" style="@style/BindBottomTextStyle" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/black60" android:id="@id/bottom_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="35.0dip" android:text="@string/bind_mili_not_shake" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

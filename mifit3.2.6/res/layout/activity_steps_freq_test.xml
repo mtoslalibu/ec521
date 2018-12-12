@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="20.0sp" android:textColor="@color/black80" android:id="@id/step_freq_tips_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:text="@string/shoes_setting_step_freq" android:layout_centerHorizontal="true" />
+    <FrameLayout android:id="@id/lab_main_sport" android:layout_width="240.0dip" android:layout_height="240.0dip" android:layout_marginTop="60.0dip" android:layout_marginBottom="36.0dip" android:layout_below="@id/step_freq_tips_tv" android:layout_centerHorizontal="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="58.0sp" android:textColor="@color/black60" android:id="@id/sport_rating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="km" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/black60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/shoes_frequency_unit" android:maxLines="1" />
+        </LinearLayout>
+        <com.xiaomi.hm.health.subview.WeightChartView android:id="@id/sport_progress_state" android:layout_width="fill_parent" android:layout_height="fill_parent" app:weightFillColor="@color/black80" app:unFillColor="@color/black10" app:edgeColor="@color/black10" app:circleColor="@color/black20" />
+    </FrameLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/black60" android:layout_gravity="center_horizontal" android:id="@id/count_down_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="42.0dip" android:layout_below="@id/lab_main_sport" android:layout_centerHorizontal="true" />
+    <TextView android:id="@id/step_freq_cancel_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_marginStart="37.0dip" style="@style/BindLeftTextStyle" />
+    <TextView android:id="@id/start_button_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/shoes_start" android:layout_marginEnd="37.0dip" style="@style/BindRightTextStyle" />
+</RelativeLayout>

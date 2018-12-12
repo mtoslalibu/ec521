@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaomi.hm.health.training.ui.widget.StickHeaderLayout android:orientation="vertical" android:background="@color/pale_grey" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_image_header" />
+    <com.xiaomi.hm.health.training.ui.widget.StickHeaderChildScrollView android:id="@id/nsv_bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@id/ll_coach_info" android:background="@color/white100" android:padding="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/imv_coach_header" android:layout_width="36.0dip" android:layout_height="36.0dip" android:scaleType="centerCrop" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="10.0dip">
+                    <TextView android:textSize="15.0sp" android:textColor="@color/black70" android:id="@id/tx_coach_name" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <com.xiaomi.hm.health.training.ui.widget.ReadMoreTextView android:textSize="12.0sp" android:textColor="@color/black50" android:id="@id/tx_coach_introduce" android:layout_width="fill_parent" android:layout_height="wrap_content" app:trimExpandedText="@string/read_less" app:trimCollapsedText="@string/read_more" app:showTrimExpandedText="true" app:colorClickableText="@color/more_blue" app:trimLines="1" />
+                </LinearLayout>
+            </LinearLayout>
+            <include android:id="@id/divider_coach" layout="@layout/view_space" />
+            <com.xiaomi.hm.health.training.ui.widget.ReadMoreTextView android:textSize="14.0sp" android:textColor="@color/black_60" android:id="@id/tx_introduction" android:background="@color/white100" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="18.0dip" android:paddingEnd="18.0dip" app:trimExpandedText="@string/read_less" app:trimCollapsedText="@string/read_more" app:showTrimExpandedText="true" app:colorClickableText="@color/more_blue" app:trimLines="2" />
+            <include layout="@layout/view_space" />
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_training_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View style="@style/VerticalDivider" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/black70" android:gravity="center_vertical" android:background="@color/white100" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/they_also_training_this" android:drawableEnd="@drawable/ic_arrow_right" android:paddingStart="18.0dip" android:paddingEnd="18.0dip" />
+            <android.support.v7.widget.RecyclerView android:id="@id/rcv_joined_tranner" android:background="@color/white100" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" />
+        </LinearLayout>
+    </com.xiaomi.hm.health.training.ui.widget.StickHeaderChildScrollView>
+    <RelativeLayout android:gravity="center" android:orientation="horizontal" android:id="@id/rl_bottom" android:background="@color/orange100" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_below="@id/progress_layout_name" android:layout_alignStart="@id/progress_layout_name">
+        <TextView android:textSize="15.0sp" android:textColor="@color/white100" android:gravity="center" android:id="@id/tx_join" android:padding="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/join_training" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_download_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="16.0dip">
+                <TextView android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/tx_downloading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/downloading" />
+                <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/tx_download_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" android:layout_toEndOf="@id/tx_downloading" />
+                <ProgressBar android:layout_gravity="center_vertical" android:id="@id/cpv_download_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_below="@id/tx_downloading" style="@style/WhiteHorizontalProgressBarStyle" />
+            </RelativeLayout>
+            <View android:background="@color/white40" android:layout_width="@dimen/divider" android:layout_height="32.0dip" android:layout_marginStart="18.0dip" />
+            <ImageView android:id="@id/imv_close_download" android:layout_width="54.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_close_white" android:scaleType="centerInside" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.xiaomi.hm.health.training.ui.widget.StickHeaderLayout>

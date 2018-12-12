@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/pale_grey" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/setting_title_layout" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="24.0dip" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/common_title_left_button" android:layout_width="48.0dip" android:layout_height="32.0dip" android:src="@drawable/arrow_back_black" android:scaleType="centerInside" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/black70" android:ellipsize="end" android:gravity="center" android:id="@id/common_title_text" android:layout_width="wrap_content" android:layout_height="32.0dip" android:text="@string/sport_setting_new" android:maxLines="1" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.xiaomi.hm.health.view.VerticalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/setting_title_layout">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/auto_pause_switcher" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="wrap_content" app:itemTitle="@string/running_auto_pause" app:itemSummary="@string/setting_auto_pause_unsupport_indoor" app:itemSwitch="true" />
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/audio_play_switcher" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="wrap_content" app:itemTitle="@string/running_audio_play" app:itemSwitch="true" />
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/screen_on_switcher" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="wrap_content" app:itemTitle="@string/sport_screen_on" app:itemSwitch="true" />
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/screen_lock_switcher" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="wrap_content" app:itemTitle="@string/running_lock_screen_display" app:itemSwitch="true" app:itemDivider="gone" />
+            <include android:id="@id/space_below_screen_lock" layout="@layout/view_space" />
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/max_hr_notify_switcher" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:itemTitle="@string/max_hr_warning" app:itemSummary="@string/max_hr_warning_desc" app:itemSwitch="true" app:itemEndArrow="false" app:itemTitleTipIcon="@drawable/max_hr_remind_help" app:itemTitleTipIconTintColor="@color/max_hr_remind_tip_icon_tint" app:itemDivider="normal" />
+            <LinearLayout android:orientation="vertical" android:id="@id/hr_seek_bar_container" android:background="@color/white100" android:paddingTop="20.0dip" android:paddingBottom="17.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+                <LinearLayout android:orientation="horizontal" android:id="@id/hr_value_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="24.0sp" android:textColor="@color/orange100" android:id="@id/hr_value" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" android:text="@string/unit_hr" android:layout_marginStart="3.0dip" />
+                </LinearLayout>
+                <com.xiaomi.hm.health.training.ui.widget.HeartRateSeekBar android:id="@id/seek_bar_max_hr" android:layout_width="fill_parent" android:layout_height="28.0dip" android:layout_marginTop="9.0dip" app:hrsb_thumbSize="16.0dip" app:hrsb_backgroundHeight="4.0dip" app:hrsb_max="220.0" app:hrsb_progress="0.0" />
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black40" android:id="@id/hr_section_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black40" android:id="@id/hr_section" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <include android:id="@id/space_below_heart_rate_bar" layout="@layout/view_space" />
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/pace_notify_switcher" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:itemTitle="@string/running_set_pace" app:itemSummary="@string/running_set_pace_desc" app:itemSwitch="true" app:itemEndArrow="false" app:itemDivider="normal" />
+            <LinearLayout android:orientation="vertical" android:id="@id/pace_seek_bar_container" android:background="@color/white100" android:paddingTop="20.0dip" android:paddingBottom="17.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+                <TextView android:textSize="24.0sp" android:textColor="@color/orange100" android:id="@id/pace_value" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <cn.com.smartdevices.bracelet.gps.ui.view.PaceNotiSeekBar android:id="@id/seek_bar_pace" android:layout_width="fill_parent" android:layout_height="28.0dip" android:layout_marginTop="9.0dip" app:psb_thumbSize="16.0dip" app:psb_backgroundHeight="4.0dip" app:psb_max="100.0" app:psb_progress="0.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/sport_internal_set_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/space_below_pace_noti_bar" layout="@layout/view_space" />
+                <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/draw_gps_line_switcher" android:background="@color/white100" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:itemTitle="@string/sport_internal_setting_gps_line" app:itemSwitch="true" />
+                <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/create_test_point_switcher" android:background="@color/white100" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:itemTitle="@string/sport_internal_setting_gps_point" app:itemSwitch="true" />
+                <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/security_center" android:background="@color/white100" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:itemTitle="@string/sport_internal_setting_security_center" app:itemSwitch="false" />
+                <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/super_hide_mode" android:background="@color/white100" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:itemTitle="@string/sport_internal_setting_super_mode" app:itemSwitch="false" app:itemDivider="gone" />
+            </LinearLayout>
+            <View android:background="@color/black10" android:layout_width="fill_parent" android:layout_height="0.30000007dip" />
+            <View android:layout_width="fill_parent" android:layout_height="40.0dip" />
+        </LinearLayout>
+    </com.xiaomi.hm.health.view.VerticalScrollView>
+</RelativeLayout>

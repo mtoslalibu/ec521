@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="30.699982sp" android:textColor="@color/white100" android:id="@id/btn_start_mark" android:background="@drawable/pre_mark_button_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/start_tagging" android:textAllCaps="false" style="?android:attr/borderlessButtonStyle" />
+    <TextView android:textSize="12.0sp" android:textColor="#4d000000" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tx_action_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="46.69998dip" android:layout_marginBottom="35.299988dip" android:text="@string/tagging_tip" />
+</LinearLayout>

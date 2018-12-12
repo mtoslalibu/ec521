@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/common_light_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="26.699982sp" android:textColor="@color/white_90_percent" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/measure_hr_correct" />
+    <TextView android:textSize="13.299988sp" android:textColor="@color/device_tips_color" android:gravity="center" android:id="@id/sub_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.699982dip" android:text="@string/measure_hr_tips" android:layout_below="@id/title" />
+    <TextView android:textColor="@color/white_40_percent" android:id="@id/measure_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="420.0dip" android:text="@string/hr_measuring" android:layout_centerHorizontal="true" />
+</RelativeLayout>

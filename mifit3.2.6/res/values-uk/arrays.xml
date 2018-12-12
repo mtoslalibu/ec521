@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="avoid_type">
+        <item>@string/state_close</item>
+        <item>@string/avoid_enable_smart</item>
+        <item>@string/avoid_enable_time</item>
+    </string-array>
+    <string-array name="avoid_type_sub">
+        <item></item>
+        <item>@string/avoid_enable_smart_sub</item>
+        <item>@string/avoid_enable_time_sub</item>
+    </string-array>
+    <string-array name="bmi_for_adualt">
+        <item>Низький</item>
+        <item>Нормальний</item>
+        <item>Високий</item>
+        <item>Дуже високий</item>
+    </string-array>
+    <string-array name="bmi_for_child">
+        <item>Нормальний</item>
+        <item>Високий</item>
+        <item>Дуже високий</item>
+    </string-array>
+    <string-array name="bmi_for_not_chinese">
+        <item>Низький</item>
+        <item>Нормальний</item>
+        <item>Вище середнього</item>
+        <item>Високий</item>
+        <item>Дуже високий</item>
+    </string-array>
+    <string-array name="body_score_leval">
+        <item>Дуже погана</item>
+        <item>Погана</item>
+        <item>Нормальна</item>
+        <item>Чудовий</item>
+        <item>Відмінна</item>
+    </string-array>
+    <string-array name="body_shape_type_array">
+        <item>Худий</item>
+        <item>Збалансовано худорлявий</item>
+        <item>"М'язовий худорлявий"</item>
+        <item>Недостатньо вправ</item>
+        <item>Збалансований</item>
+        <item>"Збалансована м'язова маса"</item>
+        <item>Ожиріння</item>
+        <item>Надмірна вага</item>
+        <item>Повний</item>
+    </string-array>
+    <string-array name="bodyfat_content_leval">
+        <item>Дуже низький</item>
+        <item>Низький</item>
+        <item>Нормальний</item>
+        <item>Збільшився</item>
+        <item>Високий</item>
+    </string-array>
+    <string-array name="bone_leval">
+        <item>Недостатній</item>
+        <item>Нормальний</item>
+        <item>Чудовий</item>
+    </string-array>
+    <string-array name="brm_leval">
+        <item>Мета не досягнута</item>
+        <item>Мета досягнута</item>
+    </string-array>
+    <string-array name="chaohu_help_tips">
+        <item>Спробуйте натиснути кнопку на годиннику, якщо екран залишається вимкненим, зарядіть батарею.</item>
+        <item>Спочатку вимкніть Bluetooth, а потім прив‘яжіть з поточним пристроєм.</item>
+        <item>Якщо браслет заряджений, але телефон все ще не може його знайти, спробуйте перезапустити Bluetooth на телефоні.</item>
+        <item>Якщо перезапуск Bluetooth не допомагає, спробуйте перезавантажити телефон.</item>
+        <item>Дані годинника неможливо синхронізувати під час тренування. Завершіть сеанс та повторіть спробу.</item>
+    </string-array>
+    <string-array name="chaohu_help_title">
+        <item>Ваш годинник заряджений?</item>
+        <item>"Годинник прив'язано до іншого пристрою?"</item>
+        <item>Спробуйте перезапустити Bluetooth</item>
+        <item>Спробуйте перезавантажити ваш телефон</item>
+        <item>Неможливо синхронізувати дані під час тренування</item>
+    </string-array>
+    <string-array name="chaohu_setting_run_types">
+        <item>@string/chaohu_setting_run_outdoor</item>
+        <item>@string/chaohu_setting_run_indoor</item>
+        <item>@string/chaohu_setting_run_ride</item>
+        <item>@string/chaohu_setting_run_walk</item>
+    </string-array>
+    <string-array name="colors">
+        <item>@string/blue</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/red</item>
+    </string-array>
+    <string-array name="common_cities">
+        <item>Гуанчжоу</item>
+        <item>Шеньчжень</item>
+        <item>Фошань</item>
+        <item>Дунгуань</item>
+        <item>Пекін</item>
+        <item>Нанкін</item>
+        <item>Сучжоу</item>
+        <item>Чанчжоу</item>
+        <item>Цзінань</item>
+        <item>Циндао</item>
+        <item>Ханчжоу</item>
+        <item>Нінбо</item>
+        <item>Чженчжоу</item>
+        <item>Кайфен</item>
+        <item>Шанхай</item>
+        <item>Шицзячжуан</item>
+        <item>Баодін</item>
+        <item>Ченду</item>
+        <item>Маньян</item>
+        <item>Шеньян</item>
+        <item>Далянь</item>
+    </string-array>
+    <string-array name="difficulty_content">
+        <item>Тільки почав тренуватися</item>
+        <item>Вже є досвід тренувань</item>
+        <item>Постійно тренуюся, маю спортивну статуру</item>
+    </string-array>
+    <string-array name="difficulty_title">
+        <item>Початковий</item>
+        <item>Середній</item>
+        <item>Просунутий</item>
+    </string-array>
+    <string-array name="fitness_goal_content">
+        <item>З метою зниження ваги</item>
+        <item>З метою надання форми тілу</item>
+        <item>"З метою наростити м'язи"</item>
+    </string-array>
+    <string-array name="fitness_goal_title">
+        <item>Зниження ваги</item>
+        <item>Надання форми</item>
+        <item>Збільшення ваги</item>
+    </string-array>
+    <string-array name="ges_screen_type">
+        <item>@string/ges_screen_type_all_day</item>
+        <item>@string/ges_screen_type_time</item>
+        <item>@string/ges_screen_type_close</item>
+    </string-array>
+    <string-array name="hr_section">
+        <item>@string/hr_section_warm_up</item>
+        <item>@string/hr_section_fat_burn</item>
+        <item>@string/hr_section_heart_lung_strengthen</item>
+        <item>@string/hr_section_stamina_strengthen</item>
+        <item>@string/hr_section_anaerobic_limit</item>
+        <item>@string/hr_section_other</item>
+    </string-array>
+    <string-array name="hr_sport">
+        <item>Зона пульсу: Терапевтична зона</item>
+        <item>Зона пульсу: Зона помірного навантаження</item>
+        <item>Зона пульсу: Аеробна зона</item>
+        <item>Зона пульсу: Анаеробна зона</item>
+        <item>Зона пульсу: Зона максимального споживання кисню</item>
+    </string-array>
+    <string-array name="hr_sport_new">
+        <item>Терапевтична зона</item>
+        <item>Зона помірного навантаження</item>
+        <item>Аеробна зона</item>
+        <item>Анаеробна зона</item>
+        <item>Зона максимального споживання кисню</item>
+    </string-array>
+    <string-array name="lock_screen_type">
+        <item>Закрити</item>
+        <item>Поруч</item>
+        <item>Далеко</item>
+    </string-array>
+    <string-array name="member_add_weight_items">
+        <item>@string/member_add_weight_item_auto</item>
+        <item>@string/member_add_weight_item_manual</item>
+    </string-array>
+    <string-array name="mili_help_tips">
+        <item>"Натисніть на браслет, щоб перевірити заряд батареї перед прив'язуванням Mi Band 2 або інших браслетів. 
+
+Зарядіть браслет перед прив'язуванням Mi Band або Mi Band Pulse."</item>
+        <item>Спочатку вимкніть Bluetooth, а потім прив‘яжіть з поточним пристроєм.</item>
+        <item>Якщо браслет заряджений, але телефон все ще не може його знайти, спробуйте перезапустити Bluetooth на телефоні.</item>
+        <item>Якщо перезапуск Bluetooth не вирішує проблеми, спробуйте перезавантажити телефон.</item>
+    </string-array>
+    <string-array name="mili_help_title">
+        <item>Ваш браслет заряджений?</item>
+        <item>"Браслет прив'язано до іншого пристрою?"</item>
+        <item>Спробуйте перезапустити Bluetooth</item>
+        <item>Спробуйте перезавантажити ваш телефон</item>
+    </string-array>
+    <string-array name="mili_pro_display_items">
+        <item>Час</item>
+        <item>Кроків</item>
+        <item>Відстань</item>
+        <item>Калорії</item>
+        <item>Пульс</item>
+        <item>Батарея</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>Січ</item>
+        <item>Лют</item>
+        <item>Бер</item>
+        <item>Квіт</item>
+        <item>Трав</item>
+        <item>Черв</item>
+        <item>Лип</item>
+        <item>Серп</item>
+        <item>Вер</item>
+        <item>Жовт</item>
+        <item>Лист</item>
+        <item>Груд</item>
+    </string-array>
+    <string-array name="muscle_content_leval">
+        <item>Недостатній</item>
+        <item>Нормальний</item>
+        <item>Нормальний</item>
+    </string-array>
+    <string-array name="ring_types">
+        <item>@string/ring_type_default</item>
+        <item>@string/ring_type_incall</item>
+    </string-array>
+    <string-array name="running_months">
+        <item>Січ</item>
+        <item>Лют</item>
+        <item>Бер</item>
+        <item>Квіт</item>
+        <item>Травень</item>
+        <item>Черв</item>
+        <item>Лип</item>
+        <item>Серп</item>
+        <item>Вер</item>
+        <item>Жовт</item>
+        <item>Лист</item>
+        <item>Груд</item>
+    </string-array>
+    <string-array name="setting_hr_freq_types">
+        <item>@string/setting_heartrate_detect_freq_1</item>
+        <item>@string/setting_heartrate_detect_freq_10</item>
+        <item>@string/setting_heartrate_detect_freq_30</item>
+    </string-array>
+    <string-array name="setting_hr_types">
+        <item>@string/setting_heartrate_detect_auto</item>
+        <item>@string/setting_heartrate_detect_sleep</item>
+        <item>@string/setting_heartrate_detect_close</item>
+    </string-array>
+    <string-array name="setting_peyto_apps_array">
+        <item>Циферблат годинника</item>
+        <item>Статус</item>
+        <item>Активність</item>
+        <item>Погода</item>
+        <item>Будильник</item>
+        <item>Таймер</item>
+        <item>Компас</item>
+        <item>Більше налаштувань</item>
+    </string-array>
+    <string-array name="setting_tempo_apps_array">
+        <item>Циферблат годинника</item>
+        <item>Статус</item>
+        <item>Сповіщення</item>
+        <item>Активність</item>
+        <item>Погода</item>
+        <item>Будильник</item>
+        <item>Таймер</item>
+        <item>Налаштування</item>
+    </string-array>
+    <string-array name="setting_weather_temp_unit_array">
+        <item>@string/setting_weather_temp_c</item>
+        <item>@string/setting_weather_temp_f</item>
+    </string-array>
+    <string-array name="shoes_help_tips">
+        <item>Чіп припинить роботу, якщо ви не використовували його протягом довгого часу. Струсіть його та повторіть спробу.</item>
+        <item>Термін роботи батареї чіпа Amazfit приблизно 1 рік. Якщо ви використовуваєте його протягом довгого часу, можливо, батарея розрядилася.</item>
+        <item>Спочатку вимкніть Bluetooth, а потім прив‘яжіть до пристрою.</item>
+        <item>Якщо чіп заряджений, телефон знаходиться поблизу пристрою, але ви все одно не можете підключитися, спробуйте перезавантажити Bluetooth.</item>
+        <item>Якщо перезапуск Bluetooth не вирішує проблеми, спробуйте перезавантажити телефон.</item>
+        <item>Натисніть на кнопку з даними кросівок та перейдіть на наступну сторінку, щоб автоматично синхронізувати дані</item>
+    </string-array>
+    <string-array name="shoes_help_title">
+        <item>Струсіть чіп</item>
+        <item>Батарея заряджена?</item>
+        <item>"Розумний чіп прив'язано до іншого пристрою?"</item>
+        <item>Перезапустити Bluetooth</item>
+        <item>Спробуйте перезавантажити ваш телефон</item>
+        <item>Як синхронізувати ваші дані?</item>
+    </string-array>
+    <string-array name="show_body_shape_array">
+        <item>Ожиріння</item>
+        <item>Надмірна вага</item>
+        <item>Повний</item>
+        <item>"Без
+тренування"</item>
+        <item>Збалансований</item>
+        <item>"Збалансована
+м'язова маса"</item>
+        <item>Худий</item>
+        <item>"Збалансовано
+худорлявий"</item>
+        <item>"М'язовий
+худорлявий"</item>
+    </string-array>
+    <string-array name="timeline_type">
+        <item>Активність</item>
+        <item>Повільна ходьба</item>
+        <item>Ходьба</item>
+        <item>Швидка ходьба</item>
+        <item>Біг</item>
+        <item>Стоячи</item>
+        <item>Сидячи</item>
+        <item>Легка активність</item>
+        <item>Не носити</item>
+        <item>Зарядження…</item>
+        <item>Лежачи</item>
+    </string-array>
+    <string-array name="train_difficulity">
+        <item>Без обмежень</item>
+        <item>Початковий, 1</item>
+        <item>Середній, 2</item>
+        <item>Просунутий, 3</item>
+    </string-array>
+    <string-array name="unbind_device_description">
+        <item>@string/device_band</item>
+        <item>@string/device_weight</item>
+        <item>@string/device_shoe</item>
+        <item>@string/device_watch</item>
+    </string-array>
+    <string-array name="visceral_fat_leval">
+        <item>Нормальний</item>
+        <item>Високий</item>
+        <item>Дуже високий</item>
+    </string-array>
+    <string-array name="water_leval">
+        <item>Недостатній</item>
+        <item>Нормальний</item>
+        <item>Чудовий</item>
+    </string-array>
+    <string-array name="wear_type">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+    </string-array>
+    <string-array name="wear_type_body">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="wear_type_chest">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/chest</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>Нд</item>
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>Понеділок</item>
+        <item>Вівторок</item>
+        <item>Середа</item>
+        <item>Четвер</item>
+        <item>"П'ятниця"</item>
+        <item>Субота</item>
+        <item>Неділя</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+        <item>Нд</item>
+    </string-array>
+    <string-array name="weight3_body_figures">
+        <item>Недостатня вага</item>
+        <item>Збалансований</item>
+        <item>Надмірна вага</item>
+        <item>Ожиріння</item>
+    </string-array>
+    <string-array name="weight_bfs_help_tips">
+        <item>Спочатку вимкніть Bluetooth, а потім прив‘яжіть з поточним пристроєм.</item>
+        <item>Станьте на ваги, щоб побачити, чи показують вони вашу вагу. Якщо дисплей показує значок низького заряду батареї, будь ласка, замініть батарею.</item>
+        <item>Якщо немає відповіді, коли ви ступаєте на ваги, будь ласка, переконайтеся, що батарея правильно встановлена.</item>
+        <item>Якщо батарея заряджена, але ви вще ще не можете знайти пристрій після того, як піднесли телефон ближче до нього, спробуйте перезапустити Bluetooth на телефоні.</item>
+        <item>Якщо перезапуск Bluetooth не допомагає, спробуйте перезавантажити телефон.</item>
+    </string-array>
+    <string-array name="weight_bfs_help_title">
+        <item>"Ваги прив'язані до іншого пристрою?"</item>
+        <item>Перевірте заряд батареї вагів</item>
+        <item>Батарея встановлена правильно?</item>
+        <item>Спробуйте перезапустити Bluetooth</item>
+        <item>Спробуйте перезавантажити ваш телефон</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>Нормальна вага</item>
+        <item>Надмірна вага</item>
+        <item>Ожиріння</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_not_chinese">
+        <item>Недостатня вага</item>
+        <item>Нормальна вага</item>
+        <item>Надмірна вага</item>
+        <item>Ожиріння I</item>
+        <item>Ожиріння II</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>" кг"</item>
+        <item>" дзінь"</item>
+        <item>" фунтів"</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+        <item>@string/weight_bfs_unit_jin</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array_no_jin">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+    </string-array>
+</resources>

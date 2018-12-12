@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:baseui="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/black70" android:gravity="center" android:id="@id/new_user_next" android:background="@drawable/new_user_btn_bg" android:layout_width="fill_parent" android:layout_height="@dimen/click_button_h" android:layout_marginTop="@dimen/new_user_margin_top_bottom" android:layout_marginBottom="@dimen/new_user_margin_top_bottom" android:text="@string/next_step" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/new_user_margin_start_end" android:layout_marginEnd="@dimen/new_user_margin_start_end" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/new_user_next">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/new_user_info_setting_ll" android:background="@color/trans" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/new_user_info_setting_name" android:layout_width="fill_parent" android:layout_height="wrap_content" baseui:itemTitle="@string/name" baseui:itemValue="@string/new_user_item_input_default" baseui:itemDivider="normal" />
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/new_user_info_setting_gender" android:layout_width="fill_parent" android:layout_height="wrap_content" baseui:itemTitle="@string/your_gender" baseui:itemValue="@string/new_user_item_choose_default" baseui:itemDivider="normal" />
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/new_user_info_setting_birthday" android:layout_width="fill_parent" android:layout_height="wrap_content" baseui:itemTitle="@string/please_input_birthday" baseui:itemValue="@string/new_user_item_choose_default" baseui:itemDivider="normal" />
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/new_user_info_setting_height" android:layout_width="fill_parent" android:layout_height="wrap_content" baseui:itemTitle="@string/your_height" baseui:itemValue="@string/new_user_item_choose_default" baseui:itemDivider="normal" />
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/new_user_info_setting_weight" android:layout_width="fill_parent" android:layout_height="wrap_content" baseui:itemTitle="@string/your_weight" baseui:itemValue="@string/new_user_item_choose_default" baseui:itemDivider="gone" />
+            <View android:background="@color/black20" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/new_user_info_setting_ll">
+            <com.xiaomi.hm.health.baseui.colorfilterimageview.ColorFilterImageView android:background="@color/trans" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/login_bg" android:scaleType="fitXY" baseui:filter_color="@color/bg_filter" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/white100" android:id="@id/new_user_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/new_user_info_margin_top" android:text="@string/new_user_info" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/new_user_margin_start_end" android:layout_marginEnd="@dimen/new_user_margin_start_end" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/new_user_info">
+                <RelativeLayout android:id="@id/new_user_avatar_rl" android:layout_width="@dimen/new_user_avatar_rl_size" android:layout_height="@dimen/new_user_avatar_rl_size" android:layout_centerInParent="true">
+                    <com.xiaomi.hm.health.baseui.circleimageview.HMCircleImageView android:id="@id/new_user_avatar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/setting_avatar_default" baseui:civ_border_width="1.2999878dip" baseui:civ_border_color="@color/white_60" baseui:civ_fill_color="@color/white_60" baseui:hm_civ_border_color_touch="@color/origin100" />
+                    <ImageView android:layout_width="@dimen/new_user_camera_size" android:layout_height="@dimen/new_user_camera_size" android:src="@drawable/setting_camera" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

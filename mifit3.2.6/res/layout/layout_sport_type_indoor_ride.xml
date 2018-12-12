@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="@dimen/sports_detail_data_font_size" android:textColor="@color/white80" android:id="@id/rideTotalTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00:00" android:fontFamily="din-med" />
+            <TextView android:textSize="@dimen/sports_detail_data_desc_font_size" android:textColor="@color/white30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sports_detail_data_desc_internal_space" android:text="@string/ride_total_time" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="@dimen/sports_detail_data_font_size" android:textColor="@color/white80" android:id="@id/ride_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0'00''" android:fontFamily="din-med" />
+            <TextView android:textSize="@dimen/sports_detail_data_desc_font_size" android:textColor="@color/white30" android:id="@id/ride_time_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sports_detail_data_desc_internal_space" android:text="@string/ride_time" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="@dimen/sports_detail_data_font_size" android:textColor="@color/white80" android:id="@id/rideAvgHr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:fontFamily="din-med" />
+            <TextView android:textSize="@dimen/sports_detail_data_desc_font_size" android:textColor="@color/white30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sports_detail_data_desc_internal_space" android:text="@string/running_hr_unit_desc" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

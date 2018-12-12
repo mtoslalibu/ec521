@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/radio_day" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RadioButton android:gravity="center" android:id="@id/radio_day_button" android:background="@drawable/radio_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" />
+        <TextView android:id="@id/radio_day_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0999756dip" android:text="@string/statistics_day" style="@style/myRadioButtonStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/radio_week" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="22.0dip" android:layout_marginEnd="22.0dip" android:layout_toEndOf="@id/radio_day">
+        <RadioButton android:gravity="center" android:id="@id/radio_week_button" android:background="@drawable/radio_selector_7" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" />
+        <TextView android:id="@id/radio_week_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0999756dip" android:text="@string/statistics_week" style="@style/myRadioButtonStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/radio_month" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toEndOf="@id/radio_week">
+        <RadioButton android:gravity="center" android:id="@id/radio_month_button" android:background="@drawable/radio_selector_30" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" />
+        <TextView android:id="@id/radio_month_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0999756dip" android:text="@string/statistics_month" style="@style/myRadioButtonStyle" />
+    </LinearLayout>
+</RelativeLayout>

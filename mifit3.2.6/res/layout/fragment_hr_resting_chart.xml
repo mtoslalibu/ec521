@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/chart_area" android:background="@drawable/no_hr_chart_bg" android:layout_width="fill_parent" android:layout_height="@dimen/whole_day_hr_chart_area_height">
+        <TextView android:textSize="15.0sp" android:textColor="@color/black70" android:gravity="center" android:layout_gravity="center" android:id="@id/chart_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading" android:drawableTop="@drawable/icon_hr_warning" android:drawablePadding="12.0dip" />
+        <FrameLayout android:layout_gravity="bottom" android:id="@id/chart_container" android:layout_width="fill_parent" android:layout_height="@dimen/whole_day_hr_chart_height" />
+    </FrameLayout>
+    <RelativeLayout android:orientation="horizontal" android:id="@id/day_scale" android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="22.0dip" android:paddingStart="6.0dip" android:paddingEnd="6.0dip">
+        <TextView android:id="@id/day_first" style="@style/RestHrDateTextStyle" />
+        <TextView android:id="@id/day_first_third" style="@style/RestHrDateTextStyle" />
+        <TextView android:id="@id/day_last_third" android:layout_alignParentEnd="true" style="@style/RestHrDateTextStyle" />
+        <TextView android:id="@id/day_last" android:layout_alignParentEnd="true" style="@style/RestHrDateTextStyle" />
+    </RelativeLayout>
+    <View style="@style/VerticalDivider" />
+    <RelativeLayout android:id="@id/btn_intro" android:background="@drawable/bg_item" android:paddingLeft="18.0dip" android:paddingRight="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip">
+        <TextView android:textSize="15.0sp" android:textColor="@color/black70" android:id="@id/title_rhr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.5dip" android:text="@string/heart_rate_rest" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="13.5dip" android:text="@string/rhr_intro" android:layout_below="@id/title_rhr" android:layout_marginEnd="52.0dip" />
+        <ImageView android:layout_width="12.0dip" android:layout_height="13.5dip" android:src="@drawable/ic_indicator_right_arrow" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View style="@style/VerticalDivider" />
+    <LinearLayout android:orientation="vertical" android:id="@id/list_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_marginTop="8.0dip" style="@style/VerticalDivider" />
+    </LinearLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/black20" android:layout_gravity="center" android:id="@id/empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="74.0dip" android:text="@string/wear_ring_to_measure_rest_hr" android:drawableTop="@drawable/icon_no_rest_hr" android:drawablePadding="3.0dip" />
+</LinearLayout>

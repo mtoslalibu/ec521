@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/firstSplitLine" android:visibility="gone" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" style="@style/VerticalDivider" />
+    <View android:id="@id/commonSplitLine" android:layout_marginStart="60.0dip" android:layout_marginEnd="18.0dip" style="@style/VerticalDivider" />
+    <RelativeLayout android:id="@id/runningContainer" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/sportsTypeIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="18.0dip" android:layout_alignParentStart="true" />
+        <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="14.0sp" android:textColor="@color/black40" android:gravity="center_vertical" android:id="@id/sportsBegin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:fontFamily="km" android:layout_marginEnd="18.0dip" android:layout_alignParentEnd="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/runningTypeContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="14.0dip" android:layout_toStartOf="@id/sportsBegin" android:layout_toEndOf="@id/sportsTypeIcon">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="23.0dip">
+                <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="15.0sp" android:textColor="@color/black70" android:ellipsize="end" android:id="@id/sportsType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:fontFamily="km" android:layout_marginStart="5.0dip" />
+                <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="15.0sp" android:textColor="@color/black70" android:ellipsize="end" android:id="@id/sportsTypeData" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:fontFamily="km" android:layout_marginStart="5.0dip" />
+                <ImageView android:id="@id/sportsDeviceIcon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6.6999817dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/runningInfoContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+                <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="14.0sp" android:textColor="@color/black40" android:gravity="center_vertical" android:id="@id/sportCostTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="4.0dip" android:drawableStart="@drawable/ic_18_time" android:fontFamily="km" android:layout_marginStart="5.0dip" />
+                <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="14.0sp" android:textColor="@color/black40" android:gravity="center_vertical" android:id="@id/sportSubData" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="4.0dip" android:drawableStart="@drawable/ic_18_fire" android:fontFamily="km" android:layout_marginStart="20.0dip" />
+                <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="14.0sp" android:textColor="@color/black40" android:gravity="center_vertical" android:id="@id/sportFreq" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="4.0dip" android:drawableStart="@drawable/ic_18_fire" android:fontFamily="km" android:layout_marginStart="20.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@id/endSplitLine" android:visibility="gone" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" style="@style/VerticalDivider" />
+</LinearLayout>

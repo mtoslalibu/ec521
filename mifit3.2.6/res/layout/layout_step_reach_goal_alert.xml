@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/blue_dark" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="33.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentStart="true">
+            <ImageView android:background="@drawable/step_reach_goal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/white_70_percent" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="80.0dip" android:layout_height="wrap_content" android:text="@string/step_reach_goal_text" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="180.0dip">
+            <ImageView android:background="@drawable/step_new_record" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/white_70_percent" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="80.0dip" android:layout_height="wrap_content" android:text="@string/step_new_record" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

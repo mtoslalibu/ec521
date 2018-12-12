@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ff0a1020" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/run_diagram_container" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:run="http://schemas.android.com/apk/res-auto">
+            <RelativeLayout android:id="@id/hrUnusualPrompt" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="23.299988dip" android:layout_marginBottom="6.5dip">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginStart="32.0dip" android:layout_marginEnd="76.0dip">
+                    <TextView android:textSize="12.0sp" android:textColor="@color/white30" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/running_hr_unusual_prompt_segment1" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/white30" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/running_hr_unusual_prompt_segment2" />
+                </LinearLayout>
+                <ImageView android:id="@id/hrPromptClose" android:background="@drawable/icon_hr_unusual_prompt_close" android:layout_width="22.699982dip" android:layout_height="22.699982dip" android:layout_centerVertical="true" android:layout_marginEnd="12.699982dip" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <cn.com.smartdevices.bracelet.gps.ui.view.DiagramView android:id="@id/diagram_speed" android:layout_width="fill_parent" android:layout_height="261.0dip" android:layout_marginTop="16.799988dip" run:diagram_type="speed" />
+            <cn.com.smartdevices.bracelet.gps.ui.view.DiagramView android:id="@id/diagram_heart" android:layout_width="fill_parent" android:layout_height="261.0dip" android:layout_marginTop="16.799988dip" run:diagram_type="heart" />
+            <cn.com.smartdevices.bracelet.gps.ui.view.DiagramView android:id="@id/diagram_altitude" android:layout_width="fill_parent" android:layout_height="261.0dip" android:layout_marginTop="16.799988dip" run:diagram_type="altitude" />
+            <cn.com.smartdevices.bracelet.gps.ui.view.DiagramView android:id="@id/diagram_step_freq" android:layout_width="fill_parent" android:layout_height="261.0dip" android:layout_marginTop="16.799988dip" run:diagram_type="step_freq" />
+            <cn.com.smartdevices.bracelet.gps.ui.view.DiagramView android:id="@id/diagram_step" android:layout_width="fill_parent" android:layout_height="261.0dip" android:layout_marginTop="16.799988dip" android:layout_marginBottom="16.799988dip" run:diagram_type="step" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

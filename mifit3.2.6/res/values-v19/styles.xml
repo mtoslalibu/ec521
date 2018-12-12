@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+    <style name="ShareTheme" parent="@style/AppTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="CountDownDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:background">@color/trans</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+    <style name="CustomOauthStyle" parent="@style/LauncherStyle" />
+    <style name="FullScreenStyle" parent="@style/AppTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="LauncherStyle" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/trans</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@null</item>
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="MenuPanelTint" parent="@style/MenuPanel">
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="StartupStyle" parent="@style/LauncherStyle" />
+    <style name="CountDownDimDialogTint" parent="@style/DimPanelBase">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="CountDownDimTint" parent="@style/DimPanel">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="DimPanelTint" parent="@style/DimPanel">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="DimPanelTintNoAnim" parent="@style/DimPanel">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+</resources>

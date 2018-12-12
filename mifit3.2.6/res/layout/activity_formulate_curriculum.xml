@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fl_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <Button android:textSize="14.0sp" android:textColor="@color/black60" android:id="@id/btn_next_step" android:background="@drawable/click_btn_bg_3" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginBottom="24.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/item_horizontal_margin" android:layout_marginEnd="@dimen/item_horizontal_margin" style="?android:attr/borderlessButtonStyle" />
+</RelativeLayout>

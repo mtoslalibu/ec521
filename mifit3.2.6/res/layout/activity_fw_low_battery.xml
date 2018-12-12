@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="@color/black80" android:gravity="center" android:id="@id/low_battery_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="98.0dip" android:text="@string/mili_low_battery_title" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/black60" android:gravity="center" android:id="@id/low_battery_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/mili_low_battery_tips" android:layout_below="@id/low_battery_title" android:layout_centerHorizontal="true" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="112.0dip" android:src="@drawable/img_low_power" android:layout_below="@id/low_battery_tips" android:layout_centerHorizontal="true" />
+    <TextView android:id="@id/low_battery_ok_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gotit" style="@style/BindBottomTextStyle" />
+</RelativeLayout>

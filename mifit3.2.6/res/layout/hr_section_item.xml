@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/WholeDayHrInfoSquareStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:id="@id/hr_section_hour" style="@style/WholeDayHrValueTextStyle" />
+        <TextView android:id="@id/hr_section_hour_subtitle" android:text="@string/unit_hour" android:layout_alignBaseline="@id/hr_section_hour" android:layout_toEndOf="@id/hr_section_hour" style="@style/WholeDayHrMinuteTextStyle" />
+        <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:id="@id/hr_section_minute" android:layout_toEndOf="@id/hr_section_hour_subtitle" style="@style/WholeDayHrValueTextStyle" />
+        <TextView android:id="@id/hr_section_minute_subtitle" android:text="@string/unit_min" android:layout_alignBaseline="@id/hr_section_minute" android:layout_toEndOf="@id/hr_section_minute" style="@style/WholeDayHrMinuteTextStyle" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:id="@id/hr_section_indicator" style="@style/WholeDayHrSectionColorIndicator" />
+        <TextView android:id="@id/hr_section_subtitle" style="@style/WholeDayHrTitleTextStyle" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="avoid_type">
+        <item>@string/state_close</item>
+        <item>@string/avoid_enable_smart</item>
+        <item>@string/avoid_enable_time</item>
+    </string-array>
+    <string-array name="avoid_type_sub">
+        <item></item>
+        <item>@string/avoid_enable_smart_sub</item>
+        <item>@string/avoid_enable_time_sub</item>
+    </string-array>
+    <string-array name="bmi_for_adualt">
+        <item>Thấp</item>
+        <item>Tiêu chuẩn</item>
+        <item>Cao</item>
+        <item>Rất cao</item>
+    </string-array>
+    <string-array name="bmi_for_child">
+        <item>Tiêu chuẩn</item>
+        <item>Cao</item>
+        <item>Rất cao</item>
+    </string-array>
+    <string-array name="bmi_for_not_chinese">
+        <item>Thấp</item>
+        <item>Tiêu chuẩn</item>
+        <item>Tiêu chuẩn</item>
+        <item>Cao</item>
+        <item>Rất cao</item>
+    </string-array>
+    <string-array name="body_score_leval">
+        <item>Rất xấu</item>
+        <item>Xấu</item>
+        <item>Bình thường</item>
+        <item>Tốt</item>
+        <item>Tuyệt vời</item>
+    </string-array>
+    <string-array name="body_shape_type_array">
+        <item>Gầy</item>
+        <item>Cơ bắp, hơi gầy</item>
+        <item>Thiếu cơ bắp</item>
+        <item>Thiếu vận động</item>
+        <item>Tiêu chuẩn</item>
+        <item>Loại cơ bắp tiêu chuẩn</item>
+        <item>Béo phì</item>
+        <item>Thừa cân</item>
+        <item>Săn chắt, hơi mập</item>
+    </string-array>
+    <string-array name="bodyfat_content_leval">
+        <item>Rất thấp</item>
+        <item>Thấp</item>
+        <item>Tiêu chuẩn</item>
+        <item>Hơi cao</item>
+        <item>Cao</item>
+    </string-array>
+    <string-array name="bone_leval">
+        <item>Không đủ</item>
+        <item>Bình thường</item>
+        <item>Tốt</item>
+    </string-array>
+    <string-array name="brm_leval">
+        <item>Bạn chưa đạt được mục tiêu</item>
+        <item>Đã đạt được mục tiêu</item>
+    </string-array>
+    <string-array name="chaohu_help_tips">
+        <item>Thử bấm bút trên đồng hồ, nếu màn hình đã tắt, cắm vào bộ sạc để sạc pin.</item>
+        <item>Tắt Bluetooth trước, sau đó ghép nối với thiết bị hiện tại.</item>
+        <item>Nếu Mi Band đã sạc, nhưng điện thoại vẫn không thể tìm thấy, hãy thử khởi động lại Bluetooth của điện thoại.</item>
+        <item>Nếu khởi động Bluetooth không giải quyết được vấn đề, hãy thử khởi động lại điện thoại.</item>
+        <item>Dữ liệu đồng hồ không thể đồng bộ khi bạn luyện tập. Kết thúc luyện tập và thử lại.</item>
+    </string-array>
+    <string-array name="chaohu_help_title">
+        <item>Đồng hồ của bạn đã được sạc?</item>
+        <item>Đồng hồ này đã được ghép nối với thiết bị khác?</item>
+        <item>Thử khởi động lại Bluetooth</item>
+        <item>Thử khởi động điện thoại</item>
+        <item>Không thể đồng bộ dữ liệu khi tập luyện</item>
+    </string-array>
+    <string-array name="chaohu_setting_run_types">
+        <item>@string/chaohu_setting_run_outdoor</item>
+        <item>@string/chaohu_setting_run_indoor</item>
+        <item>@string/chaohu_setting_run_ride</item>
+        <item>@string/chaohu_setting_run_walk</item>
+    </string-array>
+    <string-array name="colors">
+        <item>@string/blue</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/red</item>
+    </string-array>
+    <string-array name="common_cities">
+        <item>Guangzhou</item>
+        <item>Thẩm Quyến</item>
+        <item>Phật Sơn</item>
+        <item>Đông Quản</item>
+        <item>Bắc Kinh</item>
+        <item>Nam Kinh</item>
+        <item>Tô Châu</item>
+        <item>Thường Châu</item>
+        <item>Tế Nam</item>
+        <item>Thanh Đảo</item>
+        <item>Hàng Châu</item>
+        <item>Ninh Ba</item>
+        <item>Trịnh Châu</item>
+        <item>Khai Phong</item>
+        <item>Thượng Hải</item>
+        <item>Thạch Gia Trang</item>
+        <item>Bảo Định</item>
+        <item>Thành Đô</item>
+        <item>Miên Dương</item>
+        <item>Thẩm Dương</item>
+        <item>Đại Liên</item>
+    </string-array>
+    <string-array name="difficulty_content">
+        <item>Chưa từng luyện tập qua</item>
+        <item>Đã có kinh nghiệm luyện tập cơ bản</item>
+        <item>Đã có kinh nghiệm luyện tập và đã có được thân hình đẹp</item>
+    </string-array>
+    <string-array name="difficulty_title">
+        <item>Sơ cấp</item>
+        <item>Trung cấp</item>
+        <item>Cao cấp</item>
+    </string-array>
+    <string-array name="fitness_goal_content">
+        <item>Mục tiêu đốt chất béo</item>
+        <item>Mục tiêu thân hình thon gọn</item>
+        <item>Mục tiêu tạo cơ bắp</item>
+    </string-array>
+    <string-array name="fitness_goal_title">
+        <item>Giảm cân</item>
+        <item>Thân hình thon gọn</item>
+        <item>Tăng cơ bắp</item>
+    </string-array>
+    <string-array name="ges_screen_type">
+        <item>@string/ges_screen_type_all_day</item>
+        <item>@string/ges_screen_type_time</item>
+        <item>@string/ges_screen_type_close</item>
+    </string-array>
+    <string-array name="hr_section">
+        <item>@string/hr_section_warm_up</item>
+        <item>@string/hr_section_fat_burn</item>
+        <item>@string/hr_section_heart_lung_strengthen</item>
+        <item>@string/hr_section_stamina_strengthen</item>
+        <item>@string/hr_section_anaerobic_limit</item>
+        <item>@string/hr_section_other</item>
+    </string-array>
+    <string-array name="hr_sport">
+        <item>Phạm vi nhịp tim: Vận động nhẹ</item>
+        <item>Phạm vi nhịp tim: Đốt chất béo</item>
+        <item>Phạm vi nhịp tim: Tăng cường tim phổi</item>
+        <item>Phạm vi nhịp tim: Tăng cường tim phổi</item>
+        <item>Phạm vi nhịp tim: Tối đa VO2</item>
+    </string-array>
+    <string-array name="hr_sport_new">
+        <item>Vận động nhẹ</item>
+        <item>Đốt chất béo</item>
+        <item>Tăng cường tim phổi</item>
+        <item>Tăng cường sức chịu đựng</item>
+        <item>VO₂ max</item>
+    </string-array>
+    <string-array name="lock_screen_type">
+        <item>Đóng</item>
+        <item>Gần</item>
+        <item>Xa</item>
+    </string-array>
+    <string-array name="member_add_weight_items">
+        <item>@string/member_add_weight_item_auto</item>
+        <item>@string/member_add_weight_item_manual</item>
+    </string-array>
+    <string-array name="mili_help_tips">
+        <item>"Chạm Mi Band kiểm tra xem thiết bị còn pin hay không trước khi ghép nối với Mi Band 2 hoặc Mi Band khác.
+
+Sạc trước khi ghép nối với Mi Band hoặc Mi Band Pulse."</item>
+        <item>Tắt thiết bị Bluetooth trước, sau đó ghép nối với thiết bị hiện tại.</item>
+        <item>Nếu Mi Band đã sạc, nhưng điện thoại vẫn không thể tìm thấy, hãy thử khởi động lại Bluetooth của điện thoại.</item>
+        <item>Nếu khởi động Bluetooth không giải quyết được vấn đề, hãy thử khởi động lại điện thoại.</item>
+    </string-array>
+    <string-array name="mili_help_title">
+        <item>Mi Band của bạn đã được sạc?</item>
+        <item>Mi Band này đã được ghép nối với thiết bị khác?</item>
+        <item>Thử khởi động lại Bluetooth</item>
+        <item>Thử khởi động lại điện thoại</item>
+    </string-array>
+    <string-array name="mili_pro_display_items">
+        <item>Thời gian</item>
+        <item>Số bước</item>
+        <item>Khoảng cách</item>
+        <item>Calo</item>
+        <item>Nhịp tim</item>
+        <item>Pin</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>Thg 1</item>
+        <item>Thg 2</item>
+        <item>Thg 3</item>
+        <item>Thg 4</item>
+        <item>Thg 5</item>
+        <item>Thg 6</item>
+        <item>Thg 7</item>
+        <item>Thg 8</item>
+        <item>Thg 9</item>
+        <item>Thg 10</item>
+        <item>Thg 11</item>
+        <item>Thg 12</item>
+    </string-array>
+    <string-array name="muscle_content_leval">
+        <item>Thiếu</item>
+        <item>Tiêu chuẩn</item>
+        <item>Tốt</item>
+    </string-array>
+    <string-array name="ring_types">
+        <item>@string/ring_type_default</item>
+        <item>@string/ring_type_incall</item>
+    </string-array>
+    <string-array name="running_months">
+        <item>Thg 1</item>
+        <item>Thg 2</item>
+        <item>Thg 3</item>
+        <item>Thg 4</item>
+        <item>Thg 5</item>
+        <item>Thg 6</item>
+        <item>Thg 7</item>
+        <item>Thg 8</item>
+        <item>Thg 9</item>
+        <item>Thg 10</item>
+        <item>Thg 11</item>
+        <item>Thg 12</item>
+    </string-array>
+    <string-array name="setting_hr_freq_types">
+        <item>@string/setting_heartrate_detect_freq_1</item>
+        <item>@string/setting_heartrate_detect_freq_10</item>
+        <item>@string/setting_heartrate_detect_freq_30</item>
+    </string-array>
+    <string-array name="setting_hr_types">
+        <item>@string/setting_heartrate_detect_auto</item>
+        <item>@string/setting_heartrate_detect_sleep</item>
+        <item>@string/setting_heartrate_detect_close</item>
+    </string-array>
+    <string-array name="setting_peyto_apps_array">
+        <item>Mặt đồng hồ</item>
+        <item>Trạng thái</item>
+        <item>Hoạt động</item>
+        <item>Thời tiết</item>
+        <item>Báo thức</item>
+        <item>Hẹn giờ</item>
+        <item>La bàn</item>
+        <item>Thêm cài đặt</item>
+    </string-array>
+    <string-array name="setting_tempo_apps_array">
+        <item>Mặt đồng hồ</item>
+        <item>Trạng thái</item>
+        <item>Thông báo</item>
+        <item>Hoạt động</item>
+        <item>Thời tiết</item>
+        <item>Báo thức</item>
+        <item>Hẹn giờ</item>
+        <item>Cài đặt</item>
+    </string-array>
+    <string-array name="setting_weather_temp_unit_array">
+        <item>@string/setting_weather_temp_c</item>
+        <item>@string/setting_weather_temp_f</item>
+    </string-array>
+    <string-array name="shoes_help_tips">
+        <item>Chip thông minh sẽ dừng hoạt động nếu bạn không sử dụng trong thời gian dài. Thử lắc và thử lại.</item>
+        <item>Tuổi thọ Pin Chip Thông minh Amazfit là 1 năm. Nếu bạn sử dụng lâu hơn, có thể sẽ hết pin.</item>
+        <item>Tắt thiết bị Bluetooth trước, sau đó ghép nối với thiết bị hiện tại.</item>
+        <item>Nếu chip thông minh đã được sạc, nhưng bạn vẫn không tìm thấy thiết bị sau khi mang điện thoại đến gần, thử khởi động lại Bluetooth của điện thoại.</item>
+        <item>Nếu khởi động Bluetooth không giải quyết được vấn đề, hãy thử khởi động lại điện thoại của bạn.</item>
+        <item>Chạm dữ liệu giày chạy bộ và vào trang hoạt động kế tiếp để đồng bộ dữ liệu tự động</item>
+    </string-array>
+    <string-array name="shoes_help_title">
+        <item>Lắc chip thông minh</item>
+        <item>Pin đã được sạc hay chưa?</item>
+        <item>Chip thông minh này đã được ghép nối với thiết bị khác?</item>
+        <item>Khởi động lại Bluetooth</item>
+        <item>Thử khởi động lại điện thoại</item>
+        <item>Làm thế nào để đồng bộ dữ liệu của bạn?</item>
+    </string-array>
+    <string-array name="show_body_shape_array">
+        <item>Béo phì</item>
+        <item>Thừa cân</item>
+        <item>Khỏe khoắn-hơi mập</item>
+        <item>"Thiếu
+vận động"</item>
+        <item>Tiêu chuẩn</item>
+        <item>"Cơ bắp
+tiêu chuẩn"</item>
+        <item>Cơ bắp hơi gầy</item>
+        <item>"Loại cơ bắp
+hơi ốm"</item>
+        <item>"Loại cơ bắp
+đẹp"</item>
+    </string-array>
+    <string-array name="timeline_type">
+        <item>Hoạt động</item>
+        <item>Đi chậm</item>
+        <item>Đi bộ</item>
+        <item>Đi nhanh</item>
+        <item>Chạy</item>
+        <item>Đứng</item>
+        <item>Ngồi</item>
+        <item>Hoạt động nhẹ</item>
+        <item>Chưa đeo</item>
+        <item>Đang sạc…</item>
+        <item>Nằm xuống</item>
+    </string-array>
+    <string-array name="train_difficulity">
+        <item>Không giới hạn</item>
+        <item>Sơ cấp, 1</item>
+        <item>Trung cấp, 2</item>
+        <item>Cao cấp, 3</item>
+    </string-array>
+    <string-array name="unbind_device_description">
+        <item>@string/device_band</item>
+        <item>@string/device_weight</item>
+        <item>@string/device_shoe</item>
+        <item>@string/device_watch</item>
+    </string-array>
+    <string-array name="visceral_fat_leval">
+        <item>Tiêu chuẩn</item>
+        <item>Cao</item>
+        <item>Rất cao</item>
+    </string-array>
+    <string-array name="water_leval">
+        <item>Không đủ</item>
+        <item>Tiêu chuẩn</item>
+        <item>Tốt</item>
+    </string-array>
+    <string-array name="wear_type">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+    </string-array>
+    <string-array name="wear_type_body">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="wear_type_chest">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/chest</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>Cn</item>
+        <item>Th 2</item>
+        <item>Th 3</item>
+        <item>Th 4</item>
+        <item>Th 5</item>
+        <item>Th 6</item>
+        <item>Th 7</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>Thứ hai</item>
+        <item>Thứ ba</item>
+        <item>Thứ tư</item>
+        <item>Thứ năm</item>
+        <item>Thứ sáu</item>
+        <item>Thứ bảy</item>
+        <item>Chủ nhật</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>Th 2</item>
+        <item>Th 3</item>
+        <item>Th 4</item>
+        <item>Th 5</item>
+        <item>Th 6</item>
+        <item>Th 7</item>
+        <item>Cn</item>
+    </string-array>
+    <string-array name="weight3_body_figures">
+        <item>Ốm</item>
+        <item>Tiêu chuẩn</item>
+        <item>Thừa cân</item>
+        <item>Béo phì</item>
+    </string-array>
+    <string-array name="weight_bfs_help_tips">
+        <item>Tắt Bluetooth trước, sau đó ghép nối với thiết bị hiện tại.</item>
+        <item>Bước lên cân để kiểm tra xem cân có hiển thị cân nặng của bạn hay không. Nếu cân hiển thị biểu tượng pin, vui lòng thay pin.</item>
+        <item>Nếu cân không có phản hồi khi bạn bước lên, hãy kiểm tra xem pin đã được lắp đặt đúng chưa.</item>
+        <item>Nếu pin đã được sạc, nhưng bạn vẫn không tìm thấy thiết bị sau khi đem điện thoại đến gần, thử khởi động lại Bluetooth của điện thoại.</item>
+        <item>Nếu khởi động Bluetooth không giải quyết được vấn đề, hãy thử khởi động lại điện thoại.</item>
+    </string-array>
+    <string-array name="weight_bfs_help_title">
+        <item>Cân này đã được ghép nối với thiết bị khác?</item>
+        <item>Kiểm tra pin của cân</item>
+        <item>Pin đã được lắp đặt chính xác chưa?</item>
+        <item>Thử khởi động lại Bluetooth</item>
+        <item>Thử khởi động điện thoại</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>Bình thường</item>
+        <item>Thừa cân</item>
+        <item>Béo phì</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_not_chinese">
+        <item>Ốm</item>
+        <item>Bình thường</item>
+        <item>Thừa cân</item>
+        <item>Béo phì I</item>
+        <item>Béo phì II</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>" kg"</item>
+        <item>" Jin"</item>
+        <item>" pao"</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+        <item>@string/weight_bfs_unit_jin</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array_no_jin">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+    </string-array>
+</resources>

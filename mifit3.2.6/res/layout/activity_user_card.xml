@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/qr_code" android:background="@android:color/white" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_marginTop="130.0dip" android:scaleType="fitCenter" android:layout_centerHorizontal="true" />
+    <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="16.0sp" android:textColor="@color/black70" android:layout_gravity="center_horizontal" android:id="@id/user_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/qr_code" android:layout_centerHorizontal="true" android:fontFamily="km" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:textSize="14.0sp" android:textColor="@color/black40" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="20.699982dip" android:text="@string/label_share_to_friend" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/black60" android:gravity="center" android:id="@id/share_button" android:background="@drawable/common_corner_rect" android:layout_width="fill_parent" android:layout_height="@dimen/click_button_h" android:layout_marginTop="36.0dip" android:layout_marginBottom="24.0dip" android:text="@string/share_to_friends" android:layout_marginStart="@dimen/common_item_padding" android:layout_marginEnd="@dimen/common_item_padding" />
+    </LinearLayout>
+</RelativeLayout>

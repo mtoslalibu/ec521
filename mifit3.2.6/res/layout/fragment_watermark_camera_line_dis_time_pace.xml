@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:id="@id/fl_camera" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" layout="@layout/layout_watermark_tag" />
+    <RelativeLayout android:id="@id/rl_drag_line_area" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_drag_line" android:padding="@dimen/watermark_line_thumbnail_padding_r" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/distance_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentStart="true">
+                <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="55.69998sp" android:textColor="@android:color/white" android:id="@id/watermark_km_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="26989" android:fontFamily="din-med" />
+                <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="55.69998sp" android:textColor="@android:color/white" android:id="@id/watermark_mileage_label_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/running_distance_desc" android:fontFamily="din-med" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/center_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-4.0dip" android:layout_below="@id/distance_area" android:layout_alignParentStart="true">
+                <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="27.299988sp" android:textColor="@android:color/white" android:id="@id/watermark_time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="01:16:45" android:fontFamily="din-med" />
+                <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="27.299988sp" android:textColor="@android:color/white" android:id="@id/watermark_speed_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="06'27''" android:fontFamily="din-med" android:layout_marginStart="12.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

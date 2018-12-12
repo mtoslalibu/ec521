@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff4191e1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:orientation="horizontal" android:background="#0a000000" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/imv_title_left" android:layout_width="@dimen/common_title_height" android:layout_height="@dimen/common_title_height" android:src="@drawable/arrow_back" android:scaleType="center" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/white100" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/tx_title" android:layout_width="fill_parent" android:layout_height="@dimen/common_title_height" android:text="@string/action_mark" android:maxLines="1" />
+        </FrameLayout>
+        <View android:background="@color/white30" android:layout_width="fill_parent" android:layout_height="0.30000007dip" />
+        <ImageView android:id="@id/imv_action_image" android:layout_width="fill_parent" android:layout_height="176.0dip" android:layout_marginTop="30.0dip" android:src="@drawable/ic_sleep_big" android:scaleType="centerInside" />
+        <EditText android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/white80" android:textColorHint="@color/white40" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tx_action_name" android:background="@null" android:padding="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:hint="@string/customize_action_name_please" android:maxLines="1" android:maxLength="20" android:textCursorDrawable="@drawable/cursor_white_drawable" />
+        <FrameLayout android:id="@id/fl_main_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <com.xiaomi.hm.health.lab.view.RevealFrameLayout android:id="@id/fl_countdown_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/detail_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/white06" android:layout_width="fill_parent" android:layout_height="46.69998dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="18.299988sp" android:textColor="@color/white80" android:id="@id/monthOfYear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:fontFamily="din-med" android:layout_marginStart="21.0dip" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="18.299988dip" android:layout_alignParentEnd="true">
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="15.299988sp" android:textColor="@color/white80" android:id="@id/runningMonthDistance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="din-med" />
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="11.299988sp" android:textColor="@color/white80" android:id="@id/distanceUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/running_distance_desc" android:layout_alignBaseline="@id/runningMonthDistance" android:fontFamily="din-med" android:layout_toEndOf="@id/runningMonthDistance" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

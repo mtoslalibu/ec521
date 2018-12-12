@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/calendar_title" />
+        <View android:background="@color/black20" android:layout_width="fill_parent" android:layout_height="@dimen/divider" android:layout_marginBottom="8.0dip" />
+        <FrameLayout android:id="@id/fl_expandable" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_month" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.xiaomi.hm.health.calendar.CalendarRecyclerView android:id="@id/crv_calendar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+                <View android:background="@color/black20" android:layout_width="fill_parent" android:layout_height="@dimen/divider" android:layout_marginTop="17.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_training_remind" android:paddingTop="17.0dip" android:paddingBottom="17.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="18.0dip" android:paddingEnd="18.0dip">
+                    <TextView android:textSize="15.0sp" android:textColor="@color/black70" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/training_reminder" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/black60" android:gravity="end|center" android:id="@id/tx_reminder_time" android:layout_width="0.0dip" android:layout_height="wrap_content" android:drawablePadding="6.0dip" android:layout_weight="1.0" android:drawableEnd="@drawable/ic_arrow_right" style="@style/CommonValueTextStyle" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.xiaomi.hm.health.calendar.CalendarWeekViewpager android:id="@id/cwv_week" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <ImageView android:id="@id/imv_dragger" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="18.0dip" android:src="@drawable/ic_expand" android:tint="@color/dager_tint_gray" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

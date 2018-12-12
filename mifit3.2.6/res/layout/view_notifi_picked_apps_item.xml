@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="37.0dip" android:layout_height="37.0dip" android:layout_centerVertical="true" android:layout_marginStart="@dimen/common_item_padding" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/black70" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="11.0dip" android:layout_toEndOf="@id/icon" />
+    <android.support.v7.widget.SwitchCompat android:id="@id/notifi_on" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/common_item_padding" android:layout_alignParentEnd="true" style="@style/switchStyle" />
+    <View android:background="@color/divide" android:layout_width="fill_parent" android:layout_height="@dimen/divider" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/common_item_padding" android:layout_marginEnd="@dimen/common_item_padding" />
+    <View android:layout_gravity="bottom" android:id="@id/item_mask_view" android:background="#77f7f7f7" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

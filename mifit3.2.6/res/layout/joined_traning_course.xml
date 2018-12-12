@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/btn_browse_my_training_course" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <TextView android:textSize="15.0sp" android:textColor="@color/black70" android:gravity="center_vertical" android:id="@id/tv_my_training_course_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="13.0dip" android:layout_centerVertical="true" android:layout_marginStart="17.0dip" />
+        <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="24.0sp" android:textColor="@color/black70" android:id="@id/tv_training_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:fontFamily="km" android:layout_marginEnd="5.0dip" android:layout_toStartOf="@id/tv_day" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:id="@id/tv_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/tv_training_day" android:layout_centerVertical="true" android:layout_marginEnd="18.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/course_content" android:layout_width="fill_parent" android:layout_height="120.0dip">
+        <ImageView android:id="@id/iv_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <View android:id="@id/view_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginStart="18.0dip" />
+        <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/tv_training_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_below="@id/tv_title" android:layout_alignStart="@id/tv_title" />
+        <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="12.0sp" android:textColor="@color/white60" android:id="@id/tv_course_finished" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="22.0dip" android:layout_alignParentBottom="true" android:layout_alignStart="@id/tv_title" />
+        <com.xiaomi.hm.health.training.ui.widget.TrainingCourseProgressView android:id="@id/progress_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="12.0dip" android:layout_alignParentBottom="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/rest_day_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/title_rest_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="34.0dip" android:layout_marginStart="18.0dip" />
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tv_rest_day_article" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:drawablePadding="6.5dip" android:layout_marginStart="18.0dip" />
+        </LinearLayout>
+        <ImageView android:id="@id/ic_out_of_date" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/btn_do_exercise" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/orange100" android:gravity="center" android:id="@id/tv_start_now" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="4.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

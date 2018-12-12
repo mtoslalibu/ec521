@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="@color/black80" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="98.0dip" android:text="@string/weight_babyfat_measure_failure_title" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/black60" android:gravity="center" android:id="@id/text_fail1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/weight_babyfat_measure_failure_hint1" android:layout_below="@id/title_tv" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/black60" android:gravity="center" android:id="@id/text_fail2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/weight_babyfat_measure_failure_hint2" android:layout_below="@id/text_fail1" android:layout_centerHorizontal="true" />
+    <ImageView android:background="@drawable/icon_barefoot" android:layout_width="192.0dip" android:layout_height="206.0dip" android:layout_marginTop="57.0dip" android:layout_below="@id/text_fail2" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/black60" android:gravity="center" android:id="@id/know_btn_tv" android:layout_width="100.0dip" android:layout_height="40.69998dip" android:layout_marginBottom="35.0dip" android:text="@string/i_know" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

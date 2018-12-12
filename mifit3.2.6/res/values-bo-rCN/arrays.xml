@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="avoid_type">
+        <item>@string/state_close</item>
+        <item>@string/avoid_enable_smart</item>
+        <item>@string/avoid_enable_time</item>
+    </string-array>
+    <string-array name="avoid_type_sub">
+        <item></item>
+        <item>@string/avoid_enable_smart_sub</item>
+        <item>@string/avoid_enable_time_sub</item>
+    </string-array>
+    <string-array name="bmi_for_adualt">
+        <item>ཅུང་དམའ།</item>
+        <item>ཚད་ལོན།</item>
+        <item>ཅུང་མཐོ།</item>
+        <item>མཐོ།</item>
+    </string-array>
+    <string-array name="bmi_for_child">
+        <item>ཚད་ལྡན།</item>
+        <item>ཅུང་མཐོ།</item>
+        <item>མཐོ།</item>
+    </string-array>
+    <string-array name="bmi_for_not_chinese">
+        <item>ཅུང་དམའ།</item>
+        <item>ཚད་ལྡན།</item>
+        <item>ཅུང་མཐོ།</item>
+        <item>མཐོ།</item>
+        <item>ཧ་ཅང་མཐོ།</item>
+    </string-array>
+    <string-array name="body_score_leval">
+        <item>ཞན།</item>
+        <item>ཅུང་ཞན།</item>
+        <item>སྤྱིར་བཏང་།</item>
+        <item>ལེགས་པོ།</item>
+        <item>ཕུལ་བྱུང་།</item>
+    </string-array>
+    <string-array name="body_shape_type_array">
+        <item>ཅུང་སྐམ་པོ།</item>
+        <item>ཅུང་སྐམ་གྲུམས་ཤ་ཅན།</item>
+        <item>གྲུམས་ཤ་མཛེས་པོ་ཅན།</item>
+        <item>གྲུམས་ཤ་ཉུང་བ་ཅན།</item>
+        <item>ཚད་ལྡན་ཅན།</item>
+        <item>ཚད་ལྡན་གྲུམས་ཤ་ཅན།</item>
+        <item>ཤ་རྒྱགས་སྐུང་བ་ཅན།</item>
+        <item>ཅུང་རྒྱགས་པ།</item>
+        <item>སྲ་མཁྲེགས་ཅུང་རྒྱགས་པ།</item>
+    </string-array>
+    <string-array name="bodyfat_content_leval">
+        <item>དམའ་བ།</item>
+        <item>ཅུང་དམའ།</item>
+        <item>ཚད་ལྡན།</item>
+        <item>ཅུང་མཐོ།</item>
+        <item>མཐོ།</item>
+    </string-array>
+    <string-array name="bone_leval">
+        <item>མི་འདང་།</item>
+        <item>ཚད་ལྡན།</item>
+        <item>རབ།</item>
+    </string-array>
+    <string-array name="brm_leval">
+        <item>ཚད་ལོན་མེད།</item>
+        <item>ཚད་ལོན།</item>
+    </string-array>
+    <string-array name="chaohu_help_tips">
+        <item>སྔོན་ལ་ཆུ་ཚོད་ཀྱི་འཐེབ་གནན་ཙམ་གནང་ནས། གལ་ཏེ་བརྙན་ཤེལ་ད་དུང་འབར་མེད་ན། ཆུ་ཚོད་གློག་གསོག་ཆས་ལ་མཐུད་ནས་གློག་གསོག་ནས། གློག་ཡོད་པ་ཁག་ཐེག་ཐུབ།</item>
+        <item>སྔོན་ལ་ཁ་པར་དེའི་སོ་སྔོན་ཁ་རྒྱག་ནས། མིག་སྔའི་ཁ་པར་སྤྱོད་ནས་མཐུད་སྦྲེལ་གནང་དང་།</item>
+        <item>གལ་ཏེ་གློག་ཡོད་པ་དང་ཁ་པར་དང་ཐག་ཉེ་པོ་བཞག་ནས་ད་དུང་འཚོལ་མི་ཐུབ་ན། ཁ་པར་གྱི་སོ་སྔོན་ཡང་བསྐྱར་སྒུལ་སློང་ཚོད་ལྟ་གནང་དང་།</item>
+        <item>གལ་ཏེ་སོ་སྔོན་ཡང་སློང་ནུས་མེད་ཡིན་ན། ཁ་པར་ཡང་སློང་ཚོད་ལྟ་གནང་དང་།</item>
+        <item>ཆུ་ཚོད་ནི་ལུས་སྦྱོང་བརྒྱུད་རིམ་ལ་གནས་སྐབས། Appནས་ཆུ་ཚོད་ལ་གཞི་གྲངས་གོམ་མཉམ་བྱེད་མི་ཐུབ། ལུས་སྦྱོང་མཇུག་སྒྲིལ་རྗེས་ཡང་བསྐྱར་གོམ་མཉམ་ལ་ཚོད་ལྟ་གནང་རོགས།</item>
+    </string-array>
+    <string-array name="chaohu_help_title">
+        <item>ཆུ་ཚོད་ལ་གློག་ཡོད་དམ།</item>
+        <item>ཉེ་འགྲམ་ལ་ཁ་པར་གཞན་ཆུ་ཚོད་ལ་སྦྲེལ་མྱོང་ཡོད་དམ།</item>
+        <item>སོ་སྔོན་ཡང་བསྐྱར་སྦྲེལ་བར་ཚོད་ལྟ།</item>
+        <item>ཁ་པར་ཡང་སློང་ཚོད་ལྟ།</item>
+        <item>ལུས་སྦྱོང་སྐབས་གཞི་གྲངས་གོམ་མཉམ་བྱེད་མི་ཐུབ།</item>
+    </string-array>
+    <string-array name="chaohu_setting_run_types">
+        <item>@string/chaohu_setting_run_outdoor</item>
+        <item>@string/chaohu_setting_run_indoor</item>
+        <item>@string/chaohu_setting_run_ride</item>
+        <item>@string/chaohu_setting_run_walk</item>
+    </string-array>
+    <string-array name="colors">
+        <item>@string/blue</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/red</item>
+    </string-array>
+    <string-array name="common_cities">
+        <item>ཀོང་ཀྲོའུ།</item>
+        <item>ཧྲེན་ཀྲེན།</item>
+        <item>ཧྥོ་ཧྲན།</item>
+        <item>ཏུང་ཝན།</item>
+        <item>པེ་ཅིང་།</item>
+        <item>ནན་ཅིང་།</item>
+        <item>སུའུ་ཀྲོའུ།</item>
+        <item>ཁྲང་ཀྲོའུ།</item>
+        <item>ཅི་ནན།</item>
+        <item>ཆིང་ཏའོ།</item>
+        <item>ཧང་ཀྲོའུ།</item>
+        <item>ཉིང་པོ།</item>
+        <item>ཀྲེང་ཀྲོའུ།</item>
+        <item>ཁའེ་ཧྥེང་།</item>
+        <item>ཧྲང་ཧའེ།</item>
+        <item>ཧྲི་ཅ་ཀྲོང་།</item>
+        <item>པའོ་ཏིང་།</item>
+        <item>ཁྲེང་ཏུའུ།</item>
+        <item>མེན་དབྱང་།</item>
+        <item>ཧྲེན་དབྱང་།</item>
+        <item>ཏ་ལེན།</item>
+    </string-array>
+    <string-array name="difficulty_content">
+        <item>ལུས་སྦྱོང་ངོ་མ་བྱེད་མ་མྱོང་།</item>
+        <item>ལུས་སྦྱོང་རྨང་གཞི་ངེས་ཅན་ཞིག་ཡོད།</item>
+        <item>ལུས་སྦྱོང་ཉམས་མྱོང་ཕུན་སུམ་ཚོགས་པ་ཡོད་དེ། ཀུན་གྱིས་སྨོན་པའི་གཟུགས་བྱད་དགོས་འདོད།</item>
+    </string-array>
+    <string-array name="difficulty_title">
+        <item>དམའ་རིམ།</item>
+        <item>འབྲིང་རིམ།</item>
+        <item>མཐོ་རིམ།</item>
+    </string-array>
+    <string-array name="fitness_goal_content">
+        <item>ཁྱེད་ཤ་རྒྱགས་པ་ཅུང་ཟད་འདུག སྐམ་པོར་ཆགས་འདོད།</item>
+        <item>གཟུགས་བྱད་སྙོམ་པོ་ཡོད། གྲུམས་ཤའི་བཟོ་ལྟ་དེ་ལས་གསལ་བ་བཟོ་འདོད།</item>
+        <item>གྲུམས་ཤའི་བཟོ་ལྟ་ཆེན་པོ་དང་ཤུགས་ཆེན་པོ་དགོས་འདོད།</item>
+    </string-array>
+    <string-array name="fitness_goal_title">
+        <item>ཚིལ་འཕྲི།</item>
+        <item>གཟུགས་མཛེས་བཟོ།</item>
+        <item>གྲུམ་ཤ་སྣོན།</item>
+    </string-array>
+    <string-array name="ges_screen_type">
+        <item>@string/ges_screen_type_all_day</item>
+        <item>@string/ges_screen_type_time</item>
+        <item>@string/ges_screen_type_close</item>
+    </string-array>
+    <string-array name="hr_section">
+        <item>@string/hr_section_warm_up</item>
+        <item>@string/hr_section_fat_burn</item>
+        <item>@string/hr_section_heart_lung_strengthen</item>
+        <item>@string/hr_section_stamina_strengthen</item>
+        <item>@string/hr_section_anaerobic_limit</item>
+        <item>@string/hr_section_other</item>
+    </string-array>
+    <string-array name="hr_sport">
+        <item>སྙིང་འཕར་ཚད་བར་ཁུལ། ལུས་པོར་དྲོད་འཛིན་དང་ལྷོད་པོ་བྱེད།</item>
+        <item>སྙིང་འཕར་ཚད་བར་ཁུལ། ཚིལ་བསྲེགས་པ།</item>
+        <item>སྙིང་འཕར་ཚད་བར་ཁུལ། གློ་སྙིང་ཤུགས་ཆེར་གཏོང་བ།</item>
+        <item>སྙིང་འཕར་ཚད་བར་ཁུལ། ཐེག་ཤུགས་ཆེ་གཏོང་།</item>
+        <item>སྙིང་འཕར་ཚད་བར་ཁུལ། དབྱང་མེད་མཐར་ཐུག</item>
+    </string-array>
+    <string-array name="hr_sport_new">
+        <item>ལུས་དྲོད་འཛིན་ལྷོད་གནས།</item>
+        <item>ཚིལ་བསྲེགས།</item>
+        <item>གློ་སྙིང་མཐོར་འདེགས།</item>
+        <item>ཐེག་ཤུགས་མཐོར་འདེགས།</item>
+        <item>དབྱང་མེད་མཐའ་ཚད།</item>
+    </string-array>
+    <string-array name="lock_screen_type">
+        <item>ཉེ་སར་སྦྱར་བ།</item>
+        <item>འོས་འཚམ།</item>
+        <item>ཅུང་རིང་།</item>
+    </string-array>
+    <string-array name="member_add_weight_items">
+        <item>@string/member_add_weight_item_auto</item>
+        <item>@string/member_add_weight_item_manual</item>
+    </string-array>
+    <string-array name="mili_help_tips">
+        <item>"གལ་ཏེ་ཞའོ་མཱི་ལག་སྐོར་2སམ་ལག་སྐོར་གཞན་མཐུད་སྦྲེལ་གནང་དགོས་ན། སྔོན་ལ་ལག་སྐོར་གྱི་འཐེབ་ཐུག་རེག་ཚོད་ལྟ་གནང་ནས། གལ་ཏེ་བརྙན་ཤེལ་མི་འབར་ན། ལག་སྐོར་གློག་ཁུངས་ལ་མཐུད་ནས་གློག་གསོག་ནས་གློག་ཡོད་པ་ཁག་ཐེག་བྱེད་དགོས། 
+
+གལ་ཏེ་ཞའོ་མཱི་ལག་སྐོར་རམ་ཞའོ་མཱི་ལག་སྐོར་འོད་ཚོར་པར་མ་མཐུད་སྦྲེལ་དགོས་ན། ལག་སྐོར་གློག་གསོག་ཆས་སྟེང་བཞག་ནས་གློག་ཡོད་པ་ཁག་ཐེག་དགོས།"</item>
+        <item>སྔོན་ལ་ཁ་པར་དེའི་སོ་སྔོན་ཁ་རྒྱག་ནས། མིག་སྔའི་ཁ་པར་སྤྱོད་ནས་མཐུད་སྦྲེལ་གནང་དང་།</item>
+        <item>གལ་ཏེ་གློག་ཡོད་པ་དང་ཁ་པར་དང་ཐག་ཉེ་པོ་བཞག་ནས་ད་དུང་འཚོལ་མི་ཐུབ་ན། ཁ་པར་གྱི་སོ་སྔོན་ཡང་བསྐྱར་སྒུལ་སློང་ཚོད་ལྟ་གནང་དང་།</item>
+        <item>གལ་ཏེ་སོ་སྔོན་ཡང་སློང་ནུས་མེད་ཡིན་ན། ཁ་པར་ཡང་སློང་ཚོད་ལྟ་གནང་དང་།</item>
+    </string-array>
+    <string-array name="mili_help_title">
+        <item>ཆུ་ཚོད་ལ་གློག་འདུག་གམ།</item>
+        <item>ཉེ་འཁོར་གྱི་ཁ་པར་གཞན་དེ་སྔོན་ཆུ་ཚོད་སྦྲེལ་མྱོང་ངམ།</item>
+        <item>སོ་སྔོན་ཡང་བསྐྱར་ཁ་འབྱེད་པར་ཚོད་ལྟ་གནང་དང་།</item>
+        <item>ཁ་པར་ཡང་སློང་ཚོད་ལྟ།</item>
+    </string-array>
+    <string-array name="mili_pro_display_items">
+        <item>དུས་ཚོད།</item>
+        <item>གོམ་གྲངས།</item>
+        <item>ལེ་དབར།</item>
+        <item>དྲོད་ཚད།</item>
+        <item>སྙིང་འཕར་ཚད།</item>
+        <item>གློག་ཚད་ལྷག་མ།</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>ཟླ་བ་1</item>
+        <item>ཟླ་བ་2</item>
+        <item>ཟླ་བ་3</item>
+        <item>ཟླ་བ་ 4</item>
+        <item>ཟླ་བ་5</item>
+        <item>ཟླ་བ་ 6</item>
+        <item>ཟླ་བ་ 7</item>
+        <item>ཟླ་བ་ 8</item>
+        <item>ཟླ་བ་ 9</item>
+        <item>ཟླ་བ་ 10</item>
+        <item>ཟླ་བ་ 11</item>
+        <item>ཟླ་བ་ 12</item>
+    </string-array>
+    <string-array name="muscle_content_leval">
+        <item>མི་འདང་།</item>
+        <item>ཚད་ལྡན།</item>
+        <item>རབ།</item>
+    </string-array>
+    <string-array name="ring_types">
+        <item>@string/ring_type_default</item>
+        <item>@string/ring_type_incall</item>
+    </string-array>
+    <string-array name="running_months">
+        <item>ཟླ་བ་དང་པོ།</item>
+        <item>ཟླ་བ་གཉིས་པ།</item>
+        <item>ཟླ་བ་གསུམ་པ།</item>
+        <item>ཟླ་བ་བཞི་པ།</item>
+        <item>ཟླ་བ་ལྔ་པ།</item>
+        <item>ཟླ་བ་དྲུག་པ།</item>
+        <item>ཟླ་བ་བདུན་པ།</item>
+        <item>ཟླ་བ་བརྒྱད་པ།</item>
+        <item>ཟླ་བ་དགུ་པ།</item>
+        <item>ཟླ་བ་བཅུ་པ།</item>
+        <item>ཟླ་བ་བཅུ་གཅིག</item>
+        <item>ཟླ་བ་བཅུ་གཉིས།</item>
+    </string-array>
+    <string-array name="setting_hr_freq_types">
+        <item>@string/setting_heartrate_detect_freq_1</item>
+        <item>@string/setting_heartrate_detect_freq_10</item>
+        <item>@string/setting_heartrate_detect_freq_30</item>
+    </string-array>
+    <string-array name="setting_hr_types">
+        <item>@string/setting_heartrate_detect_auto</item>
+        <item>@string/setting_heartrate_detect_sleep</item>
+        <item>@string/setting_heartrate_detect_close</item>
+    </string-array>
+    <string-array name="setting_peyto_apps_array">
+        <item>ཆུ་ཚོད་ཀྱི་གདོང་།</item>
+        <item>རྣམ་པ།</item>
+        <item>ལུས་སྦྱོང་།</item>
+        <item>གནམ་གཤིས།</item>
+        <item>དྲིལ་སྒྲོག་ཆུ་ཚོད།</item>
+        <item>ཆུ་ཚོད་རྩི་ཆས།</item>
+        <item>ཕྱོགས་སྟོན་འཁོར་ལོ།</item>
+        <item>སྒྲིག་འགོད།</item>
+    </string-array>
+    <string-array name="setting_tempo_apps_array">
+        <item>འཁོར་གཞོང་།</item>
+        <item>རྣམ་པ།</item>
+        <item>བརྡ་ཐོ།</item>
+        <item>ལུས་སྦྱོང་།</item>
+        <item>གནམ་གཤིས།</item>
+        <item>དྲིལ་སྒྲོག་ཆུ་ཚོད།</item>
+        <item>ཆུ་ཚོད་རྩི་ཆས།</item>
+        <item>སྒྲིག་འགོད།</item>
+    </string-array>
+    <string-array name="setting_weather_temp_unit_array">
+        <item>@string/setting_weather_temp_c</item>
+        <item>@string/setting_weather_temp_f</item>
+    </string-array>
+    <string-array name="shoes_help_tips">
+        <item>རིག་སྙིང་ཡུན་རིང་མི་སྤྱོད་ན་འཁོར་སྐྱོད་མི་བྱ་ངེས། དེར་བརྟེན་རིག་སྙིང་གཡུག་ཙམ་གནང་ནས་ཚོད་ལྟ་གནང་དང་།</item>
+        <item>ཧྭ་མཱ་རིག་སྙིང་ལོ་༡འཁོར་སྐྱོད་བྱེད་ཐུབ། གལ་ཏེ་དུས་ཚོད་དེ་ལས་བརྒལ་བ་ཡིན་ན། གློག་རྫོགས་པ་ཡིན་ངེས།</item>
+        <item>སྔོན་ལ་ཁ་པར་དེའི་སོ་སྔོན་ཁ་བརྒྱབ་ནས། སླར་ཡང་མིག་སྔའི་ཁ་པར་སྤྱོད་དེ་མཐུད་སྦྲེལ་བྱེད་ཐུབ།</item>
+        <item>གལ་ཏེ་རིག་སྙིང་ལ་གློག་ཡོད་པ་དང་། ཁ་པར་དང་སྦྱར་ནས་ད་དུང་མི་རྙེད་ན། ཁ་པར་གྱི་སོ་སྔོན་ཡང་བསྐྱར་ཁ་འབྱེད་པར་ཚོད་ལྟ་གནང་དང་།</item>
+        <item>གལ་ཏེ་སོ་སྔོན་ཡང་སློང་བྱེད་མི་ཐུབ་ན། ཁ་པར་ཡང་སློང་ཚོད་ལྟ་གནང་དང་།</item>
+        <item>གཙོ་ངོས་ཀྱི་རྒྱུགས་ཤར་ལྷམ་གཞི་གྲངས་འགྲེམ་སྟོན་འཛུལ་སྒོར་རེག་ནས། རྒྱུགས་ཤར་ལྷམ་གྱི་ཆ་འཕྲིན་ཞིབ་ཕྲའི་ཤོག་ངོས་སུ་འཛུལ་ན་རང་འགུལ་ངང་གཞི་གྲངས་གོམ་མཉམ་བྱེད་ཐུབ།</item>
+    </string-array>
+    <string-array name="shoes_help_title">
+        <item>རིག་སྙིང་གཡོ་འགུལ་ཚོད་ལྟ་གནང་དང་།</item>
+        <item>རིག་སྙིང་ལ་གློག་ཡོད་དམ།</item>
+        <item>ཉེ་འགྲམ་དུ་ཁ་པར་གཞན་རིག་སྙིང་སྦྲེལ་མྱོང་བ་ཡོད་དམ།</item>
+        <item>སོ་སྔོན་ཡང་སློང་ཚོད་ལྟ།</item>
+        <item>ཁ་པར་ཡང་སློང་ཚོད་ལྟ།</item>
+        <item>ཇི་ལྟར་གཞི་གྲངས་གོམ་མཉམ་བྱེད་དགོས་སམ།</item>
+    </string-array>
+    <string-array name="show_body_shape_array">
+        <item>རྒྱགས་པ་ལྐོག་འགྱུར།</item>
+        <item>ཅུང་རྒྱགས།</item>
+        <item>"ཤ་མཁྲེགས་ཅན།
+ཅུང་རྒྱགས།"</item>
+        <item>"ལུས་སྦྱོང་
+མི་འདང་ཅན།"</item>
+        <item>ཚད་ལྡན་ཅན།</item>
+        <item>"ཚད་ལྡན
+གྲུམས་ཤ་ཅན།"</item>
+        <item>ཅུང་སྐམ་པ།</item>
+        <item>"ཅུང་སྐམ་
+གྲུམས་ཤ་ཅན།"</item>
+        <item>"གྲུམས་ཤ་
+མཛེས་པོ་ཅན།"</item>
+    </string-array>
+    <string-array name="timeline_type">
+        <item>བྱེད་སྒོ།</item>
+        <item>དལ་བུར་འགྲོ་བ།</item>
+        <item>གོམ་པ་རྒྱག</item>
+        <item>མགྱོགས་པོར་འགྲོ་བ།</item>
+        <item>རྒྱུགས་ཤར།</item>
+        <item>ཡར་ལངས།</item>
+        <item>འཇམ་སྡོད།</item>
+        <item>ལུས་སྦྱོང་ཕྲན་བུ།</item>
+        <item>བཏགས་མེད།</item>
+        <item>གློག་གསོག་བཞིན་ཡོད།</item>
+        <item>ཉལ།</item>
+    </string-array>
+    <string-array name="train_difficulity">
+        <item>དཀའ་ཚད་བཀག་རྒྱ་མེད།</item>
+        <item>དམའ་རིམ། 1</item>
+        <item>འབྲིང་རིམ། 2</item>
+        <item>མཐོ་རིམ། 3</item>
+    </string-array>
+    <string-array name="unbind_device_description">
+        <item>@string/device_band</item>
+        <item>@string/device_weight</item>
+        <item>@string/device_shoe</item>
+        <item>@string/device_watch</item>
+    </string-array>
+    <string-array name="visceral_fat_leval">
+        <item>ཚད་ལྡན།</item>
+        <item>ཅུང་མཐོ།</item>
+        <item>མཐོ།</item>
+    </string-array>
+    <string-array name="water_leval">
+        <item>མི་འདང་།</item>
+        <item>ཚད་ལྡན།</item>
+        <item>རབ།</item>
+    </string-array>
+    <string-array name="wear_type">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+    </string-array>
+    <string-array name="wear_type_body">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="wear_type_chest">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/chest</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>ཉི་མ།</item>
+        <item>ཟླ་བ།</item>
+        <item>མིག་དམར།</item>
+        <item>ལྷག་པ།</item>
+        <item>ཕུར་བུ།</item>
+        <item>པ་སངས།</item>
+        <item>སྤེན་པ།</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>གཟའ་ཟླ་བ།</item>
+        <item>གཟའ་མིག་དམར།</item>
+        <item>གཟའ་ལྷག་པ།</item>
+        <item>གཟའ་ཕུར་བུ།</item>
+        <item>གཟའ་པ་སངས།</item>
+        <item>གཟའ་སྤེན་པ།</item>
+        <item>གཟའ་ཉི་མ།</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>གཅིག</item>
+        <item>གཉིས།</item>
+        <item>གསུམ།</item>
+        <item>བཞི།</item>
+        <item>ལྔ།</item>
+        <item>དྲུག</item>
+        <item>ཚེས།</item>
+    </string-array>
+    <string-array name="weight3_body_figures">
+        <item>ཅུང་ཡང་།</item>
+        <item>ཚད་ལྡན།</item>
+        <item>ཅུང་ལྕི།</item>
+        <item>ལྗིད་དྲགས་པ།</item>
+    </string-array>
+    <string-array name="weight_bfs_help_tips">
+        <item>སྔོན་ལ་ཁ་པར་སོ་སྔོན་ཁ་བརྒྱབ་ནས། མིག་སྔའི་ཁ་པར་སྤྱོད་དེ་མཐུད་སྦྲེལ་གནང་དང་།</item>
+        <item>ཁྱེད་ཀྱིས་རྒྱ་མའི་སྟེང་དུ་འཛེགས་ནས་ཁྱེད་ཀྱི་ལྗིད་ཚད་མངོན་མིན་ལ་གཟིགས་དང་། གལ་ཏེ་གློག་གཡིས་ཟད་པའི་པར་རིས་མངོན་ན། གློག་གཡིས་བརྗེས་ནས་ཡང་ལྟ་གནང་དང་།</item>
+        <item>གལ་ཏེ་རྒྱ་མའི་སྟེང་འཛེགས་ནས་གང་མི་མངོན་ན། གློག་གཡིས་མཛོད་ཁ་འབྱེད་ནས་སྒྲིག་འཇུག་ཡང་དག་གནང་མིན་ལ་གཟིགས་དང་།</item>
+        <item>གལ་ཏེ་གློག་ཡོད་པ་དང་། ཁ་པར་ཟུར་ལ་སྦྱར་ནས་ད་དུང་མི་རྙེད་ན། ཁ་པར་སོ་སྔོན་ཡང་སློང་ལ་ཚོད་ལྟ་གནང་དང་།</item>
+        <item>གལ་ཏེ་སོ་སྔོན་ཡང་སློང་ནུས་མེད་ཡིན་ན། ཁ་པར་ཡང་སློང་ཚོད་ལྟ་གནང་དང་།</item>
+    </string-array>
+    <string-array name="weight_bfs_help_title">
+        <item>ཉེ་འགྲམ་དུ་རྒྱ་མར་སྦྲེལ་མྱོང་བའི་ཁ་པར་ཡོད་དམ།</item>
+        <item>གློག་གཡིས་ཀྱི་གློག་ཚད་འདང་ངམ།</item>
+        <item>གློག་གཡིས་སྒྲིག་འཇུག་ཡང་དག་ཡིན་ནམ།</item>
+        <item>སོ་སྔོན་སྒུལ་སློང་ཡང་ལྟ་གནང་དང་།</item>
+        <item>ཁ་པར་ཡང་སློང་ཚོད་ལྟ།</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>རྒྱུན་ལྡན།</item>
+        <item>ཤིན་ཏུ་ལྗིད་པོ།</item>
+        <item>རྒྱགས་པ།</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_not_chinese">
+        <item>ཡང་དྲགས་པ།</item>
+        <item>རྒྱུན་ལྡན།</item>
+        <item>ལྗིད་དྲགས་པ།</item>
+        <item>རྒྱགས་པ།</item>
+        <item>ཤིན་ཏུ་རྒྱགས་པ།</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>སྤྱི་རྒྱ།</item>
+        <item>རྒྱ་མ།</item>
+        <item>པང་།</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+        <item>@string/weight_bfs_unit_jin</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array_no_jin">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+    </string-array>
+</resources>

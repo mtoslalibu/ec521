@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<areas>
+    <area name="الإمارات العربية المتحدة" key="area_uae_ar" value="AE" />
+    <area name="United Arab Emirates" key="area_uae_en" language="en" value="AE" />
+    <area name="Antigua &amp; Barbuda" key="area_antigua_barbuda" value="AG" />
+    <area name="Anguilla" key="area_anguilla" value="AI" />
+    <area name="Armenia" key="area_armenia" value="AM" />
+    <area name="Argentina" key="area_argentina" value="AR" />
+    <area name="Österreich" key="area_austria" value="AT" />
+    <area name="Australia" key="area_australia" value="AU" />
+    <area name="Barbados" key="area_barbados" value="BB" />
+    <area name="België" key="area_belgium" value="BE" />
+    <area name="Belgique" key="area_belgium_fr" value="BE" />
+    <area name="België" key="area_belgium_nl" language="nl" value="BE" />
+    <area name="България" key="area_Bulgaria" value="BG" />
+    <area name="Bahrain" key="area_bahrain" value="BH" />
+    <area name="Bermuda" key="area_bermuda" value="BM" />
+    <area name="Bolivia" key="area_bolivia" value="BO" />
+    <area name="Brasil" key="area_brazil" value="BR" />
+    <area name="The Bahamas" key="area_the_bahamas" value="BS" />
+    <area name="Botswana" key="area_botswana" value="BW" />
+    <area name="Belize" key="area_belize" value="BZ" />
+    <area name="Canada" key="area_canada" value="CA" />
+    <area name="République Centrafricaine" key="area_central_african_republic" value="CF" />
+    <area name="Suisse" key="area_switzerland_fr" value="CH" />
+    <area name="Schweiz" key="area_switzerland_de" language="de" value="CH" />
+    <area name="Côte d'Ivoire" key="area_ivory_coast" value="CI" />
+    <area name="Chile" key="area_chile" value="CL" />
+    <area name="Cameroun" key="area_cameroon" value="CM" />
+    <area name="中国" key="area_china" value="CN" />
+    <area name="Colombia" key="area_colombia" value="CO" />
+    <area name="Costa Rica" key="area_costa_rica" value="CR" />
+    <area name="Česko" key="area_czech" value="CZ" />
+    <area name="Deutschland" key="area_germany" value="DE" />
+    <area name="Danmark" key="area_denmark" value="DK" />
+    <area name="Dominica" key="area_dominica" value="DM" />
+    <area name="República Dominicana" key="area_dominican_republic" value="DO" />
+    <area name="Ecuador" key="area_ecuador" value="EC" />
+    <area name="Eesti" key="area_estonian" value="EE" />
+    <area name="Egypt" key="area_egypt" value="EG" />
+    <area name="España" key="area_spain" value="ES" />
+    <area name="Suomi" key="area_finnish" value="FI" />
+    <area name="France" key="area_france" value="FR" />
+    <area name="Grenada" key="area_grenada" value="GD" />
+    <area name="Guinée" key="area_guinea" value="GN" />
+    <area name="Guinée Equatoriale" key="area_equatorial_guinea" value="GQ" />
+    <area name="Ελλάδα" key="area_greece" value="GR" />
+    <area name="Guatemala" key="area_guatemala" value="GT" />
+    <area name="Guinea-Bissau" key="area_guinea_bissau" value="GW" />
+    <area name="Guyana" key="area_guyana" value="GY" />
+    <area name="中国香港" key="area_hk" value="HK" />
+    <area name="Honduras" key="area_honduras" value="HN" />
+    <area name="Hrvatska" key="area_croatia" value="HR" />
+    <area name="Magyarország" key="area_hungary" value="HU" />
+    <area name="Indonesia" key="area_Indonesian" value="ID" />
+    <area name="Ireland" key="area_ireland" value="IE" />
+    <area name="Israel" key="area_israel" value="IL" />
+    <area name="India" key="area_india" value="IN" />
+    <area name="Italia" key="area_italy" value="IT" />
+    <area name="Jamaica" key="area_jamaica" value="JM" />
+    <area name="Jordan" key="area_jordan" value="JO" />
+    <area name="日本" key="area_japan" value="JP" />
+    <area name="Kenya" key="area_kenya" value="KE" />
+    <area name="St. Kitts &amp; Nevis" key="area_st_kitts_nevis" value="KN" />
+    <area name="대한민국" key="area_korea" value="KR" />
+    <area name="Kuwait" key="area_kuwait" value="KW" />
+    <area name="Cayman Islands" key="area_cayman_islands" value="KY" />
+    <area name="St. Lucia" key="area_st_lucia" value="LC" />
+    <area name="Liechtenstein" key="area_liechtenstein" value="LI" />
+    <area name="Lietuva" key="area_lithuania" value="LT" />
+    <area name="Luxembourg" key="area_luxembourg" value="LU" />
+    <area name="Latvija" key="area_latvia" value="LV" />
+    <area name="Maroc" key="area_morocco" value="MA" />
+    <area name="Moldova" key="area_moldova" value="MD" />
+    <area name="Montenegro" key="area_montenegro" value="ME" />
+    <area name="Madagascar" key="area_madagascar" value="MG" />
+    <area name="Macedonia" key="area_macedonia" value="MK" />
+    <area name="Mali" key="area_should" value="ML" />
+    <area name="澳門" key="area_macau" value="MO" />
+    <area name="Montserrat" key="area_montserrat" value="MS" />
+    <area name="Malta" key="area_malta" value="MT" />
+    <area name="Maurice" key="area_maurice" value="MU" />
+    <area name="México" key="area_mexico" value="MX" />
+    <area name="Malaysia" key="area_malaysia" value="MY" />
+    <area name="Mozambique" key="area_mozambique" value="MZ" />
+    <area name="Niger" key="area_niger" value="NE" />
+    <area name="Nigeria" key="area_nigeria" value="NG" />
+    <area name="Nicaragua" key="area_nicaragua" value="NI" />
+    <area name="Nederland" key="area_netherlands" value="NL" />
+    <area name="Norge" key="area_norway" value="NO" />
+    <area name="New Zealand" key="area_new_zealand" value="NZ" />
+    <area name="Oman" key="area_oman" value="OM" />
+    <area name="Panamá" key="area_panama" value="PA" />
+    <area name="Perú" key="area_peru" value="PE" />
+    <area name="Philippines" key="area_philippines" value="PH" />
+    <area name="Polska" key="area_poland" value="PL" />
+    <area name="Puerto Rico" key="area_puerto_rico" value="PR" />
+    <area name="Portugal" key="area_portugal" value="PT" />
+    <area name="Paraguay" key="area_paraguay" value="PY" />
+    <area name="Qatar" key="area_qatar" value="QA" />
+    <area name="România" key="area_romania" value="RO" />
+    <area name="Россия" key="area_russia" value="RU" />
+    <area name="المملكة العربية السعودية" key="area_saudi_arabia_ar" value="SA" />
+    <area name="Saudi Arabia" key="area_saudi_arabia_en" language="en" value="SA" />
+    <area name="Sverige" key="area_sweden" value="SE" />
+    <area name="Singapore" key="area_singapore" value="SG" />
+    <area name="Slovenia" key="area_slovenia" value="SI" />
+    <area name="Slovensko" key="area_slovakia" value="SK" />
+    <area name="Sénégal" key="area_senegal" value="SN" />
+    <area name="Suriname" key="area_suriname" value="SR" />
+    <area name="El Salvador" key="area_el_salvador" value="SV" />
+    <area name="Turks &amp; Caicos" key="area_turks_caicos" value="TC" />
+    <area name="ไทย" key="area_thai" value="TH" />
+    <area name="Tunisie" key="area_tunisia" value="TN" />
+    <area name="Türkiye" key="area_turkey" value="TR" />
+    <area name="Trinidad &amp; Tobago" key="area_trinidad_tobago" value="TT" />
+    <area name="中國台灣" key="area_taiwan" value="TW" />
+    <area name="Uganda" key="area_uganda" value="UG" />
+    <area name="UK" key="area_uk" value="UK" />
+    <area name="United States" key="area_united_states" value="US" />
+    <area name="Uruguay" key="area_uruguay" value="UY" />
+    <area name="St. Vincent &amp; The Grenadines" key="area_st_Vincent_the_grenadines" value="VC" />
+    <area name="Venezuela" key="area_venezuela" value="VE" />
+    <area name="British Virgin Islands" key="area_british_virgin_islands" value="VG" />
+    <area name="Vietnam" key="area_vietnam" value="VN" />
+    <area name="South Africa" key="area_south_africa" value="ZA" />
+</areas>

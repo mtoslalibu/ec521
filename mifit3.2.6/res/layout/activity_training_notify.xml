@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:huami="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/training_notify" android:layout_width="fill_parent" android:layout_height="wrap_content" huami:itemTitle="@string/training_notify" huami:itemSwitch="true" />
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/miband_training_notify" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" huami:itemTitle="@string/miban_notify_training" huami:itemSummary="@string/miband_will_notify_training" huami:itemSwitch="true" />
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/training_notify_time" android:layout_width="fill_parent" android:layout_height="wrap_content" huami:itemTitle="@string/training_notify_time" huami:itemDivider="gone" />
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/white60" android:gravity="center" android:id="@id/chart_message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:text="@string/loading" android:drawableTop="@drawable/slp_empty_warning" android:drawablePadding="11.0dip" android:layout_centerHorizontal="true" />
+    <FrameLayout android:id="@id/chart_container" android:layout_width="fill_parent" android:layout_height="78.0dip" android:layout_above="@id/time_ll" />
+    <RelativeLayout android:id="@id/time_ll" android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/week_xaxis_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip">
+            <TextView android:textSize="11.0sp" android:textColor="@color/black40" android:gravity="center" android:layout_width="0.0dip" android:layout_height="@dimen/time_axis_height" android:layout_weight="1.0" style="@style/timeAxisStyle" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/black40" android:gravity="center" android:layout_width="0.0dip" android:layout_height="@dimen/time_axis_height" android:layout_weight="1.0" style="@style/timeAxisStyle" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/black40" android:gravity="center" android:layout_width="0.0dip" android:layout_height="@dimen/time_axis_height" android:layout_weight="1.0" style="@style/timeAxisStyle" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/black40" android:gravity="center" android:layout_width="0.0dip" android:layout_height="@dimen/time_axis_height" android:layout_weight="1.0" style="@style/timeAxisStyle" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/black40" android:gravity="center" android:layout_width="0.0dip" android:layout_height="@dimen/time_axis_height" android:layout_weight="1.0" style="@style/timeAxisStyle" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/black40" android:gravity="center" android:layout_width="0.0dip" android:layout_height="@dimen/time_axis_height" android:layout_weight="1.0" style="@style/timeAxisStyle" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/black40" android:gravity="center" android:layout_width="0.0dip" android:layout_height="@dimen/time_axis_height" android:layout_weight="1.0" style="@style/timeAxisStyle" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/month_xaxis_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip">
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="11.0sp" android:textColor="@color/black40" android:gravity="center" android:id="@id/month_xaxis_start" android:layout_width="wrap_content" android:layout_height="@dimen/time_axis_height" android:fontFamily="km" android:layout_alignParentStart="true" />
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="11.0sp" android:textColor="@color/black40" android:gravity="center" android:id="@id/month_xaxis_10" android:layout_width="wrap_content" android:layout_height="@dimen/time_axis_height" android:fontFamily="km" />
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="11.0sp" android:textColor="@color/black40" android:gravity="center" android:id="@id/month_xaxis_20" android:layout_width="wrap_content" android:layout_height="@dimen/time_axis_height" android:fontFamily="km" />
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="11.0sp" android:textColor="@color/black40" android:gravity="center" android:id="@id/month_xaxis_end" android:layout_width="wrap_content" android:layout_height="@dimen/time_axis_height" android:fontFamily="km" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

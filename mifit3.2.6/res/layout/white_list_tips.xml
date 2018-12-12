@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="@color/black80" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/text_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="98.0dip" android:text="@string/white_list_tips" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/black60" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/text_tips_help" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/white_list_tips_help_miui" android:layout_below="@id/text_tips" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:layout_width="120.0dip" android:layout_height="190.0dip" android:layout_marginTop="61.0dip" android:layout_below="@id/text_tips_help" android:layout_centerHorizontal="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_phone" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_safety" android:layout_centerInParent="true" android:alpha="0.5" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="39.0dip" android:src="@drawable/img_accept" android:layout_marginStart="75.0dip" />
+    </RelativeLayout>
+    <TextView android:id="@id/doNotTipsAgain" android:text="@string/do_not_remind_again" android:layout_marginStart="37.0dip" style="@style/BindLeftTextStyle" />
+    <TextView android:textColor="@drawable/text_click_color" android:id="@id/gotIt" android:text="@string/got_it" android:layout_marginEnd="37.0dip" style="@style/BindRightTextStyle" />
+</RelativeLayout>

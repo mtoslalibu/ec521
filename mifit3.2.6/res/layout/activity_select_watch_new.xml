@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="@color/black80" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="98.0dip" android:text="@string/select_watch_title" android:layout_centerHorizontal="true" />
+    <View android:background="@color/black20" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="57.0dip" android:layout_below="@id/title_tv" android:layout_marginStart="45.0dip" android:layout_marginEnd="45.0dip" />
+    <android.support.v7.widget.RecyclerView android:id="@id/watch_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="57.0dip" android:divider="@null" android:layout_below="@id/title_tv" android:overScrollMode="never" android:layout_marginStart="45.0dip" android:layout_marginEnd="45.0dip" />
+    <TextView android:id="@id/skip_tv" android:text="@string/cancel" style="@style/BindBottomTextStyle" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="@color/black80" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="98.0dip" android:text="@string/unbind_alipay_title" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/black60" android:layout_gravity="center_horizontal" android:id="@id/sub_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/unbind_alipay_tips" android:layout_below="@id/title_tv" android:layout_centerHorizontal="true" />
+    <FrameLayout android:layout_width="227.0dip" android:layout_height="120.0dip" android:layout_marginTop="142.0dip" android:layout_below="@id/title_tv" android:layout_marginStart="73.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="72.0dip" android:layout_height="72.0dip" android:src="@drawable/alipay_icon" android:alpha="0.5" />
+        <ImageView android:layout_gravity="end" android:id="@id/device_img" android:layout_width="120.0dip" android:layout_height="120.0dip" android:src="@drawable/img_midong_watch_lite" android:alpha="0.5" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="132.0dip" android:layout_height="44.0dip" android:src="@drawable/img_unbind" android:layout_marginStart="43.0dip" />
+    </FrameLayout>
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/got_it" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="19.5dip" android:text="@string/got_it" style="@style/BindBottomTextStyle" />
+</RelativeLayout>

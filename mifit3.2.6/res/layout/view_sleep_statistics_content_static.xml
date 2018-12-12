@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/divide" android:layout_width="fill_parent" android:layout_height="@dimen/divider" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <com.xiaomi.hm.health.view.UnitTextComponent android:layout_gravity="center" android:id="@id/sleep_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+            <View android:background="@color/divide" android:layout_width="@dimen/divider" android:layout_height="fill_parent" />
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <com.xiaomi.hm.health.view.UnitTextComponent android:layout_gravity="center" android:id="@id/sleep_deep_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+            <View android:background="@color/divide" android:layout_width="@dimen/divider" android:layout_height="fill_parent" />
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <com.xiaomi.hm.health.view.UnitTextComponent android:layout_gravity="center" android:id="@id/sleep_light_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+        </LinearLayout>
+        <View android:background="@color/divide" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/divider" />
+        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <com.xiaomi.hm.health.view.UnitTextComponent android:layout_gravity="center" android:id="@id/into_sleep_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+            <View android:background="@color/divide" android:layout_width="@dimen/divider" android:layout_height="fill_parent" />
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <com.xiaomi.hm.health.view.UnitTextComponent android:layout_gravity="center" android:id="@id/lazy_bed_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+            <View android:background="@color/divide" android:layout_width="@dimen/divider" android:layout_height="fill_parent" />
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <com.xiaomi.hm.health.view.UnitTextComponent android:layout_gravity="center" android:id="@id/dream_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+        </LinearLayout>
+        <View android:background="@color/divide" android:layout_width="fill_parent" android:layout_height="@dimen/divider" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <com.xiaomi.hm.health.view.UnitTextComponent android:layout_gravity="center" android:id="@id/sleep_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+            <View android:background="@color/divide" android:layout_width="@dimen/divider" android:layout_height="fill_parent" />
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <com.xiaomi.hm.health.view.UnitTextComponent android:layout_gravity="center" android:id="@id/sleep_awake_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+            <View android:background="@color/divide" android:layout_width="@dimen/divider" android:layout_height="fill_parent" />
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <com.xiaomi.hm.health.view.UnitTextComponent android:layout_gravity="center" android:id="@id/sleep_awake_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

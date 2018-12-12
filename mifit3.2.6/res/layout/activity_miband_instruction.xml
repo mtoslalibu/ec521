@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v4.view.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+        <com.xiaomi.hm.health.view.indicator.CirclePageIndicator android:layout_gravity="bottom|center" android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="31.699982dip" app:fillColor="#7fffffff" app:pageColor="#33ffffff" app:radius="4.649994dip" app:gap="8.0dip" app:strokeWidth="0.0dip" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/install_band_container" android:visibility="gone" android:layout_width="200.0dip" android:layout_height="300.0dip" android:layout_marginTop="86.69998dip" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/miband_inner" android:background="@drawable/img_miband_inner" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/mili_pro" android:background="@drawable/img_mili_pro" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/install_miband2" android:background="@drawable/img_install_miband2" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/install_done" android:background="@drawable/img_install_done" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ImageView android:id="@id/lift_wrist" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="86.69998dip" android:layout_centerHorizontal="true" />
+    <FrameLayout android:id="@id/measure_hr_animation_container" android:visibility="gone" android:layout_width="266.6953dip" android:layout_height="333.6953dip" android:layout_marginTop="86.69998dip" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/hand_img" android:background="@drawable/img_measure_heart" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/band_hr_img" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/measuring" android:background="@drawable/img_measuring" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/red_heart" android:background="@drawable/hr_red_heart" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="140.0dip" android:layout_marginStart="144.0dip" />
+        <ImageView android:id="@id/measure_hr_fail" android:background="@drawable/img_measure_hr_fail" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/measure_hr_success" android:background="@drawable/img_measure_success" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/remind_animation_container" android:visibility="gone" android:layout_width="166.69998dip" android:layout_height="300.0dip" android:layout_marginTop="86.69998dip" android:layout_centerHorizontal="true">
+        <ImageView android:layout_gravity="center" android:id="@id/img_miband2" android:background="@drawable/img_miband2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/remind_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="102.69998dip" />
+    </FrameLayout>
+</RelativeLayout>

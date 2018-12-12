@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:huami="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/enable_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClick" huami:itemTitle="@string/open_avoid_disturb_tips" />
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/start_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClick" huami:itemTitle="@string/avoid_disturb_on_time" />
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/stop_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClick" huami:itemTitle="@string/avoid_disturb_off_time" />
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/light_item" android:layout_width="fill_parent" android:layout_height="wrap_content" huami:itemTitle="@string/avoid_light_title" huami:itemSwitch="true" />
+</LinearLayout>

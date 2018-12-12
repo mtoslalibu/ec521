@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/watermark_camera_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:background="@color/watermark_detail_bg" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="@dimen/watermark_camera_header_h">
+        <ImageButton android:id="@id/common_title_left_button" android:background="@drawable/title_back_icon" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginStart="13.299988dip" android:layout_alignParentStart="true" />
+        <ImageButton android:id="@id/reverse_color" android:background="@drawable/reverse_color_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="13.299988dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_share_area_mark" android:layout_width="fill_parent" android:layout_height="360.0dip">
+        <ImageView android:id="@id/iv_photo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:adjustViewBounds="true" />
+        <RelativeLayout android:id="@id/mark_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="125.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/watermark_category_layout" android:background="#d6181e2d" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/watermark_category_tab_height">
+            <TextView android:textSize="14.0sp" android:textColor="@color/white100" android:gravity="center" android:id="@id/tab_sport" android:layout_width="76.69998dip" android:layout_height="fill_parent" android:text="@string/watermark_category_sport" android:layout_marginStart="9.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white40" android:gravity="center" android:id="@id/tab_sticker" android:layout_width="76.69998dip" android:layout_height="fill_parent" android:text="@string/watermark_category_sticker" android:layout_marginStart="9.0dip" />
+        </LinearLayout>
+        <View android:id="@id/category_choose_divider" android:background="@color/white30" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/divider" android:layout_below="@id/watermark_category_layout" />
+        <android.support.v7.widget.RecyclerView android:layout_gravity="center" android:id="@id/choose_watermark_listview" android:background="#d6181e2d" android:paddingTop="4.6999817dip" android:paddingBottom="4.6999817dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="@dimen/watermark_horizontal_list_height" android:cacheColorHint="#00000000" android:layout_below="@id/category_choose_divider" android:overScrollMode="never" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/share_pane_container_rl" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/share_pane_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/watermark_share_oper_item_height" android:layout_centerVertical="true" />
+        <Button android:textSize="12.0sp" android:id="@id/goto_summary_btn" android:background="@drawable/click_btn_bg_dark" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/watermark_share_oper_item_height" android:text="@string/running_btn_confirm" android:layout_centerVertical="true" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+    </RelativeLayout>
+</LinearLayout>

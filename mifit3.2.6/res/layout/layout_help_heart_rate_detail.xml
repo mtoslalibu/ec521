@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/running_primary_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.299988sp" android:textColor="@color/run_white_50_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/running_help_heart_rate_display_prompt" />
+    <View android:background="@color/white10" android:layout_width="fill_parent" android:layout_height="0.70000005dip" android:layout_marginTop="30.0dip" />
+    <TextView android:textSize="13.299988sp" android:textColor="@color/run_white_50_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/running_help_heart_rate_display_change_title" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/run_white_30_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.299988dip" android:text="@string/running_help_heart_rate_display_change_desc" />
+    <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/icon_running_help_heart_rate_figure1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.699982dip" />
+    <TextView android:textSize="13.299988sp" android:textColor="@color/run_white_50_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/running_help_heart_rate_range_title" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/run_white_30_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.299988dip" android:text="@string/running_help_heart_rate_range_desc" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/run_white_30_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.699982dip" android:text="@string/running_help_heart_rate_range_warm_up_relax" android:layout_marginStart="50.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginStart="50.0dip">
+        <ImageView android:background="@drawable/icon_running_help_heart_rate_warmup_relax" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/run_white_30_percent" android:id="@id/relax" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.6999817dip" />
+    </LinearLayout>
+    <TextView android:textSize="10.0sp" android:textColor="@color/run_white_30_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.699982dip" android:text="@string/running_help_heart_rate_range_fat_burning" android:layout_marginStart="50.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginStart="50.0dip">
+        <ImageView android:background="@drawable/icon_running_help_heart_rate_fat_burning" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/run_white_30_percent" android:id="@id/fatBurning" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.6999817dip" />
+    </LinearLayout>
+    <TextView android:textSize="10.0sp" android:textColor="@color/run_white_30_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.699982dip" android:text="@string/running_help_heart_rate_range_heart_lung_strengthen" android:layout_marginStart="50.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginStart="50.0dip">
+        <ImageView android:background="@drawable/icon_running_help_heart_rate_heart_lung_strengthen" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/run_white_30_percent" android:id="@id/heartLungStrengthen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.6999817dip" />
+    </LinearLayout>
+    <TextView android:textSize="10.0sp" android:textColor="@color/run_white_30_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.699982dip" android:text="@string/running_help_heart_rate_range_stamina_strengthen" android:layout_marginStart="50.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginStart="50.0dip">
+        <ImageView android:background="@drawable/icon_running_help_heart_rate_stamina_strengthen" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/run_white_30_percent" android:id="@id/staminaStrengthen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.6999817dip" />
+    </LinearLayout>
+    <TextView android:textSize="10.0sp" android:textColor="@color/run_white_30_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.699982dip" android:text="@string/running_help_heart_rate_range_anaerobic_limit" android:layout_marginStart="50.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginStart="50.0dip">
+        <ImageView android:background="@drawable/icon_running_help_heart_rate_anaerobic_limit" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/run_white_30_percent" android:id="@id/anaerobicLimit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.6999817dip" />
+    </LinearLayout>
+</LinearLayout>

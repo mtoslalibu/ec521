@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/share_header" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="84.0dip" android:paddingStart="18.0dip" android:paddingEnd="27.0dip">
+        <com.xiaomi.hm.health.baseui.circleimageview.HMCircleImageView android:id="@id/imv_user_avatar" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/default_user_avatar" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/black70" android:id="@id/tv_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_alignTop="@id/imv_user_avatar" android:layout_marginStart="12.0dip" android:layout_toEndOf="@id/imv_user_avatar" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/black40" android:id="@id/tv_exercise_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="2.0dip" android:layout_alignBottom="@id/imv_user_avatar" android:layout_alignStart="@id/tv_user_name" />
+        <ImageView android:id="@id/icon_training" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/icon_training_course" android:layout_alignTop="@id/imv_user_avatar" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/black40" android:gravity="center" android:id="@id/exercise_name" android:layout_width="26.0dip" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/sport_type_train" android:layout_below="@id/icon_training" android:layout_alignStart="@id/icon_training" />
+        <View android:layout_height="32.0dip" android:layout_centerVertical="true" android:layout_marginEnd="27.0dip" android:layout_toStartOf="@id/icon_training" style="@style/HorizontalDivider" />
+    </RelativeLayout>
+    <com.xiaomi.hm.health.training.ui.widget.StickHeaderLayout android:orientation="vertical" android:id="@id/stick_layout" android:background="@color/pale_grey" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <include layout="@layout/layout_image_header" />
+        <com.xiaomi.hm.health.training.ui.widget.StickHeaderChildScrollView android:id="@id/nsv_bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="never">
+            <LinearLayout android:orientation="vertical" android:background="@color/pale_grey" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/training_history_hr_section" />
+                <include layout="@layout/training_history_detail_chart_section" />
+                <LinearLayout android:orientation="vertical" android:id="@id/action_list_container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="18.0dip" android:paddingEnd="18.0dip">
+                    <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="42.0dip" android:text="@string/action_list" />
+                    <View style="@style/VerticalDivider" />
+                    <android.support.v7.widget.RecyclerView android:id="@id/action_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.xiaomi.hm.health.training.ui.widget.StickHeaderChildScrollView>
+    </com.xiaomi.hm.health.training.ui.widget.StickHeaderLayout>
+</FrameLayout>

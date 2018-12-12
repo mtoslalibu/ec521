@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="avoid_type">
+        <item>@string/state_close</item>
+        <item>@string/avoid_enable_smart</item>
+        <item>@string/avoid_enable_time</item>
+    </string-array>
+    <string-array name="avoid_type_sub">
+        <item></item>
+        <item>@string/avoid_enable_smart_sub</item>
+        <item>@string/avoid_enable_time_sub</item>
+    </string-array>
+    <string-array name="bmi_for_adualt">
+        <item>Žemas</item>
+        <item>Normalus</item>
+        <item>Aukštas</item>
+        <item>Labai aukštas</item>
+    </string-array>
+    <string-array name="bmi_for_child">
+        <item>Normalus</item>
+        <item>Aukštas</item>
+        <item>Labai aukštas</item>
+    </string-array>
+    <string-array name="bmi_for_not_chinese">
+        <item>Žemas</item>
+        <item>Normalus</item>
+        <item>Padidėjęs</item>
+        <item>Aukštas</item>
+        <item>Labai aukštas</item>
+    </string-array>
+    <string-array name="body_score_leval">
+        <item>Labai prastas</item>
+        <item>Prastas</item>
+        <item>Normalus</item>
+        <item>Geras</item>
+        <item>Puikus</item>
+    </string-array>
+    <string-array name="body_shape_type_array">
+        <item>Liesas</item>
+        <item>Subalansuotas ir liesas</item>
+        <item>Liesas ir raumeningas</item>
+        <item>Trūksta fizinės veiklos</item>
+        <item>Subalansuotas</item>
+        <item>Subalansuotas ir raumeningas</item>
+        <item>Nutukęs</item>
+        <item>Turintis antsvorio</item>
+        <item>Stambiai sudėtas</item>
+    </string-array>
+    <string-array name="bodyfat_content_leval">
+        <item>Labai mažai</item>
+        <item>Mažai</item>
+        <item>Normaliai</item>
+        <item>Padidėję</item>
+        <item>Aukštas</item>
+    </string-array>
+    <string-array name="bone_leval">
+        <item>Nepakankamas</item>
+        <item>Normali</item>
+        <item>Gera</item>
+    </string-array>
+    <string-array name="brm_leval">
+        <item>Nepavyko pasiekti tikslų</item>
+        <item>Pasiektas tikslas</item>
+    </string-array>
+    <string-array name="chaohu_help_tips">
+        <item>Pabandykite paspausti mygtuką laikrodyje, jei laikrodžio ekranas išjungtas, įkraukite bateriją.</item>
+        <item>Pirmiausia išjunkite „Bluetooth“, tada suporuokite su dabartiniu įrenginiu.</item>
+        <item>Jei apyrankė įkrauta ir telefonas vis tiek negali jos aptikti, pabandykite pakartotinai įjungti telefono „Bluetooth“.</item>
+        <item>Jei pakartotinis „Bluetooth“ įjungimas neišsprendė problemos, pabandykite paleisti telefoną iš naujo.</item>
+        <item>Treniruočių metu laikrodžio duomenys negali būti sinchronizuoti. Užbaikite sesiją ir pakartokite.</item>
+    </string-array>
+    <string-array name="chaohu_help_title">
+        <item>Ar jūsų laikrodis įkrautas?</item>
+        <item>Ar laikrodis yra suporuotas su kitu įrenginiu?</item>
+        <item>Pabandykite paleisti „Bluetooth“ iš naujo</item>
+        <item>Pabandykite paleisti telefoną iš naujo</item>
+        <item>Treniruočių metu negalima sinchronizuoti duomenų</item>
+    </string-array>
+    <string-array name="chaohu_setting_run_types">
+        <item>@string/chaohu_setting_run_outdoor</item>
+        <item>@string/chaohu_setting_run_indoor</item>
+        <item>@string/chaohu_setting_run_ride</item>
+        <item>@string/chaohu_setting_run_walk</item>
+    </string-array>
+    <string-array name="colors">
+        <item>@string/blue</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/red</item>
+    </string-array>
+    <string-array name="common_cities">
+        <item>Guangdžou</item>
+        <item>Šenzenas</item>
+        <item>Fošanas</item>
+        <item>Donguanas</item>
+        <item>Pekinas</item>
+        <item>Nankinas</item>
+        <item>Sudžou</item>
+        <item>Čangdžou</item>
+        <item>Dzinanas</item>
+        <item>Čingdao</item>
+        <item>Hangdžou</item>
+        <item>Ningbo</item>
+        <item>Džengdžou</item>
+        <item>Kaifeng</item>
+        <item>Šanchajus</item>
+        <item>Šidziadžuangas</item>
+        <item>Baodingas</item>
+        <item>Čengdu</item>
+        <item>Mianyang</item>
+        <item>Šenjangas</item>
+        <item>Dalianas</item>
+    </string-array>
+    <string-array name="difficulty_content">
+        <item>Naujas sporto srityje</item>
+        <item>Šiek tiek sporto patirties</item>
+        <item>Daug sporto patirties ir gera fizinė forma</item>
+    </string-array>
+    <string-array name="difficulty_title">
+        <item>Elementarus</item>
+        <item>Vidutinis</item>
+        <item>Pažengęs</item>
+    </string-array>
+    <string-array name="fitness_goal_content">
+        <item>Siekiant deginti riebalus</item>
+        <item>Siekiant formuoti kūno linijas</item>
+        <item>Siekiama įgauti raumenų</item>
+    </string-array>
+    <string-array name="fitness_goal_title">
+        <item>Suliesėti</item>
+        <item>Formuoti</item>
+        <item>Sustambėti</item>
+    </string-array>
+    <string-array name="ges_screen_type">
+        <item>@string/ges_screen_type_all_day</item>
+        <item>@string/ges_screen_type_time</item>
+        <item>@string/ges_screen_type_close</item>
+    </string-array>
+    <string-array name="hr_section">
+        <item>@string/hr_section_warm_up</item>
+        <item>@string/hr_section_fat_burn</item>
+        <item>@string/hr_section_heart_lung_strengthen</item>
+        <item>@string/hr_section_stamina_strengthen</item>
+        <item>@string/hr_section_anaerobic_limit</item>
+        <item>@string/hr_section_other</item>
+    </string-array>
+    <string-array name="hr_sport">
+        <item>Pulso zona: Lengva</item>
+        <item>Pulso zona: Svoriai</item>
+        <item>Pulso zona: Aerobinė</item>
+        <item>Pulso zona: Anaerobinė</item>
+        <item>Pulso zona: VO₂ maks.</item>
+    </string-array>
+    <string-array name="hr_sport_new">
+        <item>Lengvas</item>
+        <item>Svoris</item>
+        <item>Aerobinis</item>
+        <item>Anaerobinis</item>
+        <item>VO₂ maks.</item>
+    </string-array>
+    <string-array name="lock_screen_type">
+        <item>Arti</item>
+        <item>Netoliese</item>
+        <item>Toli</item>
+    </string-array>
+    <string-array name="member_add_weight_items">
+        <item>@string/member_add_weight_item_auto</item>
+        <item>@string/member_add_weight_item_manual</item>
+    </string-array>
+    <string-array name="mili_help_tips">
+        <item>"Palieskite apyrankę, kad patikrinti, ar įrenginys yra įkrautas prieš jį suporuojant su Mi Band 2 ar kitomis apyrankėmis.
+
+Įkraukite apyrankę prieš ją suporuojant su Mi Band ar Mi Band Pulse."</item>
+        <item>Pirmiausia išjunkite Bluetooth, tada suporuokite su dabartiniu įrenginiu.</item>
+        <item>Jei apyrankė įkrauta ir telefonas vis tiek jos neranda, pabandykite pakartotinai įjungti Bluetooth.</item>
+        <item>Jei pakartotinis Bluetooth įjungimas neišsprendė problemos, pabandykite perkrauti telefoną.</item>
+    </string-array>
+    <string-array name="mili_help_title">
+        <item>Ar jūsų apyrankė įkrauta?</item>
+        <item>Ar ši apyrankė yra suporuota su kitu įrenginiu?</item>
+        <item>Pabandykite iš naujo paleisti Bluetooth</item>
+        <item>Pabandykite paleisti telefoną iš naujo</item>
+    </string-array>
+    <string-array name="mili_pro_display_items">
+        <item>Laikas</item>
+        <item>Žingsniai</item>
+        <item>Atstumas</item>
+        <item>Kalorijos</item>
+        <item>Pulsas</item>
+        <item>Baterija</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>Sau</item>
+        <item>Vas</item>
+        <item>Kov</item>
+        <item>Bal</item>
+        <item>Geg</item>
+        <item>Brž</item>
+        <item>Lie</item>
+        <item>Rgp</item>
+        <item>Rgs</item>
+        <item>Spa</item>
+        <item>Lpk</item>
+        <item>Grd</item>
+    </string-array>
+    <string-array name="muscle_content_leval">
+        <item>Nepakankamas</item>
+        <item>Normalus</item>
+        <item>Geras</item>
+    </string-array>
+    <string-array name="ring_types">
+        <item>@string/ring_type_default</item>
+        <item>@string/ring_type_incall</item>
+    </string-array>
+    <string-array name="running_months">
+        <item>Sau</item>
+        <item>Vas</item>
+        <item>Kov</item>
+        <item>Bal</item>
+        <item>Geg</item>
+        <item>Bir</item>
+        <item>Lie</item>
+        <item>Rgp</item>
+        <item>Rgs</item>
+        <item>Spa</item>
+        <item>Lpk</item>
+        <item>Grd</item>
+    </string-array>
+    <string-array name="setting_hr_freq_types">
+        <item>@string/setting_heartrate_detect_freq_1</item>
+        <item>@string/setting_heartrate_detect_freq_10</item>
+        <item>@string/setting_heartrate_detect_freq_30</item>
+    </string-array>
+    <string-array name="setting_hr_types">
+        <item>@string/setting_heartrate_detect_auto</item>
+        <item>@string/setting_heartrate_detect_sleep</item>
+        <item>@string/setting_heartrate_detect_close</item>
+    </string-array>
+    <string-array name="setting_peyto_apps_array">
+        <item>Ciferblatas</item>
+        <item>Būsena</item>
+        <item>Veiklos</item>
+        <item>Orai</item>
+        <item>Žadintuvas</item>
+        <item>Laikmatis</item>
+        <item>Kompasas</item>
+        <item>Daugiau nustatymų</item>
+    </string-array>
+    <string-array name="setting_tempo_apps_array">
+        <item>Ciferblatas</item>
+        <item>Būsena</item>
+        <item>Pranešimai</item>
+        <item>Veiklos</item>
+        <item>Orai</item>
+        <item>Žadintuvas</item>
+        <item>Laikmatis</item>
+        <item>Nustatymai</item>
+    </string-array>
+    <string-array name="setting_weather_temp_unit_array">
+        <item>@string/setting_weather_temp_c</item>
+        <item>@string/setting_weather_temp_f</item>
+    </string-array>
+    <string-array name="shoes_help_tips">
+        <item>Išmanusis lustas nustos veikti, jei ilgai jo nenaudosite. Pakratykite jį ir pabandykite dar kartą.</item>
+        <item>Amazfit Išmaniojo Lusto baterijos naudojimo trukmė yra 1 metai. Jei naudojate ją ilgiau, galėjo išsikrauti baterija.</item>
+        <item>Pirmiausia išjunkite Bluetooth, tada suporuokite su dabartiniu įrenginiu.</item>
+        <item>Jei išmanusis lustas įkrautas, tačiau negali būti aptinkamas, net jį padėjus šalia telefono, pabandykite iš naujo paleisti telefono „Bluetooth“.</item>
+        <item>Jei pakartotinis Bluetooth įjungimas neišsprendė problemos, pabandykite perkrauti telefoną.</item>
+        <item>Bakstelėkite bėgimo batelių duomenis ir užpildykite kitą veiklos puslapį, siekiant automatiškai sinchronizuoti duomenis</item>
+    </string-array>
+    <string-array name="shoes_help_title">
+        <item>Pakratykite išmanųjį lustą</item>
+        <item>Ar baterija yra įkrauta?</item>
+        <item>Ar išmanusis lustas yra suporuotas su kitu įrenginiu?</item>
+        <item>Paleisti Bluetooth iš naujo</item>
+        <item>Pabandykite paleisti telefoną iš naujo</item>
+        <item>Kaip sinchronizuoti savo duomenis?</item>
+    </string-array>
+    <string-array name="show_body_shape_array">
+        <item>Nutukęs</item>
+        <item>Turintis antsvorio</item>
+        <item>Stambiai sudėtas</item>
+        <item>"Trūksta 
+fizinės veiklos"</item>
+        <item>Subalansuotas</item>
+        <item>"Subalansuotas
+raumeningas"</item>
+        <item>Liesas</item>
+        <item>"Subalansuotas
+liesas"</item>
+        <item>"Liesas
+raumeningas"</item>
+    </string-array>
+    <string-array name="timeline_type">
+        <item>Veikla</item>
+        <item>Lėtas ėjimas</item>
+        <item>Ėjimas</item>
+        <item>Greitas ėjimas</item>
+        <item>Bėgimas</item>
+        <item>Stovėjimas</item>
+        <item>Sėdėjimas</item>
+        <item>Lengva veikla</item>
+        <item>Be apyrankės</item>
+        <item>Įkraunama…</item>
+        <item>Gulėjimas</item>
+    </string-array>
+    <string-array name="train_difficulity">
+        <item>Neribojama</item>
+        <item>Elementarus, 1</item>
+        <item>Vidutinis, 2</item>
+        <item>Pažengęs, 3</item>
+    </string-array>
+    <string-array name="unbind_device_description">
+        <item>@string/device_band</item>
+        <item>@string/device_weight</item>
+        <item>@string/device_shoe</item>
+        <item>@string/device_watch</item>
+    </string-array>
+    <string-array name="visceral_fat_leval">
+        <item>Normalus</item>
+        <item>Aukštas</item>
+        <item>Labai aukštas</item>
+    </string-array>
+    <string-array name="water_leval">
+        <item>Nepakankamas</item>
+        <item>Normalus</item>
+        <item>Geras</item>
+    </string-array>
+    <string-array name="wear_type">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+    </string-array>
+    <string-array name="wear_type_body">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="wear_type_chest">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/chest</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>Sek</item>
+        <item>Pir</item>
+        <item>Ant</item>
+        <item>Tre</item>
+        <item>Ket</item>
+        <item>Pen</item>
+        <item>Šeš</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>Pirmadienis</item>
+        <item>Antradienis</item>
+        <item>Trečiadienis</item>
+        <item>Ketvirtadienis</item>
+        <item>Penktadienis</item>
+        <item>Šeštadienis</item>
+        <item>Sekmadienis</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>Pr</item>
+        <item>An</item>
+        <item>Tr</item>
+        <item>Kt</item>
+        <item>Pn</item>
+        <item>Št</item>
+        <item>Sk</item>
+    </string-array>
+    <string-array name="weight3_body_figures">
+        <item>Nuosvoris</item>
+        <item>Subalansuotas</item>
+        <item>Viršsvoris</item>
+        <item>Nutukęs</item>
+    </string-array>
+    <string-array name="weight_bfs_help_tips">
+        <item>Pirmiausia išjunkite Bluetooth, tada suporuokite su dabartiniu įrenginiu.</item>
+        <item>Užlipkite ant svarstyklių ir įsitikinkite, kad jos rodo jūsų svorį. Jei yra rodoma baterijos piktograma, pakeiskite baterijas.</item>
+        <item>Jei nėra jokio atsako užlipus ant svarstyklių, patikrinkite ar baterijos įdėtos teisingai.</item>
+        <item>Jei baterija įkrauta, tačiau jūs vis tiek negalite aptikti įrenginio, net jį padėjus šalia telefono – pabandykite iš naujo paleisti telefono Bluetooth.</item>
+        <item>Jei pakartotinis Bluetooth įjungimas neišsprendė problemos, pabandykite paleisti telefoną iš naujo.</item>
+    </string-array>
+    <string-array name="weight_bfs_help_title">
+        <item>Ar šios svarstyklės suporuotos su kitu įrenginiu?</item>
+        <item>Patikrinkite svarstyklių bateriją</item>
+        <item>Ar baterijos tinkamai įdėtos?</item>
+        <item>Pabandykite paleisti „Bluetooth“ iš naujo</item>
+        <item>Pabandykite paleisti telefoną iš naujo</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>Normalus</item>
+        <item>Viršsvoris</item>
+        <item>Nutukimas</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_not_chinese">
+        <item>Per mažas svoris</item>
+        <item>Normalus</item>
+        <item>Viršsvoris</item>
+        <item>Nutukimas I</item>
+        <item>Nutukimas II</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>" kg"</item>
+        <item>" Jin"</item>
+        <item>" lbs"</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+        <item>@string/weight_bfs_unit_jin</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array_no_jin">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+    </string-array>
+</resources>

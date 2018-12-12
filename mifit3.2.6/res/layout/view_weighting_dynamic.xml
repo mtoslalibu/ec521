@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="250.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xiaomi.hm.health.subview.WeightChartView android:id="@id/weight_chart" android:layout_width="250.0dip" android:layout_height="250.0dip" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/weight_content_all" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="center" android:id="@id/weight_overweight" android:background="@drawable/weight_overweight" android:visibility="gone" android:layout_width="108.0dip" android:layout_height="52.0dip" />
+        <ImageView android:layout_gravity="center" android:id="@id/weight_low_power" android:background="@drawable/weight_low_power" android:visibility="gone" android:layout_width="108.0dip" android:layout_height="52.0dip" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/weight_number_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="58.0sp" android:textColor="@color/white100" android:ellipsize="none" android:gravity="center" android:id="@id/number" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerInParent="true" android:fontFamily="km" />
+                <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="@color/white60" android:id="@id/number_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/unit_kg" android:maxLines="1" android:layout_alignBottom="@id/number" android:layout_marginStart="2.0dip" android:layout_toEndOf="@id/number" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_gravity="center" android:id="@id/weight_bmi_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-7.0dip">
+                <TextView android:textSize="12.0sp" android:textColor="#99ffffff" android:id="@id/bmi_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_centerInParent="true" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="#99ffffff" android:id="@id/bmi_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toStartOf="@id/bmi_number" />
+                <TextView android:textSize="12.0sp" android:textColor="#99ffffff" android:id="@id/bmi_standard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toEndOf="@id/bmi_number" />
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView android:textSize="12.699982sp" android:textColor="@color/white70" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/tips" android:layout_width="120.0dip" android:layout_height="wrap_content" />
+        <com.xiaomi.hm.health.customization.chart.FatMeasuringView android:layout_gravity="center" android:id="@id/bodyfat_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.699982dip" />
+    </LinearLayout>
+</RelativeLayout>

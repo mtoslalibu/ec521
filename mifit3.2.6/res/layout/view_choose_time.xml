@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.699982sp" android:textColor="@color/black80" android:gravity="center" android:layout_gravity="center" android:id="@id/time_choose_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.299988dip" android:layout_marginBottom="25.0dip" />
+    <View android:background="@color/divide" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/divider" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="202.0dip">
+        <kankan.wheel.widget.WheelView android:id="@id/time_choose_ampm_wheel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <View android:background="@color/item_stroke" android:layout_width="@dimen/round_bg_stroke" android:layout_height="fill_parent" />
+        <kankan.wheel.widget.WheelView android:id="@id/time_choose_hour_wheel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <View android:background="@color/item_stroke" android:layout_width="@dimen/round_bg_stroke" android:layout_height="fill_parent" />
+        <kankan.wheel.widget.WheelView android:id="@id/time_choose_min_wheel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

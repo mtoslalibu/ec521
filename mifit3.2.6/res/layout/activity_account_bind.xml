@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:baseui="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/account_bind_mi" android:layout_width="fill_parent" android:layout_height="wrap_content" baseui:itemTitle="@string/account_bind_mi" baseui:itemIcon="@drawable/account_bind_mi" baseui:itemIconTintColor="@color/orange100" />
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/account_bind_wechat" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/account_bind_mi" baseui:itemTitle="@string/account_bind_wechat" baseui:itemIcon="@drawable/account_bind_wechat" baseui:itemIconTintColor="@color/normal_color" baseui:itemDivider="gone" />
+</RelativeLayout>

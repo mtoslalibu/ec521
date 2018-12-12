@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/user_avatar_layout" android:layout_width="fill_parent" android:layout_height="74.0dip" layout="@layout/running_user_avatar_layout" />
+    <cn.com.smartdevices.bracelet.gps.ui.view.MapHelperLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="96.69998dip" map:shield="true" xmlns:map="http://schemas.android.com/apk/res-auto">
+        <com.amap.api.maps.MapView android:id="@id/map" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </cn.com.smartdevices.bracelet.gps.ui.view.MapHelperLayout>
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/running_track_info_display_console" />
+</RelativeLayout>

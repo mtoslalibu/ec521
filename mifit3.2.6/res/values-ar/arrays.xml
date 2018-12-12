@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="avoid_type">
+        <item>@string/state_close</item>
+        <item>@string/avoid_enable_smart</item>
+        <item>@string/avoid_enable_time</item>
+    </string-array>
+    <string-array name="avoid_type_sub">
+        <item></item>
+        <item>@string/avoid_enable_smart_sub</item>
+        <item>@string/avoid_enable_time_sub</item>
+    </string-array>
+    <string-array name="bmi_for_adualt">
+        <item>منخفض</item>
+        <item>طبيعي</item>
+        <item>مرتفع</item>
+        <item>مرتفع جداً</item>
+    </string-array>
+    <string-array name="bmi_for_child">
+        <item>طبيعي</item>
+        <item>مرتفع</item>
+        <item>مرتفع جداً</item>
+    </string-array>
+    <string-array name="bmi_for_not_chinese">
+        <item>منخفضة</item>
+        <item>طبيعي</item>
+        <item>زادت</item>
+        <item>مرتفعة</item>
+        <item>مرتفعة جداً</item>
+    </string-array>
+    <string-array name="body_score_leval">
+        <item>سيئ للغاية</item>
+        <item>سيئ</item>
+        <item>طبيعي</item>
+        <item>جيدة</item>
+        <item>ممتازة</item>
+    </string-array>
+    <string-array name="body_shape_type_array">
+        <item>نحيف</item>
+        <item>نحيل متوازن</item>
+        <item>عضلات نحيلة</item>
+        <item>تفتقر إلى التمارين</item>
+        <item>متوازن</item>
+        <item>عضلات متوازنة</item>
+        <item>سمين</item>
+        <item>وزن زائد</item>
+        <item>مجموعة سميكة</item>
+    </string-array>
+    <string-array name="bodyfat_content_leval">
+        <item>منخفض جداً</item>
+        <item>منخفض</item>
+        <item>طبيعي</item>
+        <item>زاد</item>
+        <item>مرتفع</item>
+    </string-array>
+    <string-array name="bone_leval">
+        <item>غير كافي</item>
+        <item>طبيعي</item>
+        <item>جيد</item>
+    </string-array>
+    <string-array name="brm_leval">
+        <item>لم تصل إلى الأهداف</item>
+        <item>تم الوصول إلى الهدف</item>
+    </string-array>
+    <string-array name="chaohu_help_tips">
+        <item>حاول الضغط على الزر الموجود فوق الساعة، إذا كانت شاشة الساعة في حالة إيقاف، قم بتوصيلها لشحن بطاريتها.</item>
+        <item>قم بإيقاف تشغيل جهاز البلوتوث أولا، ثم قم بالإقران مع الجهاز الحالي.</item>
+        <item>إذا تم شحن السوار الذكي، ولا يزال الهاتف غير قادر على العثور عليه، حاول إعادة تشغيل بلوتوث الهاتف.</item>
+        <item>إن لم تحل \"إعادة تشغيل البلوتوث\" المشكلة، حاول إعادة تشغيل الهاتف.</item>
+        <item>لا يمكن مزامنة بيانات الساعة اثناء التمارين. قم بإنهاء الدورة ثم حاول مرة أخرى.</item>
+    </string-array>
+    <string-array name="chaohu_help_title">
+        <item>هل تم شحن الساعة الخاصة بك؟</item>
+        <item>هل تم إقران هذه الساعة بجهاز آخر؟</item>
+        <item>حاول إعادة تشغيل البلوتوث</item>
+        <item>حاول إعادة تشغيل الهاتف الخاص بك</item>
+        <item>لا يمكن مزامنة البيانات أثناء التدريبات</item>
+    </string-array>
+    <string-array name="chaohu_setting_run_types">
+        <item>@string/chaohu_setting_run_outdoor</item>
+        <item>@string/chaohu_setting_run_indoor</item>
+        <item>@string/chaohu_setting_run_ride</item>
+        <item>@string/chaohu_setting_run_walk</item>
+    </string-array>
+    <string-array name="colors">
+        <item>@string/blue</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/red</item>
+    </string-array>
+    <string-array name="common_cities">
+        <item>غوانجو</item>
+        <item>شنتشن</item>
+        <item>فوشان</item>
+        <item>دونغقوان</item>
+        <item>بكين</item>
+        <item>نانجينغ</item>
+        <item>سوتشو</item>
+        <item>تشانغتشو</item>
+        <item>جينان</item>
+        <item>تشينغداو</item>
+        <item>هانغتشو</item>
+        <item>نينغبو</item>
+        <item>تشنغتشو</item>
+        <item>كايفنغ</item>
+        <item>شانغهاي</item>
+        <item>شيجياتشوانغ</item>
+        <item>باودينغ</item>
+        <item>تشنغدو</item>
+        <item>ميان</item>
+        <item>شنيانغ</item>
+        <item>داليان</item>
+    </string-array>
+    <string-array name="difficulty_content">
+        <item>جديد على تدريب اللياقة البدنية</item>
+        <item>لدي تجربة في اللياقة البدنية</item>
+        <item>لدي تجربة غنية في اللياقة البدنية وبنيت جسما جيدا</item>
+    </string-array>
+    <string-array name="difficulty_title">
+        <item>مبتدأ</item>
+        <item>متوسط</item>
+        <item>متقدم</item>
+    </string-array>
+    <string-array name="fitness_goal_content">
+        <item>يهدف إلى حرق الدهون</item>
+        <item>يهدف إلى تشكيل الجسم</item>
+        <item>يهدف إلى بناء العضلات</item>
+    </string-array>
+    <string-array name="fitness_goal_title">
+        <item>التخفيض</item>
+        <item>التشكيل</item>
+        <item>التكتل</item>
+    </string-array>
+    <string-array name="ges_screen_type">
+        <item>@string/ges_screen_type_all_day</item>
+        <item>@string/ges_screen_type_time</item>
+        <item>@string/ges_screen_type_close</item>
+    </string-array>
+    <string-array name="hr_section">
+        <item>@string/hr_section_warm_up</item>
+        <item>@string/hr_section_fat_burn</item>
+        <item>@string/hr_section_heart_lung_strengthen</item>
+        <item>@string/hr_section_stamina_strengthen</item>
+        <item>@string/hr_section_anaerobic_limit</item>
+        <item>@string/hr_section_other</item>
+    </string-array>
+    <string-array name="hr_sport">
+        <item>منطقة معدل ضربات القلب: الضوء</item>
+        <item>منطقة معدل ضربات القلب: الوزن</item>
+        <item>منطقة معدل ضربات القلب: تمارين تنفسية</item>
+        <item>المنطقة معدل ضربات القلب: لاهوائية</item>
+        <item>منطقة معدل ضربات القلب: ماكس VO₂</item>
+    </string-array>
+    <string-array name="hr_sport_new">
+        <item>خفيف</item>
+        <item>الوزن</item>
+        <item>تمارين تنفسية</item>
+        <item>تمارين لاهوائية</item>
+        <item>ماكس VO₂</item>
+    </string-array>
+    <string-array name="lock_screen_type">
+        <item>إغلاق</item>
+        <item>قريب</item>
+        <item>بعيد</item>
+    </string-array>
+    <string-array name="member_add_weight_items">
+        <item>@string/member_add_weight_item_auto</item>
+        <item>@string/member_add_weight_item_manual</item>
+    </string-array>
+    <string-array name="mili_help_tips">
+        <item>"انقر على الحزام للتحقق ما اذا كان الجهاز مشحون قبل اقتران حزام Mi 2 أو غيره من الأحزمة.
+
+قم بشحن الحزام قبل ان تقوم باقتران حزام Mi او نبض حزام Mi."</item>
+        <item>قم بإيقاف تشغيل جهاز البلوتوث أولا، ثم قم بالإقران مع الجهاز الحالي.</item>
+        <item>إذا تم شحن السوار الذكي، ولا يزال الهاتف غير قادر على العثور عليه، حاول إعادة تشغيل بلوتوث الهاتف.</item>
+        <item>ان لم تحل \"إعادة تشغيل البلوتوث\" المشكلة، حاول إعادة تشغيل الهاتف.</item>
+    </string-array>
+    <string-array name="mili_help_title">
+        <item>هل تم شحن السوار الذكي الخاص بك؟</item>
+        <item>هل تم إقران هذا السوار الذكي بجهاز آخر؟</item>
+        <item>حاول إعادة تعيين البلوتوث</item>
+        <item>حاول إعادة تشغيل الهاتف الخاص بك</item>
+    </string-array>
+    <string-array name="mili_pro_display_items">
+        <item>الوقت</item>
+        <item>الخطوات</item>
+        <item>المسافة</item>
+        <item>السعرات الحرارية</item>
+        <item>معدل ضربات القلب</item>
+        <item>البطارية</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>يناير</item>
+        <item>فبراير</item>
+        <item>مارس</item>
+        <item>أبريل</item>
+        <item>مايو</item>
+        <item>يونيو</item>
+        <item>يوليو</item>
+        <item>أغسطس</item>
+        <item>سبتمبر</item>
+        <item>أكتوبر</item>
+        <item>نوفمبر</item>
+        <item>ديسمبر</item>
+    </string-array>
+    <string-array name="muscle_content_leval">
+        <item>غير كافي</item>
+        <item>طبيعي</item>
+        <item>جيدة</item>
+    </string-array>
+    <string-array name="ring_types">
+        <item>@string/ring_type_default</item>
+        <item>@string/ring_type_incall</item>
+    </string-array>
+    <string-array name="running_months">
+        <item>يناير</item>
+        <item>فبراير</item>
+        <item>مارس</item>
+        <item>أبريل</item>
+        <item>مايو</item>
+        <item>يونيو</item>
+        <item>يوليو</item>
+        <item>أغسطس</item>
+        <item>سبتمبر</item>
+        <item>أكتوبر</item>
+        <item>نوفمبر</item>
+        <item>ديسمبر</item>
+    </string-array>
+    <string-array name="setting_hr_freq_types">
+        <item>@string/setting_heartrate_detect_freq_1</item>
+        <item>@string/setting_heartrate_detect_freq_10</item>
+        <item>@string/setting_heartrate_detect_freq_30</item>
+    </string-array>
+    <string-array name="setting_hr_types">
+        <item>@string/setting_heartrate_detect_auto</item>
+        <item>@string/setting_heartrate_detect_sleep</item>
+        <item>@string/setting_heartrate_detect_close</item>
+    </string-array>
+    <string-array name="setting_peyto_apps_array">
+        <item>وجه الساعة</item>
+        <item>الحالة</item>
+        <item>الأنشطة</item>
+        <item>الطقس</item>
+        <item>المنبه</item>
+        <item>المؤقت</item>
+        <item>البوصلة</item>
+        <item>مزيد من الإعدادات</item>
+    </string-array>
+    <string-array name="setting_tempo_apps_array">
+        <item>وجه الساعة</item>
+        <item>الحالة</item>
+        <item>الإشعارات</item>
+        <item>الأنشطة</item>
+        <item>الطقس</item>
+        <item>المنبه</item>
+        <item>المؤقت</item>
+        <item>الإعدادات</item>
+    </string-array>
+    <string-array name="setting_weather_temp_unit_array">
+        <item>@string/setting_weather_temp_c</item>
+        <item>@string/setting_weather_temp_f</item>
+    </string-array>
+    <string-array name="shoes_help_tips">
+        <item>سوف تتوقف الشريحة الذكية عن العمل إن لم تستخدمها لفترة طويلة. قم بهزها ثم حاول مجدداً.</item>
+        <item>عمر بطارية شريحة Amazfit الذكية سنة كاملة. إذا استخدمها لفترة أطول، ربما لن تبقى فيه طاقة.</item>
+        <item>قم بإيقاف تشغيل جهاز البلوتوث أولا، ثم قم بالإقران مع الجهاز الحالي.</item>
+        <item>إذا تم شحن الشريحة الذكية، ومازال لا يمكن الكشف عنها عند احضارها بالقرب من الهاتف، حاول إعادة تشغيل بلوتوث الهاتف.</item>
+        <item>ان لم تحل \"إعادة تشغيل البلوتوث\" المشكلة، حاول إعادة تشغيل الهاتف.</item>
+        <item>انقر فوق بيانات حذاء الركض وادخل صفحة النشاط التالية لمزامنة البيانات تلقائياً</item>
+    </string-array>
+    <string-array name="shoes_help_title">
+        <item>هز الشريحة الذكية</item>
+        <item>هل تم شحن البطارية؟</item>
+        <item>هل تم إقران هذه الشريحة الذكية بجهاز آخر؟</item>
+        <item>قم بإعادة تشغيل البلوتوث</item>
+        <item>حاول إعادة تشغيل الهاتف الخاص بك</item>
+        <item>كيفية مزامنة بياناتك؟</item>
+    </string-array>
+    <string-array name="show_body_shape_array">
+        <item>سمنة</item>
+        <item>وزن زائد</item>
+        <item>مجموعة سميكة</item>
+        <item>"تفتقر
+إلى تمارين"</item>
+        <item>متوازن</item>
+        <item>"عضلات
+متوازنة"</item>
+        <item>نحيف</item>
+        <item>"نحافة
+متوازنة"</item>
+        <item>"عضلات
+نحيلة"</item>
+    </string-array>
+    <string-array name="timeline_type">
+        <item>النشاط</item>
+        <item>مشي بطيء</item>
+        <item>مشي</item>
+        <item>مشي سريع</item>
+        <item>ركض</item>
+        <item>واقف</item>
+        <item>جالساً</item>
+        <item>نشاط خفيف</item>
+        <item>لم ترتدي</item>
+        <item>جارٍ الشحن…</item>
+        <item>استلقاء</item>
+    </string-array>
+    <string-array name="train_difficulity">
+        <item>غير محدود</item>
+        <item>مبتدأ، ١</item>
+        <item>متوسط، ٢</item>
+        <item>متقدم، ٣</item>
+    </string-array>
+    <string-array name="unbind_device_description">
+        <item>@string/device_band</item>
+        <item>@string/device_weight</item>
+        <item>@string/device_shoe</item>
+        <item>@string/device_watch</item>
+    </string-array>
+    <string-array name="visceral_fat_leval">
+        <item>طبيعي</item>
+        <item>مرتفع</item>
+        <item>مرتفع جداً</item>
+    </string-array>
+    <string-array name="water_leval">
+        <item>غير كافي</item>
+        <item>طبيعي</item>
+        <item>جيد</item>
+    </string-array>
+    <string-array name="wear_type">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+    </string-array>
+    <string-array name="wear_type_body">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="wear_type_chest">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/chest</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>الأحد</item>
+        <item>الإثنين</item>
+        <item>الثلاثاء</item>
+        <item>الأربعاء</item>
+        <item>الخميس</item>
+        <item>الجمعة</item>
+        <item>السبت</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>الإثنين</item>
+        <item>الثلاثاء</item>
+        <item>الأربعاء</item>
+        <item>الخميس</item>
+        <item>الجمعة</item>
+        <item>السبت</item>
+        <item>الأحد</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>الإثنين</item>
+        <item>الثلاثاء</item>
+        <item>الأربعاء</item>
+        <item>الخميس</item>
+        <item>الجمعة</item>
+        <item>السبت</item>
+        <item>الأحد</item>
+    </string-array>
+    <string-array name="weight3_body_figures">
+        <item>غير طبيعي</item>
+        <item>متوازن</item>
+        <item>وزن زائد</item>
+        <item>سمنة</item>
+    </string-array>
+    <string-array name="weight_bfs_help_tips">
+        <item>قم بإيقاف تشغيل جهاز البلوتوث أولا، ثم قم بالإقران مع الجهاز الحالي.</item>
+        <item>اصعد على الميزان لترى ما إذا كان يظهر الوزن الخاص بك، إذا كان يعرض رمز بطارية، قم بتغيير البطاريات.</item>
+        <item>إذا كان الميزان لا يستجيب عند الصعود عليه، الرجاء التحقق ما إذا تم تثبيت البطارية بشكل صحيح.</item>
+        <item>إذا كان البطارية مشحونة، ولا يزال يتعذر العثور على الجهاز بعد وضع الهاتف أقرب إليها، حاول إعادة تشغيل بلوتوث الهاتف.</item>
+        <item>إن لم تحل \"إعادة تشغيل البلوتوث\" المشكلة، حاول إعادة تشغيل الهاتف.</item>
+    </string-array>
+    <string-array name="weight_bfs_help_title">
+        <item>هل تم إقران هذا الميزان بجهاز آخر؟</item>
+        <item>تحقق من بطارية الميزان</item>
+        <item>هل تم تثبيت البطارية بشكل صحيح؟</item>
+        <item>حاول إعادة تشغيل البلوتوث</item>
+        <item>حاول إعادة تشغيل الهاتف الخاص بك</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>طبيعي</item>
+        <item>وزن زائد</item>
+        <item>سمنة</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_not_chinese">
+        <item>غير طبيعي</item>
+        <item>طبيعي</item>
+        <item>وزن زائد</item>
+        <item>سمنة I</item>
+        <item>سمنة II</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>" كغ"</item>
+        <item>"  رطل"</item>
+        <item>" رطل"</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+        <item>@string/weight_bfs_unit_jin</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array_no_jin">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+    </string-array>
+</resources>

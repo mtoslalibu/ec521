@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/item_view" android:layout_width="fill_parent" android:layout_height="57.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="@color/black70" android:id="@id/action_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="18.0sp" android:textColor="@color/black70" android:id="@id/action_freq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/action_name" android:layout_centerVertical="true" android:fontFamily="km" android:layout_marginStart="6.0dip" android:layout_toEndOf="@id/action_name" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/black70" android:id="@id/action_freq_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/times" android:layout_centerVertical="true" android:layout_marginStart="4.0dip" android:layout_toEndOf="@id/action_freq" />
+    <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="14.0sp" android:textColor="@color/black40" android:id="@id/action_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:fontFamily="km" android:layout_alignParentEnd="true" />
+    <View android:layout_alignParentBottom="true" style="@style/VerticalDivider" />
+</RelativeLayout>

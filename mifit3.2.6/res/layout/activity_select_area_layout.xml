@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="9.0dip" android:text="@string/select_area_tips" android:layout_marginStart="18.0dip" />
+    <View android:background="@color/black10" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <ListView android:id="@id/select_area_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/black20" android:dividerHeight="1.0px" android:paddingStart="18.0dip" android:paddingEnd="18.0dip" />
+</LinearLayout>

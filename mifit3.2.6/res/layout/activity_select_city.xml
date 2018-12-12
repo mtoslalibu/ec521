@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/title_container" android:background="@color/pale_grey" android:layout_width="fill_parent" android:layout_height="66.0dip">
+        <android.support.v7.widget.AppCompatImageView android:id="@id/title_back_img" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="31.0dip" android:src="@drawable/arrow_left" android:scaleType="centerInside" android:tint="@color/back_tint_color" android:layout_marginStart="11.0dip" android:layout_alignParentStart="true" />
+        <TextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.5dip" android:text="@string/select_city_title" android:layout_centerHorizontal="true" style="@style/CommonToolbarTitleStyleBlack" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/search_title_container" android:background="@color/pale_grey" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="66.0dip">
+        <android.support.v7.widget.AppCompatImageView android:id="@id/back_img" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="31.0dip" android:src="@drawable/arrow_left" android:scaleType="centerInside" android:tint="@color/back_tint_color" android:layout_marginStart="11.0dip" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="29.0dip" android:layout_marginStart="5.0dip" android:layout_marginEnd="18.0dip">
+            <EditText android:textSize="12.0sp" android:textColor="@color/black60" android:textColorHint="@color/gray" android:id="@id/city_edit" android:background="@drawable/edit_text_bg" android:layout_width="fill_parent" android:layout_height="28.0dip" android:hint="@string/input_city_name" android:maxLines="1" android:inputType="text" android:imeOptions="actionSearch" android:textCursorDrawable="@drawable/edittext_cursor" android:paddingStart="8.0dip" android:paddingEnd="0.0dip" />
+            <android.support.v7.widget.AppCompatImageView android:layout_gravity="end|center" android:id="@id/close_img" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/img_close" android:scaleType="centerInside" android:tint="@color/static_bar_tv_color" android:layout_marginEnd="46.0dip" />
+            <View android:layout_gravity="end|center" android:background="@color/black10" android:layout_width="0.5dip" android:layout_height="20.0dip" android:layout_marginEnd="39.5dip" />
+            <android.support.v7.widget.AppCompatImageView android:layout_gravity="end|center" android:id="@id/edit_search_img" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/img_search" android:scaleType="centerInside" android:tint="@color/static_bar_tv_color" android:layout_marginEnd="9.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/auto_locate" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="64.0dip" app:itemTitle="@string/auto_locate" app:itemSwitch="true" app:itemDivider="gone" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/search_city_edit" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <android.support.v7.widget.AppCompatImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_search" android:tint="@color/static_bar_tv_color" android:layout_marginStart="18.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/black40" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/input_city_name" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/quick_select_container" android:layout_width="fill_parent" android:layout_height="394.0dip">
+        <TextView android:textSize="11.0sp" android:textColor="@color/black60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/quick_select" android:layout_marginStart="18.0dip" />
+        <android.support.v7.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@id/quick_select_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:overScrollMode="never" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/search_result_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+    <FrameLayout android:id="@id/no_result_container" android:background="@color/pale_grey_two" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="9.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="@color/gray" android:layout_gravity="center_horizontal" android:id="@id/no_result_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="120.0dip" android:text="@string/no_match_city" />
+    </FrameLayout>
+</LinearLayout>

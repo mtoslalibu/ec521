@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/running_count_down_circle" android:background="@drawable/running_count_down_circle" android:visibility="invisible" android:layout_width="@dimen/running_gps_button" android:layout_height="@dimen/running_gps_button" android:layout_marginBottom="@dimen/running_gps_button_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="200.0sp" android:textColor="@color/running_count_down_txt" android:gravity="center" android:id="@id/counter" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:fontFamily="din-med" />
+</RelativeLayout>

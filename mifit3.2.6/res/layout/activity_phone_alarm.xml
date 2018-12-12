@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:huami="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/phone_alarm_enable" android:layout_width="fill_parent" android:layout_height="wrap_content" huami:itemTitle="@string/enable_phone_alarm" huami:itemSummary="@string/enable_phone_alarm_tips" huami:itemSwitch="true" />
+</FrameLayout>

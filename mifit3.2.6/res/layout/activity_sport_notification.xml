@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.hm.health.baseui.widget.TipComponent android:id="@id/tip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClick" app:itemTitle="@string/sport_notification_title" app:itemSwitch="true" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/sport_notification_tip" android:layout_marginStart="@dimen/common_item_padding" android:layout_marginEnd="@dimen/common_item_padding" />
+</LinearLayout>

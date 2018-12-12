@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff1a1d24" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="@color/white90" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/common_title_text" android:layout_width="fill_parent" android:layout_height="@dimen/common_title_height" android:text="@string/data_collect" android:maxLines="1" />
+        <View android:background="@color/white30" android:layout_width="fill_parent" android:layout_height="0.30000007dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_gsensor" android:background="#ff1e2128" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/gsensor_container_height">
+        <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/title_bar_gsensor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/imv_gesnsor_normal" android:paddingTop="12.299988dip" android:paddingBottom="12.299988dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/title_back_icon" android:paddingStart="13.299988dip" android:paddingEnd="13.299988dip" />
+            <TextView android:textSize="14.699982sp" android:textColor="@color/white90" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/data_collect" android:layout_centerInParent="true" android:layout_marginStart="5.6999817dip" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_gsensor_bar" android:paddingTop="13.299988dip" android:paddingBottom="6.299988dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="21.699982dip" android:paddingEnd="16.699982dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_accelerate_chart" />
+            <TextView android:textSize="12.699982sp" android:textColor="@color/white90" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/accelerate" android:layout_weight="1.0" android:layout_marginStart="5.6999817dip" />
+            <ImageView android:id="@id/imv_fullscreen_gsensor" android:background="@drawable/btn_fullscreen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_marginEnd="23.299988dip" />
+            <CheckBox android:id="@id/cbx_show_hide_gsensor" android:background="@drawable/checked_show_hide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" />
+            <TextView android:textSize="14.699982sp" android:textColor="@color/white100" android:id="@id/tx_lable_x" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sensor_lable_x" android:drawablePadding="3.2999878dip" android:drawableStart="@drawable/line_lable_x" />
+            <TextView android:textSize="14.699982sp" android:textColor="@color/white100" android:id="@id/tx_lable_y" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sensor_lable_y" android:drawablePadding="3.2999878dip" android:alpha="0.5" android:drawableStart="@drawable/line_lable_y" android:layout_marginStart="18.699982dip" />
+            <TextView android:textSize="14.699982sp" android:textColor="@color/white100" android:id="@id/tx_lable_z" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sensor_lable_z" android:drawablePadding="3.2999878dip" android:alpha="0.5" android:drawableStart="@drawable/line_lable_z" android:layout_marginStart="18.699982dip" />
+        </LinearLayout>
+        <com.xiaomi.hm.health.lab.view.BehaviorTagsLineChartView android:id="@id/hlcv_gsensor" android:paddingTop="11.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="21.699982dip" android:paddingEnd="16.699982dip" />
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="13.299988dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_ppgsensor" android:background="#ff1e2128" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/ppgsensor_container_height">
+        <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/title_bar_ppgsensor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/imv_ppgesnsor_normal" android:paddingTop="12.299988dip" android:paddingBottom="12.299988dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/title_back_icon" android:paddingStart="13.299988dip" android:paddingEnd="13.299988dip" />
+            <TextView android:textSize="14.699982sp" android:textColor="@color/white90" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/data_collect" android:layout_centerInParent="true" android:layout_marginStart="5.6999817dip" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_ppgsensor_bar" android:paddingTop="13.299988dip" android:paddingBottom="6.299988dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="21.699982dip" android:paddingEnd="16.699982dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_heart_chart" />
+            <TextView android:textSize="12.699982sp" android:textColor="@color/white90" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/heart_rate" android:layout_weight="1.0" android:layout_marginStart="5.6999817dip" />
+            <ImageView android:id="@id/imv_fullscreen_ppgsensor" android:background="@drawable/btn_fullscreen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_marginEnd="23.299988dip" />
+            <CheckBox android:id="@id/cbx_show_hide_ppgsensor" android:background="@drawable/checked_show_hide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" />
+        </LinearLayout>
+        <com.xiaomi.hm.health.lab.view.BehaviorTagsLineChartView android:id="@id/hlcv_ppgsensor" android:paddingTop="11.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="21.699982dip" android:paddingEnd="16.699982dip" />
+    </LinearLayout>
+</LinearLayout>

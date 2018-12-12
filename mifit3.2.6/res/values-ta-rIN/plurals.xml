@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_day_report_title_rank">
+        <item quantity="other">今天超过了%d%%的用户</item>
+        <item quantity="one">今天超过了%d%%的用户</item>
+    </plurals>
+    <plurals name="bf3_compare_last_mon">
+        <item quantity="other">%1$dd முந்தையதுடன் ஒப்பிடும்போது</item>
+        <item quantity="one">%1$dd முந்தையதுடன் ஒப்பிடும்போது</item>
+    </plurals>
+    <plurals name="bodyfat_3_health">
+        <item quantity="other">%d இலக்குகள் எட்டப்பட்டன</item>
+        <item quantity="one">%d இலக்கு எட்டப்பட்டது</item>
+    </plurals>
+    <plurals name="bodyfat_3_need_attention">
+        <item quantity="other">%d உருப்படிகளை நீங்கள் கவனிக்க வேண்டும்</item>
+        <item quantity="one">%d உருப்படியை நீங்கள் கவனிக்க வேண்டும்</item>
+    </plurals>
+    <plurals name="bodyfat_3_not_up_to_standard">
+        <item quantity="other">%d உருப்படிகளில் இலக்குகளை எட்டவில்லை</item>
+        <item quantity="one">%d உருப்படியில் இலக்குகளை எட்டவில்லை</item>
+    </plurals>
+    <plurals name="course_will_start_xdays_after">
+        <item quantity="other">%d நாட்களில் பயிற்சி தொடங்குகிறது</item>
+        <item quantity="one">%d நாளில் பயிற்சி தொடங்குகிறது</item>
+    </plurals>
+    <plurals name="download_time">
+        <item quantity="other">%d பதிவிறக்கங்கள்</item>
+        <item quantity="one">%d பதிவிறக்கம்</item>
+    </plurals>
+    <plurals name="exercise_total_runtimes">
+        <item quantity="other">%1$d செயல்பாடுகள்</item>
+        <item quantity="one">%1$d செயல்பாடு</item>
+    </plurals>
+    <plurals name="have_finish_x_times_training">
+        <item quantity="other">%d பயிற்சி அமர்வுகள் முடிவுற்றன</item>
+        <item quantity="one">%d பயிற்சி அமர்வு முடிவுற்றது</item>
+    </plurals>
+    <plurals name="how_many_times">
+        <item quantity="other">அமர்வு %d</item>
+        <item quantity="one">அமர்வு %d</item>
+    </plurals>
+    <plurals name="incoming_call_delay_dialog_alert_tips">
+        <item quantity="other">来电%d秒后提醒我</item>
+        <item quantity="one">来电%d秒后提醒我</item>
+    </plurals>
+    <plurals name="input_out_of_max">
+        <item quantity="other">%d எழுத்துகள் வரை உள்ளிடலாம்</item>
+        <item quantity="one">%d எழுத்து உள்ளிடலாம்</item>
+    </plurals>
+    <plurals name="message_center_hour">
+        <item quantity="other">%d hours ago</item>
+        <item quantity="one">%d hour ago</item>
+    </plurals>
+    <plurals name="message_center_minute">
+        <item quantity="other">%d minutes ago</item>
+        <item quantity="one">%d minute ago</item>
+    </plurals>
+    <plurals name="mili_setting_last_charge">
+        <item quantity="other">கடைசியாக சார்ஜ் செய்ததில் இருந்து %dd</item>
+        <item quantity="one">கடைசியாக சார்ஜ் செய்ததில் இருந்து %dd</item>
+    </plurals>
+    <plurals name="next_rest_time">
+        <item quantity="other">%d\"</item>
+        <item quantity="one">%d\"</item>
+    </plurals>
+    <plurals name="next_rest_time_seconds">
+        <item quantity="other">%d秒</item>
+        <item quantity="one">%d秒</item>
+    </plurals>
+    <plurals name="numberFoot">
+        <item quantity="other">%s அடிகள்</item>
+        <item quantity="one">%s அடி</item>
+    </plurals>
+    <plurals name="numberInch">
+        <item quantity="other">%s அங்குலங்கள்</item>
+        <item quantity="one">%s அங்குலம்</item>
+    </plurals>
+    <plurals name="people_attended">
+        <item quantity="other">%d பங்கேற்பாளர்கள்</item>
+        <item quantity="one">%d பங்கேற்பாளர்</item>
+    </plurals>
+    <plurals name="picker_number_of_items_selected">
+        <item quantity="other">%1$d உருப்படிகள் தேர்ந்தெடுக்கப்பட்டன</item>
+        <item quantity="one">%1$d உருப்படி தேர்ந்தெடுக்கப்பட்டது</item>
+    </plurals>
+    <plurals name="run_insurance_remain_time_day">
+        <item quantity="other">跑步险剩余时间不足%1$d天, 点击续保</item>
+        <item quantity="one">跑步险剩余时间不足%1$d天, 点击续保</item>
+    </plurals>
+    <plurals name="running_history_record_sync_fail_unsync_count">
+        <item quantity="other">还有%d条数据未同步</item>
+        <item quantity="one">还有%d条数据未同步</item>
+    </plurals>
+    <plurals name="running_history_record_unsync_count">
+        <item quantity="other">你有%d条数据未同步</item>
+        <item quantity="one">你有%d条数据未同步</item>
+    </plurals>
+    <plurals name="running_record_cycle_times">
+        <item quantity="other">骑行 %1$d次</item>
+        <item quantity="one">骑行 %1$d次</item>
+    </plurals>
+    <plurals name="running_record_elli_times">
+        <item quantity="other">椭圆机 %1$d次</item>
+        <item quantity="one">椭圆机 %1$d次</item>
+    </plurals>
+    <plurals name="running_record_run_times">
+        <item quantity="other">跑步 %1$d次</item>
+        <item quantity="one">跑步 %1$d次</item>
+    </plurals>
+    <plurals name="running_record_training_times">
+        <item quantity="other">训练 %1$d次</item>
+        <item quantity="one">训练 %1$d次</item>
+    </plurals>
+    <plurals name="running_record_walk_times">
+        <item quantity="other">健走 %1$d次</item>
+        <item quantity="one">健走 %1$d次</item>
+    </plurals>
+    <plurals name="running_record_workout_times">
+        <item quantity="other">锻炼 %1$d次</item>
+        <item quantity="one">锻炼 %1$d次</item>
+    </plurals>
+    <plurals name="share_continue_max_day">
+        <item quantity="other">个人最高纪录%d天</item>
+        <item quantity="one">个人最高纪录%d天</item>
+    </plurals>
+    <plurals name="share_step_rank">
+        <item quantity="other">超过%d%%的用户</item>
+        <item quantity="one">超过%d%%的用户</item>
+    </plurals>
+    <plurals name="sleep_3_goal_title">
+        <item quantity="other">比%d%%的用户睡得香</item>
+        <item quantity="one">比%d%%的用户睡得香</item>
+    </plurals>
+    <plurals name="start_train_after_x_day">
+        <item quantity="other">%s நாளில் தொடங்குகிறது</item>
+        <item quantity="one">%s நாளில் தொடங்குகிறது</item>
+    </plurals>
+    <plurals name="step_3_fr_header_rate_compare">
+        <item quantity="other">超过了%d%%的用户</item>
+        <item quantity="one">超过了%d%%的用户</item>
+    </plurals>
+    <plurals name="step_top_goal">
+        <item quantity="other">个人最高纪录%d天</item>
+        <item quantity="one">个人最高纪录%d天</item>
+    </plurals>
+    <plurals name="total_record_data">
+        <item quantity="other">共记录%d天, 累计</item>
+        <item quantity="one">共记录%d天, 累计</item>
+    </plurals>
+    <plurals name="train_day_format">
+        <item quantity="other">கடைசி பயிற்சி: %d நாட்களுக்கு முன்பு</item>
+        <item quantity="one">கடைசி பயிற்சி: %d நாளுக்கு முன்பு</item>
+    </plurals>
+    <plurals name="training_consume_time_min">
+        <item quantity="other">已训练 %1$d 分钟</item>
+        <item quantity="one">已训练 %1$d 分钟</item>
+    </plurals>
+    <plurals name="training_consume_time_sec">
+        <item quantity="other">已训练 %1$d 秒</item>
+        <item quantity="one">已训练 %1$d 秒</item>
+    </plurals>
+    <plurals name="training_notify_content">
+        <item quantity="other">%1$d நாட்கள் பயிற்சியைப் பெற்றுள்ளீர்கள். %2$dm க்கு, %3$s உடற்பயிற்சிகளைச் செய்யுங்கள்.</item>
+        <item quantity="one">%1$d நாள் பயிற்சியைப் பெற்றுள்ளீர்கள். %2$dm க்கு, %3$s உடற்பயிற்சிகளைச் செய்யுங்கள்.</item>
+    </plurals>
+    <plurals name="training_playing_title_time">
+        <item quantity="other"> %1$d  வினாடிகள்</item>
+        <item quantity="one"> %1$d  வினாடி</item>
+    </plurals>
+    <plurals name="training_playing_title_times">
+        <item quantity="other"> %1$d  முறைகள்</item>
+        <item quantity="one"> %1$d  முறை</item>
+    </plurals>
+    <plurals name="training_rest_interval_time">
+        <item quantity="other">休息 %1$d 秒</item>
+        <item quantity="one">休息 %1$d 秒</item>
+    </plurals>
+    <plurals name="with_minute_time">
+        <item quantity="other">%d分钟</item>
+        <item quantity="one">%d分钟</item>
+    </plurals>
+    <plurals name="with_unit_times">
+        <item quantity="other">%d次</item>
+        <item quantity="one">%d次</item>
+    </plurals>
+</resources>

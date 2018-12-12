@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="avoid_type">
+        <item>@string/state_close</item>
+        <item>@string/avoid_enable_smart</item>
+        <item>@string/avoid_enable_time</item>
+    </string-array>
+    <string-array name="avoid_type_sub">
+        <item></item>
+        <item>@string/avoid_enable_smart_sub</item>
+        <item>@string/avoid_enable_time_sub</item>
+    </string-array>
+    <string-array name="bmi_for_adualt">
+        <item>Past</item>
+        <item>O‘rtacha</item>
+        <item>Baland</item>
+        <item>Juda baland</item>
+    </string-array>
+    <string-array name="bmi_for_child">
+        <item>O‘rtacha</item>
+        <item>Baland</item>
+        <item>Juda baland</item>
+    </string-array>
+    <string-array name="bmi_for_not_chinese">
+        <item>Past</item>
+        <item>O‘rtacha</item>
+        <item>Yuqori</item>
+        <item>Baland</item>
+        <item>Juda baland</item>
+    </string-array>
+    <string-array name="body_score_leval">
+        <item>Juda kam</item>
+        <item>Yomon</item>
+        <item>O‘rtacha me’yor</item>
+        <item>Yaxshi</item>
+        <item>Ajoyib</item>
+    </string-array>
+    <string-array name="body_shape_type_array">
+        <item>Ozg‘in</item>
+        <item>Muvozanatli</item>
+        <item>Ozg‘in mushakdor</item>
+        <item>Mashg‘ulotga muhtoj</item>
+        <item>Muvozanatli</item>
+        <item>Muvozanatli tana</item>
+        <item>Semiz</item>
+        <item>Ortiqcha vazn</item>
+        <item>Baquvvat</item>
+    </string-array>
+    <string-array name="bodyfat_content_leval">
+        <item>Juda past</item>
+        <item>Past</item>
+        <item>O‘rtacha me’yor</item>
+        <item>Yuqori</item>
+        <item>Baland</item>
+    </string-array>
+    <string-array name="bone_leval">
+        <item>Kam</item>
+        <item>O‘rtacha</item>
+        <item>Yaxshi</item>
+    </string-array>
+    <string-array name="brm_leval">
+        <item>Maqsadga erishilmadi</item>
+        <item>Erishilgan maqsad</item>
+    </string-array>
+    <string-array name="chaohu_help_tips">
+        <item>Soatdagi tugmani bosib ko‘ring, agar soatning ekrani o‘chiq bo‘lsa, batareyasini zaryadlang.</item>
+        <item>Oldin Bluetoothni o‘chiring, keyin joriy qurilma bilan ulang.</item>
+        <item>Agar tasma zaryadlangan lekin buni telefon ko‘ra olmasa, telefon Bluetoothini qaytadan ishga tushiring.</item>
+        <item>Agar Bluetoothni qayta boshlash yordam bermasa, telefoningizni o‘chirib yoqing.</item>
+        <item>Mashg‘ulot paytida soat ma’lumotlarini sinxronlab bo‘lmaydi. Jarayonni yakunlab qaytadan ko‘ring.</item>
+    </string-array>
+    <string-array name="chaohu_help_title">
+        <item>Soat zaryadlanganmi?</item>
+        <item>Soat boshqa qurilma bilan ulanganmi?</item>
+        <item>Bluetoothni qaytadan ishlating</item>
+        <item>Telefonni o‘chirib yoqishga harakat qiling</item>
+        <item>Mashg‘ulotlar paytida ma’lumotlarni sinxronlab bo‘lmaydi</item>
+    </string-array>
+    <string-array name="chaohu_setting_run_types">
+        <item>@string/chaohu_setting_run_outdoor</item>
+        <item>@string/chaohu_setting_run_indoor</item>
+        <item>@string/chaohu_setting_run_ride</item>
+        <item>@string/chaohu_setting_run_walk</item>
+    </string-array>
+    <string-array name="colors">
+        <item>@string/blue</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/red</item>
+    </string-array>
+    <string-array name="common_cities">
+        <item>Guangzhou</item>
+        <item>Shenzhen</item>
+        <item>Foshan</item>
+        <item>Dongguan</item>
+        <item>Pekin</item>
+        <item>Nanjing</item>
+        <item>Suzhou</item>
+        <item>Changzhou</item>
+        <item>Jinan</item>
+        <item>Qingdao</item>
+        <item>Hangzhou</item>
+        <item>Ningbo</item>
+        <item>Zhengzhou</item>
+        <item>Kaifeng</item>
+        <item>Shanghai</item>
+        <item>Shijiazhuang</item>
+        <item>Baoding</item>
+        <item>Chengdu</item>
+        <item>Mianyang</item>
+        <item>Shenyang</item>
+        <item>Dalian</item>
+    </string-array>
+    <string-array name="difficulty_content">
+        <item>Fitnes mashg‘uloti uchun yangi qo‘l</item>
+        <item>Asosiy fitnes tajribaga ega</item>
+        <item>Boy tajriba va yaxshi tana shakilga ega</item>
+    </string-array>
+    <string-array name="difficulty_title">
+        <item>Boshlang‘ich</item>
+        <item>O‘rtacha</item>
+        <item>Ilg‘or</item>
+    </string-array>
+    <string-array name="fitness_goal_content">
+        <item>Yog‘ yo‘qotish maqsadida</item>
+        <item>Tanani shakllash maqsadida</item>
+        <item>Muskullarni kuchaytirish maqsadida</item>
+    </string-array>
+    <string-array name="fitness_goal_title">
+        <item>Kesilmoqda</item>
+        <item>Shakllanmoqda</item>
+        <item>Og‘irlikni oshirish</item>
+    </string-array>
+    <string-array name="ges_screen_type">
+        <item>@string/ges_screen_type_all_day</item>
+        <item>@string/ges_screen_type_time</item>
+        <item>@string/ges_screen_type_close</item>
+    </string-array>
+    <string-array name="hr_section">
+        <item>@string/hr_section_warm_up</item>
+        <item>@string/hr_section_fat_burn</item>
+        <item>@string/hr_section_heart_lung_strengthen</item>
+        <item>@string/hr_section_stamina_strengthen</item>
+        <item>@string/hr_section_anaerobic_limit</item>
+        <item>@string/hr_section_other</item>
+    </string-array>
+    <string-array name="hr_sport">
+        <item>Yurak urish zonasi: Yorug‘</item>
+        <item>Yurak urish zonasi: Og‘irlik</item>
+        <item>Yurak urushi zonasi: Aerobika</item>
+        <item>Yurak urush zonasi: Anaerobika</item>
+        <item>Yurak urish zonasi: VO₂ maks</item>
+    </string-array>
+    <string-array name="hr_sport_new">
+        <item>Yengil</item>
+        <item>Og‘irlik</item>
+        <item>Aerobik rejimi</item>
+        <item>Anaerobik rejimi</item>
+        <item>VO₂ maks</item>
+    </string-array>
+    <string-array name="lock_screen_type">
+        <item>Yopish</item>
+        <item>Yaqin</item>
+        <item>Uzoq</item>
+    </string-array>
+    <string-array name="member_add_weight_items">
+        <item>@string/member_add_weight_item_auto</item>
+        <item>@string/member_add_weight_item_manual</item>
+    </string-array>
+    <string-array name="mili_help_tips">
+        <item>"Mi Band 2 yoki boshqa tasmalarni ulashdan oldin qurilma zaryadlanganligini tekshirish uchun tasmani bosing.
+
+Mi Band yoki Mi Band Pulse‘ni ulashdan oldin tasmani zaryadlang."</item>
+        <item>Oldin Bluetoothni o‘chiring, keyin joriy qurilma bilan ulang.</item>
+        <item>Agar tasma zaryadlangan lekin buni telefon ko‘ra olmasa, telefon Bluetoothini qaytadan ishga tushiring.</item>
+        <item>Agar Bluetoothni qayta boshlash yordam bermasa, telefoningizni o‘chirib yoqing.</item>
+    </string-array>
+    <string-array name="mili_help_title">
+        <item>Tasma zaryadlanganmi?</item>
+        <item>Tasma boshqa qurilma bilan ulanganmi?</item>
+        <item>Bluetoothni qaytadan ishlating</item>
+        <item>Telefonni o‘chirib yoqishga harakat qiling</item>
+    </string-array>
+    <string-array name="mili_pro_display_items">
+        <item>Vaqt</item>
+        <item>Qadamlar</item>
+        <item>Masofa</item>
+        <item>Kaloriya</item>
+        <item>Yurak urishi</item>
+        <item>Batareya</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>Yan</item>
+        <item>Fev</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Iyun</item>
+        <item>Iyul</item>
+        <item>Avg</item>
+        <item>Sen</item>
+        <item>Okt</item>
+        <item>Noy</item>
+        <item>Dek</item>
+    </string-array>
+    <string-array name="muscle_content_leval">
+        <item>Kam</item>
+        <item>O‘rtacha me’yor</item>
+        <item>Yaxshi</item>
+    </string-array>
+    <string-array name="ring_types">
+        <item>@string/ring_type_default</item>
+        <item>@string/ring_type_incall</item>
+    </string-array>
+    <string-array name="running_months">
+        <item>Yan</item>
+        <item>Fev</item>
+        <item>Mart</item>
+        <item>Aprel</item>
+        <item>May</item>
+        <item>Iyun</item>
+        <item>Iyul</item>
+        <item>Avg</item>
+        <item>Sentabr</item>
+        <item>Okt</item>
+        <item>Noy</item>
+        <item>Dek</item>
+    </string-array>
+    <string-array name="setting_hr_freq_types">
+        <item>@string/setting_heartrate_detect_freq_1</item>
+        <item>@string/setting_heartrate_detect_freq_10</item>
+        <item>@string/setting_heartrate_detect_freq_30</item>
+    </string-array>
+    <string-array name="setting_hr_types">
+        <item>@string/setting_heartrate_detect_auto</item>
+        <item>@string/setting_heartrate_detect_sleep</item>
+        <item>@string/setting_heartrate_detect_close</item>
+    </string-array>
+    <string-array name="setting_peyto_apps_array">
+        <item>Soat interfeysi</item>
+        <item>Holat</item>
+        <item>Faollik</item>
+        <item>Ob-havo</item>
+        <item>Uyg‘otkich</item>
+        <item>Taymer</item>
+        <item>Kompas</item>
+        <item>Qo‘shimcha sozlamalar</item>
+    </string-array>
+    <string-array name="setting_tempo_apps_array">
+        <item>Soat interfeysi</item>
+        <item>Holat</item>
+        <item>Bildirishnomalar</item>
+        <item>Faollik</item>
+        <item>Ob-havo</item>
+        <item>Uyg‘otkich</item>
+        <item>Taymer</item>
+        <item>Sozlamalar</item>
+    </string-array>
+    <string-array name="setting_weather_temp_unit_array">
+        <item>@string/setting_weather_temp_c</item>
+        <item>@string/setting_weather_temp_f</item>
+    </string-array>
+    <string-array name="shoes_help_tips">
+        <item>Aqlli chipni uzoq vaqt ishlatmasangiz ishlashdan to‘xtashi mumkin. Uni silkitib qaytadan ko‘ring.</item>
+        <item>Amazfit Aqlli Chipning batareya ishlatilishi 1 yil. Ushbu muddatdan oshsa, quvvat qolmasligi mumkin.</item>
+        <item>Oldin Bluetoothni o‘chiring, keyin joriy qurilma bilan ulang.</item>
+        <item>Agar aqlli chip zaryadlangan bo‘lib telefonni yaqin tutgan holda aniqlanmayotgan bo‘lsa, telefonning Bluetoothini o‘chirib yoqib ko‘ring.</item>
+        <item>Agar Bluetoothni qayta boshlash yordam bermasa, telefoningizni o‘chirib yoqing.</item>
+        <item>Ma’lumotni avtomatik sinxronlash uchun yugurish poyabzal ma’lumotini bosib keyingi harakat sahifasini kiriting</item>
+    </string-array>
+    <string-array name="shoes_help_title">
+        <item>Aqlli chipni silkiting</item>
+        <item>Batareya zaryadlandimi?</item>
+        <item>Aqlli chip boshqa qurilma bilan ulanganmi?</item>
+        <item>Bluetoothni qayta ishga tushiring</item>
+        <item>Telefonni o‘chirib yoqishga harakat qiling</item>
+        <item>Ma’lumotlar qanday sinxronlanadilar?</item>
+    </string-array>
+    <string-array name="show_body_shape_array">
+        <item>Semiz</item>
+        <item>Ortiqcha vazn</item>
+        <item>Baquvvat</item>
+        <item>"Mashg‘ulotga
+muhtoj"</item>
+        <item>Muvozanatli</item>
+        <item>"Muvozanatli
+mushakdor"</item>
+        <item>Ozg‘in</item>
+        <item>"Muvozanatli
+"</item>
+        <item>"Ozg‘in
+"</item>
+    </string-array>
+    <string-array name="timeline_type">
+        <item>Harakat</item>
+        <item>Sekin yurish</item>
+        <item>Yurish</item>
+        <item>Tez yurish</item>
+        <item>Yugurish</item>
+        <item>Doimiy</item>
+        <item>O‘tirib</item>
+        <item>Yengil harakat</item>
+        <item>Kiyilmadi</item>
+        <item>Zaryadlanmoqda…</item>
+        <item>Yotib</item>
+    </string-array>
+    <string-array name="train_difficulity">
+        <item>Cheksiz</item>
+        <item>Boshlang‘ich, 1</item>
+        <item>O‘rtacha, 2</item>
+        <item>Ilg‘or, 3</item>
+    </string-array>
+    <string-array name="unbind_device_description">
+        <item>@string/device_band</item>
+        <item>@string/device_weight</item>
+        <item>@string/device_shoe</item>
+        <item>@string/device_watch</item>
+    </string-array>
+    <string-array name="visceral_fat_leval">
+        <item>O‘rtacha me’yor</item>
+        <item>Baland</item>
+        <item>Juda baland</item>
+    </string-array>
+    <string-array name="water_leval">
+        <item>Kam</item>
+        <item>O‘rtacha</item>
+        <item>Yaxshi</item>
+    </string-array>
+    <string-array name="wear_type">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+    </string-array>
+    <string-array name="wear_type_body">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="wear_type_chest">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/chest</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>Quyosh</item>
+        <item>Yak</item>
+        <item>Ssh</item>
+        <item>Chr</item>
+        <item>Pay</item>
+        <item>Juma</item>
+        <item>Shn</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>Dushanba</item>
+        <item>Seshanba</item>
+        <item>Chorshanba</item>
+        <item>Payshanba</item>
+        <item>Juma</item>
+        <item>Shanba</item>
+        <item>Yakshanba</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>Dsh</item>
+        <item>Ssh</item>
+        <item>Chr</item>
+        <item>Pay</item>
+        <item>Juma</item>
+        <item>Shan</item>
+        <item>Yak</item>
+    </string-array>
+    <string-array name="weight3_body_figures">
+        <item>Zaif</item>
+        <item>Muvozanatli</item>
+        <item>Ortiqcha vazn</item>
+        <item>Semiz</item>
+    </string-array>
+    <string-array name="weight_bfs_help_tips">
+        <item>Oldin Bluetoothni o‘chiring, keyin joriy qurilma bilan ulang.</item>
+        <item>Tarozi og‘irlikni o‘lchayotganligini tekshirish uchun ustiga turing. Batareya beligisi ko‘rsatayotgan bo‘lsa, batareyalarni almashtiring.</item>
+        <item>Tarozini bosgan paytda javob bo‘lmasa, batareyalar to‘g‘ri o‘rnatilganligini tekshiring.</item>
+        <item>Agar batareya zaryadlangan bo‘lsa, qurilma telefondan yaqin masofada bo‘lgan holda ham topilmasa, telefonning Bluetoothini o‘chirib yoqib ko‘ring.</item>
+        <item>Agar Bluetoothni qayta boshlash yordam bermasa, telefoningizni o‘chirib yoqing.</item>
+    </string-array>
+    <string-array name="weight_bfs_help_title">
+        <item>Tarozi boshqa qurilma bilan ulanganmi?</item>
+        <item>Tarozining batareyasini tekshiring</item>
+        <item>Batareyalar to‘g‘ri o‘rnatilganmi?</item>
+        <item>Bluetoothni qaytadan ishlating</item>
+        <item>Telefonni o‘chirib yoqishga harakat qiling</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>Yengil</item>
+        <item>Ortiqcha vazn</item>
+        <item>Semiz</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_not_chinese">
+        <item>Zaif</item>
+        <item>O‘rtacha</item>
+        <item>Ortiqcha vazn</item>
+        <item>Semiz I</item>
+        <item>Semiz II</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>" kg"</item>
+        <item>" Jin"</item>
+        <item>" funt"</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+        <item>@string/weight_bfs_unit_jin</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array_no_jin">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+    </string-array>
+</resources>

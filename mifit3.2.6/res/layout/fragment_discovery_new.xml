@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:huami="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/status_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/web_status_layout" />
+    <com.xiaomi.hm.health.discovery.view.DiscoveryPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    <FrameLayout android:id="@id/tab_layout" android:background="@android:color/transparent" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="34.0dip" android:paddingEnd="34.0dip">
+        <android.support.design.widget.TabLayout android:id="@id/discovery_tab" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" huami:tabIndicatorHeight="0.0dip" huami:tabMode="fixed" huami:tabGravity="fill" huami:tabTextColor="@color/white80" huami:tabSelectedTextColor="@color/white" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/result_container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="58.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center_vertical" android:id="@id/result_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="18.0dip" style="@style/CommonTitleStyle" />
+    <View android:layout_gravity="bottom|center" android:id="@id/divider" android:background="@color/gray" android:layout_width="324.0dip" android:layout_height="1.0dip" />
+</FrameLayout>

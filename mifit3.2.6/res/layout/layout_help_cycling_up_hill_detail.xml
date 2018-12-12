@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/sports_help_heading" android:textColor="@color/run_white_50_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sport_help_cycling_up_hill" />
+    <TextView android:textSize="@dimen/sports_help_content" android:textColor="@color/run_white_30_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sports_help_heading_content_space" android:text="@string/sport_help_cycling_up_hill_desc" />
+    <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="222.0dip" android:layout_height="126.69998dip" android:layout_marginTop="@dimen/sports_help_content_illustration_space">
+        <ImageView android:background="@drawable/icon_sport_help_cycling_uphill_distance" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <cn.com.smartdevices.bracelet.gps.ui.view.RotateTextView android:textSize="@dimen/sports_help_content" android:textColor="@color/run_white_50_percent" android:gravity="center" android:layout_width="48.0dip" android:layout_height="40.69998dip" android:layout_marginTop="33.299988dip" android:text="@string/sport_help_cycling_up_hill" android:layout_marginStart="76.19998dip" rotate:anticlockwise_degree="27" xmlns:rotate="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaomi.hm.health.view.scroll.HMScrollView android:id="@id/normandy_setting_scroll" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/view_base_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.xiaomi.hm.health.view.scroll.HMExpandHeadView android:id="@id/normandy_setting_icon_rl" android:background="@drawable/img_shoes_bg" android:layout_width="fill_parent" android:layout_height="246.0dip">
+            <ImageView android:id="@id/normandy_setting_chart" android:background="@drawable/img_shoes_chip" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginTop="102.0dip" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/normandy_setting_low_battery_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/normandy_low_battery" android:layout_below="@id/normandy_setting_chart" android:layout_centerHorizontal="true" />
+        </com.xiaomi.hm.health.view.scroll.HMExpandHeadView>
+        <FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:background="@color/split_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/mars_mileage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClick" app:itemTitle="@string/shoes_setting_distance" />
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/mars_place_mode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClick" app:itemTitle="@string/shoes_place_mode" app:itemValue="@string/shoes_left_shoe" />
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/mars_setting_calibrate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClick" app:itemTitle="@string/shoes_setting_calibrate" />
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/normandy_setting_firmware_version" android:layout_width="fill_parent" android:layout_height="wrap_content" app:itemTitle="@string/shoes_setting_fw_version" app:itemEndArrow="false" />
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/mac_address" android:layout_width="fill_parent" android:layout_height="wrap_content" app:itemTitle="@string/mili_setting_mac_address" app:itemEndArrow="false" />
+        </LinearLayout>
+        <Button android:textColor="@color/tangerine" android:id="@id/normandy_setting_unbind" android:layout_width="fill_parent" android:text="@string/mili_setting_unbind" android:onClick="onClick" style="@style/unbindDevicesStyle" />
+    </LinearLayout>
+</com.xiaomi.hm.health.view.scroll.HMScrollView>

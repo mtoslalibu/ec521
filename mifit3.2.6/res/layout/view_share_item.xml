@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/white60" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_below="@id/icon" android:layout_centerHorizontal="true" />
+    <com.xiaomi.hm.health.view.UnitTextView android:textSize="24.0sp" android:textColor="@color/white" android:id="@id/unit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_below="@id/title" android:layout_centerHorizontal="true" app:unitSize="9.0sp" app:unitColor="@color/white60" app:typeface="km" />
+</merge>

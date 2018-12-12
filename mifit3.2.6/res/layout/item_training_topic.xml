@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/title_bg" android:background="@drawable/item_clickable_bg" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="18.0dip" android:paddingEnd="18.0dip">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/black70" android:id="@id/topic_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableEnd="@drawable/ic_arrow_right" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:id="@id/topic_introduction" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="@dimen/free_training_item_height" />
+    <Space android:layout_width="fill_parent" android:layout_height="8.0dip" />
+</LinearLayout>

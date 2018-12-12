@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/white80" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="18.0dip" android:paddingEnd="18.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_fixed" android:paddingTop="18.0dip" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0sp" android:textColor="@color/black70" android:gravity="center" android:id="@id/tx_round_name" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/round_name" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/black70" android:id="@id/tx_course_name" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="9.0dip" />
+        </LinearLayout>
+        <View android:id="@id/group_divider" android:background="@color/black20" android:layout_width="fill_parent" android:layout_height="@dimen/divider" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_expandable" android:background="@color/white80" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.RecyclerView android:id="@id/rcv_groups" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginTop="15.0dip" android:paddingStart="18.0dip" android:paddingEnd="18.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_all_actions" android:padding="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textColor="@color/black40" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all_actions" android:drawablePadding="4.0dip" android:drawableEnd="@drawable/ic_arrow_right" />
+        </LinearLayout>
+        <include android:id="@id/child_divider" layout="@layout/view_space" />
+    </LinearLayout>
+</LinearLayout>

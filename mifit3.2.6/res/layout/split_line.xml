@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black20" android:layout_width="fill_parent" android:layout_height="@dimen/split_line_height" android:layout_marginStart="@dimen/left_margin" android:layout_marginEnd="@dimen/left_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

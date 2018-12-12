@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="#99000000" android:id="@id/tx_title" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/imv_indicator" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_expand_more" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip" />
+</merge>

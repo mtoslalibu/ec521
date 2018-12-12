@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@color/bg_color_white" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/hr_icon" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/icon_hr" android:layout_centerVertical="true" android:layout_marginStart="19.0dip" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/black40" android:id="@id/hr_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginStart="15.0dip" android:layout_toEndOf="@id/hr_icon" />
+    <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="18.0sp" android:textColor="@color/black70" android:id="@id/hr_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_below="@id/hr_date" android:fontFamily="km" android:layout_alignStart="@id/hr_date" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/black40" android:id="@id/hr_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unit_hr" android:layout_alignBaseline="@id/hr_value" android:layout_marginStart="3.0dip" android:layout_toEndOf="@id/hr_value" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/black40" android:id="@id/hr_mark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/hr_unit" android:layout_marginStart="6.0dip" android:layout_toEndOf="@id/hr_unit" />
+    <ImageView android:id="@id/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/default_end_arrow" android:layout_centerVertical="true" android:layout_marginEnd="19.0dip" android:layout_alignParentEnd="true" />
+    <View android:id="@id/divider" android:layout_alignParentBottom="true" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" style="@style/VerticalDivider" />
+</RelativeLayout>

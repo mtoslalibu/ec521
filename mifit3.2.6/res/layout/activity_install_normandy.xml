@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="@color/black80" android:gravity="center_horizontal" android:id="@id/install_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="98.0dip" android:text="@string/install_normandy" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.699982sp" android:textColor="@color/black60" android:id="@id/install_normandy_tips_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/install_normandy_tips" android:layout_below="@id/install_title_tv" android:layout_centerHorizontal="true" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="113.0dip" android:layout_below="@id/install_normandy_tips_tv" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/normandy_left_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_shoes_l" />
+            <TextView android:textColor="@color/black80" android:layout_gravity="center_horizontal" android:id="@id/left_shoe_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/shoes_left_shoe" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/normandy_right_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_shoes_r" />
+            <TextView android:textColor="@color/black80" android:layout_gravity="center_horizontal" android:id="@id/right_shoe_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/shoes_right_shoe" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:id="@id/cancel_tv" android:text="@string/cancel" android:layout_marginStart="37.0dip" style="@style/BindLeftTextStyle" />
+    <TextView android:id="@id/next_step_btn" android:text="@string/normandy_next_step" android:layout_marginEnd="37.0dip" style="@style/BindRightTextStyle" />
+</RelativeLayout>

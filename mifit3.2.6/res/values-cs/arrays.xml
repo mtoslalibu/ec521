@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="avoid_type">
+        <item>@string/state_close</item>
+        <item>@string/avoid_enable_smart</item>
+        <item>@string/avoid_enable_time</item>
+    </string-array>
+    <string-array name="avoid_type_sub">
+        <item></item>
+        <item>@string/avoid_enable_smart_sub</item>
+        <item>@string/avoid_enable_time_sub</item>
+    </string-array>
+    <string-array name="bmi_for_adualt">
+        <item>Nízké</item>
+        <item>Normální</item>
+        <item>Vysoké</item>
+        <item>Velmi vysoké</item>
+    </string-array>
+    <string-array name="bmi_for_child">
+        <item>Normální</item>
+        <item>Vysoké</item>
+        <item>Velmi vysoké</item>
+    </string-array>
+    <string-array name="bmi_for_not_chinese">
+        <item>Nízké</item>
+        <item>Normální</item>
+        <item>Zvýšené</item>
+        <item>Vysoké</item>
+        <item>Velmi vysoké</item>
+    </string-array>
+    <string-array name="body_score_leval">
+        <item>Velmi špatné</item>
+        <item>Špatné</item>
+        <item>Normální</item>
+        <item>Dobré</item>
+        <item>Vynikající</item>
+    </string-array>
+    <string-array name="body_shape_type_array">
+        <item>Hubená</item>
+        <item>Vyvážená, hubená</item>
+        <item>Svalnatá, hubená</item>
+        <item>Chybí cvičení</item>
+        <item>Vyvážená</item>
+        <item>Vyvážená, svalová</item>
+        <item>Obézní</item>
+        <item>Nadváha</item>
+        <item>Podsaditá</item>
+    </string-array>
+    <string-array name="bodyfat_content_leval">
+        <item>Velmi nízký</item>
+        <item>Nízký</item>
+        <item>Normální</item>
+        <item>Zvýšený</item>
+        <item>Vysoký</item>
+    </string-array>
+    <string-array name="bone_leval">
+        <item>Nedostatečná</item>
+        <item>Normální</item>
+        <item>Dobrá</item>
+    </string-array>
+    <string-array name="brm_leval">
+        <item>Cílů nebylo dosaženo</item>
+        <item>Splněný cíl</item>
+    </string-array>
+    <string-array name="chaohu_help_tips">
+        <item>Zkuste stisknout tlačítko na hodinkách. Pokud je displej hodinek stále vypnutý připojte nabíječku.</item>
+        <item>Nejprve vypněte Bluetooth a pak proveďte párování se současným zařízením.</item>
+        <item>Pokud je náramek nabitý, ale telefon jej nevidí, zkuste vypnout a zapnout Bluetooth.</item>
+        <item>Pokud vypnutí a zapnutí Bluetooth nezabere, zkuste telefon restartovat.</item>
+        <item>V průběhu cvičení data z hodinek nelze synchronizovat. Ukončete relaci a zkuste to znovu.</item>
+    </string-array>
+    <string-array name="chaohu_help_title">
+        <item>Jsou vaše hodinky nabité?</item>
+        <item>Nejsou hodinky spárovány s jiným zařízením?</item>
+        <item>Zkuste restartovat Bluetooth</item>
+        <item>Zkuste restartovat váš telefon</item>
+        <item>V průběhu cvičení data nelze synchronizovat</item>
+    </string-array>
+    <string-array name="chaohu_setting_run_types">
+        <item>@string/chaohu_setting_run_outdoor</item>
+        <item>@string/chaohu_setting_run_indoor</item>
+        <item>@string/chaohu_setting_run_ride</item>
+        <item>@string/chaohu_setting_run_walk</item>
+    </string-array>
+    <string-array name="colors">
+        <item>@string/blue</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/red</item>
+    </string-array>
+    <string-array name="common_cities">
+        <item>Kanton</item>
+        <item>Shenzhen</item>
+        <item>Foshan</item>
+        <item>Dongguan</item>
+        <item>Peking</item>
+        <item>Nanking</item>
+        <item>Suzhou</item>
+        <item>Changzhou</item>
+        <item>Jinan</item>
+        <item>Qingdao</item>
+        <item>Hangzhou</item>
+        <item>Ningbo</item>
+        <item>Zhengzhou</item>
+        <item>Kaifeng</item>
+        <item>Šanghaj</item>
+        <item>Shijiazhuang</item>
+        <item>Baoding</item>
+        <item>Chengdu</item>
+        <item>Mianyang</item>
+        <item>Shenyang</item>
+        <item>Dalian</item>
+    </string-array>
+    <string-array name="difficulty_content">
+        <item>Začátečník ve fitness</item>
+        <item>Základní zkušenosti z fitness</item>
+        <item>Bohaté zkušenosti z fitness a v dobré kondici</item>
+    </string-array>
+    <string-array name="difficulty_title">
+        <item>Základní</item>
+        <item>Střední</item>
+        <item>Pokročilá</item>
+    </string-array>
+    <string-array name="fitness_goal_content">
+        <item>Zaměřeno na spalování tuků</item>
+        <item>Zaměřeno na tvarování těla</item>
+        <item>Zaměřeno na vytváření svalů</item>
+    </string-array>
+    <string-array name="fitness_goal_title">
+        <item>Shazování</item>
+        <item>Tvarování</item>
+        <item>Objem</item>
+    </string-array>
+    <string-array name="ges_screen_type">
+        <item>@string/ges_screen_type_all_day</item>
+        <item>@string/ges_screen_type_time</item>
+        <item>@string/ges_screen_type_close</item>
+    </string-array>
+    <string-array name="hr_section">
+        <item>@string/hr_section_warm_up</item>
+        <item>@string/hr_section_fat_burn</item>
+        <item>@string/hr_section_heart_lung_strengthen</item>
+        <item>@string/hr_section_stamina_strengthen</item>
+        <item>@string/hr_section_anaerobic_limit</item>
+        <item>@string/hr_section_other</item>
+    </string-array>
+    <string-array name="hr_sport">
+        <item>Zóna srdečního tepu: Mírná</item>
+        <item>Zóna srdečního tepu: Těžší</item>
+        <item>Zóna srdečního tepu: Aerobní</item>
+        <item>Zóna srdečního tepu: Anaerobní</item>
+        <item>Zóna srdečního tepu: VO₂ max</item>
+    </string-array>
+    <string-array name="hr_sport_new">
+        <item>Mírná</item>
+        <item>Těžší</item>
+        <item>Aerobní</item>
+        <item>Anaerobní</item>
+        <item>VO₂ max</item>
+    </string-array>
+    <string-array name="lock_screen_type">
+        <item>Blízko</item>
+        <item>Poblíž</item>
+        <item>Daleko</item>
+    </string-array>
+    <string-array name="member_add_weight_items">
+        <item>@string/member_add_weight_item_auto</item>
+        <item>@string/member_add_weight_item_manual</item>
+    </string-array>
+    <string-array name="mili_help_tips">
+        <item>"Před párováním Mi Band 2 nebo jiných náramků klepněte na náramek pro kontrolu, zda je zařízení nabito.
+
+Před párováním Mi Band nebo Mi Band Pulse náramek nabijte."</item>
+        <item>Nejprve vypněte Bluetooth a pak ho spárujte se současným zařízením.</item>
+        <item>Pokud je náramek nabitý, ale telefon jej nevidí, zkuste vypnout a zapnout Bluetooth.</item>
+        <item>Pokud vypnutí a zapnutí Bluetooth nezabere, zkuste telefon restartovat.</item>
+    </string-array>
+    <string-array name="mili_help_title">
+        <item>Je váš náramek nabitý?</item>
+        <item>Není náramek spárován s jiným zařízením?</item>
+        <item>Zkuste restartovat Bluetooth</item>
+        <item>Zkuste restartovat váš telefon</item>
+    </string-array>
+    <string-array name="mili_pro_display_items">
+        <item>Čas</item>
+        <item>Kroky</item>
+        <item>Vzdálenost</item>
+        <item>Kalorie</item>
+        <item>Srdeční tep</item>
+        <item>Baterie</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>Led</item>
+        <item>Úno</item>
+        <item>Bře</item>
+        <item>Dub</item>
+        <item>Kvě</item>
+        <item>Čer</item>
+        <item>Čvc</item>
+        <item>Srp</item>
+        <item>Zář</item>
+        <item>Říj</item>
+        <item>Lis</item>
+        <item>Pro</item>
+    </string-array>
+    <string-array name="muscle_content_leval">
+        <item>Nedostatečné</item>
+        <item>Normální</item>
+        <item>Dobré</item>
+    </string-array>
+    <string-array name="ring_types">
+        <item>@string/ring_type_default</item>
+        <item>@string/ring_type_incall</item>
+    </string-array>
+    <string-array name="running_months">
+        <item>Led</item>
+        <item>Úno</item>
+        <item>Bře</item>
+        <item>Dub</item>
+        <item>Kvě</item>
+        <item>Čer</item>
+        <item>Čvc</item>
+        <item>Srp</item>
+        <item>Zář</item>
+        <item>Říj</item>
+        <item>Lis</item>
+        <item>Pro</item>
+    </string-array>
+    <string-array name="setting_hr_freq_types">
+        <item>@string/setting_heartrate_detect_freq_1</item>
+        <item>@string/setting_heartrate_detect_freq_10</item>
+        <item>@string/setting_heartrate_detect_freq_30</item>
+    </string-array>
+    <string-array name="setting_hr_types">
+        <item>@string/setting_heartrate_detect_auto</item>
+        <item>@string/setting_heartrate_detect_sleep</item>
+        <item>@string/setting_heartrate_detect_close</item>
+    </string-array>
+    <string-array name="setting_peyto_apps_array">
+        <item>Ciferník</item>
+        <item>Stav</item>
+        <item>Aktivity</item>
+        <item>Počasí</item>
+        <item>Budík</item>
+        <item>Časovač</item>
+        <item>Kompas</item>
+        <item>Více nastavení</item>
+    </string-array>
+    <string-array name="setting_tempo_apps_array">
+        <item>Ciferník</item>
+        <item>Stav</item>
+        <item>Oznámení</item>
+        <item>Aktivity</item>
+        <item>Počasí</item>
+        <item>Budík</item>
+        <item>Časovač</item>
+        <item>Nastavení</item>
+    </string-array>
+    <string-array name="setting_weather_temp_unit_array">
+        <item>@string/setting_weather_temp_c</item>
+        <item>@string/setting_weather_temp_f</item>
+    </string-array>
+    <string-array name="shoes_help_tips">
+        <item>Chytrý čip přestane fungovat, pokud jej nepoužijete delší dobu. Zkuste s ním zatřást.</item>
+        <item>Životnost baterie Chytrého čipu Amazfit je 1 rok. Pokud jste jej delší dobu nepoužívali, může být baterie vybitá.</item>
+        <item>Nejprve vypněte Bluetooth a pak proveďte párování se současným zařízením.</item>
+        <item>Pokud je chytrý čip nabitý, ale nemůže být detekován, ačkoli jste jej umístili blíže k telefonu, zkuste vypnout a zapnout Bluetooth.</item>
+        <item>Pokud vypnutí a zapnutí Bluetooth nezabere, zkuste telefon restartovat.</item>
+        <item>Klepněte na data z běžeckých bot a pro automatickou synchronizaci dat vstupte na stránku další aktivity</item>
+    </string-array>
+    <string-array name="shoes_help_title">
+        <item>Zatřeste chytrým čipem</item>
+        <item>Je nabitá baterie?</item>
+        <item>Není tento chytrý čip spárován s jiným zařízením?</item>
+        <item>Restartovat Bluetooth</item>
+        <item>Zkuste restartovat váš telefon</item>
+        <item>Jak synchronizovat vaše data?</item>
+    </string-array>
+    <string-array name="show_body_shape_array">
+        <item>Obézní</item>
+        <item>Nadváha</item>
+        <item>Podsaditá</item>
+        <item>"Chybí
+cvičení"</item>
+        <item>Vyvážená</item>
+        <item>"Vyvážená
+svalová"</item>
+        <item>Hubená</item>
+        <item>"Vyvážená
+hubená"</item>
+        <item>"Svalnatá
+hubená"</item>
+    </string-array>
+    <string-array name="timeline_type">
+        <item>Aktivita</item>
+        <item>Pomalá chůze</item>
+        <item>Chůze</item>
+        <item>Rychlá chůze</item>
+        <item>Běh</item>
+        <item>Stání</item>
+        <item>Sezení</item>
+        <item>Lehká aktivita</item>
+        <item>Nemáte na sobě</item>
+        <item>Nabíjení...</item>
+        <item>Vleže</item>
+    </string-array>
+    <string-array name="train_difficulity">
+        <item>Bez omezení</item>
+        <item>Základní, 1</item>
+        <item>Střední, 2</item>
+        <item>Pokročilý, 3</item>
+    </string-array>
+    <string-array name="unbind_device_description">
+        <item>@string/device_band</item>
+        <item>@string/device_weight</item>
+        <item>@string/device_shoe</item>
+        <item>@string/device_watch</item>
+    </string-array>
+    <string-array name="visceral_fat_leval">
+        <item>Normální</item>
+        <item>Vysoká</item>
+        <item>Velmi vysoká</item>
+    </string-array>
+    <string-array name="water_leval">
+        <item>Nedostatečné</item>
+        <item>Normální</item>
+        <item>Dobrá</item>
+    </string-array>
+    <string-array name="wear_type">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+    </string-array>
+    <string-array name="wear_type_body">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="wear_type_chest">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/chest</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>Ne</item>
+        <item>Po</item>
+        <item>Út</item>
+        <item>St</item>
+        <item>Čt</item>
+        <item>Pá</item>
+        <item>So</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>pondělí</item>
+        <item>úterý</item>
+        <item>středa</item>
+        <item>čtvrtek</item>
+        <item>pátek</item>
+        <item>sobota</item>
+        <item>neděle</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>Po</item>
+        <item>Út</item>
+        <item>St</item>
+        <item>Čt</item>
+        <item>Pá</item>
+        <item>So</item>
+        <item>Ne</item>
+    </string-array>
+    <string-array name="weight3_body_figures">
+        <item>Podváha</item>
+        <item>Vyvážená</item>
+        <item>Nadváha</item>
+        <item>Obézní</item>
+    </string-array>
+    <string-array name="weight_bfs_help_tips">
+        <item>Nejprve vypněte Bluetooth a pak proveďte párování se současným zařízením.</item>
+        <item>Stoupněte na váhu a ověřte, zda zobrazuje vaši hmotnost. Pokud se zobrazí ikona baterie, vyměňte baterii.</item>
+        <item>Pokud váha nereaguje, když na ní stoupnete, zkontrolujte, zda jsou baterie správně vloženy.</item>
+        <item>Pokud je baterie nabitá, ale přesto ji nelze nalézt, ačkoli jste telefon více přiblížili, zkuste restartovat Bluetooth telefonu.</item>
+        <item>Pokud vypnutí a zapnutí Bluetooth nezabere, zkuste telefon restartovat.</item>
+    </string-array>
+    <string-array name="weight_bfs_help_title">
+        <item>Je váha spárována s jiným zařízením?</item>
+        <item>Zkontrolujte baterii váhy</item>
+        <item>Jsou baterie vloženy správně?</item>
+        <item>Zkuste restartovat Bluetooth</item>
+        <item>Zkuste restartovat váš telefon</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>Normální</item>
+        <item>Nadváha</item>
+        <item>Obezita</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_not_chinese">
+        <item>Podváha</item>
+        <item>Normální</item>
+        <item>Nadváha</item>
+        <item>Obezita I</item>
+        <item>Obezita II</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>" kg"</item>
+        <item>" Jin"</item>
+        <item>" liber"</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+        <item>@string/weight_bfs_unit_jin</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array_no_jin">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+    </string-array>
+</resources>

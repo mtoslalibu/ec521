@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/item_avatar" style="@style/AvatarCenterStyle" />
+    <TextView android:id="@id/item_order_content" style="@style/ContentOrderStyle" />
+    <TextView android:id="@id/item_time" style="@style/TimeOrderStyle" />
+</android.support.constraint.ConstraintLayout>

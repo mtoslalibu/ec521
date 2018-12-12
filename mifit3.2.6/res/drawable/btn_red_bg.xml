@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#ffff6655" />
+            <size android:height="60.0dip" android:width="60.0dip" />
+            <stroke android:width="@dimen/round_bg_stroke" android:color="#ffff6655" />
+            <corners android:radius="42.0dip" />
+            <padding android:left="@dimen/round_bg_stroke" android:top="@dimen/round_bg_stroke" android:right="@dimen/round_bg_stroke" android:bottom="@dimen/round_bg_stroke" />
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape>
+            <size android:height="60.0dip" android:width="60.0dip" />
+            <solid android:color="#ffacacac" />
+            <stroke android:width="@dimen/round_bg_stroke" android:color="#ffacacac" />
+            <corners android:radius="42.0dip" />
+            <padding android:left="@dimen/round_bg_stroke" android:top="@dimen/round_bg_stroke" android:right="@dimen/round_bg_stroke" android:bottom="@dimen/round_bg_stroke" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <size android:height="60.0dip" android:width="60.0dip" />
+            <solid android:color="#ffff6655" />
+            <stroke android:width="@dimen/round_bg_stroke" android:color="#ffff6655" />
+            <corners android:radius="42.0dip" />
+            <padding android:left="@dimen/round_bg_stroke" android:top="@dimen/round_bg_stroke" android:right="@dimen/round_bg_stroke" android:bottom="@dimen/round_bg_stroke" />
+        </shape>
+    </item>
+</selector>

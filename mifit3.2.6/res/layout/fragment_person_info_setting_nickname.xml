@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/trans" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/dialog_empty_area" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/dialog_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/info_content_size" android:textColor="@color/black70" android:gravity="center" android:id="@id/updateTv" android:background="@color/trans" android:layout_width="fill_parent" android:layout_height="@dimen/person_info_setting_title_height" android:text="@string/modify_nickname" />
+        <EditText android:textSize="@dimen/person_info_setting_nickname_content_text_size" android:textColor="@color/black60" android:layout_gravity="center_vertical" android:id="@id/info_nick_name" android:background="@drawable/bg_round" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/person_info_setting_nickname_content_height" android:layout_marginTop="@dimen/person_info_setting_nickname_content_margin_top" android:layout_marginBottom="@dimen/person_info_setting_nickname_content_margin_bottom" android:hint="@string/add_family_nickname_hint" android:maxLines="1" android:maxLength="20" android:paddingStart="@dimen/person_info_setting_nickname_content_padding_start_end" android:paddingEnd="@dimen/person_info_setting_nickname_content_padding_start_end" android:layout_marginStart="@dimen/person_info_setting_nickname_content_margin_start_end" android:layout_marginEnd="@dimen/person_info_setting_nickname_content_margin_start_end" />
+        <View android:background="@color/black_20_percent" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:orientation="horizontal" android:background="@color/trans" android:layout_width="fill_parent" android:layout_height="@dimen/item_height_max">
+            <TextView android:textSize="@dimen/person_info_setting_text_size" android:textColor="@color/black70" android:gravity="center" android:id="@id/nick_name_btn_cancel" android:background="@drawable/btn_click_bg_round_dialog_bottom_left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_weight="1.0" />
+            <View android:background="@color/black_20_percent" android:layout_width="1.0px" android:layout_height="fill_parent" />
+            <TextView android:textSize="@dimen/person_info_setting_text_size" android:textColor="@color/black70" android:gravity="center" android:id="@id/nick_name_btn_save" android:background="@drawable/btn_click_bg_round_dialog_bottom_right" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/save" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

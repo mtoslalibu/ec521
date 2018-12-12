@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="avoid_type">
+        <item>@string/state_close</item>
+        <item>@string/avoid_enable_smart</item>
+        <item>@string/avoid_enable_time</item>
+    </string-array>
+    <string-array name="avoid_type_sub">
+        <item></item>
+        <item>@string/avoid_enable_smart_sub</item>
+        <item>@string/avoid_enable_time_sub</item>
+    </string-array>
+    <string-array name="bmi_for_adualt">
+        <item>নিম্ন</item>
+        <item>স্বাভাৱিক</item>
+        <item>উচ্চ</item>
+        <item>অতি উচ্চ</item>
+    </string-array>
+    <string-array name="bmi_for_child">
+        <item>স্বাভাৱিক</item>
+        <item>উচ্চ</item>
+        <item>অতি উচ্চ</item>
+    </string-array>
+    <string-array name="bmi_for_not_chinese">
+        <item>কম</item>
+        <item>স্বাভাৱিক</item>
+        <item>"বৃদ্ধি হ'ল"</item>
+        <item>উচ্চ</item>
+        <item>অতি উচ্চ</item>
+    </string-array>
+    <string-array name="body_score_leval">
+        <item>অতি বেয়া</item>
+        <item>বেয়া</item>
+        <item>স্বাভাৱিক</item>
+        <item>ভাল</item>
+        <item>উৎকৃষ্ট</item>
+    </string-array>
+    <string-array name="body_shape_type_array">
+        <item>ক্ষীণ</item>
+        <item>সন্তুলিত ক্ষীণ</item>
+        <item>ক্ষীণ মাংসপেশীযুক্ত</item>
+        <item>ব্যায়াম কম হৈছে</item>
+        <item>সন্তুলিত</item>
+        <item>সন্তুলিত মাংসপেশীযুক্ত</item>
+        <item>মেদবহুল</item>
+        <item>অত্যাধিক ওজন</item>
+        <item>ডাঠ-ছেট</item>
+    </string-array>
+    <string-array name="bodyfat_content_leval">
+        <item>অতি নিম্ন</item>
+        <item>নিম্ন</item>
+        <item>স্বাভাৱিক</item>
+        <item>"বৃদ্ধি হ'ল"</item>
+        <item>উচ্চ</item>
+    </string-array>
+    <string-array name="bone_leval">
+        <item>পৰ্যাপ্তহীন</item>
+        <item>স্বাভাৱিক</item>
+        <item>ভাল</item>
+    </string-array>
+    <string-array name="brm_leval">
+        <item>"লক্ষ্যত উপনীত নহ'ল"</item>
+        <item>"লক্ষ্যত উপনীত হ'ল"</item>
+    </string-array>
+    <string-array name="chaohu_help_tips">
+        <item>ঘড়ীটোৰ বুটামটো টিপিবলৈ চেষ্টা কৰক, যদি ঘড়ীৰ স্ক্ৰীণ অফ হৈ থাকে, তেন্তে বেটাৰী চাৰ্জ কৰিবলৈ প্লাগ কৰক।</item>
+        <item>প্ৰথমে ব্লুটুথ অফ কৰক, তাৰপিছত বৰ্তমানৰ ডিভাইচৰ সৈতে যোৰ কৰক।</item>
+        <item>যদি বেণ্ডটো চাৰ্জ হৈ আছে, কিন্তু ফোনে দেখা পোৱা নাই, তেন্তে ফোনৰ ব্লুটুথ পুনৰাৰম্ভ কৰি চেষ্টা কৰক।</item>
+        <item>যদি ব্লুটুথ পুনঃআৰম্ভ কৰাটোৱে সমস্যাৰ সমাধান নকৰে, তেন্তে ফোনটো পুনৰাৰম্ভ কৰি চেষ্টা কৰক।</item>
+        <item>আপুনি ব্যায়াম কৰি থাকোতে ঘড়ীৰ ডাটা চিংক কৰিব নোৱাৰি। ছেচনটো সমাপ্ত কৰক আৰু পুনৰ চেষ্টা কৰক।</item>
+    </string-array>
+    <string-array name="chaohu_help_title">
+        <item>আপোনাৰ ঘড়ীটো চাৰ্জ কৰা হৈছেনে?</item>
+        <item>এইটো ঘড়ী অন্য এটা ডিভাইচৰ সৈতে যোৰ হৈ আছে নেকি?</item>
+        <item>ব্লুটুথ পুনঃআৰম্ভ কৰি চেষ্টা কৰক</item>
+        <item>ফোনটো পুনৰাৰম্ভ কৰি চেষ্টা কৰক</item>
+        <item>অনুশীলনৰ সময়ত ডাটা চিংক কৰিব নোৱাৰি</item>
+    </string-array>
+    <string-array name="chaohu_setting_run_types">
+        <item>@string/chaohu_setting_run_outdoor</item>
+        <item>@string/chaohu_setting_run_indoor</item>
+        <item>@string/chaohu_setting_run_ride</item>
+        <item>@string/chaohu_setting_run_walk</item>
+    </string-array>
+    <string-array name="colors">
+        <item>@string/blue</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/red</item>
+    </string-array>
+    <string-array name="common_cities">
+        <item>গুাৱাংজু</item>
+        <item>শ্বেনজেন</item>
+        <item>ফশ্বান</item>
+        <item>ডংগুৱান</item>
+        <item>বেইজিং</item>
+        <item>নানজিং</item>
+        <item>ছুজু</item>
+        <item>চাংজু</item>
+        <item>জিনান</item>
+        <item>কুইংদাও</item>
+        <item>হেংজু</item>
+        <item>"নিংব'"</item>
+        <item>ঝেংজু</item>
+        <item>কাইফেং</item>
+        <item>চাংহাই</item>
+        <item>ছিজিয়াজুৱাং</item>
+        <item>বাউদিং</item>
+        <item>চেংডু</item>
+        <item>মিয়ানয়াং</item>
+        <item>চেনয়াং</item>
+        <item>ডালিয়ান</item>
+    </string-array>
+    <string-array name="difficulty_content">
+        <item>ফিটনেছ প্ৰশিক্ষণৰ ক্ষেত্ৰত নবাগত</item>
+        <item>প্ৰাথমিক ফিটনেছ অভিজ্ঞতা হৈছিল</item>
+        <item>ভাল ফিটনেট অভিজ্ঞতা পালো আৰু এক সুন্দৰ গঠন নিৰ্মাণ কৰিলো</item>
+    </string-array>
+    <string-array name="difficulty_title">
+        <item>বুনিয়াদী</item>
+        <item>মধ্যম</item>
+        <item>অগ্ৰণী</item>
+    </string-array>
+    <string-array name="fitness_goal_content">
+        <item>চৰ্বী দহনৰ লক্ষ্য স্থিৰ কৰিছে</item>
+        <item>দেহক আকাৰ দিবলৈ লক্ষ্য স্থিৰ কৰিছে</item>
+        <item>পেশী নিৰ্মাণৰ লক্ষ্য স্থিৰ কৰিছে</item>
+    </string-array>
+    <string-array name="fitness_goal_title">
+        <item>কটা</item>
+        <item>আকাৰ দিয়া</item>
+        <item>ওজন বৃদ্ধি</item>
+    </string-array>
+    <string-array name="ges_screen_type">
+        <item>@string/ges_screen_type_all_day</item>
+        <item>@string/ges_screen_type_time</item>
+        <item>@string/ges_screen_type_close</item>
+    </string-array>
+    <string-array name="hr_section">
+        <item>@string/hr_section_warm_up</item>
+        <item>@string/hr_section_fat_burn</item>
+        <item>@string/hr_section_heart_lung_strengthen</item>
+        <item>@string/hr_section_stamina_strengthen</item>
+        <item>@string/hr_section_anaerobic_limit</item>
+        <item>@string/hr_section_other</item>
+    </string-array>
+    <string-array name="hr_sport">
+        <item>হৃদস্পন্দনৰ হাৰ ক্ষেত্ৰ: পাতল</item>
+        <item>হৃদস্পন্দনৰ হাৰ ক্ষেত্ৰ: গধুৰ</item>
+        <item>"হৃদস্পন্দনৰ হাৰ ক্ষেত্ৰ: এৰ'বিক"</item>
+        <item>"হৃদস্পন্দনৰ হাৰ ক্ষেত্ৰ: অনা-এৰ'বিক"</item>
+        <item>হৃদস্পন্দনৰ হাৰ ক্ষেত্ৰ: VO₂ max</item>
+    </string-array>
+    <string-array name="hr_sport_new">
+        <item>পাতল</item>
+        <item>ওজন</item>
+        <item>"এৰ'বিক"</item>
+        <item>"অনা-এৰ'বিক"</item>
+        <item>VO₂ সৰ্বাধিক</item>
+    </string-array>
+    <string-array name="lock_screen_type">
+        <item>বন্ধ কৰক</item>
+        <item>কাষ</item>
+        <item>দূৰ</item>
+    </string-array>
+    <string-array name="member_add_weight_items">
+        <item>@string/member_add_weight_item_auto</item>
+        <item>@string/member_add_weight_item_manual</item>
+    </string-array>
+    <string-array name="mili_help_tips">
+        <item>"এটা Mi বেণ্ড 2 বা অন্য বেণ্ড যোৰ কৰাৰ পূৰ্বে আপোনাৰ ডিভাইচটো চাৰ্জ হৈ আছেনে নাই পৰীক্ষা কৰিবলৈ বেণ্ডটো টেপ কৰক।
+
+Mi বেণ্ড বা Mi বেণ্ড পালছ যোৰ কৰাৰ আগতে বেণ্ডটো চাৰ্জ কৰক।"</item>
+        <item>প্ৰথমে ব্লুটুথ অফ কৰক, তাৰপিছত বৰ্তমানৰ ডিভাইচৰ সৈতে যোৰ কৰক।</item>
+        <item>যদি বেণ্ডটো চাৰ্জ হৈ আছে, কিন্তু ফোনে দেখা পোৱা নাই, তেন্তে ফোনৰ ব্লুটুথ পুনৰাৰম্ভ কৰি চেষ্টা কৰক।</item>
+        <item>যদি ব্লুটুথ পুনঃআৰম্ভ কৰাটোৱে সমস্যাৰ সমাধান নকৰে, তেন্তে ফোনটো পুনৰাৰম্ভ কৰি চেষ্টা কৰক।</item>
+    </string-array>
+    <string-array name="mili_help_title">
+        <item>আপোনাৰ বেণ্ডটো চাৰ্জ কৰা হৈছেনে?</item>
+        <item>এইটো বেণ্ড অন্য এটা ডিভাইচৰ সৈতে যোৰ হৈ আছে নেকি?</item>
+        <item>ব্লুটুথ পুনঃআৰম্ভ কৰি চেষ্টা কৰক</item>
+        <item>ফোনটো পুনৰাৰম্ভৰ চেষ্টা কৰক</item>
+    </string-array>
+    <string-array name="mili_pro_display_items">
+        <item>সময়</item>
+        <item>খোজ</item>
+        <item>দূৰত্ব</item>
+        <item>"কেল'ৰি"</item>
+        <item>হৃদস্পন্দনৰ হাৰ</item>
+        <item>বেটাৰী</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>জানু</item>
+        <item>ফেব্ৰু</item>
+        <item>মাৰ্চ</item>
+        <item>এপ্ৰিল</item>
+        <item>মে</item>
+        <item>জুন</item>
+        <item>জুলা</item>
+        <item>আগ</item>
+        <item>চেপ্তে</item>
+        <item>অক্টো</item>
+        <item>নবে</item>
+        <item>ডিচে</item>
+    </string-array>
+    <string-array name="muscle_content_leval">
+        <item>পৰ্যাপ্তহীন</item>
+        <item>স্বাভাৱিক</item>
+        <item>ভাল</item>
+    </string-array>
+    <string-array name="ring_types">
+        <item>@string/ring_type_default</item>
+        <item>@string/ring_type_incall</item>
+    </string-array>
+    <string-array name="running_months">
+        <item>জানু</item>
+        <item>ফেব্ৰু</item>
+        <item>মাৰ্চ</item>
+        <item>এপ্ৰিল</item>
+        <item>মে</item>
+        <item>জুন</item>
+        <item>জুলা</item>
+        <item>আগ</item>
+        <item>চেপ্তে</item>
+        <item>অক্টো</item>
+        <item>নবে</item>
+        <item>ডিচে</item>
+    </string-array>
+    <string-array name="setting_hr_freq_types">
+        <item>@string/setting_heartrate_detect_freq_1</item>
+        <item>@string/setting_heartrate_detect_freq_10</item>
+        <item>@string/setting_heartrate_detect_freq_30</item>
+    </string-array>
+    <string-array name="setting_hr_types">
+        <item>@string/setting_heartrate_detect_auto</item>
+        <item>@string/setting_heartrate_detect_sleep</item>
+        <item>@string/setting_heartrate_detect_close</item>
+    </string-array>
+    <string-array name="setting_peyto_apps_array">
+        <item>ঘড়ীৰ চেহেৰা</item>
+        <item>স্থিতি</item>
+        <item>কাৰ্যকলাপসমূহ</item>
+        <item>বতৰ</item>
+        <item>এলাৰ্ম</item>
+        <item>টাইমাৰ</item>
+        <item>কম্পাছ</item>
+        <item>অধিক ছেটিংছ</item>
+    </string-array>
+    <string-array name="setting_tempo_apps_array">
+        <item>ঘড়ীৰ চেহেৰা</item>
+        <item>স্থিতি</item>
+        <item>অধিসূচনা</item>
+        <item>কাৰ্যকলাপসমূহ</item>
+        <item>বতৰ</item>
+        <item>এলাৰ্ম</item>
+        <item>টাইমাৰ</item>
+        <item>ছেটিংছ</item>
+    </string-array>
+    <string-array name="setting_weather_temp_unit_array">
+        <item>@string/setting_weather_temp_c</item>
+        <item>@string/setting_weather_temp_f</item>
+    </string-array>
+    <string-array name="shoes_help_tips">
+        <item>দীৰ্ঘ সময় ধৰি ব্যৱহাৰ নকৰিলে স্মাৰ্ট চিপে কাম কৰা বন্ধ কৰিব। সেইটো জোকাৰক আৰু পুনৰ চেষ্টা কৰক।</item>
+        <item>"Amazfit স্মাৰ্ট চিপৰ বেটাৰী জীৱন হ'ল 1 বছৰ। যদি আপুনি দীৰ্ঘ সময়ৰ বাবে ব্যৱহাৰ কৰি আছে, তেন্তে হয়তো অলপো পাৱাৰ বাকী নাই।"</item>
+        <item>প্ৰথমে ব্লুটুথ অফ কৰক, তাৰপিছত বৰ্তমানৰ ডিভাইচৰ সৈতে যোৰ কৰক।</item>
+        <item>স্মাৰ্ট চিপটো চাৰ্জ হৈ থকাৰ পিছতো যদি ফোনটো ইয়াৰ ওচৰলৈ আনোতে চিনাক্ত নহয়, তেন্তে ফোনৰ ব্লুটুথ পুনৰাৰম্ভ কৰি চেষ্টা কৰক।</item>
+        <item>যদি ব্লুটুথ পুনঃআৰম্ভ কৰাটোৱে সমস্যাৰ সমাধান নকৰে, তেন্তে ফোনটো পুনৰাৰম্ভ কৰি চেষ্টা কৰক।</item>
+        <item>ডাটা স্বয়ংক্ৰিয়ভাৱে চিংক কৰিবলৈ দৌৰৰ জোতাৰ ডাটা টেপ কৰক আৰু পৰৱৰ্তী কাৰ্যকলাপ পৃষ্ঠাত প্ৰৱেশ কৰক</item>
+    </string-array>
+    <string-array name="shoes_help_title">
+        <item>স্মাৰ্ট চিপটো জোকাৰক</item>
+        <item>বেটাৰীটো চাৰ্জ হৈ আছেনে নাই?</item>
+        <item>এইটো স্মাৰ্ট চিপ অন্য এটা ডিভাইচৰ সৈতে যোৰ হৈ আছে নেকি?</item>
+        <item>ব্লুটুথ পুনৰাৰম্ভ কৰক</item>
+        <item>ফোনটো পুনৰাৰম্ভৰ চেষ্টা কৰক</item>
+        <item>আপোনাৰ ডাটা কেনেকৈ চিংক কৰিব?</item>
+    </string-array>
+    <string-array name="show_body_shape_array">
+        <item>মেদবহুল</item>
+        <item>অত্যাধিক ওজন</item>
+        <item>ডাঠ-ছেট</item>
+        <item>"ব্যায়াম
+কম হৈছে"</item>
+        <item>সন্তুলিত</item>
+        <item>"সন্তুলিত
+মাংসপেশীযুক্ত"</item>
+        <item>ক্ষীণ</item>
+        <item>"সন্তুলিত
+ক্ষীণ"</item>
+        <item>"ক্ষীণ
+মাংসপেশীযুক্ত"</item>
+    </string-array>
+    <string-array name="timeline_type">
+        <item>কাৰ্যকলাপ</item>
+        <item>ধীৰভাৱে খোজ কঢ়া</item>
+        <item>খোজ কঢ়া</item>
+        <item>দ্ৰুতভাৱে খোজ কঢ়া</item>
+        <item>দৌৰা</item>
+        <item>থিয় হৈ থকা</item>
+        <item>বহি থকা</item>
+        <item>পাতলীয়া কাৰ্যকলাপ</item>
+        <item>পিন্ধা নাই</item>
+        <item>চাৰ্জ হৈ আছে…</item>
+        <item>বাগৰ দিয়া</item>
+    </string-array>
+    <string-array name="train_difficulity">
+        <item>সীমিত নহয়</item>
+        <item>বুনিয়াদী, 1</item>
+        <item>মধ্যম, 2</item>
+        <item>অগ্ৰণী, 3</item>
+    </string-array>
+    <string-array name="unbind_device_description">
+        <item>@string/device_band</item>
+        <item>@string/device_weight</item>
+        <item>@string/device_shoe</item>
+        <item>@string/device_watch</item>
+    </string-array>
+    <string-array name="visceral_fat_leval">
+        <item>স্বাভাৱিক</item>
+        <item>উচ্চ</item>
+        <item>অতি উচ্চ</item>
+    </string-array>
+    <string-array name="water_leval">
+        <item>পৰ্যাপ্তহীন</item>
+        <item>স্বাভাৱিক</item>
+        <item>ভাল</item>
+    </string-array>
+    <string-array name="wear_type">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+    </string-array>
+    <string-array name="wear_type_body">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="wear_type_chest">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/chest</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>দেও</item>
+        <item>সোম</item>
+        <item>মংগল</item>
+        <item>বুধ</item>
+        <item>বৃহ</item>
+        <item>শুক্ৰ</item>
+        <item>শনি</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>সোমবাৰ</item>
+        <item>মংগলবাৰ</item>
+        <item>বুধবাৰ</item>
+        <item>বৃহস্পতিবাৰ</item>
+        <item>শুক্ৰবাৰ</item>
+        <item>শনিবাৰ</item>
+        <item>দেওবাৰ</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>সোম</item>
+        <item>মংগল</item>
+        <item>বুধ</item>
+        <item>বৃহস্পতি</item>
+        <item>শুক্ৰ</item>
+        <item>শনি</item>
+        <item>দেও</item>
+    </string-array>
+    <string-array name="weight3_body_figures">
+        <item>কম ওজন</item>
+        <item>সন্তুলিত</item>
+        <item>অত্যাধিক ওজন</item>
+        <item>মেদবহুল</item>
+    </string-array>
+    <string-array name="weight_bfs_help_tips">
+        <item>প্ৰথমে ব্লুটুথ অফ কৰক, তাৰপিছত বৰ্তমানৰ ডিভাইচৰ সৈতে যোৰ কৰক।</item>
+        <item>স্কেলে আপোনাৰ ওজন দেখুৱাইনে নেদেখুৱাই পৰীক্ষা কৰিবলৈ তাৰ ওপৰত উঠক। ই বেটাৰী আইকন প্ৰদৰ্শন কৰিলে বেটাৰী সলনি কৰক।</item>
+        <item>আপুনি স্কেলৰ ওপৰত উঠোতে কোনো সঁহাৰি নেদেখুৱালে, বেটাৰী সঠিকভাৱে ইনষ্টল হৈছেনে নাই পৰীক্ষা কৰক।</item>
+        <item>বেটাৰী চাৰ্জ হৈ থাকোতেও যদি আপুনি ফোনটো ইয়াৰ ওচৰলৈ অনাৰ পিছত আপুনি ডিভাইচটো বিচাৰি পোৱা নাই, ফোনটোৰ ব্লুটুথ পুনৰাৰম্ভ কৰিবলৈ চেষ্টা কৰক।</item>
+        <item>যদি ব্লুটুথ পুনঃআৰম্ভ কৰাটোৱে সমস্যাৰ সমাধান নকৰে, তেন্তে ফোনটো পুনৰাৰম্ভ কৰি চেষ্টা কৰক।</item>
+    </string-array>
+    <string-array name="weight_bfs_help_title">
+        <item>স্কেলটো অন্য এটা ডিভাইচৰ সৈতে যোৰ হৈ আছে নেকি?</item>
+        <item>স্কেলৰ বেটাৰী পৰীক্ষা কৰক</item>
+        <item>বেটাৰী উপযুক্তভাৱে ইনষ্টল কৰা হৈছেনে?</item>
+        <item>ব্লুটুথ পুনঃআৰম্ভ কৰি চেষ্টা কৰক</item>
+        <item>ফোনটো পুনৰাৰম্ভ কৰি চেষ্টা কৰক</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>স্বাভাৱিক</item>
+        <item>অত্যাধিক ওজন</item>
+        <item>মেদবহুল</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_not_chinese">
+        <item>কম ওজন</item>
+        <item>স্বাভাৱিক</item>
+        <item>অত্যাধিক ওজন</item>
+        <item>মেদবহুল I</item>
+        <item>মেদবহুল II</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>" কিগ্ৰা"</item>
+        <item>" জিন"</item>
+        <item>" পাউণ্ড"</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+        <item>@string/weight_bfs_unit_jin</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array_no_jin">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/fat_measuring_view_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view1" android:background="@drawable/fat_measuring_default_bg" android:layout_width="@dimen/fat_measuring_item_width" android:layout_height="fill_parent" />
+    <View android:id="@id/view2" android:background="@drawable/fat_measuring_default_bg" android:layout_width="@dimen/fat_measuring_item_width" android:layout_height="fill_parent" android:layout_marginStart="@dimen/fat_measuring_item_margin_start" />
+    <View android:id="@id/view3" android:background="@drawable/fat_measuring_default_bg" android:layout_width="@dimen/fat_measuring_item_width" android:layout_height="fill_parent" android:layout_marginStart="@dimen/fat_measuring_item_margin_start" />
+    <View android:id="@id/view4" android:background="@drawable/fat_measuring_default_bg" android:layout_width="@dimen/fat_measuring_item_width" android:layout_height="fill_parent" android:layout_marginStart="@dimen/fat_measuring_item_margin_start" />
+    <View android:id="@id/view5" android:background="@drawable/fat_measuring_default_bg" android:layout_width="@dimen/fat_measuring_item_width" android:layout_height="fill_parent" android:layout_marginStart="@dimen/fat_measuring_item_margin_start" />
+</LinearLayout>

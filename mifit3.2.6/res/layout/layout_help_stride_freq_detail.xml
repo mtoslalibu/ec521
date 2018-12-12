@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.299988sp" android:textColor="@color/run_white_50_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/running_help_pace_freq" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/white30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.299988dip" android:text="@string/running_help_stride_freq_definition" />
+    <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/icon_running_help_stride_freq_figure1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.699982dip" />
+    <TextView android:textSize="13.299988sp" android:textColor="@color/run_white_50_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/running_help_stride_freq_bestfreq" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/white30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.299988dip" android:text="@string/running_help_stride_freq_bestfreq_example" />
+    <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/icon_running_help_stride_freq_figure2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.699982dip" />
+    <TextView android:textSize="13.299988sp" android:textColor="@color/run_white_50_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/running_help_stride_freq_enhancefreq" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/white30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.299988dip" android:text="@string/running_help_stride_freq_enhancefreq_reason" />
+    <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/icon_running_help_stride_freq_figure3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.699982dip" />
+</LinearLayout>

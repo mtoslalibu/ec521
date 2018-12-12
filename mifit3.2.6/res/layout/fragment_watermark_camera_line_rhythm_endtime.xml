@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:id="@id/fl_camera" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" layout="@layout/layout_watermark_tag" />
+    <RelativeLayout android:id="@id/rl_drag_line_area" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_drag_line" android:padding="@dimen/watermark_line_thumbnail_padding_r" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/watermark_rhythm_layout" android:background="@drawable/run_watermark_running_rhythm_white" android:layout_width="260.0dip" android:layout_height="90.0dip">
+                <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="51.299988sp" android:textColor="@android:color/white" android:gravity="end" android:id="@id/watermark_km_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="10.5" android:layout_alignParentTop="true" android:fontFamily="din-med" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+                <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:layout_alignParentBottom="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true">
+                    <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="@dimen/running_watermark_rhythm_time_text_size" android:textColor="@android:color/white" android:id="@id/watermark_time_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10.5" android:fontFamily="din-med" />
+                    <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textColor="@android:color/white" android:layout_gravity="center_vertical" android:id="@id/watermark_time_value_apm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PM" android:fontFamily="din-med" android:paddingStart="1.5dip" android:paddingEnd="1.5dip" />
+                    <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textColor="@android:color/white" android:id="@id/watermark_time_value_hourmin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10.5" android:fontFamily="din-med" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

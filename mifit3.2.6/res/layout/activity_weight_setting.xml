@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaomi.hm.health.view.scroll.HMScrollView android:id="@id/weight_setting_scroll" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/view_base_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.xiaomi.hm.health.view.scroll.HMExpandHeadView android:id="@id/weight_setting_icon_rl" android:background="@drawable/weight_bg_head" android:layout_width="fill_parent" android:layout_height="246.0dip">
+            <ImageView android:id="@id/weight_setting_chart" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginTop="102.0dip" android:layout_centerHorizontal="true" />
+        </com.xiaomi.hm.health.view.scroll.HMExpandHeadView>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/unit_set_layout" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClick" app:itemTitle="@string/weight_set_unit" />
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/weight_setting_merge" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClick" app:itemTitle="@string/weight_settings_merge_title" app:itemSummary="@string/weight_settings_merge_tips" app:itemSwitch="true" />
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/weight_setting_help" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClick" app:itemTitle="@string/weight_setting_help" />
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/weight_setting_fw_upgrade_check" android:background="@color/white100" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClick" app:itemTitle="@string/setting_update" app:itemEndArrow="true" />
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/weight_setting_firmware_version" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="wrap_content" app:itemTitle="@string/weight_setting_fw_version" app:itemEndArrow="false" />
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/mac_address" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="wrap_content" app:itemTitle="@string/mili_setting_mac_address" app:itemEndArrow="false" />
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/test_layout" android:background="@color/white100" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClick" app:itemTitle="内部版本身体得分测试" app:itemEndArrow="false" />
+            <View android:background="@color/divide" android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
+        </LinearLayout>
+        <Button android:textColor="@color/tangerine" android:id="@id/weight_setting_unbind" android:layout_width="fill_parent" android:text="@string/mili_setting_unbind" android:onClick="onClick" style="@style/unbindDevicesStyle" />
+    </LinearLayout>
+</com.xiaomi.hm.health.view.scroll.HMScrollView>

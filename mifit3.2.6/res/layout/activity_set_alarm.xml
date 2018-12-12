@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/lazy_item" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:itemTitle="@string/alarm_clock_lazy_title" app:itemSummary="@string/alarm_clock_lazy_summary" app:itemSwitch="true" app:itemDivider="normal" />
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/smart_item" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/lazy_item" app:itemTitle="@string/alarm_clock_smart_title" app:itemSummary="@string/alarm_clock_smart_summary" app:itemSwitch="true" app:itemDivider="gone" />
+    <View android:id="@id/divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_below="@id/smart_item" />
+    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/repeat_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/divider" app:itemTitle="@string/alarm_clock_repeat" app:itemDivider="gone" />
+    <LinearLayout android:id="@id/alarm_time" android:background="@drawable/bg_rect" android:layout_width="fill_parent" android:layout_height="@dimen/alarm_wheel_hight" android:layout_alignParentBottom="true">
+        <kankan.wheel.widget.WheelView android:id="@id/ampm_wheel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <View android:background="@color/item_stroke" android:layout_width="@dimen/round_bg_stroke" android:layout_height="fill_parent" />
+        <kankan.wheel.widget.WheelView android:id="@id/hour_wheel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <View android:background="@color/item_stroke" android:layout_width="@dimen/round_bg_stroke" android:layout_height="fill_parent" />
+        <kankan.wheel.widget.WheelView android:id="@id/min_wheel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:textSize="11.299988sp" android:textColor="@color/black40" android:gravity="center|top" android:layout_gravity="center|top" android:id="@id/alarm_delay_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.299988dip" android:layout_marginBottom="10.0dip" android:layout_above="@id/alarm_time" android:layout_centerHorizontal="true" />
+</RelativeLayout>

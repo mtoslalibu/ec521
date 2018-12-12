@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="avoid_type">
+        <item>@string/state_close</item>
+        <item>@string/avoid_enable_smart</item>
+        <item>@string/avoid_enable_time</item>
+    </string-array>
+    <string-array name="avoid_type_sub">
+        <item></item>
+        <item>@string/avoid_enable_smart_sub</item>
+        <item>@string/avoid_enable_time_sub</item>
+    </string-array>
+    <string-array name="bmi_for_adualt">
+        <item>Low</item>
+        <item>Normal</item>
+        <item>High</item>
+        <item>Very high</item>
+    </string-array>
+    <string-array name="bmi_for_child">
+        <item>Normal</item>
+        <item>High</item>
+        <item>Very high</item>
+    </string-array>
+    <string-array name="bmi_for_not_chinese">
+        <item>Low</item>
+        <item>Normal</item>
+        <item>Increased</item>
+        <item>High</item>
+        <item>Very high</item>
+    </string-array>
+    <string-array name="body_score_leval">
+        <item>Very poor</item>
+        <item>Poor</item>
+        <item>Normal</item>
+        <item>Good</item>
+        <item>Excellent</item>
+    </string-array>
+    <string-array name="body_shape_type_array">
+        <item>Skinny</item>
+        <item>Balanced skinny</item>
+        <item>Skinny muscular</item>
+        <item>Lacks exercise</item>
+        <item>Balanced</item>
+        <item>Balanced muscular</item>
+        <item>Obese</item>
+        <item>Overweight</item>
+        <item>Thick-set</item>
+    </string-array>
+    <string-array name="bodyfat_content_leval">
+        <item>Very low</item>
+        <item>Low</item>
+        <item>ပုံမှန်</item>
+        <item>Increased</item>
+        <item>High</item>
+    </string-array>
+    <string-array name="bone_leval">
+        <item>Insufficient</item>
+        <item>Normal</item>
+        <item>Good</item>
+    </string-array>
+    <string-array name="brm_leval">
+        <item>"Didn't reach goals"</item>
+        <item>Reached goal</item>
+    </string-array>
+    <string-array name="chaohu_help_tips">
+        <item>Try to press the button on the watch, if the watch screen is off, plug it in to charge its battery.</item>
+        <item>Turn off Bluetooth first, then pair with current device.</item>
+        <item>လက်ပတ်ကို အားသွင်းထားသော်လည်း ဖုန်းမှ မတွေ့ပါက ဘလူးတုသ်ကို ပိတ်၍ပြန်ဖွင့်ကြည့်ပါ။</item>
+        <item>"If restarting Bluetooth doesn't solve the problem, try rebooting the phone."</item>
+        <item>"Watch data can't be synced when you're doing exercise. End the session and try again."</item>
+    </string-array>
+    <string-array name="chaohu_help_title">
+        <item>Is your watch charged?</item>
+        <item>ဤလက်ပတ်နာရီအား အခြားစက်နှင့် တွဲထားပါသလား?</item>
+        <item>Try restarting Bluetooth</item>
+        <item>Try rebooting your phone</item>
+        <item>"Can't sync data during workouts"</item>
+    </string-array>
+    <string-array name="chaohu_setting_run_types">
+        <item>@string/chaohu_setting_run_outdoor</item>
+        <item>@string/chaohu_setting_run_indoor</item>
+        <item>@string/chaohu_setting_run_ride</item>
+        <item>@string/chaohu_setting_run_walk</item>
+    </string-array>
+    <string-array name="colors">
+        <item>@string/blue</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/red</item>
+    </string-array>
+    <string-array name="common_cities">
+        <item>Guangzhou</item>
+        <item>Shenzhen</item>
+        <item>Foshan</item>
+        <item>Dongguan</item>
+        <item>Beijing</item>
+        <item>Nanjing</item>
+        <item>Suzhou</item>
+        <item>Changzhou</item>
+        <item>Jinan</item>
+        <item>Qingdao</item>
+        <item>Hangzhou</item>
+        <item>Ningbo</item>
+        <item>Zhengzhou</item>
+        <item>Kaifeng</item>
+        <item>Shanghai</item>
+        <item>Shijiazhuang</item>
+        <item>Baoding</item>
+        <item>Chengdu</item>
+        <item>Mianyang</item>
+        <item>Shenyang</item>
+        <item>Dalian</item>
+    </string-array>
+    <string-array name="difficulty_content">
+        <item>ကိုယ်ကာယလေ့ကျင့်ရေး လူသစ်</item>
+        <item>ကိုယ်ကာယလေ့ကျင့်ရေး အခြေခံရှိသူ</item>
+        <item>ကိုယ်ကာယလေ့ကျင့်ရေးအတွေ့အကြုံရှိပြီး ခန္ဓာကိုယ်အချိုးအစားပြေပြစ်သူ</item>
+    </string-array>
+    <string-array name="difficulty_title">
+        <item>အခြေခံအဆင့်</item>
+        <item>အလတ်တန်းအဆင့်</item>
+        <item>တန်းမြင့်အဆင့်</item>
+    </string-array>
+    <string-array name="fitness_goal_content">
+        <item>အဆီကျစေရန် ရည်ရွယ်သည်</item>
+        <item>ခန္ဓာကိုယ်အချိုးအစားပြေပြစ်စေရန် ရည်ရွယ်သည်</item>
+        <item>ကြွက်သားကြီးထွားစေရန် ရည်ရွယ်သည်</item>
+    </string-array>
+    <string-array name="fitness_goal_title">
+        <item>ဖြတ်နေ</item>
+        <item>ပုံစံ</item>
+        <item>Bulking</item>
+    </string-array>
+    <string-array name="ges_screen_type">
+        <item>@string/ges_screen_type_all_day</item>
+        <item>@string/ges_screen_type_time</item>
+        <item>@string/ges_screen_type_close</item>
+    </string-array>
+    <string-array name="hr_section">
+        <item>@string/hr_section_warm_up</item>
+        <item>@string/hr_section_fat_burn</item>
+        <item>@string/hr_section_heart_lung_strengthen</item>
+        <item>@string/hr_section_stamina_strengthen</item>
+        <item>@string/hr_section_anaerobic_limit</item>
+        <item>@string/hr_section_other</item>
+    </string-array>
+    <string-array name="hr_sport">
+        <item>Heart rate zone: Light</item>
+        <item>Heart rate zone: Weight</item>
+        <item>Heart rate zone: Aerobic</item>
+        <item>Heart rate zone: Anaerobic</item>
+        <item>Heart rate zone: VO₂ max</item>
+    </string-array>
+    <string-array name="hr_sport_new">
+        <item>Light</item>
+        <item>Weight</item>
+        <item>Aerobic</item>
+        <item>Anaerobic</item>
+        <item>VO₂ max</item>
+    </string-array>
+    <string-array name="lock_screen_type">
+        <item>Close</item>
+        <item>Near</item>
+        <item>Far</item>
+    </string-array>
+    <string-array name="member_add_weight_items">
+        <item>@string/member_add_weight_item_auto</item>
+        <item>@string/member_add_weight_item_manual</item>
+    </string-array>
+    <string-array name="mili_help_tips">
+        <item>"Tap the band to check if the device is charged before you pair a Mi Band 2 or other bands.
+
+Charge the band before you pair a Mi Band or Mi Band Pulse."</item>
+        <item>Turn off Bluetooth first, then pair with current device.</item>
+        <item>လက်ပတ်ကို အားသွင်းထားသော်လည်း ဖုန်းမှ မတွေ့ပါက ဘလူးတုသ်ကို ပိတ်၍ပြန်ဖွင့်ကြည့်ပါ။</item>
+        <item>"If restarting Bluetooth doesn't solve the problem, try rebooting phone."</item>
+    </string-array>
+    <string-array name="mili_help_title">
+        <item>Is your band charged?</item>
+        <item>ဤလက်ပတ်အား အခြားစက်နှင့် တွဲထားပါသလား?</item>
+        <item>Try restarting Bluetooth</item>
+        <item>Try rebooting your phone</item>
+    </string-array>
+    <string-array name="mili_pro_display_items">
+        <item>အချိန်</item>
+        <item>ခြေလှမ်းများ</item>
+        <item>အကွာအဝေး</item>
+        <item>ကယ်လိုရီ</item>
+        <item>နှလုံးခုန်နှုန်း</item>
+        <item>ဘက်ထရီ</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="muscle_content_leval">
+        <item>Insufficient</item>
+        <item>Normal</item>
+        <item>Good</item>
+    </string-array>
+    <string-array name="ring_types">
+        <item>@string/ring_type_default</item>
+        <item>@string/ring_type_incall</item>
+    </string-array>
+    <string-array name="running_months">
+        <item>ဇန်</item>
+        <item>ဖေ</item>
+        <item>မတ်</item>
+        <item>ဧပြီ</item>
+        <item>မေ</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>နို</item>
+        <item>ဒီ</item>
+    </string-array>
+    <string-array name="setting_hr_freq_types">
+        <item>@string/setting_heartrate_detect_freq_1</item>
+        <item>@string/setting_heartrate_detect_freq_10</item>
+        <item>@string/setting_heartrate_detect_freq_30</item>
+    </string-array>
+    <string-array name="setting_hr_types">
+        <item>@string/setting_heartrate_detect_auto</item>
+        <item>@string/setting_heartrate_detect_sleep</item>
+        <item>@string/setting_heartrate_detect_close</item>
+    </string-array>
+    <string-array name="setting_peyto_apps_array">
+        <item>လက်ပတ်နာရီမျက်နှာပြင်</item>
+        <item>Status</item>
+        <item>Activities</item>
+        <item>Weather</item>
+        <item>Alarm</item>
+        <item>တိုင်မာ</item>
+        <item>Compass</item>
+        <item>More settings</item>
+    </string-array>
+    <string-array name="setting_tempo_apps_array">
+        <item>လက်ပတ်နာရီမျက်နှာပြင်</item>
+        <item>Status</item>
+        <item>Notifications</item>
+        <item>Activities</item>
+        <item>Weather</item>
+        <item>Alarm</item>
+        <item>တိုင်မာ</item>
+        <item>Settings</item>
+    </string-array>
+    <string-array name="setting_weather_temp_unit_array">
+        <item>@string/setting_weather_temp_c</item>
+        <item>@string/setting_weather_temp_f</item>
+    </string-array>
+    <string-array name="shoes_help_tips">
+        <item>"Smart chip will stop working if you don't use it for a long time. Shake it and try again."</item>
+        <item>"Amazfit Smart Chip battery life is 1 year. If you've been using it for a longer period, maybe there's no power left."</item>
+        <item>Turn off Bluetooth first, then pair with current device.</item>
+        <item>"If the smart chip is charged, but can't be detected when you bring the phone close to it, try rebooting the phone's Bluetooth."</item>
+        <item>"If restarting Bluetooth doesn't solve the problem, try rebooting phone."</item>
+        <item>Tap the running shoes data and enter the next activity page to sync data automatically</item>
+    </string-array>
+    <string-array name="shoes_help_title">
+        <item>စမတ်ချစ်ပ်ပြားကို လှုပ်ခါပါ</item>
+        <item>Is the battery charged?</item>
+        <item>ဤစမတ်ချစ်ပ်ပြားအား အခြားစက်များနှင့် တွဲထားပါသလား?</item>
+        <item>Restart Bluetooth</item>
+        <item>Try rebooting your phone</item>
+        <item>How to sync your data?</item>
+    </string-array>
+    <string-array name="show_body_shape_array">
+        <item>Obese</item>
+        <item>Overweight</item>
+        <item>Thick-set</item>
+        <item>"Lacks
+exercise"</item>
+        <item>Balanced</item>
+        <item>"Balanced
+muscular"</item>
+        <item>Skinny</item>
+        <item>"Balanced
+skinny"</item>
+        <item>"Skinny
+muscular"</item>
+    </string-array>
+    <string-array name="timeline_type">
+        <item>Activity</item>
+        <item>လမ်းဖြည်းဖြည်းလျှောက်နေသည်</item>
+        <item>လမ်းလျှောက်နေသည်</item>
+        <item>လမ်းမြန်မြန်လျှောက်နေသည်</item>
+        <item>ပြေးနေသည်</item>
+        <item>ရပ်နေသည်</item>
+        <item>Sitting</item>
+        <item>Light activity</item>
+        <item>Not wearing</item>
+        <item>အားသွင်းနေသည်…</item>
+        <item>Lying down</item>
+    </string-array>
+    <string-array name="train_difficulity">
+        <item>အကန့်အသတ်မရှိ</item>
+        <item>အခြေခံအဆင့် ၁</item>
+        <item>အလတ်တန်းအဆင့် ၂</item>
+        <item>တန်းမြင့်အဆင့် ၃</item>
+    </string-array>
+    <string-array name="unbind_device_description">
+        <item>@string/device_band</item>
+        <item>@string/device_weight</item>
+        <item>@string/device_shoe</item>
+        <item>@string/device_watch</item>
+    </string-array>
+    <string-array name="visceral_fat_leval">
+        <item>Normal</item>
+        <item>High</item>
+        <item>Very high</item>
+    </string-array>
+    <string-array name="water_leval">
+        <item>Insufficient</item>
+        <item>Normal</item>
+        <item>Good</item>
+    </string-array>
+    <string-array name="wear_type">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+    </string-array>
+    <string-array name="wear_type_body">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="wear_type_chest">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/chest</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>တ</item>
+        <item>တ</item>
+        <item>အ</item>
+        <item>ဗ</item>
+        <item>က</item>
+        <item>သ</item>
+        <item>စ</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>တနင်္လာ</item>
+        <item>အင်္ဂါ</item>
+        <item>ဗုဒ္ဓဟူး</item>
+        <item>ကြာသပတေး</item>
+        <item>သောကြာ</item>
+        <item>စနေ</item>
+        <item>တနင်္ဂနွေ</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+    <string-array name="weight3_body_figures">
+        <item>Underweight</item>
+        <item>Balanced</item>
+        <item>Overweight</item>
+        <item>Obese</item>
+    </string-array>
+    <string-array name="weight_bfs_help_tips">
+        <item>Turn off Bluetooth first, then pair with current device.</item>
+        <item>Step on the scale to check if it shows your weight. If it displays a battery icon, replace the batteries.</item>
+        <item>"If there's no response when you step on the scale, check if the batteries are installed properly."</item>
+        <item>ဘက်ထရီကို အားသွင်းထား၍ ဖုန်းအနားတွင်ထားသော်လည်း စက်အား ရှာမတွေ့ပါက ဘလူးတုသ်ကို ပိတ်၍ပြန်ဖွင့်ကြည့်ပါ။</item>
+        <item>"If restarting Bluetooth doesn't solve the problem, try rebooting the phone."</item>
+    </string-array>
+    <string-array name="weight_bfs_help_title">
+        <item>ဤပေါင်ချိန်စက်အား အခြားစက်နှင့် တွဲထားပါသလား?</item>
+        <item>"Check the scale's battery"</item>
+        <item>Are the batteries installed properly?</item>
+        <item>Try restarting Bluetooth</item>
+        <item>Try rebooting your phone</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>ပုံမှန်</item>
+        <item>Overweight</item>
+        <item>Obese</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_not_chinese">
+        <item>Underweight</item>
+        <item>ပုံမှန်</item>
+        <item>Overweight</item>
+        <item>Obese I</item>
+        <item>Obese II</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>" kg"</item>
+        <item>" Jin"</item>
+        <item>" lbs"</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+        <item>@string/weight_bfs_unit_jin</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array_no_jin">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+    </string-array>
+</resources>

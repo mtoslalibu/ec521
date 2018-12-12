@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/unlock_distance_layout" android:background="@color/white100" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="64.0dip" android:paddingStart="18.0dip" android:paddingEnd="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="62.299988dip">
+        <TextView android:textSize="@dimen/item_title_size" android:textColor="@color/black70" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.799988dip" android:text="@string/unlock_distance" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+        <TextView android:textSize="@dimen/logout_content_text_size" android:textColor="@color/black40" android:id="@id/distance_sub_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.6999817dip" android:text="@string/unlock_distance_content" android:layout_below="@id/title" android:layout_alignParentStart="true" />
+        <TextView android:textSize="11.299988sp" android:textColor="@color/black40" android:id="@id/distance_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="3.2999878dip" android:layout_toStartOf="@id/arrow_iv" />
+        <ImageView android:id="@id/arrow_iv" android:background="@drawable/default_end_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:background="@color/black20" android:layout_width="fill_parent" android:layout_height="0.30000007dip" />
+</LinearLayout>

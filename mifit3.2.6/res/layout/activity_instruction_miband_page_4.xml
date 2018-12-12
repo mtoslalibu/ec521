@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/common_light_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="26.699982sp" android:textColor="@color/white_90_percent" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mine_status_notify" />
+    <TextView android:textSize="12.699982sp" android:textColor="@color/white_40_percent" android:id="@id/instruction_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="358.0dip" android:text="@string/day_step_reach_goal" android:layout_below="@id/title" android:layout_centerHorizontal="true" />
+    <TextView android:textColor="@color/white_40_percent" android:id="@id/more_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="69.0dip" android:text="@string/more_icon_tips" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

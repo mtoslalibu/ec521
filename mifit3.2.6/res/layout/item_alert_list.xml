@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_item" android:layout_width="fill_parent" android:layout_height="58.0dip" android:paddingStart="19.0dip" android:paddingEnd="19.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/alert_list_item_logo" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/black70" android:gravity="center" android:id="@id/alert_list_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="11.0dip" android:layout_toEndOf="@id/alert_list_item_logo" />
+    <ImageView android:id="@id/alert_list_item_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/default_end_arrow" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/black60" android:gravity="center" android:id="@id/alert_list_item_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="3.2999878dip" android:layout_toStartOf="@id/alert_list_item_more" />
+    <View android:background="@color/divide" android:layout_width="fill_parent" android:layout_height="@dimen/divider" android:layout_alignParentBottom="true" />
+</RelativeLayout>

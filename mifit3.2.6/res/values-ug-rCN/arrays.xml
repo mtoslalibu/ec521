@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="avoid_type">
+        <item>@string/state_close</item>
+        <item>@string/avoid_enable_smart</item>
+        <item>@string/avoid_enable_time</item>
+    </string-array>
+    <string-array name="avoid_type_sub">
+        <item></item>
+        <item>@string/avoid_enable_smart_sub</item>
+        <item>@string/avoid_enable_time_sub</item>
+    </string-array>
+    <string-array name="bmi_for_adualt">
+        <item>تۆۋەن</item>
+        <item>ئۆلچەملىك</item>
+        <item>يۇقىرى</item>
+        <item>يۇقىرى</item>
+    </string-array>
+    <string-array name="bmi_for_child">
+        <item>ئۆلچەملىك</item>
+        <item>يۇقىرى</item>
+        <item>يۇقىرى</item>
+    </string-array>
+    <string-array name="bmi_for_not_chinese">
+        <item>تۆۋەن</item>
+        <item>ئۆلچەملىك</item>
+        <item>يۇقىرى</item>
+        <item>يۇقىرى</item>
+        <item>بەك يۇقىرى</item>
+    </string-array>
+    <string-array name="body_score_leval">
+        <item>بەك ناچار</item>
+        <item>ناچار</item>
+        <item>ئادەتتىكى</item>
+        <item>ياخشى</item>
+        <item>ئەلا</item>
+    </string-array>
+    <string-array name="body_shape_type_array">
+        <item>ئورۇقراق</item>
+        <item>ئورۇقراق مۇسكۇللۇق تىپ</item>
+        <item>ساغلام مۇسكۇللۇق تىپ</item>
+        <item>مۇسكۇل كەمچىل تىپ</item>
+        <item>ئۆلچەملىك تىپ</item>
+        <item>نورمال مۇسكۇللۇق تىپ</item>
+        <item>يوشۇرۇن سېمىز تىپ</item>
+        <item>سېمىزراق</item>
+        <item>ساغلام سېمىزراق</item>
+    </string-array>
+    <string-array name="bodyfat_content_leval">
+        <item>تۆۋەن</item>
+        <item>تۆۋەن</item>
+        <item>ئۆلچەملىك</item>
+        <item>يۇقىرى</item>
+        <item>يۇقىرى</item>
+    </string-array>
+    <string-array name="bone_leval">
+        <item>يېتىشمەيدۇ</item>
+        <item>ئۆلچەملىك</item>
+        <item>ئەلا</item>
+    </string-array>
+    <string-array name="brm_leval">
+        <item>ئۆلچەمگە يەتمىگەن</item>
+        <item>ئۆلچەمگە يەتكەن</item>
+    </string-array>
+    <string-array name="chaohu_help_tips">
+        <item>سائەت كونۇپكىسىنى بېسىڭ،ئېكران يورىمىسا،توكقا ئۇلاپ توك بارلىقىغا كاپالەتلىك قىلىڭ</item>
+        <item>بۇ يانفوندىن كۆكچىشنى ئۈزىۋىتىپ، ئاندىن باياقى يانفونغا باغلاڭ</item>
+        <item>ئەگەر سائەتتە توك تۇرۇپ، ئەتىراپتىن بىلەيزۈكنى تاپالمىسا، كۆكچىشنى قايتا قوزغىتىپ سىناڭ</item>
+        <item>ئەگەر كۆكچىشنى قايتا قوزغىتىش ئۈنۈمسىز بولسا، يانفوننى قايتا قوزغىتىڭ</item>
+        <item>سائەت ھەرىكەت جەريانىدا،App سائەتتىكى سانلىق مەلۇماتنى ماس قەدەملىيەلمەيدۇ،ھەرىكەتتىن كېيىن ماس قەدەملەڭ</item>
+    </string-array>
+    <string-array name="chaohu_help_title">
+        <item>توك بارمۇ</item>
+        <item>ئەتىراپتىكى باشقا تېلېفون بىلەيزۈككە ئۇلانغانمۇ？</item>
+        <item>كۆكچىشنى قايتا قوزغىتىپ سىناڭ</item>
+        <item>تېلېفوننى قايتا قوزغىتىپ سىناڭ</item>
+        <item>ھەرىكەت قىلىۋاتقاندا ماس قەدەملىگىلى بولمايدۇ</item>
+    </string-array>
+    <string-array name="chaohu_setting_run_types">
+        <item>@string/chaohu_setting_run_outdoor</item>
+        <item>@string/chaohu_setting_run_indoor</item>
+        <item>@string/chaohu_setting_run_ride</item>
+        <item>@string/chaohu_setting_run_walk</item>
+    </string-array>
+    <string-array name="colors">
+        <item>@string/blue</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/red</item>
+    </string-array>
+    <string-array name="common_cities">
+        <item>گۇاڭجۇ</item>
+        <item>شىنجىن</item>
+        <item>فۇشەن</item>
+        <item>دوڭۋەن </item>
+        <item>بېيجىڭ</item>
+        <item>نەنجىڭ</item>
+        <item>سۇجوۋ</item>
+        <item>چاڭجو </item>
+        <item>جىنەن</item>
+        <item>چىڭداۋ</item>
+        <item>خاڭجۇ</item>
+        <item>نىڭبو </item>
+        <item>جىڭجوۋ</item>
+        <item>كەي فېڭ</item>
+        <item>شاڭخەي</item>
+        <item>شىجياجۇاڭ</item>
+        <item>باۋ دىڭ</item>
+        <item>چىڭدۇ</item>
+        <item>ميەنياڭ </item>
+        <item>شىنياڭ</item>
+        <item>داليەن </item>
+    </string-array>
+    <string-array name="difficulty_content">
+        <item>رەسمىي مەشىق قىلىپ باقمىغان</item>
+        <item>ئازراق مەشىق ئاساسىي بار</item>
+        <item>مول بولغان مەشىق ئاساسىي،جەلپ قىلارلىق بەدەن شەكلى بار</item>
+    </string-array>
+    <string-array name="difficulty_title">
+        <item>دەسلەپكى</item>
+        <item>ئوتتۇرھال</item>
+        <item>يۇقىرى</item>
+    </string-array>
+    <string-array name="fitness_goal_content">
+        <item>سەل سېمىز،ئورۇقلىشىڭىزنى ئۈمۈد قىلىمەن</item>
+        <item>بەدەن شەكلى بەك پەيزى</item>
+        <item>ساغلام مۇسكۇلغا ئېرىشىشنى ئۈمۈد قىلىمەن</item>
+    </string-array>
+    <string-array name="fitness_goal_title">
+        <item>ماينى ئازايتىش</item>
+        <item>تەسۋىر</item>
+        <item>مۇسكۇل كۆپەيتىش</item>
+    </string-array>
+    <string-array name="ges_screen_type">
+        <item>@string/ges_screen_type_all_day</item>
+        <item>@string/ges_screen_type_time</item>
+        <item>@string/ges_screen_type_close</item>
+    </string-array>
+    <string-array name="hr_section">
+        <item>@string/hr_section_warm_up</item>
+        <item>@string/hr_section_fat_burn</item>
+        <item>@string/hr_section_heart_lung_strengthen</item>
+        <item>@string/hr_section_stamina_strengthen</item>
+        <item>@string/hr_section_anaerobic_limit</item>
+        <item>@string/hr_section_other</item>
+    </string-array>
+    <string-array name="hr_sport">
+        <item>يۈرەك سوقۇش رايونى: ئەركىن بەدەن قىزىتىش</item>
+        <item>يۈرەك سوقۇش رايونى: ياغنى كۆيدۈرۈش</item>
+        <item>يۈرەك سوقۇش رايۇنى: ئۆپكى يۈرەكنى كۈچەيتىش</item>
+        <item>يۈرەك سوقۇش رايۇنى: چىدامچانلىقنى كۈچەيتىش</item>
+        <item>يۈرەك سوقۇش رايۇنى: ئوكسېگىنسىز چەك</item>
+    </string-array>
+    <string-array name="hr_sport_new">
+        <item>ئەركىن بەدەن قىزىتىش</item>
+        <item>ياغنى كۆيدۈرۈش</item>
+        <item>ئۆپكى يۈرەكنى كۈچەيتىش</item>
+        <item>چىدامچانلىقنى ئاشۇرۇش</item>
+        <item>ئوكسېگىنسىز چەك</item>
+    </string-array>
+    <string-array name="lock_screen_type">
+        <item>يېقىنلىتىش</item>
+        <item>ئوتتۇرا</item>
+        <item>يىراقلىتىش</item>
+    </string-array>
+    <string-array name="member_add_weight_items">
+        <item>@string/member_add_weight_item_auto</item>
+        <item>@string/member_add_weight_item_manual</item>
+    </string-array>
+    <string-array name="mili_help_tips">
+        <item>"شياۋمى بىلەيزكى 2 ياكى باشقا بىلەيزۈكىنى باغلىماقچى بولسىڭىز،ئاۋۋال بىلەيزۈك كونۇپكىسىنى چېكىپ سىناپ بېقىڭ،ئەگەر ئېكران يورىمىسا،بىلەيزۈكنى زەرەتلىگۈچكە چېتىپ زەرەتلەڭ،توكى بارلىقىغا كاپالەتلىك قىلىڭ.
+
+ ئەگەر شياۋمى بىلەيزۈكى ياكى شياۋمى بىلەيزۈكى نۇر نەشىرى بولسا،زەرەتلىگۈچ ئۈستىگە قويۇپ،توكى بارلىقىغا كاپالەتلىك قىلىڭ"</item>
+        <item>بۇ يانفوندىن كۆكچىشنى ئۈزىۋىتىپ، ئاندىن باياقى يانفونغا باغلاڭ</item>
+        <item>ئەگەر بىلەيزۈكتە توك تۇرۇپ، ئەتىراپتىن بىلەيزۈكنى تاپالمىسا، كۆكچىشنى قايتا قوزغىتىپ سىناڭ</item>
+        <item>ئەگەر كۆكچىشنى قايتا قوزغىتىش ئۈنۈمسىز بولسا، تېلېفوننى قايتا قوزغىتىڭ</item>
+    </string-array>
+    <string-array name="mili_help_title">
+        <item>بىلەيزۈكتە توك بارمۇ؟</item>
+        <item>ئەتىراپتىكى باشقا تېلېفون بىلەيزۈككە ئۇلانغانمۇ؟</item>
+        <item>كۆكچىشنى قايتا قوزغىتىپ سىناڭ</item>
+        <item>تېلېفوننى قايتا قوزغىتىپ سىناڭ</item>
+    </string-array>
+    <string-array name="mili_pro_display_items">
+        <item>ۋاقىت</item>
+        <item>قەدەم سانى</item>
+        <item>مۇساپە</item>
+        <item>ئىسسىقلىق مىقدارى</item>
+        <item>يۈرەك رىتىمى</item>
+        <item>قالغان توك مىقدارى</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>يانىۋار</item>
+        <item>فېۋىرال</item>
+        <item>مارىت</item>
+        <item>ئاپىرىل</item>
+        <item>ماي</item>
+        <item>ئىيۇل</item>
+        <item>ئىيۇن</item>
+        <item>ئاۋغۇست</item>
+        <item>سىنتەبىر</item>
+        <item>ئۆكتەبىر</item>
+        <item>نويابىر</item>
+        <item>دېكابىر</item>
+    </string-array>
+    <string-array name="muscle_content_leval">
+        <item>يېتىشمەيدۇ</item>
+        <item>ئۆلچەملىك</item>
+        <item>ئەلا</item>
+    </string-array>
+    <string-array name="ring_types">
+        <item>@string/ring_type_default</item>
+        <item>@string/ring_type_incall</item>
+    </string-array>
+    <string-array name="running_months">
+        <item>1-ئاي</item>
+        <item>2-ئاي</item>
+        <item>3-ئاي</item>
+        <item>4-ئاي</item>
+        <item>5-ئاي</item>
+        <item>6-ئاي</item>
+        <item>7-ئاي</item>
+        <item>8-ئاي</item>
+        <item>9-ئاي</item>
+        <item>10-ئاي</item>
+        <item>11-ئاي</item>
+        <item>12-ئاي</item>
+    </string-array>
+    <string-array name="setting_hr_freq_types">
+        <item>@string/setting_heartrate_detect_freq_1</item>
+        <item>@string/setting_heartrate_detect_freq_10</item>
+        <item>@string/setting_heartrate_detect_freq_30</item>
+    </string-array>
+    <string-array name="setting_hr_types">
+        <item>@string/setting_heartrate_detect_auto</item>
+        <item>@string/setting_heartrate_detect_sleep</item>
+        <item>@string/setting_heartrate_detect_close</item>
+    </string-array>
+    <string-array name="setting_peyto_apps_array">
+        <item>سائەت يۈزى</item>
+        <item>ھالىتى</item>
+        <item>ھەرىكىتى</item>
+        <item>ھاۋارايى</item>
+        <item>قوڭغۇراق</item>
+        <item>ھېسابلىغۇچ</item>
+        <item>كومپاس</item>
+        <item>تەڭشەك</item>
+    </string-array>
+    <string-array name="setting_tempo_apps_array">
+        <item>سائەت يۈزى</item>
+        <item>ھالىتى</item>
+        <item>ئۇقتۇرۇش</item>
+        <item>ھەرىكىتى</item>
+        <item>ھاۋارايى</item>
+        <item>قوڭغۇراق</item>
+        <item>ۋاقىت ھېسابلىغۇچ</item>
+        <item>تەڭشەش</item>
+    </string-array>
+    <string-array name="setting_weather_temp_unit_array">
+        <item>@string/setting_weather_temp_c</item>
+        <item>@string/setting_weather_temp_f</item>
+    </string-array>
+    <string-array name="shoes_help_tips">
+        <item>ئۆزەكنى ئۇزۇن مۇددەت ئىشلەتمىسە خىزمەتتىن توختايدۇ،شۇڭا ئۆزەكنى سىلكىپ ئاندىن ئىشلىتىڭ</item>
+        <item>خۇۋمى ئەقلى ئۆزەكنىڭ ئىشلىتىش ۋاقتى بىر يىل، ئەگەر ۋاقتى ئۆتكەن بولسا، بەلكىم توكى قالمىدى</item>
+        <item>بۇ يانفوندىن كۆكچىشنى ئۈزىۋىتىپ، ئاندىن باياقى يانفونغا باغلاڭ</item>
+        <item>ئەگەر بىلەيزۈكتە توك تۇرۇپ، ئەتىراپتىن بىلەيزۈكنى تاپالمىسا، كۆكچىشنى قايتا قوزغىتىپ سىناڭ</item>
+        <item>ئەگەر كۆكچىشنى قايتا قوزغىتىش ئۈنۈمسىز بولسا، يانفوننى قايتا قوزغىتىڭ</item>
+        <item>باش بەتتىكى يۈگۈرۈش ئايىقى كۆرسەتكەن سانلىق مەلۇمات ئېغىزىغا كىرىپ،تەپسىلىي بېتىگە كىرسە ئاپتوماتىك ماس قەدەملەيدۇ</item>
+    </string-array>
+    <string-array name="shoes_help_title">
+        <item>ئەقلى ئۆزەكنى تەۋرىتىڭ</item>
+        <item>ئۆزەكتە توك بارمۇ يوق</item>
+        <item>ئەتراپتىكى باشقا يانفونلار ئۇلىنىپ باققانمۇ؟</item>
+        <item>كۆكچىشنى قايتا قوزغىتىپ سىناڭ</item>
+        <item>يانفوننى قايتا قوزغىتىپ سىناڭ</item>
+        <item>قانداق ماس قەدەملەيمىز</item>
+    </string-array>
+    <string-array name="show_body_shape_array">
+        <item>يوشۇرۇن سېمىزلىك</item>
+        <item>سېمىزراق</item>
+        <item>قاۋۇل تىپتىكى سېمىزراق</item>
+        <item>"
+ ھەرىكەت تۈرى كەمچىل"</item>
+        <item>ئۆلچەملىك تىپ</item>
+        <item>"نورمال
+مۇسكۇللۇق تىپ"</item>
+        <item>ئورۇقراق</item>
+        <item>"ئورۇقراق
+مۇسكۇللۇق تىپ"</item>
+        <item>"ساغلام 
+مۇسكۇللۇق تىپ"</item>
+    </string-array>
+    <string-array name="timeline_type">
+        <item>پائالىيەت</item>
+        <item>ئاستا مېڭىش</item>
+        <item>مېڭىش</item>
+        <item>تېز مېڭىش</item>
+        <item>يۈگۈرۈش</item>
+        <item>جىم تۇرۇش</item>
+        <item>ئولتۇرۇش</item>
+        <item>ينىك ھەرىكەت</item>
+        <item>تاقىمىغان</item>
+        <item>زەرەتلىنىۋاتىدۇ</item>
+        <item>ياتقۇزۇش</item>
+    </string-array>
+    <string-array name="train_difficulity">
+        <item>قىيىنلىقى چەكلەنمەيدۇ</item>
+        <item>دەسلەپكى،1</item>
+        <item>ئوتتۇرھال،2</item>
+        <item>يۇقىرى،3</item>
+    </string-array>
+    <string-array name="unbind_device_description">
+        <item>@string/device_band</item>
+        <item>@string/device_weight</item>
+        <item>@string/device_shoe</item>
+        <item>@string/device_watch</item>
+    </string-array>
+    <string-array name="visceral_fat_leval">
+        <item>ئۆلچەملىك</item>
+        <item>يۇقىرىراق</item>
+        <item>يۇقىرى</item>
+    </string-array>
+    <string-array name="water_leval">
+        <item>يېتىشمەيدۇ</item>
+        <item>ئۆلچەملىك</item>
+        <item>ئەلا</item>
+    </string-array>
+    <string-array name="wear_type">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+    </string-array>
+    <string-array name="wear_type_body">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="wear_type_chest">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/chest</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>يەكشەنبە</item>
+        <item>دۈشەنبە</item>
+        <item>سەيشەنبە</item>
+        <item>چارشەنبە</item>
+        <item>پەيشەنبە</item>
+        <item>جۈمە</item>
+        <item>شەنبە</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>دۈشەنبە</item>
+        <item>سەيشەنبە</item>
+        <item>چارشەنبە</item>
+        <item>پەيشەنبە</item>
+        <item>جۈمە</item>
+        <item>شەنبە</item>
+        <item>يەكشەنبە</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>دۈشەنبە</item>
+        <item>سەيشەنبە</item>
+        <item>چارشەنبە</item>
+        <item>پەيشەنبە</item>
+        <item>جۈمە</item>
+        <item>شەنبە</item>
+        <item>يەكشەنبە</item>
+    </string-array>
+    <string-array name="weight3_body_figures">
+        <item>يېنىكرەك</item>
+        <item>ئۆلچەملىك</item>
+        <item>ئېغىرراق</item>
+        <item>بەك ئېغىر</item>
+    </string-array>
+    <string-array name="weight_bfs_help_tips">
+        <item>بۇ يانفوندىن كۆكچىشنى ئۈزىۋىتىپ، ئاندىن باياقى يانفونغا باغلاڭ</item>
+        <item>تارازىغا چىقىپ ئۆلچەپ بېقىڭ ئېغىرلىقنى كۆرسىتەلمىسە باتارىيەنى ئالماشتۇرۇپ سىناپ بېقىڭ</item>
+        <item>ئەگەر تارازىدا تىك تۇرسىڭىز ھېچقانداق ئىنكاس بولمىسا، باتارىيە قېپىنى ئېچىپ باتارىيەنىڭ توغرا ئورۇنتۇلغان ئەمەسلىكىنى تەكشۈرۈڭ</item>
+        <item>ئەگەر توك بار تۇرۇپ يانفون ئەتىراپتىن ئىزدەپ تاپالمىسا، يانفون كۆكچىشىنى قايتا قوزغىتىپ سىناڭ</item>
+        <item>ئەگەر كۆكچىشنى قايتا قوزغىتىش ئۈنۈمسىز بولسا، يانفوننى قايتا قوزغىتىڭ</item>
+    </string-array>
+    <string-array name="weight_bfs_help_title">
+        <item>ئەتراپتىكى باشقا يانفونلارغا بۇرۇن ئۇلىنىپ باققانمۇ؟</item>
+        <item>باتارىيە توك مىقتارى يېتەمدۇ؟</item>
+        <item>باتارىيە ئورنىتىش توغرىمۇ؟</item>
+        <item>كۆكچىشنى قايتا قوزغىتىپ سىناڭ</item>
+        <item>تېلېفوننى قايتا قوزغىتىپ سىناڭ</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>نورمال</item>
+        <item>ئېغىرلاش</item>
+        <item>ۋەكشى سېمىرىش</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_not_chinese">
+        <item>يەڭگىللەش</item>
+        <item>نورمال</item>
+        <item>ئېغىرلاش</item>
+        <item>ۋەكشى سېمىرىش</item>
+        <item>ۋەھشى سېمىز</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>كېلو</item>
+        <item>جىڭ</item>
+        <item>قاداق</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+        <item>@string/weight_bfs_unit_jin</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array_no_jin">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+    </string-array>
+</resources>

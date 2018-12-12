@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:background="#e6434649" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/type_title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/type_close_button" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_close" android:scaleType="centerInside" android:layout_centerVertical="true" android:layout_marginEnd="12.0dip" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white100" android:ellipsize="end" android:gravity="center" android:id="@id/type_title" android:layout_width="wrap_content" android:layout_height="32.0dip" android:text="all Types" android:maxLines="1" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <GridView android:id="@id/sport_type_grid_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="130.0dip" android:listSelector="#00000000" android:horizontalSpacing="36.0dip" android:verticalSpacing="48.0dip" android:stretchMode="columnWidth" android:columnWidth="70.0dip" android:numColumns="auto_fit" android:layout_below="@id/type_title_layout" android:layout_centerInParent="true" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+</RelativeLayout>

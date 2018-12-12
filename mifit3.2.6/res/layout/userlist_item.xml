@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="55.0dip" android:layout_height="149.29999dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.hm.health.baseui.circleimageview.HMCircleImageView android:id="@id/user_icon" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_marginTop="42.0dip" android:src="@drawable/setting_avatar_default" android:layout_centerHorizontal="true" app:civ_border_width="1.2999878dip" app:civ_border_color="@color/white_60" app:civ_fill_color="@color/white60" app:hm_civ_border_color_touch="@color/origin100" />
+    <TextView android:textSize="11.299988sp" android:textColor="@color/black_40_percent" android:ellipsize="end" android:gravity="center" android:id="@id/user_list_item_name" android:layout_width="55.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:maxLines="1" android:layout_below="@id/user_icon" />
+</RelativeLayout>

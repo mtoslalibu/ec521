@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:orientation="horizontal" android:background="@drawable/bg_item" android:clickable="true" android:layout_width="fill_parent" android:layout_height="62.299988dip" android:paddingStart="@dimen/common_item_padding" android:paddingEnd="@dimen/common_item_padding">
+        <LinearLayout android:orientation="vertical" android:layout_width="270.0dip" android:layout_height="wrap_content" android:layout_marginTop="15.299988dip">
+            <TextView android:textSize="14.699982sp" android:textColor="@color/black70" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/notification_switch_title" />
+            <TextView android:textSize="11.299988sp" android:textColor="@color/black40" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.6999817dip" android:text="@string/notification_switch_subtitle" />
+        </LinearLayout>
+        <android.support.v7.widget.SwitchCompat android:layout_gravity="end|center" android:id="@id/notifi_switch" android:focusable="false" android:clickable="true" android:layout_width="40.0dip" android:layout_height="21.0dip" style="@style/switchStyle" />
+    </FrameLayout>
+    <View android:background="@color/divide" android:layout_width="fill_parent" android:layout_height="@dimen/divider" android:layout_marginStart="@dimen/common_item_padding" android:layout_marginEnd="@dimen/common_item_padding" />
+</LinearLayout>

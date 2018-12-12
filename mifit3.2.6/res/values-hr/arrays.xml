@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="avoid_type">
+        <item>@string/state_close</item>
+        <item>@string/avoid_enable_smart</item>
+        <item>@string/avoid_enable_time</item>
+    </string-array>
+    <string-array name="avoid_type_sub">
+        <item></item>
+        <item>@string/avoid_enable_smart_sub</item>
+        <item>@string/avoid_enable_time_sub</item>
+    </string-array>
+    <string-array name="bmi_for_adualt">
+        <item>Niska</item>
+        <item>Normalna</item>
+        <item>Visoka</item>
+        <item>Vrlo visoka</item>
+    </string-array>
+    <string-array name="bmi_for_child">
+        <item>Normalna</item>
+        <item>Visoka</item>
+        <item>Vrlo visoka</item>
+    </string-array>
+    <string-array name="bmi_for_not_chinese">
+        <item>Niski</item>
+        <item>Normalna</item>
+        <item>Povećani</item>
+        <item>Visoki</item>
+        <item>Vrlo visoki</item>
+    </string-array>
+    <string-array name="body_score_leval">
+        <item>Jako loš</item>
+        <item>Loš</item>
+        <item>Normalna</item>
+        <item>Dobar</item>
+        <item>Izvrsno</item>
+    </string-array>
+    <string-array name="body_shape_type_array">
+        <item>Mršav</item>
+        <item>Uravnoteženo mršav</item>
+        <item>Mršavo mišićav</item>
+        <item>Nedostaje vježbanja</item>
+        <item>Uravnoteženo</item>
+        <item>Uravnoteženo mišićav</item>
+        <item>Pretilo</item>
+        <item>Pretilo</item>
+        <item>Zdepast</item>
+    </string-array>
+    <string-array name="bodyfat_content_leval">
+        <item>Jako niska</item>
+        <item>Niska</item>
+        <item>Normalna</item>
+        <item>Povećana</item>
+        <item>Visoka</item>
+    </string-array>
+    <string-array name="bone_leval">
+        <item>Nedovoljna</item>
+        <item>Normalna</item>
+        <item>Dobar</item>
+    </string-array>
+    <string-array name="brm_leval">
+        <item>Niste ostvarili ciljeve</item>
+        <item>Cilj postignut</item>
+    </string-array>
+    <string-array name="chaohu_help_tips">
+        <item>Pokušajte pritisnuti tipku na satu, ako je zaslon sata isključen, priključite ga na punjač.</item>
+        <item>Prvo isključite Bluetooth, zatim uparite sa trenutnim uređajem.</item>
+        <item>Ako je baterija napunjena, a telefon i dalje ne može pronaći, pokušajte isklju/uklj Bluetooth.</item>
+        <item>Ako isklj/uklj. Bluetootha ne riješi problem, pokušajte ponovno pokrenuti telefon.</item>
+        <item>Podaci sata ne mogu se sinkronizirati kada vježbate. Završite sesiju i pokušajte ponovo.</item>
+    </string-array>
+    <string-array name="chaohu_help_title">
+        <item>Je li baterija sata napunjena?</item>
+        <item>Je li sat uparen sa drugim uređajem?</item>
+        <item>Pokušajte isklj/uklj. Bluetooth</item>
+        <item>Pokušajte ponovo pokrenuti telefon</item>
+        <item>Ne mogu sinkronizirati podatke tijekom treninga</item>
+    </string-array>
+    <string-array name="chaohu_setting_run_types">
+        <item>@string/chaohu_setting_run_outdoor</item>
+        <item>@string/chaohu_setting_run_indoor</item>
+        <item>@string/chaohu_setting_run_ride</item>
+        <item>@string/chaohu_setting_run_walk</item>
+    </string-array>
+    <string-array name="colors">
+        <item>@string/blue</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/red</item>
+    </string-array>
+    <string-array name="common_cities">
+        <item>Guangzhou</item>
+        <item>Shenzhen</item>
+        <item>Foshan</item>
+        <item>Dongguan</item>
+        <item>Peking</item>
+        <item>Nanjing</item>
+        <item>Suzhou</item>
+        <item>Changzhou</item>
+        <item>Jinan</item>
+        <item>Qingdao</item>
+        <item>Hangzhou</item>
+        <item>Ningbo</item>
+        <item>Zhengzhou</item>
+        <item>Kaifeng</item>
+        <item>Shanghai</item>
+        <item>Shijiazhuang</item>
+        <item>Baoding</item>
+        <item>Chengdu</item>
+        <item>Mianyang</item>
+        <item>Shenyang</item>
+        <item>Dalian</item>
+    </string-array>
+    <string-array name="difficulty_content">
+        <item>Nova ruka za fitness trening</item>
+        <item>Osnovno fitness iskustvo</item>
+        <item>Bogato fitness iskustvo i dobra forma</item>
+    </string-array>
+    <string-array name="difficulty_title">
+        <item>Osnovno</item>
+        <item>Srednje</item>
+        <item>Napredno</item>
+    </string-array>
+    <string-array name="fitness_goal_content">
+        <item>S ciljem sagorijevanja masti</item>
+        <item>S ciljem oblikovanja tijela</item>
+        <item>S ciljem izgradnje mišića</item>
+    </string-array>
+    <string-array name="fitness_goal_title">
+        <item>Rezanje</item>
+        <item>Oblikovanje</item>
+        <item>Glomaznost</item>
+    </string-array>
+    <string-array name="ges_screen_type">
+        <item>@string/ges_screen_type_all_day</item>
+        <item>@string/ges_screen_type_time</item>
+        <item>@string/ges_screen_type_close</item>
+    </string-array>
+    <string-array name="hr_section">
+        <item>@string/hr_section_warm_up</item>
+        <item>@string/hr_section_fat_burn</item>
+        <item>@string/hr_section_heart_lung_strengthen</item>
+        <item>@string/hr_section_stamina_strengthen</item>
+        <item>@string/hr_section_anaerobic_limit</item>
+        <item>@string/hr_section_other</item>
+    </string-array>
+    <string-array name="hr_sport">
+        <item>Zona otkucaja srca: Lagana</item>
+        <item>Zona otkucaja srca: Težina</item>
+        <item>Zona otkucaja srca: Aerobna</item>
+        <item>Zona otkucaja srca: Anearobna</item>
+        <item>Zona otkucaja srca: VO₂ max</item>
+    </string-array>
+    <string-array name="hr_sport_new">
+        <item>Lagana</item>
+        <item>Težina</item>
+        <item>Aerobna</item>
+        <item>Anaerobna</item>
+        <item>VO₂ max</item>
+    </string-array>
+    <string-array name="lock_screen_type">
+        <item>Zatvori</item>
+        <item>Blizu</item>
+        <item>Daleko</item>
+    </string-array>
+    <string-array name="member_add_weight_items">
+        <item>@string/member_add_weight_item_auto</item>
+        <item>@string/member_add_weight_item_manual</item>
+    </string-array>
+    <string-array name="mili_help_tips">
+        <item>"Dodirnite Mi Band da provjerite ako je uređaj napunjen prije uparivanja Mi Band 2 ili drugog Mi Banda.
+
+Napunite Mi Band prije uparivanja Mi Banda ili Mi Band Pulse."</item>
+        <item>Prvo isključite Bluetooth, zatim uparite sa trenutnim uređajem.</item>
+        <item>Ako je baterija Mi Banda napunjena, ali ako ga telefon ne može vidjeti, pokušajte isklj/uklj Bluetooth</item>
+        <item>Ako isklj/uklj. Bluetootha ne riješi problem, pokušajte ponovno pokrenuti telefon.</item>
+    </string-array>
+    <string-array name="mili_help_title">
+        <item>Je li baterija Mi Banda napunjena?</item>
+        <item>Je li Mi Band uparen sa drugim uređajem?</item>
+        <item>Pokušajte isklj/uklj Bluetooth</item>
+        <item>Pokušajte ponovno pokrenuti telefon</item>
+    </string-array>
+    <string-array name="mili_pro_display_items">
+        <item>Vrijeme</item>
+        <item>Broj koraka</item>
+        <item>Udaljenost</item>
+        <item>Kalorije</item>
+        <item>Broj otkucaja srca</item>
+        <item>Baterija</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>Sij</item>
+        <item>Velj</item>
+        <item>Ožu</item>
+        <item>Tra</item>
+        <item>Svi</item>
+        <item>Lip</item>
+        <item>Srp</item>
+        <item>Kol</item>
+        <item>Ruj</item>
+        <item>Lis</item>
+        <item>Stu</item>
+        <item>Pro</item>
+    </string-array>
+    <string-array name="muscle_content_leval">
+        <item>Nedovoljna</item>
+        <item>Normalna</item>
+        <item>Dobar</item>
+    </string-array>
+    <string-array name="ring_types">
+        <item>@string/ring_type_default</item>
+        <item>@string/ring_type_incall</item>
+    </string-array>
+    <string-array name="running_months">
+        <item>Sij</item>
+        <item>Velj</item>
+        <item>Ožu</item>
+        <item>Tra</item>
+        <item>Svi</item>
+        <item>Lip</item>
+        <item>Srp</item>
+        <item>Kol</item>
+        <item>Ruj</item>
+        <item>Lis</item>
+        <item>Stu</item>
+        <item>Pro</item>
+    </string-array>
+    <string-array name="setting_hr_freq_types">
+        <item>@string/setting_heartrate_detect_freq_1</item>
+        <item>@string/setting_heartrate_detect_freq_10</item>
+        <item>@string/setting_heartrate_detect_freq_30</item>
+    </string-array>
+    <string-array name="setting_hr_types">
+        <item>@string/setting_heartrate_detect_auto</item>
+        <item>@string/setting_heartrate_detect_sleep</item>
+        <item>@string/setting_heartrate_detect_close</item>
+    </string-array>
+    <string-array name="setting_peyto_apps_array">
+        <item>Izgled sata</item>
+        <item>Status</item>
+        <item>Aktivnosti</item>
+        <item>Vrijeme</item>
+        <item>Alarm</item>
+        <item>Timer</item>
+        <item>Kompas</item>
+        <item>Dodatne postavke</item>
+    </string-array>
+    <string-array name="setting_tempo_apps_array">
+        <item>Izgled sata</item>
+        <item>Status</item>
+        <item>Obavijesti</item>
+        <item>Aktivnosti</item>
+        <item>Vrijeme</item>
+        <item>Alarm</item>
+        <item>Odbrojavanje</item>
+        <item>Postavke</item>
+    </string-array>
+    <string-array name="setting_weather_temp_unit_array">
+        <item>@string/setting_weather_temp_c</item>
+        <item>@string/setting_weather_temp_f</item>
+    </string-array>
+    <string-array name="shoes_help_tips">
+        <item>Smart chip će prestati raditi ako ne ga koristite duže vrijeme. Protresite ga i pokušajte ponovno.</item>
+        <item>Trajnost baterije Amazfit Smart Chip-a je 1 godina. Ako ste ga koristili duže vrijeme, možda je ostala bez energije.</item>
+        <item>Prvo isključite Bluetooth, zatim uparite sa trenutnim uređajem.</item>
+        <item>Ako je smart čip napunjen, ali ga se ne može otkriti kada približite telefon, pokušajte ponovno isključiti/uključiti Bluetooth.</item>
+        <item>Ako isklj/uklj Bluetootha ne riješi problem, pokušajte ponovno pokrenuti telefon</item>
+        <item>Dodirnite podatke tenisica i uđite u sljedeću stranicu aktivnosti za automatsku sinkronizaciju podataka</item>
+    </string-array>
+    <string-array name="shoes_help_title">
+        <item>Protresite smart chip</item>
+        <item>Da li je baterija napunjena?</item>
+        <item>Je li smart chip uparen sa drugim uređajem?</item>
+        <item>Isklj/uklj. Bluetooth</item>
+        <item>Try rebooting your phone</item>
+        <item>Kako sinkronizirati podatke?</item>
+    </string-array>
+    <string-array name="show_body_shape_array">
+        <item>Pretilo</item>
+        <item>Pretilo</item>
+        <item>Zdepast</item>
+        <item>"Nedostaje
+vježbanja"</item>
+        <item>Uravnoteženo</item>
+        <item>"Uravnoteženo
+mišićav"</item>
+        <item>Mršav</item>
+        <item>"Uravnoteženo
+mršav"</item>
+        <item>"Mršavo
+mišićav"</item>
+    </string-array>
+    <string-array name="timeline_type">
+        <item>Aktivnost</item>
+        <item>Sporo hodanje</item>
+        <item>Hodanje</item>
+        <item>Brzo hodanje</item>
+        <item>Trčanje</item>
+        <item>Stajanje</item>
+        <item>Sjedenje</item>
+        <item>Lagana aktivnost</item>
+        <item>Ne nosi se</item>
+        <item>Punjenje…</item>
+        <item>Ležanje</item>
+    </string-array>
+    <string-array name="train_difficulity">
+        <item>Bez ograničenja</item>
+        <item>Osnovno, 1</item>
+        <item>Srednje, 2</item>
+        <item>Napredno, 3</item>
+    </string-array>
+    <string-array name="unbind_device_description">
+        <item>@string/device_band</item>
+        <item>@string/device_weight</item>
+        <item>@string/device_shoe</item>
+        <item>@string/device_watch</item>
+    </string-array>
+    <string-array name="visceral_fat_leval">
+        <item>Normalna</item>
+        <item>Visoka</item>
+        <item>Vrlo visoka</item>
+    </string-array>
+    <string-array name="water_leval">
+        <item>Nedovoljna</item>
+        <item>Normalna</item>
+        <item>Dobar</item>
+    </string-array>
+    <string-array name="wear_type">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+    </string-array>
+    <string-array name="wear_type_body">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="wear_type_chest">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/chest</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>Ned</item>
+        <item>Pon</item>
+        <item>Uto</item>
+        <item>Sri</item>
+        <item>Čet</item>
+        <item>Pet</item>
+        <item>Sub</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>Pon.</item>
+        <item>Uto.</item>
+        <item>Sri.</item>
+        <item>Čet.</item>
+        <item>Pet.</item>
+        <item>Sub.</item>
+        <item>Ned.</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>Pon.</item>
+        <item>Uto.</item>
+        <item>Sri.</item>
+        <item>Čet.</item>
+        <item>Pet.</item>
+        <item>Sub.</item>
+        <item>Ned.</item>
+    </string-array>
+    <string-array name="weight3_body_figures">
+        <item>Pothranjeno</item>
+        <item>Uravnotežena</item>
+        <item>Pretilo</item>
+        <item>Pretilo</item>
+    </string-array>
+    <string-array name="weight_bfs_help_tips">
+        <item>Prvo isključite Bluetooth, zatim uparite sa trenutnim uređajem.</item>
+        <item>Stanite na vagu da provjerite da li pokazuje vašu težinu. Ako je prikazana ikona baterije, zamijenite baterije.</item>
+        <item>Ako nema odgovora kada ste stali na vagu, provjerite da li su baterije ispravno umetnute.</item>
+        <item>Ako je baterija napunjena, a još uvijek ne može pronaći uređaj nakon što približite telefon, pokušajte isključiti/uključiti Bluetooth.</item>
+        <item>Ako isklj/uklj. Bluetootha ne riješi problem, pokušajte ponovno pokrenuti telefon.</item>
+    </string-array>
+    <string-array name="weight_bfs_help_title">
+        <item>Je li vaga uparena s drugim uređajem?</item>
+        <item>Provjerite bateriju vage</item>
+        <item>Jesu li baterije ispravno umetnute?</item>
+        <item>Pokušajte isklj/uklj. Bluetooth</item>
+        <item>Pokušajte ponovo pokrenuti telefon</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>Normalno</item>
+        <item>Pretilo</item>
+        <item>Pretilo</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_not_chinese">
+        <item>Pothranjeno</item>
+        <item>Normalno</item>
+        <item>Pretilo</item>
+        <item>Pretilo I</item>
+        <item>Pretilo II</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>kg</item>
+        <item>" Jin"</item>
+        <item>lbs</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+        <item>@string/weight_bfs_unit_jin</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array_no_jin">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+    </string-array>
+</resources>

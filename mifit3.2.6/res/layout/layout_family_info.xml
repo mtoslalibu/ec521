@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@drawable/mine_head_bg_user" android:layout_width="fill_parent" android:layout_height="210.0dip">
+        <RelativeLayout android:id="@id/person_info_avatar_rl" android:layout_width="@dimen/person_avatar_size" android:layout_height="@dimen/person_avatar_size" android:layout_marginTop="76.0dip" android:layout_centerHorizontal="true">
+            <com.xiaomi.hm.health.baseui.circleimageview.HMCircleImageView android:id="@id/person_info_avatar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/setting_avatar_default" app:civ_border_width="1.2999878dip" app:civ_border_color="@color/white_60" app:civ_fill_color="@color/white" app:hm_civ_show_mask="true" />
+            <ImageView android:layout_width="@dimen/person_info_camera" android:layout_height="@dimen/person_info_camera" android:src="@drawable/setting_camera" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:paddingTop="14.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/bf3_family_info_title" android:paddingStart="18.0dip" />
+    <View android:background="@color/black_20_percent" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginStart="@dimen/person_info_item_margin" android:layout_marginEnd="@dimen/person_info_item_margin" />
+    <ListView android:id="@id/person_info_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/transparency" android:dividerHeight="2.0dip" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider_sync" android:background="@color/pale_grey" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_alignParentBottom="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/divider_sync" android:layout_centerVertical="true" android:layout_marginStart="18.0dip">
+        <ImageView android:id="@id/syncStateIndicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_history_record_sync_fail" android:layout_marginEnd="11.0dip" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/black70" android:id="@id/unSyncCount" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:id="@id/syncFailContainer" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="15.0sp" android:textColor="@color/black70" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/running_history_record_sync_fail" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:id="@id/syncFailDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:layout_height="32.0dip" style="@style/HorizontalDivider" />
+        <ImageView android:gravity="center" android:id="@id/syncBtn" android:background="@drawable/btn_click_bg_rect_transparent" android:layout_width="59.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_history_record_sync_btn" android:scaleType="centerInside" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/summary_main_layout" android:background="@color/sport_summary_head_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:huami="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/summary_head_layout" android:background="@color/trans" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/summary_close_btn" android:background="@drawable/icon_close_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_marginEnd="13.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/summary_info_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/summary_head_layout">
+        <FrameLayout android:id="@id/summary_content_layout" android:background="@drawable/summary_content_bg" android:layout_width="fill_parent" android:layout_height="360.0dip">
+            <RelativeLayout android:orientation="vertical" android:id="@id/summary_detail_layout" android:background="@color/sport_summary_head_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:id="@id/summary_first_layout" android:background="@drawable/summary_detail_bg_img" android:layout_width="fill_parent" android:layout_height="256.0dip" android:layout_alignParentTop="true">
+                    <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="93.29999sp" android:textColor="@color/white80" android:id="@id/summary_distance" android:layout_width="wrap_content" android:layout_height="107.29999dip" android:layout_marginTop="42.299988dip" android:text="0.00" android:layout_centerHorizontal="true" android:fontFamily="din-med" />
+                    <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/white80" android:id="@id/summary_distance_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/running_distance_desc" android:layout_alignBaseline="@id/summary_distance" android:layout_marginStart="4.0dip" android:layout_toEndOf="@id/summary_distance" />
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_below="@id/summary_distance" android:layout_centerHorizontal="true">
+                        <ImageView android:id="@id/runningDeviceLogo" android:layout_width="11.299988dip" android:layout_height="11.299988dip" />
+                        <TextView android:textSize="9.0sp" android:textColor="@color/white70" android:id="@id/runningDeviceDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2017/08/21 17:45" android:layout_marginStart="4.299988dip" />
+                        <TextView android:textSize="9.0sp" android:textColor="@color/white70" android:id="@id/summary_start_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6.799988dip" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="90.0dip" android:layout_alignParentBottom="true">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="22.699982sp" android:textColor="@color/white80" android:id="@id/runningTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00:00" android:fontFamily="din-med" />
+                        <TextView android:textSize="12.0sp" android:textColor="@color/white30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.299988dip" android:text="@string/running_time_desc" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="22.699982sp" android:textColor="@color/white80" android:id="@id/runningPace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0'00''" android:fontFamily="din-med" />
+                        <TextView android:textSize="12.0sp" android:textColor="@color/white30" android:id="@id/paceUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.299988dip" android:text="@string/running_detail_pace_desc" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="22.699982sp" android:textColor="@color/white80" android:id="@id/runningBurn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:fontFamily="din-med" />
+                        <TextView android:textSize="12.0sp" android:textColor="@color/white30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.299988dip" android:text="@string/running_cal_with_unit" />
+                    </LinearLayout>
+                </LinearLayout>
+                <com.huami.ad.view.TextLinkAdView android:id="@id/summary_ad_link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" huami:textColor="@color/white70" huami:badgeColor="#ffe08c0a" huami:hasUnderline="true" />
+            </RelativeLayout>
+            <ImageView android:id="@id/summary_watermark_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/share_finish_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:background="@drawable/ico_successful" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/black80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="130.0dip" android:text="@string/share_success" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip">
+                    <View android:layout_gravity="center_vertical" android:background="#ff4c4c4c" android:layout_width="0.0dip" android:layout_height="0.30000007dip" android:layout_weight="1.0" />
+                    <TextView android:textSize="13.0sp" android:textColor="@color/black80" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_continue_to" />
+                    <View android:layout_gravity="center_vertical" android:background="#ff4c4c4c" android:layout_width="0.0dip" android:layout_height="0.30000007dip" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <RelativeLayout android:id="@id/oper_circle_share_layout" android:background="@color/grayWithe100" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/summary_content_layout" android:layout_alignParentBottom="true">
+            <FrameLayout android:id="@id/share_pane_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" />
+            <RelativeLayout android:id="@id/only_share_to_circle_layout" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_marginBottom="24.0dip" android:layout_alignParentTop="true">
+                <ImageView android:id="@id/goto_watermark_share" android:background="@drawable/icon_summary_camera" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_marginStart="6.0dip" android:layout_marginEnd="36.0dip" android:layout_alignParentEnd="true" />
+                <View android:id="@id/input_divide_line" android:background="@color/sport_summary_input_line" android:layout_width="fill_parent" android:layout_height="0.30000007dip" android:layout_marginTop="4.0dip" android:layout_below="@id/goto_watermark_share" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" />
+                <Button android:textSize="13.0sp" android:textColor="@color/black80" android:id="@id/share_to_circle_btn" android:background="@drawable/click_btn_bg_3" android:layout_width="fill_parent" android:layout_height="40.69998dip" android:text="@string/share_to_mi_circle" android:layout_alignParentBottom="true" android:textAllCaps="false" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" style="?android:attr/borderlessButtonStyle" />
+                <EditText android:textSize="14.0sp" android:textColor="@color/black80" android:textColorHint="@color/black30" android:gravity="start|center|top" android:id="@id/circle_content" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="3.0dip" android:layout_marginBottom="26.0dip" android:hint="@string/share_to_mi_circle_content_hint" android:drawablePadding="3.0dip" android:layout_above="@id/share_to_circle_btn" android:layout_alignParentTop="true" android:drawableStart="@drawable/ico_pen" android:layout_marginStart="36.0dip" android:layout_toStartOf="@id/goto_watermark_share" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

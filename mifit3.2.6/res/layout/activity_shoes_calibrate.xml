@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="@color/black80" android:id="@id/shoes_calibrate_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="98.0dip" android:text="@string/shoes_setting_calibrate" android:layout_centerHorizontal="true" />
+    <TextView android:textColor="@color/black60" android:gravity="center" android:id="@id/shoes_calibrate_sub_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/shoes_setting_calibrate_sub_tips" android:layout_below="@id/shoes_calibrate_tips" android:layout_centerHorizontal="true" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="240.0dip" android:src="@drawable/img_standing" android:layout_centerHorizontal="true" />
+    <TextView android:id="@id/cancel_tv" android:text="@string/cancel" android:layout_marginStart="37.0dip" style="@style/BindLeftTextStyle" />
+    <TextView android:id="@id/shoes_start_calibrate_btn" android:text="@string/shoes_start" android:layout_marginEnd="37.0dip" style="@style/BindRightTextStyle" />
+</RelativeLayout>

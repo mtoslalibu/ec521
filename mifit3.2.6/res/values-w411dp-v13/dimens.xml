@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="weight_user_picker_item_padding">12.0dip</dimen>
+    <dimen name="weight_user_picker_content_height">45.0dip</dimen>
+    <dimen name="weight_user_picker_header_footer">5.5dip</dimen>
+    <dimen name="weight_user_picker_item_width">33.0dip</dimen>
+</resources>

@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="avoid_type">
+        <item>@string/state_close</item>
+        <item>@string/avoid_enable_smart</item>
+        <item>@string/avoid_enable_time</item>
+    </string-array>
+    <string-array name="avoid_type_sub">
+        <item></item>
+        <item>@string/avoid_enable_smart_sub</item>
+        <item>@string/avoid_enable_time_sub</item>
+    </string-array>
+    <string-array name="bmi_for_adualt">
+        <item>കുറവ്</item>
+        <item>സാധാരണം</item>
+        <item>ഉയർന്നത്</item>
+        <item>വളരെ ഉയര്‍ന്നത്</item>
+    </string-array>
+    <string-array name="bmi_for_child">
+        <item>സാധാരണം</item>
+        <item>ഉയർന്നത്</item>
+        <item>വളരെ ഉയര്‍ന്നത്</item>
+    </string-array>
+    <string-array name="bmi_for_not_chinese">
+        <item>താഴ്ന്നത്</item>
+        <item>സാധാരണം</item>
+        <item>വർധിച്ചത്</item>
+        <item>ഉയർന്നത്</item>
+        <item>വളരെ ഉയര്‍ന്നത്</item>
+    </string-array>
+    <string-array name="body_score_leval">
+        <item>വളരെ മോശം</item>
+        <item>മോശം</item>
+        <item>സാധാരണം</item>
+        <item>നല്ലത്</item>
+        <item>ശ്രേഷ്ടമായത്</item>
+    </string-array>
+    <string-array name="body_shape_type_array">
+        <item>മെലിഞ്ഞത്</item>
+        <item>സംതുലിതം മെലിഞ്ഞത്</item>
+        <item>മെലിഞ്ഞ പേശികൾ</item>
+        <item>വ്യായാമത്തിന്റെ കുറവ്</item>
+        <item>സംതുലിതമായത്</item>
+        <item>സംതുലിതമായ പേശികൾ</item>
+        <item>പൊണ്ണത്തടി</item>
+        <item>അമിതഭാരം</item>
+        <item>കഠിനം</item>
+    </string-array>
+    <string-array name="bodyfat_content_leval">
+        <item>വളരെ കുറവ്</item>
+        <item>കുറവ്</item>
+        <item>സാധാരണം</item>
+        <item>വർദ്ധിച്ചത്</item>
+        <item>ഉയർന്നത്</item>
+    </string-array>
+    <string-array name="bone_leval">
+        <item>അപര്യാപ്തം</item>
+        <item>സാധാരണം</item>
+        <item>നല്ലത്</item>
+    </string-array>
+    <string-array name="brm_leval">
+        <item>ലക്ഷ്യം കൈവരിച്ചില്ല</item>
+        <item>ലക്ഷ്യത്തിലെത്തി</item>
+    </string-array>
+    <string-array name="chaohu_help_tips">
+        <item>വാച്ചിലെ ബട്ടൺ അമർത്താൻ ശ്രമിക്കുക, വാച്ചിന്റെ സ്ക്രീൻ ഓഫാണെങ്കിൽ, അതിന്റെ ബാറ്ററി ചാർജുചെയ്യാനായി പ്ലഗിൻ ചെയ്യുക.</item>
+        <item>ബ്ലൂടൂത്ത് ആദ്യം ഓഫാക്കി തുടർന്ന് നിലവിലെ ഉപകരണവുമായി ജോടിയാക്കുക.</item>
+        <item>ബാൻഡിന് ചാർജുണ്ടായിട്ടും ഫോണിന് അതിനെ കാണാൻ കഴില്ലെങ്കിൽ, ഫോണിന്റെ ബ്ലൂടൂത്ത് പുനരാരംഭിക്കുന്നത് പരീക്ഷിക്കുക.</item>
+        <item>ബ്ലൂടൂത്ത് പുനരാരംഭിച്ചിട്ടും പ്രശ്നം പരിഹരിക്കപ്പെടുന്നില്ലെങ്കിൽ, നിങ്ങളുടെ ഫോൺ റീബൂട്ടുചെയ്ത് ശ്രമിക്കുക.</item>
+        <item>നിങ്ങൾ വ്യായാമം ചെയ്യുമ്പോൾ വാച്ച് ഡാറ്റ സമന്വയിപ്പിക്കാനാകില്ല. സെഷൻ അവസാനിപ്പിച്ച് വീണ്ടും ശ്രമിക്കുക.</item>
+    </string-array>
+    <string-array name="chaohu_help_title">
+        <item>നിങ്ങളുടെ വാച്ചിൽ ചാർജുണ്ടോ?</item>
+        <item>മറ്റൊരു ഉപകരണവുമായി ഈ വാച്ച് ജോടിയാക്കിയിട്ടുണ്ടോ?</item>
+        <item>ബ്ലൂടൂത്ത് പുനരാരംഭിക്കാൻ ശ്രമിക്കുക</item>
+        <item>ഫോൺ റീബൂട്ടുചെയ്ത് ശ്രമിക്കുക</item>
+        <item>വർക്കൗട്ടുകൾക്കിടയിൽ ഡാറ്റ സമന്വയിപ്പിക്കാനാകില്ല</item>
+    </string-array>
+    <string-array name="chaohu_setting_run_types">
+        <item>@string/chaohu_setting_run_outdoor</item>
+        <item>@string/chaohu_setting_run_indoor</item>
+        <item>@string/chaohu_setting_run_ride</item>
+        <item>@string/chaohu_setting_run_walk</item>
+    </string-array>
+    <string-array name="colors">
+        <item>@string/blue</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/red</item>
+    </string-array>
+    <string-array name="common_cities">
+        <item>ഗ്വാങ്‌ഴൗ</item>
+        <item>ഷേൻസെൻ</item>
+        <item>ഫോഷാൻ</item>
+        <item>ഡോൻഗ്വാൻ</item>
+        <item>ബെയ്ജിംഗ്</item>
+        <item>നാൻജിംഗ്</item>
+        <item>സൂഷോ</item>
+        <item>ചാങ്‌ചോ</item>
+        <item>ജീനാൻ</item>
+        <item>ചിങ്‌ഡാവൊ</item>
+        <item>ഹാങ്‌ചൊ</item>
+        <item>നിങ്‌ബോ</item>
+        <item>ചെങ്‌ചോ</item>
+        <item>കായ്‌ഫോങ്</item>
+        <item>ഷങ്‌ഹായ്</item>
+        <item>ഷീജ്യാഹ്വാങ്ങ്</item>
+        <item>ബാവ്‌ഡിംഗ്</item>
+        <item>ചെങ്‌ഡു</item>
+        <item>മിയായാങ്</item>
+        <item>ഷെൻയാങ്</item>
+        <item>ഡാലിയൻ</item>
+    </string-array>
+    <string-array name="difficulty_content">
+        <item>ഫിറ്റ്നെസ്സ് ട്രെയിനിംഗിൽ പുതിയത്</item>
+        <item>അടിസ്ഥാന ഫിറ്റ്‌നസ്സ് പരിചയം ഉണ്ട്</item>
+        <item>നല്ല ഫിറ്റ്നസ്സ് പരിചയമുണ്ട്, നല്ല ആകാരഭംഗിയുണ്ട്</item>
+    </string-array>
+    <string-array name="difficulty_title">
+        <item>എലമെന്ററി</item>
+        <item>ഇടത്തരം</item>
+        <item>വിപുലമായത്</item>
+    </string-array>
+    <string-array name="fitness_goal_content">
+        <item>കൊഴുപ്പ് കുറയ്ക്കാൻ ലക്ഷ്യമിടുന്നു</item>
+        <item>ശരീരം ഭംഗിയാക്കാൻ ലക്ഷ്യമിടുന്നു</item>
+        <item>പേശികൾ ഭംഗിയാക്കാൻ ലക്ഷ്യമിടുന്നു</item>
+    </string-array>
+    <string-array name="fitness_goal_title">
+        <item>കട്ടിംഗ്</item>
+        <item>ഷേപ്പിംഗ്</item>
+        <item>ബൾക്കിംഗ്</item>
+    </string-array>
+    <string-array name="ges_screen_type">
+        <item>@string/ges_screen_type_all_day</item>
+        <item>@string/ges_screen_type_time</item>
+        <item>@string/ges_screen_type_close</item>
+    </string-array>
+    <string-array name="hr_section">
+        <item>@string/hr_section_warm_up</item>
+        <item>@string/hr_section_fat_burn</item>
+        <item>@string/hr_section_heart_lung_strengthen</item>
+        <item>@string/hr_section_stamina_strengthen</item>
+        <item>@string/hr_section_anaerobic_limit</item>
+        <item>@string/hr_section_other</item>
+    </string-array>
+    <string-array name="hr_sport">
+        <item>ഹാർട്ട് റേറ്റ് സോൺ: ലൈറ്റ്</item>
+        <item>ഹാർട്ട് റേറ്റ് സോൺ: വെയ്റ്റ്</item>
+        <item>ഹാർട്ട് റേറ്റ് സോൺ: എയ്റോബിക്</item>
+        <item>ഹാർട്ട് റേറ്റ് സോൺ: അനറോബിക്</item>
+        <item>ഹാർട്ട് റേറ്റ് സോൺ: VO₂ max</item>
+    </string-array>
+    <string-array name="hr_sport_new">
+        <item>ലഘുവായത്</item>
+        <item>ഭാരം</item>
+        <item>എയ്റോബിക്</item>
+        <item>അനറോബിക്</item>
+        <item>VO₂ പരമാവധി</item>
+    </string-array>
+    <string-array name="lock_screen_type">
+        <item>അടയ്‌ക്കുക</item>
+        <item>സമീപം</item>
+        <item>അകലെ</item>
+    </string-array>
+    <string-array name="member_add_weight_items">
+        <item>@string/member_add_weight_item_auto</item>
+        <item>@string/member_add_weight_item_manual</item>
+    </string-array>
+    <string-array name="mili_help_tips">
+        <item>"നിങ്ങൾ ഒരു Mi ബാന്‍ഡ് 2 അല്ലെങ്കിൽ മറ്റൊരു ബാൻഡ് ജോടിയാക്കുന്നതിനുമുമ്പ് ഉപകരണത്തിൽ ചാർജുണ്ടോയെന്ന് പരിശോധിക്കാൻ ബാൻഡിൽ ടാപ്പുചെയ്യുക.
+
+ഒരു Mi ബാന്‍ഡ് അല്ലെങ്കിൽ Mi ബാന്‍ഡ് പൾസ് ജോടിയാക്കുന്നതിനുമുമ്പ് ബാൻഡ് ചാർജുചെയ്യുക."</item>
+        <item>ബ്ലൂടൂത്ത് ആദ്യം ഓഫാക്കി തുടർന്ന് നിലവിലെ ഉപകരണവുമായി ജോടിയാക്കുക.</item>
+        <item>ബാൻഡിന് ചാർജുണ്ടായിരിക്കുകയും പക്ഷേ ഫോണിന് അതിനെ കാണാൻ കഴിയാതെ വരികയുമാണെങ്കിൽ, ഫോണിന്റെ ബ്ലൂടൂത്ത് പുനരാരംഭിക്കുന്നത് പരീക്ഷിക്കുക.</item>
+        <item>ബ്ലൂടൂത്ത് പുനരാരംഭിച്ചിട്ടും പ്രശ്നം പരിഹരിക്കപ്പെടുന്നില്ലെങ്കിൽ, ഫോൺ റീബൂട്ടുചെയ്യുന്നത് പരീക്ഷിക്കുക.</item>
+    </string-array>
+    <string-array name="mili_help_title">
+        <item>നിങ്ങളുടെ ബാൻഡിൽ ചാർജുണ്ടോ?</item>
+        <item>മറ്റൊരു ഉപകരണവുമായി ഈ ബാൻഡ് ജോടിയാക്കിയിട്ടുണ്ടോ?</item>
+        <item>ബ്ലൂടൂത്ത് പുനരാരംഭിക്കാൻ ശ്രമിക്കുക</item>
+        <item>ഫോൺ റീബൂട്ടുചെയ്യുന്നത് പരീക്ഷിക്കുക</item>
+    </string-array>
+    <string-array name="mili_pro_display_items">
+        <item>സമയം</item>
+        <item>ചുവടുകൾ</item>
+        <item>ദൂരം</item>
+        <item>കലോറി</item>
+        <item>ഹൃദയമിടിപ്പ്</item>
+        <item>ബാറ്ററി</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>ജനുവരി</item>
+        <item>ഫെബ്രുവരി</item>
+        <item>മാർച്ച്</item>
+        <item>ഏപ്രിൽ</item>
+        <item>മെയ്</item>
+        <item>ജൂൺ</item>
+        <item>ജൂലൈ</item>
+        <item>ഓഗസ്റ്റ്</item>
+        <item>സെപ്റ്റംബർ</item>
+        <item>ഒക്ടോബർ</item>
+        <item>നവംബർ</item>
+        <item>ഡിസംബർ</item>
+    </string-array>
+    <string-array name="muscle_content_leval">
+        <item>അപര്യാപ്തം</item>
+        <item>സാധാരണം</item>
+        <item>നല്ലത്</item>
+    </string-array>
+    <string-array name="ring_types">
+        <item>@string/ring_type_default</item>
+        <item>@string/ring_type_incall</item>
+    </string-array>
+    <string-array name="running_months">
+        <item>ജനുവരി</item>
+        <item>ഫെബ്രുവരി</item>
+        <item>മാർച്ച്</item>
+        <item>ഏപ്രിൽ</item>
+        <item>മെയ്</item>
+        <item>ജൂൺ</item>
+        <item>ജൂലൈ</item>
+        <item>ഓഗസ്റ്റ്</item>
+        <item>സെപ്റ്റംബർ</item>
+        <item>ഒക്ടോബർ</item>
+        <item>നവംബർ</item>
+        <item>ഡിസംബർ</item>
+    </string-array>
+    <string-array name="setting_hr_freq_types">
+        <item>@string/setting_heartrate_detect_freq_1</item>
+        <item>@string/setting_heartrate_detect_freq_10</item>
+        <item>@string/setting_heartrate_detect_freq_30</item>
+    </string-array>
+    <string-array name="setting_hr_types">
+        <item>@string/setting_heartrate_detect_auto</item>
+        <item>@string/setting_heartrate_detect_sleep</item>
+        <item>@string/setting_heartrate_detect_close</item>
+    </string-array>
+    <string-array name="setting_peyto_apps_array">
+        <item>വാച്ച് ഫെയ്സ്</item>
+        <item>സ്റ്റാറ്റസ്</item>
+        <item>പ്രവര്‍ത്തനങ്ങള്‍</item>
+        <item>കാലാവസ്ഥ</item>
+        <item>അലാറം</item>
+        <item>ടൈമർ</item>
+        <item>കോമ്പസ്</item>
+        <item>കൂടുതല്‍ ക്രമീകരണം</item>
+    </string-array>
+    <string-array name="setting_tempo_apps_array">
+        <item>വാച്ച് ഫെയ്സ്</item>
+        <item>സ്റ്റാറ്റസ്</item>
+        <item>അറിയിപ്പുകൾ</item>
+        <item>പ്രവര്‍ത്തനങ്ങള്‍</item>
+        <item>കാലാവസ്ഥ</item>
+        <item>അലാറം</item>
+        <item>ടൈമർ</item>
+        <item>ക്രമീകരണം</item>
+    </string-array>
+    <string-array name="setting_weather_temp_unit_array">
+        <item>@string/setting_weather_temp_c</item>
+        <item>@string/setting_weather_temp_f</item>
+    </string-array>
+    <string-array name="shoes_help_tips">
+        <item>വളരെ നാൾ ഉപയോഗിക്കാതിരുന്നാൽ സ്മാർട്ട് ചിപ്പ് പ്രവർത്തനം നിർത്തും. അത് ഇളക്കി വീണ്ടും ശ്രമിക്കുക.</item>
+        <item>Amazfit സ്മാർട്ട് ചിപ്പ് ബാറ്ററിയുടെ ആയുസ്സ് 1 വർഷമാണ്. നിങ്ങൾ വളരെ നാളായി അത് ഉപയോഗിക്കുന്നുണ്ടെങ്കിൽ, പവർ ബാക്കിയില്ലായിരിക്കാം.</item>
+        <item>ബ്ലൂടൂത്ത് ആദ്യം ഓഫാക്കി തുടർന്ന് നിലവിലെ ഉപകരണവുമായി ജോടിയാക്കുക.</item>
+        <item>സ്മാർട്ട് ചിപ്പിൽ ചാർജുണ്ടായിരിക്കുകയും എന്നാൽ ഫോൺ അടുത്തേയ്ക്ക് കൊണ്ടുവരുമ്പോൾ കണ്ടെത്താൻ കഴിയുന്നുമില്ലെങ്കിൽ ഫോണിന്റെ ബ്ലൂടൂത്ത് റീബൂട്ടുചെയ്യുന്നത് പരീക്ഷിക്കുക.</item>
+        <item>ബ്ലൂടൂത്ത് പുനരാരംഭിച്ചിട്ടും പ്രശ്നം പരിഹരിക്കപ്പെടുന്നില്ലെങ്കിൽ, ഫോൺ റീബൂട്ടുചെയ്തുകൊണ്ട് ശ്രമിക്കുക.</item>
+        <item>ഡാറ്റ സ്വയമേവ സമന്വയിപ്പിക്കുന്നതിന് റണ്ണിംഗ് ഷൂ ഡാറ്റ ടാപ്പുചെയ്ത് അടുത്ത പ്രവർത്തന പേജിൽ പ്രവേശിക്കുക</item>
+    </string-array>
+    <string-array name="shoes_help_title">
+        <item>സ്മാർട്ട് ചിപ്പ് ഇളക്കുക</item>
+        <item>ബാറ്ററി ചാർജായോ?</item>
+        <item>മറ്റൊരു ഉപകരണവുമായി ഈ സ്മാർട്ട് ചിപ്പ് ജോടിയാക്കിയിട്ടുണ്ടോ?</item>
+        <item>ബ്ലൂടൂത്ത് പുനരാരംഭിക്കുക</item>
+        <item>ഫോൺ റീബൂട്ടുചെയ്യുന്നത് പരീക്ഷിക്കുക</item>
+        <item>നിങ്ങളുടെ ഡാറ്റ എങ്ങനെ സമന്വയിപ്പിക്കാം?</item>
+    </string-array>
+    <string-array name="show_body_shape_array">
+        <item>പൊണ്ണത്തടി</item>
+        <item>അമിതഭാരം</item>
+        <item>കഠിനം</item>
+        <item>"വ്യായാമത്തിന്റെ
+കുറവ്"</item>
+        <item>സംതുലിതമായത്</item>
+        <item>"സംതുലിതമായ
+പേശികൾ"</item>
+        <item>മെലിഞ്ഞത്</item>
+        <item>"സംതുലിതം
+മെലിഞ്ഞത്"</item>
+        <item>"മെലിഞ്ഞ
+പേശികൾ"</item>
+    </string-array>
+    <string-array name="timeline_type">
+        <item>പ്രവർത്തനം</item>
+        <item>സാവധാനമുള്ള നടത്തം</item>
+        <item>നടത്തം</item>
+        <item>വേഗത്തിലുള്ള നടത്തം</item>
+        <item>ഓട്ടം</item>
+        <item>നിൽക്കുന്നു</item>
+        <item>ഇരിക്കുന്നു</item>
+        <item>ലളിതമായ പ്രവർത്തനം</item>
+        <item>ധരിക്കുന്നില്ല</item>
+        <item>ചാർജുചെയ്യുന്നു…</item>
+        <item>താഴെ കിടക്കുക</item>
+    </string-array>
+    <string-array name="train_difficulity">
+        <item>പരിമിതമല്ലാത്തത്</item>
+        <item>പ്രാഥമികം, 1</item>
+        <item>ഇടത്തരം, 2</item>
+        <item>പുരോഗമിച്ചത്, 3</item>
+    </string-array>
+    <string-array name="unbind_device_description">
+        <item>@string/device_band</item>
+        <item>@string/device_weight</item>
+        <item>@string/device_shoe</item>
+        <item>@string/device_watch</item>
+    </string-array>
+    <string-array name="visceral_fat_leval">
+        <item>സാധാരണം</item>
+        <item>ഉയർന്നത്</item>
+        <item>വളരെ ഉയര്‍ന്നത്</item>
+    </string-array>
+    <string-array name="water_leval">
+        <item>അപര്യാപ്തം</item>
+        <item>സാധാരണം</item>
+        <item>നല്ലത്</item>
+    </string-array>
+    <string-array name="wear_type">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+    </string-array>
+    <string-array name="wear_type_body">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="wear_type_chest">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/chest</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>ഞായർ</item>
+        <item>തിങ്കൾ</item>
+        <item>ചൊവ്വ</item>
+        <item>ബുധൻ</item>
+        <item>വ്യാഴം</item>
+        <item>വെള്ളി</item>
+        <item>ശനി</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>തിങ്കൾ</item>
+        <item>ചൊവ്വ</item>
+        <item>ബുധൻ</item>
+        <item>വ്യാഴം</item>
+        <item>വെള്ളി</item>
+        <item>ശനി</item>
+        <item>ഞായർ</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>തിങ്കൾ</item>
+        <item>ചൊവ്വ</item>
+        <item>ബുധൻ</item>
+        <item>വ്യാഴം</item>
+        <item>വെള്ളി</item>
+        <item>ശനി</item>
+        <item>ഞായർ</item>
+    </string-array>
+    <string-array name="weight3_body_figures">
+        <item>ഭാരക്കുറവ്</item>
+        <item>സംതുലിതമായത്</item>
+        <item>അമിതഭാരം</item>
+        <item>പൊണ്ണത്തടി</item>
+    </string-array>
+    <string-array name="weight_bfs_help_tips">
+        <item>ബ്ലൂടൂത്ത് ആദ്യം ഓഫാക്കി തുടർന്ന് നിലവിലെ ഉപകരണവുമായി ജോടിയാക്കുക.</item>
+        <item>നിങ്ങളുടെ ഭാരം കാണിക്കുന്നുണ്ടോയെന്ന് പരിശോധിക്കുന്നതിനായി സ്കെയിലിൽ കയറുക. അതൊരു ബാറ്ററി ഐക്കൺ പ്രദർശിപ്പിക്കുകയാണെങ്കിൽ, ബാറ്ററികൾ മാറ്റി പകരം വയ്ക്കുക.</item>
+        <item>സ്കെയിലിൽ നിങ്ങൾ കയറുമ്പോൾ പ്രതികരണമൊന്നുമില്ലെങ്കിൽ, ബാറ്ററി ശരിയായാണോ ഇൻസ്റ്റാൾ ചെയ്തിരിക്കുന്നതെന്ന് പരിശോധിക്കുക.</item>
+        <item>ബാറ്ററിയിൽ ചാർജുണ്ടായിരിക്കുകയും എന്നാൽ ഫോൺ അടുത്തേയ്ക്ക് കൊണ്ടുവരുമ്പോൾ കണ്ടെത്താൻ കഴിയുന്നുമില്ലെങ്കിൽ ഫോണിന്റെ ബ്ലൂടൂത്ത് പുനരാരംഭിക്കുന്നത് പരീക്ഷിക്കുക.</item>
+        <item>ബ്ലൂടൂത്ത് പുനരാരംഭിച്ചിട്ടും പ്രശ്നം പരിഹരിക്കപ്പെടുന്നില്ലെങ്കിൽ, നിങ്ങളുടെ ഫോൺ റീബൂട്ടുചെയ്യുന്നത് പരീക്ഷിക്കുക.</item>
+    </string-array>
+    <string-array name="weight_bfs_help_title">
+        <item>മറ്റൊരു ഉപകരണവുമായി ഈ സ്കെയിൽ ജോടിയാക്കിയിട്ടുണ്ടോ?</item>
+        <item>സ്കെയിലിന്റെ ബാറ്ററി പരിശോധിക്കുക</item>
+        <item>ബാറ്ററികൾ ശരിയായി ഇൻസ്റ്റാൾചെയ്തിട്ടുണ്ടോ?</item>
+        <item>ബ്ലൂടൂത്ത് പുനരാരംഭിക്കാൻ ശ്രമിക്കുക</item>
+        <item>ഫോൺ റീബൂട്ടുചെയ്യുന്നത് പരീക്ഷിക്കുക</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>സാധാരണം</item>
+        <item>അമിതഭാരം</item>
+        <item>പൊണ്ണത്തടി</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_not_chinese">
+        <item>ഭാരക്കുറവ്</item>
+        <item>സാധാരണം</item>
+        <item>അമിതഭാരം</item>
+        <item>പൊണ്ണത്തടി I</item>
+        <item>പൊണ്ണത്തടി II</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>" കിഗ്രാം"</item>
+        <item>" ജിൻ"</item>
+        <item>" lbs"</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+        <item>@string/weight_bfs_unit_jin</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array_no_jin">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+    </string-array>
+</resources>

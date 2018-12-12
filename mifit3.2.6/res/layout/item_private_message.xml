@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/item_private_avatar" style="@style/AvatarMoreStyle" />
+    <TextView android:id="@id/item_private_name" style="@style/NickNormalStyle" />
+    <TextView android:id="@id/item_private_content" style="@style/ContentSingleStyle" />
+    <TextView android:id="@id/item_private_time" style="@style/TimeMoreStyle" />
+    <TextView android:id="@id/item_red_dot" style="@style/RedDotMoreStyle" />
+</android.support.constraint.ConstraintLayout>

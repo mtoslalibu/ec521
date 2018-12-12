@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="@color/black80" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="98.0dip" android:text="@string/pair_ccb_title" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/black60" android:gravity="center" android:id="@id/tips_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="138.0dip" android:text="@string/pair_ccb_tips" android:layout_centerHorizontal="true" android:layout_marginStart="51.0dip" android:layout_marginEnd="51.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="297.0dip" android:layout_centerHorizontal="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="104.0dip" android:layout_height="wrap_content">
+            <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/quick_pay" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/black80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/pair_ccb_func_1" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="104.0dip" android:layout_height="wrap_content">
+            <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/atm" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/black80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/pair_ccb_func_3" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="104.0dip" android:layout_height="wrap_content">
+            <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/traffic" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/black80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/pair_ccb_func_2" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:id="@id/cancel_tv" android:text="@string/cancel" android:layout_marginStart="37.0dip" style="@style/BindLeftTextStyle" />
+    <TextView android:id="@id/dredge_now_tv" android:text="@string/dredge_now" android:layout_marginEnd="37.0dip" style="@style/BindRightTextStyle" />
+</RelativeLayout>

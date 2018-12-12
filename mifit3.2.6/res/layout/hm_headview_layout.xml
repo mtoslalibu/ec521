@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:baseui="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.hm.health.baseui.colorfilterimageview.ColorFilterImageView android:id="@id/share_filter_bg_continue" android:background="@color/trans" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/status_step_bg" android:scaleType="fitXY" baseui:filter_color="@color/step_bg_tint" />
+    <RelativeLayout android:id="@id/hm_headview" android:layout_width="fill_parent" android:layout_height="312.0dip" />
+    <com.xiaomi.hm.health.view.HMLoadingLayout android:id="@id/hm_loadingview" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_below="@id/hm_headview" />
+</RelativeLayout>

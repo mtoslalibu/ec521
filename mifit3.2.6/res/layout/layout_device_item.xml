@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="120.0dip" android:minHeight="120.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/device_bg_img" android:background="@drawable/img_bind_band" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <ImageView android:id="@id/mask_img" android:background="@color/mask_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/device_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SportTrainingTitleStyle" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/device_sub_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SportTrainingSubtitleStyle" />
+    </LinearLayout>
+</FrameLayout>

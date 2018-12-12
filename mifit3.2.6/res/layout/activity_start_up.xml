@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_color_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/start_up_view_pager" android:visibility="gone" layout="@layout/start_up_view_pager" />
+    <include android:id="@id/default_view" android:visibility="gone" layout="@layout/activity_login_layout" />
+    <include android:id="@id/adv_view" android:visibility="gone" layout="@layout/layout_start_up_adv" />
+</RelativeLayout>

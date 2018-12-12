@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/item_mifit_avatar" android:src="@drawable/avatar_mifit_circle" style="@style/AvatarCenterStyle" />
+    <TextView android:id="@id/item_mifit_content" android:text="@string/mifit_circle" style="@style/ContentCenterStyle" />
+    <TextView android:id="@id/item_red_dot" style="@style/RedDotCenterStyle" />
+</android.support.constraint.ConstraintLayout>

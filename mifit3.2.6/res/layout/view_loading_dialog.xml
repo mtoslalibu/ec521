@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/shape_loading_dialog_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/loading_dialog_width" android:minHeight="@dimen/loading_dialog_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xiaomi.hm.health.baseui.widget.LoadingView android:id="@id/loading" android:layout_width="@dimen/loading_size" android:layout_height="@dimen/loading_size" android:layout_marginTop="13.299988dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/white100" android:gravity="center" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:maxWidth="96.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="20.0sp" android:textColor="@color/black80" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="68.0dip" android:text="@string/training_before_hr_prompt_title" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/black60" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/training_before_hr_prompt_content" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/black60" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/training_before_hr_prompt_notice" />
+        <ImageView android:background="@color/pale_grey_two" android:layout_width="210.0dip" android:layout_height="210.0dip" android:layout_marginTop="68.0dip" android:src="@drawable/img_heartrate_uphand_train" android:scaleType="centerInside" />
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/black60" android:gravity="center" android:id="@id/know_btn" android:layout_width="fill_parent" android:layout_height="92.0dip" android:text="@string/i_know" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/sleep_feeling_header" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/bg_sleep_law" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="90.0dip" android:layout_marginBottom="150.0dip" />
+    <RelativeLayout android:id="@id/lp_rl" android:layout_width="130.0dip" android:layout_height="130.0dip" android:layout_marginTop="151.0dip" android:layout_marginStart="50.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="@color/white70" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="34.69998dip" android:text="@string/slp_feeling_bad" android:drawableTop="@drawable/slp_f_lassitude" android:drawablePadding="6.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="31.0dip" />
+        <ImageView android:id="@id/lp_iv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:src="@drawable/slp_f_selected" android:layout_marginEnd="37.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rp_rl" android:layout_width="130.0dip" android:layout_height="130.0dip" android:layout_marginTop="151.0dip" android:layout_marginEnd="50.0dip" android:layout_alignParentEnd="true">
+        <TextView android:textSize="12.0sp" android:textColor="@color/white70" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="34.69998dip" android:text="@string/slp_feeling_sleepy" android:drawableTop="@drawable/slp_f_sleepy" android:drawablePadding="6.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="50.69998dip" />
+        <ImageView android:id="@id/rp_iv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:src="@drawable/slp_f_selected" android:layout_marginEnd="17.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/lb_rl" android:layout_width="130.0dip" android:layout_height="130.0dip" android:layout_below="@id/lp_rl" android:layout_marginStart="50.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="@color/white70" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="34.69998dip" android:text="@string/slp_feeling_good" android:drawableTop="@drawable/slp_f_good" android:drawablePadding="6.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="31.0dip" />
+        <ImageView android:id="@id/lb_iv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:src="@drawable/slp_f_selected" android:layout_marginEnd="37.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rb_rl" android:layout_width="130.0dip" android:layout_height="130.0dip" android:layout_below="@id/rp_rl" android:layout_marginEnd="50.0dip" android:layout_alignParentEnd="true">
+        <TextView android:textSize="12.0sp" android:textColor="@color/white70" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="34.69998dip" android:text="@string/slp_feeling_great" android:drawableTop="@drawable/slp_f_vigorous" android:drawablePadding="6.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="50.69998dip" />
+        <ImageView android:id="@id/rb_iv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:src="@drawable/slp_f_selected" android:layout_marginEnd="17.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:background="@color/black20" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/lp_rl" android:layout_marginStart="50.0dip" android:layout_marginEnd="50.0dip" />
+    <View android:background="@color/black20" android:layout_width="0.30000007dip" android:layout_height="260.0dip" android:layout_marginTop="151.0dip" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:gravity="center" android:background="@color/sleep_feeling_footer" android:layout_width="fill_parent" android:layout_height="150.0dip" android:text="@string/slp_feeling_desc" android:layout_alignParentBottom="true" />
+</RelativeLayout>

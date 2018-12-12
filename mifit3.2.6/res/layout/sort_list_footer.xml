@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="189.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/invisible_item_divider" android:background="@color/black20" android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
+    <RelativeLayout android:id="@id/invisible_item_area" android:layout_width="fill_parent" android:layout_height="189.0dip">
+        <ImageView android:id="@id/invisible_item_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:src="@drawable/img_invisible" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/black20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="70.0dip" android:text="@string/invisible_item_tips" android:layout_below="@id/invisible_item_img" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

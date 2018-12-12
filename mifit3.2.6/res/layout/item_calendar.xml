@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_calendar_item" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:gravity="center" android:id="@id/tx_month" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/calender_month_size" />
+    <RelativeLayout android:orientation="vertical" android:layout_width="@dimen/calender_item_size" android:layout_height="@dimen/calender_item_size">
+        <CheckBox android:textSize="15.0sp" android:textColor="@color/black80" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/cbx_date" android:clickable="false" android:layout_width="@dimen/calender_day_size" android:layout_height="@dimen/calender_day_size" android:button="@null" android:layout_centerInParent="true" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/imv_point" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="4.0dip" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

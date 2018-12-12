@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/dialogBackground" android:paddingTop="19.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="48.0dip" android:paddingEnd="48.0dip" style="@style/dialogMessageStyle" />
+    <TextView android:textSize="11.299988sp" android:textColor="#ff1674e9" android:gravity="center" android:layout_gravity="center" android:id="@id/link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.299988dip" android:drawablePadding="2.6999817dip" />
+    <TextView android:textSize="60.0sp" android:textColor="@color/dialogTitleTextColor" android:layout_gravity="center" android:id="@id/value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" />
+    <FrameLayout android:id="@id/list_content" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ListView android:id="@id/list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@null" android:overScrollMode="never" />
+    </FrameLayout>
+</LinearLayout>

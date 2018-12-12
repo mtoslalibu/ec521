@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@id/xrefreshview_header_text" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/xrefreshview_header_hint_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_pull_to_refresh" android:maxLines="1" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/xrefreshview_header_hint_dot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toEndOf="@id/xrefreshview_header_hint_textview" />
+    <ImageView android:id="@id/xrefreshview_header_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:src="@drawable/pull_down_arrow" android:layout_below="@id/xrefreshview_header_hint_textview" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/space_view" android:background="@color/pale_grey" android:layout_width="fill_parent" android:layout_height="@dimen/common_space_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="top" android:background="@color/black10" android:layout_width="fill_parent" android:layout_height="@dimen/divider" />
+    <View android:layout_gravity="bottom" android:background="@color/black10" android:layout_width="fill_parent" android:layout_height="@dimen/divider" />
+</FrameLayout>

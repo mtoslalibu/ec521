@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/training_rest_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/training_gauss_blur_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <TextView android:textSize="@dimen/training_pause_text_size" android:textColor="@color/white" android:id="@id/training_rest_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/training_pause_text_size" android:textColor="@color/training_pause_action_name" android:id="@id/training_action_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="45.0dip" android:layout_below="@id/training_rest_time" android:layout_centerHorizontal="true" />
+    <TextureView android:id="@id/training_thumbnail" android:layout_width="192.0dip" android:layout_height="108.0dip" android:layout_marginTop="12.0dip" android:layout_below="@id/training_action_name" android:layout_centerHorizontal="true" />
+    <com.huami.ad.view.TextLinkAdView android:id="@id/ad_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:layout_below="@id/training_thumbnail" android:layout_centerHorizontal="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:textColor="@color/white100" app:badgeColor="@color/color_warning" />
+    <com.xiaomi.hm.health.training.ui.widget.TrainingPauseView android:id="@id/training_resume" android:layout_width="68.0dip" android:layout_height="68.0dip" android:layout_marginBottom="12.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:pause_type="1" />
+</RelativeLayout>

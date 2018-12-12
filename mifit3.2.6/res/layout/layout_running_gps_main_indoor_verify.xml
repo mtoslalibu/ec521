@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaomi.hm.health.baseui.gradient.GradientLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_indoor_verify" android:layout_width="fill_parent" android:layout_height="fill_parent" android:filterTouchesWhenObscured="true" app:linearColors="@array/bg_running_gradient_colors" app:linearPositions="@array/bg_running_gradient_percents"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textColor="@color/run_white_60_percent" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="31.0dip" android:text="@string/running_indoor_end" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="57.0dip">
+        <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="@dimen/gps_main_normal_total_distance_text_size" android:textColor="@color/run_white_60_percent" android:gravity="top" android:id="@id/tx_indoor_total_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0.00" android:layout_centerHorizontal="true" android:fontFamily="din-med" />
+        <TextView android:textSize="16.699982sp" android:textColor="@color/run_white_60_percent" android:id="@id/tx_indoor_distance_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/running_kilometers" android:layout_alignBaseline="@id/tx_indoor_total_distance" android:layout_toEndOf="@id/tx_indoor_total_distance" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="31.299988dip" android:baselineAligned="false">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="@dimen/gps_main_normal_data_text_size" android:textColor="@color/run_white_60_percent" android:id="@id/tx_indoor_total_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/running_time_init" android:fontFamily="din-med" />
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="16.699982sp" android:textColor="@color/run_white_60_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/running_detail_time_cost_desc" android:fontFamily="din-med" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="@dimen/gps_main_normal_data_text_size" android:textColor="@color/run_white_60_percent" android:id="@id/tx_indoor_average_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hr_empty_data" android:fontFamily="din-med" />
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="16.699982sp" android:textColor="@color/run_white_60_percent" android:id="@id/tx_indoor_average_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/running_indoor_averag_heart_rate" android:fontFamily="din-med" />
+        </LinearLayout>
+    </LinearLayout>
+    <include android:id="@id/verify_distance" layout="@layout/running_verify_distance" />
+</com.xiaomi.hm.health.baseui.gradient.GradientLinearLayout>

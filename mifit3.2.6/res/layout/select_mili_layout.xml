@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="20.0sp" android:textColor="@color/black80" android:id="@id/tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="98.0dip" android:text="@string/select_mili_tips_1" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/black60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginBottom="45.299988dip" android:text="@string/select_mili_tips_2" android:layout_below="@id/tips" android:layout_centerHorizontal="true" />
+        <ListView android:id="@id/mili_device_list" android:layout_width="fill_parent" android:layout_height="250.0dip" android:layout_marginTop="87.0dip" android:divider="@null" android:layout_below="@id/tips" />
+    </RelativeLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/black60" android:id="@id/select_mili_quit_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="35.0dip" android:text="@string/cancel" android:layout_alignParentBottom="true" android:layout_marginStart="58.0dip" android:layout_alignParentStart="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/black60" android:id="@id/select_mili_other_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="35.0dip" android:text="@string/search_other_mili" android:layout_alignParentBottom="true" android:layout_marginEnd="58.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/fl_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imv_bg" android:background="@color/black40" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <android.support.v7.widget.RecyclerView android:id="@id/popup_recycle_view" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="200.0dip" />
+</FrameLayout>

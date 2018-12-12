@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/transparency" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/dialog_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/logout_title_text_size" android:textStyle="bold" android:textColor="#cc000000" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/logout_margin" android:layout_marginTop="26.0dip" android:text="@string/mutex_login_title" />
+            <TextView android:textSize="@dimen/logout_content_text_size" android:textColor="#66000000" android:gravity="center" android:id="@id/mut_exc_login_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/logout_margin" />
+        </LinearLayout>
+        <View android:background="@color/black_20_percent" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:orientation="horizontal" android:background="@color/trans" android:layout_width="fill_parent" android:layout_height="@dimen/item_height_max">
+            <TextView android:textSize="@dimen/person_info_setting_text_size" android:textColor="@color/black70" android:gravity="center" android:id="@id/mutex_login_logout" android:background="@drawable/btn_click_bg_round_dialog_bottom_left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/mutex_login_logout" android:layout_weight="1.0" />
+            <View android:background="@color/black_20_percent" android:layout_width="1.0px" android:layout_height="fill_parent" />
+            <TextView android:textSize="@dimen/person_info_setting_text_size" android:textColor="@color/black70" android:gravity="center" android:id="@id/mutex_login_relogin" android:background="@drawable/btn_click_bg_round_dialog_bottom_right" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/mutex_login_relogin" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

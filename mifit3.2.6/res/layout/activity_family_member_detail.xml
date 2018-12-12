@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_family_info" />
+    <RelativeLayout android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="14.0sp" android:textColor="@color/bf3_list_not_stand" android:gravity="center" android:id="@id/del_ll" android:background="@drawable/common_corner_rect" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/delete" android:layout_centerVertical="true" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" />
+    </RelativeLayout>
+</LinearLayout>

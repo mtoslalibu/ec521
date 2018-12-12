@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:background="@color/pale_grey_five" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/load_status_icon" android:layout_width="68.0dip" android:layout_height="68.0dip" android:src="@drawable/icon_light_house" app:layout_constraintBottom_toTopOf="@id/load_status_text" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/black20" android:id="@id/load_status_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/private_message_network_loading" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/load_status_icon" app:layout_constraintStart_toStartOf="@id/load_status_icon" app:layout_constraintTop_toBottomOf="@id/load_status_icon" />
+</android.support.constraint.ConstraintLayout>

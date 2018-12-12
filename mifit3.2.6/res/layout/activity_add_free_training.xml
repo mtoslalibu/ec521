@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/pale_grey" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_carousel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="180.0dip">
+        <com.xiaomi.hm.health.training.ui.widget.CarouselViewPager android:id="@id/cvp_head_images" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.xiaomi.hm.health.training.ui.widget.CarouselvpIndicator android:id="@id/cvp_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" app:circleDiameter="@dimen/circle_indicator_diameter" app:circleMargin="@dimen/circle_indicator_margin" app:normalColor="@color/circle_default_normal_color" app:checkedColor="@color/circle_default_checked_color" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="9.0dip" android:paddingEnd="9.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="@color/black60" android:gravity="center" android:id="@id/tx_popularity_training" android:paddingTop="11.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/popularity_training" android:drawableTop="@drawable/ic_popup_training" android:drawablePadding="1.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/black60" android:gravity="center" android:id="@id/tx_all_training" android:paddingTop="11.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/all_training" android:drawableTop="@drawable/ic_all_training" android:drawablePadding="1.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/black60" android:gravity="center" android:id="@id/tx_training_knowledge" android:paddingTop="11.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/training_knowledge" android:drawableTop="@drawable/ic_training_knowledge" android:drawablePadding="1.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

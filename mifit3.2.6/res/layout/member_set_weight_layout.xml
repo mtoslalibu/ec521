@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/weight_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/click_button_text_size" android:textColor="@color/personinfo_btn_txt_color" android:gravity="center" android:id="@id/write_weight_tv" android:background="@drawable/person_info_button" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/click_button_h" android:layout_marginBottom="@dimen/item_padding" android:text="@string/choose_weight_manual" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/item_padding" android:layout_marginEnd="@dimen/item_padding" />
+    <TextView android:textSize="26.699982sp" android:textColor="#e6ffffff" android:gravity="center" android:id="@id/title_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="34.69998dip" />
+    <TextView android:textSize="12.699982sp" android:textColor="@color/white_50_percent" android:gravity="center" android:id="@id/tips_tv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.299988dip" android:layout_below="@id/title_tv" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="102.69998dip" android:layout_below="@id/title_tv">
+        <com.xiaomi.hm.health.baseui.ProgressView android:id="@id/weight_chart" android:layout_width="177.0dip" android:layout_height="177.0dip" android:layout_centerInParent="true" app:style="cycleLoading" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="60.0sp" android:textColor="@color/white_40_percent" android:id="@id/weight_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:fontFamily="din-med" />
+            <TextView android:textSize="13.299988sp" android:textColor="@color/white_60_percent" android:id="@id/unit_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/weight_value" android:layout_toEndOf="@id/weight_value" />
+        </RelativeLayout>
+        <ImageView android:id="@id/iconImage" android:layout_width="73.29999dip" android:layout_height="73.29999dip" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

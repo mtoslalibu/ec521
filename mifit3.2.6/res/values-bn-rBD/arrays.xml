@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="avoid_type">
+        <item>@string/state_close</item>
+        <item>@string/avoid_enable_smart</item>
+        <item>@string/avoid_enable_time</item>
+    </string-array>
+    <string-array name="avoid_type_sub">
+        <item></item>
+        <item>@string/avoid_enable_smart_sub</item>
+        <item>@string/avoid_enable_time_sub</item>
+    </string-array>
+    <string-array name="bmi_for_adualt">
+        <item>কম</item>
+        <item>স্বাভাবিক</item>
+        <item>বেশি</item>
+        <item>খুবই বেশি</item>
+    </string-array>
+    <string-array name="bmi_for_child">
+        <item>স্বাভাবিক</item>
+        <item>বেশি</item>
+        <item>খুবই বেশি</item>
+    </string-array>
+    <string-array name="bmi_for_not_chinese">
+        <item>কম</item>
+        <item>স্বাভাবিক</item>
+        <item>বাড়তি</item>
+        <item>বেশি</item>
+        <item>খুবই বেশি</item>
+    </string-array>
+    <string-array name="body_score_leval">
+        <item>খুব খারাপ</item>
+        <item>খারাপ</item>
+        <item>স্বাভাবিক</item>
+        <item>ভালো</item>
+        <item>চমৎকার</item>
+    </string-array>
+    <string-array name="body_shape_type_array">
+        <item>রোগাপাতলা</item>
+        <item>রোগা কিন্তু দুর্বল নয়</item>
+        <item>স্কিনি মাসেল</item>
+        <item>আরো ব্যায়াম করতে হবে</item>
+        <item>ব্যালেন্স</item>
+        <item>ব্যালেন্স করা মাংশপেশি</item>
+        <item>স্থূলকায়</item>
+        <item>বেশী ওজন</item>
+        <item>থিক - সেট</item>
+    </string-array>
+    <string-array name="bodyfat_content_leval">
+        <item>খুব কম</item>
+        <item>কম</item>
+        <item>স্বাভাবিক</item>
+        <item>বাড়তি</item>
+        <item>বেশি</item>
+    </string-array>
+    <string-array name="bone_leval">
+        <item>অপর্যাপ্ত</item>
+        <item>স্বাভাবিক</item>
+        <item>ভালো</item>
+    </string-array>
+    <string-array name="brm_leval">
+        <item>আপনার লক্ষ্যে পৌঁছাননি</item>
+        <item>লক্ষ্যে পৌঁছেছেন</item>
+    </string-array>
+    <string-array name="chaohu_help_tips">
+        <item>ঘড়ির বোতামটি চেপে দেখুন,যদি ঘড়ির স্ক্রীন তবুও বন্ধ থাকে তাহলে ব্যাটারি চার্জ করে দেখুন।</item>
+        <item>প্রথমে ব্লুটুথ বন্ধ করুন,তার পর এই ডিভাইসের সাথে জুড়ুন।</item>
+        <item>যদি ব্যান্ডে চার্য আছে তবুও ফোন সেটা খুঁজে না পায় তাহলে ফোনের ব্লুটুথ রিস্টার্ট করে দেখুন।</item>
+        <item>ব্লুটুথ বন্ধ করে চালু করার পরেও সমস্যার সমাধান না হলে, ফোন রিবুট করে চেষ্টা করুন।</item>
+        <item>ব্যায়াম করার সময় ডাটা সিঙ্ক করা যাবে বা।সেশন শেষ করুন এবং আবার চেষ্টা করুন।</item>
+    </string-array>
+    <string-array name="chaohu_help_title">
+        <item>আপনার ঘড়ি চার্জ করা হয়েছে?</item>
+        <item>এই ঘড়ি অন্য একটি ডিভাইসের সঙ্গে জোড়া হয়েছে কি?</item>
+        <item>ব্লুটুথ রিস্টার্ট করে দেখুন</item>
+        <item>আপনার ফোন আবার চালু করার চেষ্টা করুন</item>
+        <item>ওয়ার্কআউট করার সময় ডাটা সিঙ্ক করা যাবে না</item>
+    </string-array>
+    <string-array name="chaohu_setting_run_types">
+        <item>@string/chaohu_setting_run_outdoor</item>
+        <item>@string/chaohu_setting_run_indoor</item>
+        <item>@string/chaohu_setting_run_ride</item>
+        <item>@string/chaohu_setting_run_walk</item>
+    </string-array>
+    <string-array name="colors">
+        <item>@string/blue</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/red</item>
+    </string-array>
+    <string-array name="common_cities">
+        <item>গুয়াংজু</item>
+        <item>শেনজেন</item>
+        <item>ফোশান</item>
+        <item>ডংগুয়াং</item>
+        <item>বেজিং</item>
+        <item>নানজিং</item>
+        <item>শুজো</item>
+        <item>চ্যাংজু</item>
+        <item>জিনান</item>
+        <item>কুইংডাও</item>
+        <item>হ্যাংজু</item>
+        <item>নিংবো</item>
+        <item>ঝেংজু</item>
+        <item>কাইফেঙ্গ</item>
+        <item>সাংহাই</item>
+        <item>শিজিয়াজহুয়াং</item>
+        <item>বাওডিং</item>
+        <item>চেংডু</item>
+        <item>মিয়াংয়াং</item>
+        <item>সেনইয়াং</item>
+        <item>ডালিয়ান</item>
+    </string-array>
+    <string-array name="difficulty_content">
+        <item>ফিটনেস প্রশিক্ষণের জন্য নতুন হাত</item>
+        <item>বেসিক ফিটনেস অভিজ্ঞতা আছে</item>
+        <item>ভাল ফিটনেসের অভিজ্ঞতা ও শরীরের ভাল গঠন</item>
+    </string-array>
+    <string-array name="difficulty_title">
+        <item>প্রাথমিক</item>
+        <item>মাধ্যমিক</item>
+        <item>উন্নত</item>
+    </string-array>
+    <string-array name="fitness_goal_content">
+        <item>মেদ কমানোর জন্য লক্ষ্য</item>
+        <item>শরীরের আকৃতি ঠিক করার জন্য লক্ষ্য</item>
+        <item>পেশী গঠন করার লক্ষ্য</item>
+    </string-array>
+    <string-array name="fitness_goal_title">
+        <item>কাটা</item>
+        <item>গঠন</item>
+        <item>বাল্ক</item>
+    </string-array>
+    <string-array name="ges_screen_type">
+        <item>@string/ges_screen_type_all_day</item>
+        <item>@string/ges_screen_type_time</item>
+        <item>@string/ges_screen_type_close</item>
+    </string-array>
+    <string-array name="hr_section">
+        <item>@string/hr_section_warm_up</item>
+        <item>@string/hr_section_fat_burn</item>
+        <item>@string/hr_section_heart_lung_strengthen</item>
+        <item>@string/hr_section_stamina_strengthen</item>
+        <item>@string/hr_section_anaerobic_limit</item>
+        <item>@string/hr_section_other</item>
+    </string-array>
+    <string-array name="hr_sport">
+        <item>হৃৎস্পন্দন জোন : লাইট</item>
+        <item>হৃৎস্পন্দন জোন : ওজন</item>
+        <item>হৃৎস্পন্দন জোন : এরোবিক্স</item>
+        <item>হৃৎস্পন্দন জোন : অ্যানারোবিক্স</item>
+        <item>হৃৎস্পন্দন জোন : VO₂ max</item>
+    </string-array>
+    <string-array name="hr_sport_new">
+        <item>হালকা</item>
+        <item>ওজন</item>
+        <item>অ্যারোবিক</item>
+        <item>অ্যানারোবিক</item>
+        <item>VO₂ সৰ্বাধিক</item>
+    </string-array>
+    <string-array name="lock_screen_type">
+        <item>বন্ধ করুন</item>
+        <item>কাছে</item>
+        <item>দূরে</item>
+    </string-array>
+    <string-array name="member_add_weight_items">
+        <item>@string/member_add_weight_item_auto</item>
+        <item>@string/member_add_weight_item_manual</item>
+    </string-array>
+    <string-array name="mili_help_tips">
+        <item>"কোনো ব্যান্ড বা Mi ব্যান্ড 2 এর সাথে জোড় বাঁধার আগে দেথে নিন ডিভাইস চার্জ করা আছে কি না।
+
+Mi ব্যান্ড বা Mi ব্যান্ড পাল্স জোড় বাঁধার আগে ব্যান্ডটি চার্জ করুন।"</item>
+        <item>প্রথমে ব্লুটুথ বন্ধ করুন,তার পর এই ডিভাইসের সাথে জুড়ুন।</item>
+        <item>যদি ব্যান্ডে চার্য আছে তবুও ফোন সেটা খুঁজে না পায় তাহলে ফোনের ব্লুটুথ রিস্টার্ট করে দেখুন।</item>
+        <item>ব্লুটুথ বন্ধ করে চালু করার পরেও সমস্যার সমাধান না হলে, আপনার ফোন রিবুট করে চেষ্টা করুন।</item>
+    </string-array>
+    <string-array name="mili_help_title">
+        <item>আপনার ব্যান্ড চার্জ করা হয়েছে?</item>
+        <item>এই ব্যান্ড অন্য একটি ডিভাইসের সঙ্গে জোড়া হয়েছে কি?</item>
+        <item>ব্লুটুথ রিস্টার্ট করে দেখুন</item>
+        <item>আপনার ফোন আবার চালু করার চেষ্টা করুন</item>
+    </string-array>
+    <string-array name="mili_pro_display_items">
+        <item>সময়</item>
+        <item>পদক্ষেপগুলি</item>
+        <item>দূরত্ব</item>
+        <item>ক্যালোরি</item>
+        <item>হৃৎস্পন্দন রেট</item>
+        <item>ব্যাটারি</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>জান</item>
+        <item>ফেব</item>
+        <item>মার্চ</item>
+        <item>এপ্রিল</item>
+        <item>মে</item>
+        <item>জুন</item>
+        <item>জুলাই</item>
+        <item>আগ</item>
+        <item>সেপ্ট</item>
+        <item>অক্টো</item>
+        <item>নভে</item>
+        <item>ডিস</item>
+    </string-array>
+    <string-array name="muscle_content_leval">
+        <item>অপর্যাপ্ত</item>
+        <item>স্বাভাবিক</item>
+        <item>ভালো</item>
+    </string-array>
+    <string-array name="ring_types">
+        <item>@string/ring_type_default</item>
+        <item>@string/ring_type_incall</item>
+    </string-array>
+    <string-array name="running_months">
+        <item>জান</item>
+        <item>ফেব</item>
+        <item>মার্চ</item>
+        <item>এপ্রিল</item>
+        <item>মে</item>
+        <item>জুন</item>
+        <item>জুলাই</item>
+        <item>আগ</item>
+        <item>সেপ্ট</item>
+        <item>অক্টো</item>
+        <item>নভে</item>
+        <item>ডিস</item>
+    </string-array>
+    <string-array name="setting_hr_freq_types">
+        <item>@string/setting_heartrate_detect_freq_1</item>
+        <item>@string/setting_heartrate_detect_freq_10</item>
+        <item>@string/setting_heartrate_detect_freq_30</item>
+    </string-array>
+    <string-array name="setting_hr_types">
+        <item>@string/setting_heartrate_detect_auto</item>
+        <item>@string/setting_heartrate_detect_sleep</item>
+        <item>@string/setting_heartrate_detect_close</item>
+    </string-array>
+    <string-array name="setting_peyto_apps_array">
+        <item>ঘড়ির মুখ</item>
+        <item>স্টেটাস</item>
+        <item>অ্যাক্টিভিটি</item>
+        <item>আবহাওয়া</item>
+        <item>অ্যালার্ম</item>
+        <item>টাইমার</item>
+        <item>কম্পাস</item>
+        <item>আরো সেটিংস</item>
+    </string-array>
+    <string-array name="setting_tempo_apps_array">
+        <item>ঘড়ির মুখ</item>
+        <item>স্থিতি</item>
+        <item>বিজ্ঞপ্তি</item>
+        <item>অ্যাক্টিভিটি</item>
+        <item>আবহাওয়া</item>
+        <item>অ্যালার্ম</item>
+        <item>টাইমার</item>
+        <item>সেটিংস</item>
+    </string-array>
+    <string-array name="setting_weather_temp_unit_array">
+        <item>@string/setting_weather_temp_c</item>
+        <item>@string/setting_weather_temp_f</item>
+    </string-array>
+    <string-array name="shoes_help_tips">
+        <item>অনেকক্ষণ ধরে কাজ না করলে স্মার্ট চিপ কাজ করা কাজ করবে না।নাড়িয়ে দেখুন ও আবার চেষ্টা করুন।</item>
+        <item>Amazfit স্মার্ট চিপ ব্যাটারি লাইফ 1 বছরের।যদি আপনি অনেক দিন ধরে ব্যাবহার করে থাকেন তাহলে হয়ত আর ব্যাটারি বাকি নেই।</item>
+        <item>প্রথমে ব্লুটুথ বন্ধ করুন,তার পর এই ডিভাইসের সাথে জুড়ুন।</item>
+        <item>স্মার্ট চিপে পুরো চার্জ থাকা সত্তেও যদি ফোনের কাছে রেখে দেওয়ার পরেও শনাক্ত না করা যায় তাহলে ফোনের ব্লুটুথ রিবুট করে দেখুন।</item>
+        <item>ব্লুটুথ বন্ধ করে চালু করার পরেও সমস্যার সমাধান না হলে, আপনার ফোন রিবুট করে চেষ্টা করুন।</item>
+        <item>আপনাআপনি ডাটা সিঙ্ক করতে দৌড়ানোর ডাটা ট্যাপ করুন এবং পরের অ্যাক্টিভিটি পৃষ্ঠাতে যান</item>
+    </string-array>
+    <string-array name="shoes_help_title">
+        <item>স্মার্ট চিপ নাড়ান</item>
+        <item>এই ব্যাটারি চার্চ করা হয়েছে কি?</item>
+        <item>এই স্মার্ট চিপ অন্য একটি ডিভাইসের সঙ্গে জোড়া হয়েছে কি?</item>
+        <item>ব্লুটুথ শুরু করুন</item>
+        <item>আপনার ফোন আবার চালু করার চেষ্টা করুন</item>
+        <item>কি করে আপনার ডাটা সিঙ্ক করবেন?</item>
+    </string-array>
+    <string-array name="show_body_shape_array">
+        <item>স্থূলকায়</item>
+        <item>বেশী ওজন</item>
+        <item>থিক - সেট</item>
+        <item>"আরো ব্যায়াম 
+করতে হবে"</item>
+        <item>ব্যালেন্স</item>
+        <item>"ব্যালেন্স করা 
+মাংশপেশি"</item>
+        <item>রোগাপাতলা</item>
+        <item>"রোগা কিন্তু 
+দুর্বল নয়"</item>
+        <item>"রোগাপাতলা 
+মাংশপোশি"</item>
+    </string-array>
+    <string-array name="timeline_type">
+        <item>অ্যাক্টিভিটি</item>
+        <item>ধীরে হাঁটা</item>
+        <item>হাঁটা</item>
+        <item>দ্রুত হাঁটা</item>
+        <item>দৌড়ানো</item>
+        <item>দাঁড়ানো</item>
+        <item>বসা</item>
+        <item>হালকা কাজকর্ম</item>
+        <item>পড়ে নেই</item>
+        <item>চার্জ হচ্ছে ...</item>
+        <item>শুয়ে থাকা</item>
+    </string-array>
+    <string-array name="train_difficulity">
+        <item>সীমাবদ্ধ নয়</item>
+        <item>প্রাথমিক, 1</item>
+        <item>মাধ্যমিক, 2</item>
+        <item>উন্নত, 3</item>
+    </string-array>
+    <string-array name="unbind_device_description">
+        <item>@string/device_band</item>
+        <item>@string/device_weight</item>
+        <item>@string/device_shoe</item>
+        <item>@string/device_watch</item>
+    </string-array>
+    <string-array name="visceral_fat_leval">
+        <item>স্বাভাবিক</item>
+        <item>বেশি</item>
+        <item>খুবই বেশি</item>
+    </string-array>
+    <string-array name="water_leval">
+        <item>অপর্যাপ্ত</item>
+        <item>স্বাভাবিক</item>
+        <item>ভালো</item>
+    </string-array>
+    <string-array name="wear_type">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+    </string-array>
+    <string-array name="wear_type_body">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="wear_type_chest">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/chest</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>রবি</item>
+        <item>সোম</item>
+        <item>মঙ্গল</item>
+        <item>বুধ</item>
+        <item>বৃহস্পতি</item>
+        <item>শুক্র</item>
+        <item>শনি</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>সোমবার</item>
+        <item>মঙ্গলবার</item>
+        <item>বুধবার</item>
+        <item>বৃহস্পতিবার</item>
+        <item>শুক্রবার</item>
+        <item>শনিবার</item>
+        <item>রবিবার</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>সোম</item>
+        <item>মঙ্গল</item>
+        <item>বুধ</item>
+        <item>বৃহস্পতি</item>
+        <item>শুক্র</item>
+        <item>শনি</item>
+        <item>রবি</item>
+    </string-array>
+    <string-array name="weight3_body_figures">
+        <item>সঠিক ওজনের চেয়ে কম</item>
+        <item>ব্যালেন্স</item>
+        <item>বেশী ওজন</item>
+        <item>স্থূলকায়</item>
+    </string-array>
+    <string-array name="weight_bfs_help_tips">
+        <item>প্রথমে ব্লুটুথ বন্ধ করুন,তার পর এই ডিভাইসের সাথে জুড়ুন।</item>
+        <item>আপনি স্কেলের উপর দাঁড়িয়ে দেখুন আপনার ওজোন দেখাচ্ছে কিনা।যদি ব্যাটারি আইকন দেখাতে থাকে তাহলে ব্যাটারিগুলি বদলাতে হবে।</item>
+        <item>যদি স্কেলে দাঁড়ানোর পরে কোনা কিছু দেখতে না পান তাহলে দেখে নিন যে ব্যাটারিগুলি ঠিক মত লাগানো হয়েছে কিনা।</item>
+        <item>যদি ব্যাটারিতে পুরো চার্জ থাকা সত্তেও ডিভাইসটি ফোনের কাছে রেখেও খুঁজে না পান তাহলে ফোনের ব্লুটুথ আবার শুরু করুন।</item>
+        <item>ব্লুটুথ বন্ধ করে চালু করার পরেও সমস্যার সমাধান না হলে, ফোন রিবুট করে চেষ্টা করুন।</item>
+    </string-array>
+    <string-array name="weight_bfs_help_title">
+        <item>এই স্কেল অন্য একটি ডিভাইসের সঙ্গে জোড়া হয়েছে কি?</item>
+        <item>স্কেলের ব্যাটারি চেক করুন</item>
+        <item>ব্যাটারি কি যথাযথ ভাবে ইনস্টল হয়েছে?</item>
+        <item>ব্লুটুথ রিস্টার্ট করে দেখুন</item>
+        <item>আপনার ফোন আবার চালু করার চেষ্টা করুন</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>স্বাভাবিক</item>
+        <item>বেশী ওজন</item>
+        <item>স্থূলকায়</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_not_chinese">
+        <item>সঠিক ওজনের চেয়ে কম</item>
+        <item>স্বাভাবিক</item>
+        <item>বেশী ওজন</item>
+        <item>স্থূলকায় I</item>
+        <item>স্থূলকায় II</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>" কেজি"</item>
+        <item>" জিন"</item>
+        <item>" এলবিএস"</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+        <item>@string/weight_bfs_unit_jin</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array_no_jin">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+    </string-array>
+</resources>

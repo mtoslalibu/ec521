@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/black70" android:background="@color/white" android:paddingTop="14.0dip" android:layout_width="fill_parent" android:layout_height="41.0dip" android:text="@string/feedback_content_title" android:paddingStart="18.0dip" />
+    <View android:background="@color/divide" android:layout_width="fill_parent" android:layout_height="0.33000004dip" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" />
+    <EditText android:textSize="12.0sp" android:textColor="@color/black70" android:textColorHint="@color/black20" android:gravity="start|center|top" android:id="@id/feedback_content" android:background="@android:color/white" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="125.0dip" android:hint="@string/feedback_content" android:textCursorDrawable="@null" android:paddingStart="18.0dip" android:paddingEnd="18.0dip" />
+    <View android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/black70" android:background="@color/white" android:paddingTop="14.0dip" android:layout_width="fill_parent" android:layout_height="41.0dip" android:text="@string/contact_content_title" android:paddingStart="18.0dip" />
+    <View android:background="@color/divide" android:layout_width="fill_parent" android:layout_height="0.33000004dip" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" />
+    <EditText android:textSize="12.0sp" android:textColor="@color/black70" android:textColorHint="@color/black20" android:gravity="start|center|top" android:id="@id/feedback_contact" android:background="@android:color/white" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="66.0dip" android:hint="@string/feedback_contact_detail" android:textCursorDrawable="@null" android:paddingStart="18.0dip" android:paddingEnd="12.0dip" />
+    <View android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/black70" android:background="@color/white" android:paddingTop="14.0dip" android:layout_width="fill_parent" android:layout_height="41.0dip" android:text="@string/commit_log" android:paddingStart="18.0dip" />
+    <View android:background="@color/divide" android:layout_width="fill_parent" android:layout_height="0.33000004dip" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" />
+    <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="58.0dip">
+        <CheckBox android:id="@id/feedback_checkbox" android:layout_width="wrap_content" android:layout_height="19.299988dip" android:checked="true" android:button="@drawable/checkbox_style" android:layout_centerVertical="true" android:layout_marginStart="18.0dip" android:layout_alignParentStart="true" />
+        <TextView android:textColor="@color/black70" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/feedback_upload_logfile" android:layout_alignBottom="@id/feedback_checkbox" android:layout_marginStart="2.0dip" android:layout_toEndOf="@id/feedback_checkbox" />
+    </RelativeLayout>
+    <View android:id="@id/divider" android:background="@color/divide" android:layout_width="fill_parent" android:layout_height="0.33000004dip" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" />
+    <RelativeLayout android:id="@id/check_watch_log_rl" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="58.0dip">
+        <CheckBox android:id="@id/feedback_checkbox_watch" android:layout_width="wrap_content" android:layout_height="19.299988dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:checked="false" android:button="@drawable/checkbox_style" android:layout_centerVertical="true" android:layout_marginStart="18.0dip" android:layout_alignParentStart="true" />
+        <TextView android:textColor="@color/black70" android:id="@id/feedback_upload_title_watch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/feedback_upload_watch_log" android:layout_alignBottom="@id/feedback_checkbox_watch" android:layout_marginStart="2.0dip" android:layout_toEndOf="@id/feedback_checkbox_watch" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_id" />
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="14.0sp" android:textColor="@color/dark_sky_blue_three" android:layout_gravity="center_vertical" android:id="@id/account_id_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="km" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

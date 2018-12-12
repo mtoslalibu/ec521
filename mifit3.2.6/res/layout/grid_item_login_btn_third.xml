@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/login_btn_third_margin" android:paddingEnd="@dimen/login_btn_third_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:baseui="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.hm.health.baseui.circleimageview.HMCircleBorderImageView android:layout_gravity="center" android:id="@id/login_btn_third" android:layout_width="@dimen/login_btn_hub_size" android:layout_height="@dimen/login_btn_hub_size" baseui:hm_civ_border_color="@color/black20" baseui:hm_civ_border_width="@dimen/login_btn_hub_item_border_width" baseui:hm_civ_image_padding="@dimen/login_btn_hub_item_image_padding" />
+</RelativeLayout>

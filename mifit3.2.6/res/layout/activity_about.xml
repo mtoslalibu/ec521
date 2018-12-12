@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/pale_grey_two" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:huami="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="252.0dip">
+            <ImageView android:id="@id/about_app_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="91.0dip" android:src="@drawable/app_icon_60" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/black70" android:id="@id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_below="@id/about_app_icon" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/app_version" android:layout_width="fill_parent" android:layout_height="wrap_content" huami:itemTitle="@string/app_version_3" huami:itemEndArrow="false" />
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/algo_version" android:layout_width="fill_parent" android:layout_height="wrap_content" huami:itemTitle="@string/algo_version_3" huami:itemEndArrow="false" />
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/user_protocol" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onProtocolClick" huami:itemTitle="@string/user_agreement" />
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/user_privacy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onPrivacyClick" huami:itemTitle="@string/user_privacy" />
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/user_join_plan" android:layout_width="fill_parent" android:layout_height="wrap_content" huami:itemTitle="@string/user_plan" huami:itemSummary="@string/user_plan_sub_title" huami:itemSwitch="true" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

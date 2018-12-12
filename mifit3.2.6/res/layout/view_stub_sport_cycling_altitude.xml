@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_running_data_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="@dimen/gps_main_normal_total_distance_text_size" android:textColor="@color/run_white_60_percent" android:gravity="top" android:id="@id/tx_instant_speed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sport_cycling_instant_speed" android:layout_centerHorizontal="true" android:fontFamily="din-med" />
+    <TextView android:textSize="@dimen/font_size_v2_f3" android:textColor="@color/run_white_60_percent" android:id="@id/tx_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/running_kilometers_per_hour" android:layout_alignBaseline="@id/tx_instant_speed" android:layout_toEndOf="@id/tx_instant_speed" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gps_main_normal_running_gps_main_data_margin_top" android:layout_below="@id/tx_instant_speed">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_width="@dimen/gps_main_normal_data_size" android:layout_height="@dimen/gps_main_normal_data_size" android:src="@drawable/sport_data_distance" />
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="@dimen/gps_main_normal_data_text_size" android:textColor="@color/run_white_60_percent" android:id="@id/tx_total_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0.00" android:fontFamily="din-med" android:layout_marginStart="@dimen/gps_main_normal_data_margin" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_width="@dimen/gps_main_normal_data_size" android:layout_height="@dimen/gps_main_normal_data_size" android:src="@drawable/sport_data_altitude" />
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="@dimen/gps_main_normal_data_text_size" android:textColor="@color/run_white_60_percent" android:id="@id/tx_altitude" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:fontFamily="din-med" android:layout_marginStart="@dimen/gps_main_normal_data_margin" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

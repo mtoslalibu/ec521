@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/sort_icon" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:layout_centerVertical="true" android:layout_marginStart="17.0dip" android:layout_alignParentStart="true" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/black70" android:gravity="start" android:id="@id/sort_item_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="10.0dip" android:layout_toStartOf="@id/sort_item_drag_area" android:layout_toEndOf="@id/sort_icon" />
+    <RelativeLayout android:id="@id/sort_item_drag_area" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_alignParentEnd="true">
+        <ImageView android:id="@id/sort_drag_item" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/sort_icon" android:layout_centerVertical="true" android:layout_marginEnd="18.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

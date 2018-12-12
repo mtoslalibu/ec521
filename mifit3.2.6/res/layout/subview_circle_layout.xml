@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <ImageView android:id="@id/subview_circle_icon_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sort_circle" android:layout_centerVertical="true" android:layout_marginStart="17.0dip" android:layout_alignParentStart="true" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/black70" android:id="@id/subview_circle_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="13.0dip" android:layout_toEndOf="@id/subview_circle_icon_img" />
+    </RelativeLayout>
+    <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="120.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/circle_subview_detail_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </HorizontalScrollView>
+    <RelativeLayout android:id="@id/circle_subview_more_layout" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="14.0sp" android:textColor="@color/black40" android:id="@id/circle_subview_more" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/more" />
+            <ImageView android:id="@id/circle_subview_more_img" android:background="@drawable/ic_arrow_right" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/circle_subview_more" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <ImageView android:id="@id/step_subview_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sort_goal" android:layout_centerVertical="true" android:layout_marginStart="17.0dip" android:layout_alignParentStart="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="13.0dip" android:layout_toStartOf="@id/step_subview_day" android:layout_toEndOf="@id/step_subview_icon">
+            <TextView android:textSize="15.0sp" android:textColor="@color/black70" android:id="@id/step_subview_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:id="@id/step_subview_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" />
+        </LinearLayout>
+        <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="30.0sp" android:textColor="@color/black70" android:id="@id/step_subview_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:fontFamily="km" android:layout_marginEnd="3.0dip" android:layout_toStartOf="@id/step_subview_day_unit" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:id="@id/step_subview_day_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/unit_day" android:layout_alignParentBottom="true" android:layout_marginEnd="14.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <com.xiaomi.hm.health.subview.StepsView android:id="@id/chart_container" android:layout_width="fill_parent" android:layout_height="98.0dip" />
+</LinearLayout>

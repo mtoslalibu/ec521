@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/dialog_empty_area" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@color/main_ui_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:background="@drawable/bg_rect_transprent" android:layout_width="fill_parent" android:layout_height="202.0dip">
+            <View android:background="@drawable/bg_rect" android:layout_width="fill_parent" android:layout_height="50.69998dip" android:layout_centerVertical="true" />
+            <kankan.wheel.widget.WheelView android:id="@id/wv_verify_distance" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:gravity="center_vertical" android:background="#ffe3e3e3" android:layout_width="5.5dip" android:layout_height="fill_parent">
+                <View android:background="@color/verify_distance_accent" android:layout_width="fill_parent" android:layout_height="50.69998dip" />
+            </LinearLayout>
+        </RelativeLayout>
+        <com.xiaomi.hm.health.baseui.widget.DimPanelBottomBar android:layout_width="fill_parent" android:layout_height="wrap_content" app:left_text="@string/running_btn_continue" app:right_text="@string/running_btn_confirm" app:left_text_color="@color/button_cancel_color" app:right_text_color="@color/button_confirm_color" />
+    </LinearLayout>
+</LinearLayout>

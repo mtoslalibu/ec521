@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/bf_score_ll_pre" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bf3_b_m_i" android:layout_centerVertical="true" android:layout_marginStart="19.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_bf3_params" android:layout_width="wrap_content" android:layout_height="26.0dip" android:layout_marginTop="14.0dip" android:layout_marginStart="15.0dip" android:layout_toEndOf="@id/bf_score_ll_pre">
+        <TextView android:textSize="15.0sp" android:textColor="@color/black70" android:layout_gravity="center" android:id="@id/params_name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.xiaomi.hm.health.view.UnitTextView android:textSize="18.0sp" android:textColor="@color/black80" android:layout_gravity="center" android:id="@id/params_value_tv" android:paddingTop="5.5dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="2.1799927dip" android:layout_marginStart="3.0dip" app:unitSize="15.0sp" app:unitColor="@color/black70" app:typeface="km" />
+    </LinearLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:id="@id/content_state_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip" android:layout_below="@id/ll_bf3_params" android:layout_marginStart="15.0dip" android:layout_toEndOf="@id/bf_score_ll_pre" />
+    <ImageView android:id="@id/arrow_iv" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/arrow_down" android:scaleType="centerInside" android:layout_centerVertical="true" android:layout_marginEnd="18.0dip" android:layout_alignParentEnd="true" />
+    <View android:id="@id/divider_bottom" android:background="@color/stp_divide" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/divider_slp_info" android:layout_alignParentBottom="true" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" />
+</RelativeLayout>

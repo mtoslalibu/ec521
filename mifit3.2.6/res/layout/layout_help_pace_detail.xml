@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/running_primary_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.299988sp" android:textColor="@color/run_white_50_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/running_pace" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/run_white_30_percent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.299988dip" android:text="@string/running_help_pace_instruction1" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/run_white_30_percent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/running_help_pace_instruction2" />
+    <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/icon_running_help_pace_figure1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.699982dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/run_white_30_percent" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.299988dip" android:text="@string/running_help_pace_figure1_desc" />
+    <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/icon_running_help_pace_figure2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.699982dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/run_white_30_percent" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/running_help_pace_figure2_desc" />
+    <TextView android:textSize="13.299988sp" android:textColor="@color/run_white_50_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/running_help_pace_title_nospeedperhour" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/run_white_30_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.299988dip" android:text="@string/running_help_pace_nospeedperhour_reason" />
+</LinearLayout>

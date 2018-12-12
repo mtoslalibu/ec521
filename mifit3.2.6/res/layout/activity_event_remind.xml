@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/tips_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:background="@color/divide" android:layout_width="fill_parent" android:layout_height="@dimen/divider" />
+    </LinearLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/black20" android:id="@id/empty_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="180.0dip" android:text="@string/event_remind_no_data" android:drawableTop="@drawable/img_event_remind_nodata" android:drawablePadding="3.0dip" android:layout_below="@id/tips_container" android:layout_centerHorizontal="true" />
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:orientation="vertical" android:id="@id/load_more_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/action_container" android:layout_below="@id/tips_container">
+        <android.support.v7.widget.RecyclerView android:id="@id/event_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <FrameLayout android:id="@id/action_container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="66.0dip" android:layout_alignParentBottom="true">
+        <View android:background="@color/divide" android:layout_width="fill_parent" android:layout_height="@dimen/divider" />
+        <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="9.0sp" android:textColor="@color/black40" android:gravity="center" android:id="@id/edit_event_tv" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit" android:drawableTop="@drawable/edit_alarm_selector" android:drawablePadding="3.0dip" />
+            <TextView android:textSize="9.0sp" android:textColor="@color/black40" android:gravity="center" android:id="@id/done_event_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/smart_alarm_done" android:drawableTop="@drawable/smart_alarm_done" android:drawablePadding="3.0dip" />
+            <TextView android:textSize="9.0sp" android:textColor="@color/black40" android:gravity="center" android:id="@id/add_event_tv" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/smart_alarm_add" android:drawableTop="@drawable/btn_add_family_selector" android:drawablePadding="3.0dip" android:layout_marginStart="50.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+    <View android:id="@id/mask_view" android:background="@color/change_sport_goal_mask" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tips_container" />
+</RelativeLayout>

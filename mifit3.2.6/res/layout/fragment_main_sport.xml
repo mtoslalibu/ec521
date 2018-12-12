@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/pale_grey" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View style="@style/VerticalDivider" />
+    <LinearLayout android:orientation="vertical" android:id="@id/my_training_course_view_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <View style="@style/VerticalDivider" />
+        <com.xiaomi.hm.health.training.ui.widget.MyTrainingCourseView android:id="@id/my_training_course_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View style="@style/VerticalDivider" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_joined_free_training" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <View style="@style/VerticalDivider" />
+        <RelativeLayout android:id="@id/btn_browse_all_joined_free_training" style="@style/TrainingHomeSectionTitleBar">
+            <TextView android:text="@string/joined_free_training" style="@style/TrainingHomeSectionTitleText" />
+            <ImageView style="@style/TrainingHomeSectionRightArrow" />
+        </RelativeLayout>
+        <android.support.v7.widget.RecyclerView android:id="@id/rv_joined_free_training" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:gravity="center_horizontal" android:id="@id/btn_add_new_free_training" android:background="@drawable/bg_item" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <ImageView android:id="@id/imv_add_training" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_add_training_gray" android:layout_centerVertical="true" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/black40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_new_free_training" android:layout_centerVertical="true" android:layout_marginStart="6.5dip" android:layout_toEndOf="@id/imv_add_training" />
+        </RelativeLayout>
+        <View style="@style/VerticalDivider" />
+    </LinearLayout>
+    <com.xiaomi.hm.health.training.ui.widget.TopicItemView android:id="@id/tiv_recommend" android:background="@color/white100" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="172.0dip" />
+    <com.xiaomi.hm.health.training.ui.widget.TopicItemView android:id="@id/tiv_popular" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="172.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/black70" android:gravity="center_vertical" android:id="@id/recommend_topics_title" android:background="@color/white100" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="8.0dip" android:text="@string/recommended_topics" android:paddingStart="18.0dip" android:paddingEnd="18.0dip" />
+    <View android:id="@id/recommend_topics_divider" android:visibility="gone" style="@style/VerticalDivider" />
+    <android.support.v7.widget.RecyclerView android:id="@id/recommend_topics" android:background="@color/white100" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="172.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_join" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <View style="@style/VerticalDivider" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/btn_join_free_training" android:background="@drawable/icon_entrance_to_free_training_bg" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_marginTop="8.0dip">
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginTop="34.0dip" android:text="@string/join_free_training" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="18.0dip" android:text="@string/start_one_scientific_training" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/btn_add_training_course" android:background="@drawable/icon_entrance_to_customized_training_bg_male" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_marginTop="8.0dip">
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="34.0dip" android:text="@string/customized_training_course" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="18.0dip" android:text="@string/customized_training_course_very_good" />
+        </LinearLayout>
+        <View android:layout_marginTop="8.0dip" style="@style/VerticalDivider" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_featured_articles" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <View style="@style/VerticalDivider" />
+        <RelativeLayout android:id="@id/btn_browse_all_articles" style="@style/TrainingHomeSectionTitleBar">
+            <TextView android:text="@string/featured_articles" style="@style/TrainingHomeSectionTitleText" />
+            <ImageView style="@style/TrainingHomeSectionRightArrow" />
+        </RelativeLayout>
+        <android.support.v7.widget.RecyclerView android:id="@id/rv_featured_articles" android:layout_width="fill_parent" android:layout_height="120.0dip" />
+        <View android:layout_marginTop="8.0dip" style="@style/VerticalDivider" />
+    </LinearLayout>
+</LinearLayout>

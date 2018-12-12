@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/main_content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/dlg_empty_area_btn" android:background="#80000000" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/content" android:background="#fff8f8f8" android:layout_width="fill_parent" android:layout_height="259.39844dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="192.69998dip">
+            <TextView android:textSize="14.699982sp" android:textColor="@color/black_80_percent" android:layout_gravity="center" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.699982dip" android:text="@string/weight_choose_user_title" />
+            <HorizontalScrollView android:id="@id/scrollview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="149.29999dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <GridView android:id="@id/users_list" android:layout_width="wrap_content" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:horizontalSpacing="26.699982dip" android:stretchMode="none" android:numColumns="auto_fit" android:paddingStart="26.699982dip" android:paddingEnd="26.699982dip" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+        <View android:background="@color/black_20_percent" android:layout_width="fill_parent" android:layout_height="0.30000007dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="66.69998dip">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="66.69998dip" android:layout_centerInParent="true">
+                <ImageView android:id="@id/giveup_iv" android:layout_width="33.299988dip" android:layout_height="33.299988dip" android:layout_marginTop="11.0dip" android:layout_marginBottom="4.6999817dip" android:src="@drawable/icon_giveup" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="9.299988sp" android:textColor="@color/black_40_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/give_up" android:layout_below="@id/giveup_iv" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

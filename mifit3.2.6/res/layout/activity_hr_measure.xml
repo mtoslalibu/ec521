@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/center_host" android:background="@color/hr_main_bg" android:layout_width="fill_parent" android:layout_height="@dimen/heart_rate_head_max_height">
+            <com.xiaomi.hm.health.baseui.ProgressView android:id="@id/progress" android:layout_width="160.0dip" android:layout_height="160.0dip" android:layout_centerInParent="true" />
+            <FrameLayout android:layout_width="160.0dip" android:layout_height="160.0dip" android:layout_centerInParent="true">
+                <com.xiaomi.hm.health.view.HeartWave android:layout_gravity="center_vertical" android:id="@id/wave_anim" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip" />
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/error_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/fail_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/heart_error" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/white70" android:id="@id/fail_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/measure_fail" />
+                    <TextView android:textSize="9.299988sp" android:textColor="@color/white60" android:id="@id/fail_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/measure_tips" />
+                </LinearLayout>
+                <RelativeLayout android:layout_gravity="center" android:id="@id/hr_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="58.0sp" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/hr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" android:text="00" android:layout_centerHorizontal="true" android:fontFamily="km" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/white60" android:id="@id/hr_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_below="@id/hr" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+            </FrameLayout>
+        </RelativeLayout>
+        <android.support.v7.widget.RecyclerView android:layout_gravity="top" android:id="@id/recycler_view" android:background="@color/window_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" android:overScrollMode="never" app:layout_behavior="@string/bottom_sheet_behavior" />
+    </android.support.design.widget.CoordinatorLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/fl_measure_heart" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="@dimen/chart_bottom_bar_height">
+        <View style="@style/VerticalDivider" />
+        <TextView android:textSize="9.0sp" android:textColor="@color/black40" android:gravity="center" android:layout_gravity="center" android:id="@id/hr_measure_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hr_measure" android:drawableTop="@drawable/selector_hr_measure" />
+    </FrameLayout>
+</LinearLayout>

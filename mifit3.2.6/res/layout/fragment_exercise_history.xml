@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:orientation="vertical" android:id="@id/refresh_layout" android:background="@drawable/xrefresh_exercise_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.xiaomi.hm.health.ui.sportfitness.view.ExercisePtrHeaderView android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <com.xiaomi.hm.health.baseui.recyclerview.stickyitemdecoration.StickyHeadContainer android:id="@id/stick_head_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/exercise_history_list_title" />
+    </com.xiaomi.hm.health.baseui.recyclerview.stickyitemdecoration.StickyHeadContainer>
+</LinearLayout>

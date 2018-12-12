@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/rl_watermark_main" android:background="@color/watermark_camera_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:background="@color/watermark_detail_bg" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="@dimen/watermark_camera_header_h">
+        <ImageButton android:id="@id/btn_back" android:background="@drawable/title_back_icon" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginStart="8.0dip" android:layout_alignParentStart="true" />
+        <ImageButton android:id="@id/btn_switch_camera" android:background="@drawable/reverse_camera_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="13.299988dip" android:layout_alignParentEnd="true" />
+        <ImageButton android:id="@id/btn_flash_lamp" android:background="@drawable/watermark_flash_lamp_off_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" android:layout_toStartOf="@id/btn_switch_camera" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_share_area" android:layout_width="fill_parent" android:layout_height="360.0dip">
+        <FrameLayout android:id="@id/fl_camera" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:id="@id/rl_share_area_mark" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/iv_cover" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/ll_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/share_pane_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/gallery_thumbnail" android:background="@drawable/album_photo_bg" android:layout_width="45.299988dip" android:layout_height="45.299988dip" android:src="#ffcccccc" android:layout_centerVertical="true" android:layout_marginStart="30.0dip" />
+            <ImageButton android:id="@id/btn_take_photo" android:background="@drawable/take_photo_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

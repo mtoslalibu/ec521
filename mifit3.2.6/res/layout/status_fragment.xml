@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:baseui="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.hm.health.view.scroll.HMScrollView android:id="@id/status_scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:focusable="false" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.xiaomi.hm.health.view.scroll.HMExpandHeadView android:id="@id/main_head_container" android:layout_width="fill_parent" android:layout_height="312.0dip" android:layout_alignParentTop="true" />
+            <RelativeLayout android:id="@id/status_container" android:background="@color/view_base_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/main_head_container" />
+            <RelativeLayout android:id="@id/sort_layout" android:background="@color/view_base_bg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="77.0dip" android:layout_below="@id/status_container">
+                <ImageView android:background="@drawable/status_sort_icon" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.xiaomi.hm.health.view.scroll.HMScrollView>
+    <RelativeLayout android:id="@id/main_head_mask_container" android:background="@color/dark_sky_blue_three" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="66.0dip">
+        <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="24.0sp" android:textColor="@color/white" android:ellipsize="none" android:gravity="center" android:id="@id/main_head_mask_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="66.0dip" android:layout_marginTop="26.0dip" android:maxLines="1" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:fontFamily="km" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff4f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Spinner android:id="@id/set_test_url_txt_spinner" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentTop="true" android:spinnerMode="dropdown" android:layout_marginStart="@dimen/mili_margin" android:layout_marginEnd="@dimen/mili_margin" />
+    <ImageView android:id="@id/set_test_url_img" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/arrow_downward" android:scaleType="centerInside" android:layout_alignParentTop="true" android:layout_marginEnd="@dimen/mili_margin" android:layout_alignParentEnd="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/set_test_url_txt_input" android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/set_test_url_txt_spinner" android:layout_marginStart="@dimen/mili_margin" android:layout_marginEnd="@dimen/mili_margin">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/set_test_url_txt_input_http" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="http://" android:layout_weight="1.0" />
+            <View android:background="@color/white100" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_margin="3.0dip" />
+            <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/set_test_url_txt_input_https" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="https://" android:layout_weight="1.0" />
+            <View android:background="@color/white100" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_margin="3.0dip" />
+            <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/set_test_url_txt_input_www" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="www." android:layout_weight="1.0" />
+            <View android:background="@color/white100" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_margin="3.0dip" />
+            <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/set_test_url_txt_input_separator" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="/" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/set_test_url_txt_input_com" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text=".com" android:layout_weight="1.0" />
+            <View android:background="@color/white100" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_margin="3.0dip" />
+            <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/set_test_url_txt_input_cn" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text=".cn" android:layout_weight="1.0" />
+            <View android:background="@color/white100" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_margin="3.0dip" />
+            <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/set_test_url_txt_input_dot" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="." android:layout_weight="1.0" />
+            <View android:background="@color/white100" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_margin="3.0dip" />
+            <TextView android:textColor="#ffff0000" android:gravity="center" android:id="@id/set_test_url_clear" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="clear" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <EditText android:textColor="@color/black70" android:textColorHint="@color/black40" android:gravity="start|center|top" android:id="@id/set_test_url_txt" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/set_test_url_commit" android:layout_below="@id/set_test_url_txt_input" android:inputType="textUri" android:textCursorDrawable="@null" android:layout_marginStart="@dimen/mili_margin" android:layout_marginEnd="@dimen/mili_margin" />
+</RelativeLayout>

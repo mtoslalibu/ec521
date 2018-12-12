@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="5.1999817dip" android:paddingBottom="5.1999817dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/sun" style="@style/weekName" />
+    <TextView android:text="@string/mon" style="@style/weekName" />
+    <TextView android:text="@string/tue" style="@style/weekName" />
+    <TextView android:text="@string/wed" style="@style/weekName" />
+    <TextView android:text="@string/thur" style="@style/weekName" />
+    <TextView android:text="@string/fri" style="@style/weekName" />
+    <TextView android:text="@string/sat" style="@style/weekName" />
+</LinearLayout>

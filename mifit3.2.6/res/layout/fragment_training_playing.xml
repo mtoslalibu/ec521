@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/video_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <SurfaceView android:id="@id/video_surface" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/video_control" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:background="@drawable/training_playback_title_layer_bg" android:layout_width="fill_parent" android:layout_height="46.0dip">
+            <ImageView android:id="@id/video_close" android:layout_width="48.0dip" android:layout_height="46.0dip" android:src="@drawable/icon_training_video_close" android:scaleType="center" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/video_bgm" android:layout_width="48.0dip" android:layout_height="46.0dip" android:src="@drawable/icon_training_video_bgm" android:scaleType="center" android:layout_toRightOf="@id/video_close" android:layout_centerVertical="true" android:layout_marginStart="10.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/current_action" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:background="@drawable/training_playback_control_layer_bg" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginBottom="6.0dip" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/video_pause" android:background="@drawable/icon_training_video_pause" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@id/video_prev" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/icon_training_video_prev" android:scaleType="center" android:layout_toLeftOf="@id/video_pause" android:layout_marginEnd="60.0dip" />
+            <ImageView android:id="@id/video_next" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/icon_training_video_next" android:scaleType="center" android:layout_toRightOf="@id/video_pause" android:layout_marginStart="60.0dip" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/invisible_placeholder" android:layout_width="1.0dip" android:layout_height="1.0dip" />
+        <RelativeLayout android:id="@id/training_timer" android:layout_width="82.0dip" android:layout_height="82.0dip" android:layout_marginBottom="24.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="18.0dip">
+            <com.xiaomi.hm.health.training.ui.widget.TrainingActionRingProgressView android:id="@id/trainingArcProgress" android:layout_width="82.0dip" android:layout_height="82.0dip" />
+            <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="14.0sp" android:textColor="@color/white60" android:id="@id/training_cost_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:layout_centerHorizontal="true" android:fontFamily="km" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/white100" android:id="@id/training_timer_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/training_timer" android:drawableTop="@drawable/icon_training_timer" android:drawablePadding="3.0dip" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <com.xiaomi.hm.health.training.ui.widget.TrainingActionBarProgressView android:id="@id/trainingBarProgress" android:layout_width="fill_parent" android:layout_height="6.0dip" android:layout_alignParentBottom="true" />
+        <RelativeLayout android:id="@id/training_hr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:layout_alignParentBottom="true" android:layout_marginEnd="18.0dip" android:layout_alignParentEnd="true">
+            <com.xiaomi.hm.health.training.ui.widget.TrainingHrIndicatorView android:id="@id/trainingHrIndicatorView" android:layout_width="82.0dip" android:layout_height="82.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/white100" android:id="@id/training_hr_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/training_hr" android:drawableTop="@drawable/icon_training_heart" android:drawablePadding="3.0dip" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

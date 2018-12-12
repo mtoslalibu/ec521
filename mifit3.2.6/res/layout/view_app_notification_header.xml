@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:background="@color/pale_grey_two" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:huami="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.xiaomi.hm.health.baseui.widget.TipComponent android:id="@id/access_tip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:id="@id/app_alert_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="9.0dip" android:text="@string/app_notify_tips" android:layout_marginStart="@dimen/common_item_padding" android:layout_marginEnd="@dimen/common_item_padding" />
+            <View android:background="@color/divide" android:layout_width="fill_parent" android:layout_height="@dimen/divider" />
+            <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/notification_enable" android:layout_width="fill_parent" android:layout_height="wrap_content" huami:itemTitle="@string/enable_app_alert" huami:itemSwitch="true" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.xiaomi.hm.health.baseui.widget.ItemView android:id="@id/awake_switch" android:layout_width="fill_parent" android:layout_height="wrap_content" huami:itemTitle="@string/smart_play_screen_sleep_title" huami:itemSwitch="true" huami:itemDivider="gone" />
+                    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <View android:layout_gravity="top" android:background="@color/divide" android:layout_width="fill_parent" android:layout_height="@dimen/divider" />
+                        <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="9.0dip" android:text="@string/selected_alert_apps" android:layout_marginStart="@dimen/common_item_padding" />
+                        <View android:layout_gravity="bottom" android:background="@color/divide" android:layout_width="fill_parent" android:layout_height="@dimen/divider" />
+                    </FrameLayout>
+                </LinearLayout>
+                <View android:layout_gravity="bottom" android:id="@id/awake_mask_view" android:background="#77f7f7f7" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+        </LinearLayout>
+        <View android:layout_gravity="bottom" android:id="@id/header_mask_view" android:background="#77f7f7f7" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</merge>

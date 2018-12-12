@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="avoid_type">
+        <item>@string/state_close</item>
+        <item>@string/avoid_enable_smart</item>
+        <item>@string/avoid_enable_time</item>
+    </string-array>
+    <string-array name="avoid_type_sub">
+        <item></item>
+        <item>@string/avoid_enable_smart_sub</item>
+        <item>@string/avoid_enable_time_sub</item>
+    </string-array>
+    <string-array name="bmi_for_adualt">
+        <item>پایین</item>
+        <item>عادی</item>
+        <item>بالا</item>
+        <item>بسیار بالا</item>
+    </string-array>
+    <string-array name="bmi_for_child">
+        <item>عادی</item>
+        <item>بالا</item>
+        <item>بسیار بالا</item>
+    </string-array>
+    <string-array name="bmi_for_not_chinese">
+        <item>پایین</item>
+        <item>عادی</item>
+        <item>افزایش یافته</item>
+        <item>بالا</item>
+        <item>بسیار بالا</item>
+    </string-array>
+    <string-array name="body_score_leval">
+        <item>خیلی بد</item>
+        <item>بد</item>
+        <item>عادی</item>
+        <item>خوب</item>
+        <item>عالی</item>
+    </string-array>
+    <string-array name="body_shape_type_array">
+        <item>لاغر</item>
+        <item>لاغر متعادل</item>
+        <item>عضلانی لاغر</item>
+        <item>کمبود ورزش</item>
+        <item>متعادل</item>
+        <item>عضلانی متعادل</item>
+        <item>چاق</item>
+        <item>اضافه وزن</item>
+        <item>کمبود وزن</item>
+    </string-array>
+    <string-array name="bodyfat_content_leval">
+        <item>بسیار کم</item>
+        <item>کم</item>
+        <item>عادی</item>
+        <item>افزایش یافته است</item>
+        <item>بالا</item>
+    </string-array>
+    <string-array name="bone_leval">
+        <item>ناکافی</item>
+        <item>عادی</item>
+        <item>خوب</item>
+    </string-array>
+    <string-array name="brm_leval">
+        <item>به اهداف نرسیدید</item>
+        <item>به هدف رسیدید</item>
+    </string-array>
+    <string-array name="chaohu_help_tips">
+        <item>دکمه روی ساعت را فشار دهید، اگر صفحه ساعت خاموش بود، باتری آن را شارژ کنید.</item>
+        <item>ابتدا بلوتوث را خاموش کرده،‌ سپس با دستگاه فعلی جفت‌سازی کنید.</item>
+        <item>اگر مچ‌بند شارژ شده است ولی گوشی نمی‌تواند آن را ببیند، بلوتوث گوشی را دوباره راه‌اندازی کنید.</item>
+        <item>درصورتی که راه‌اندازی دوباره بلوتوث مشکل را حل نکرد، تلاش کنید گوشی را دوباره راه‌اندازی کنید.</item>
+        <item>داده‌های ساعت هنگامی که شما درحال ورزش هستید نمی‌تواند همگام‌سازی شود. دوره را تمام کرده و دوباره تلاش کنید.</item>
+    </string-array>
+    <string-array name="chaohu_help_title">
+        <item>آیا ساعت شما شارژ شده است؟</item>
+        <item>آیا این ساعت با دستگاه دیگری جفت شده است؟</item>
+        <item>بلوتوث را دوباره راه‌اندازی کنید</item>
+        <item>گوشی خود را دوباره راه‌اندازی کنید</item>
+        <item>داده‌ها را هنگام تمرین نمی‌توان همگام‌سازی کرد</item>
+    </string-array>
+    <string-array name="chaohu_setting_run_types">
+        <item>@string/chaohu_setting_run_outdoor</item>
+        <item>@string/chaohu_setting_run_indoor</item>
+        <item>@string/chaohu_setting_run_ride</item>
+        <item>@string/chaohu_setting_run_walk</item>
+    </string-array>
+    <string-array name="colors">
+        <item>@string/blue</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/red</item>
+    </string-array>
+    <string-array name="common_cities">
+        <item>گوانجو</item>
+        <item>شنجن</item>
+        <item>فوشان</item>
+        <item>دونگ‌گوان</item>
+        <item>پکن</item>
+        <item>نانجینگ</item>
+        <item>سوجو</item>
+        <item>چانگ‌جو</item>
+        <item>جینان</item>
+        <item>چینگداو</item>
+        <item>هانگجو</item>
+        <item>نینگبو</item>
+        <item>جِنگ‌جو</item>
+        <item>کای‌فِنگ</item>
+        <item>شانگهای</item>
+        <item>شی‌جیاجوانگ</item>
+        <item>باودینگ</item>
+        <item>چنگدو</item>
+        <item>میان‌یانگ</item>
+        <item>شنیانگ</item>
+        <item>دالیان</item>
+    </string-array>
+    <string-array name="difficulty_content">
+        <item>دست جدید برای تمرین تناسب اندام</item>
+        <item>دارای تجربه تناسب اندام پایه‌ای</item>
+        <item>دارای تجربه زیاد در تناسب اندام و بدن خوش ترکیب</item>
+    </string-array>
+    <string-array name="difficulty_title">
+        <item>مقدماتی</item>
+        <item>متوسطه</item>
+        <item>پیشرفته</item>
+    </string-array>
+    <string-array name="fitness_goal_content">
+        <item>با هدف سوزاندن چربی</item>
+        <item>با هدف شکل دادن به بدن</item>
+        <item>با هدف ساخت عضله</item>
+    </string-array>
+    <string-array name="fitness_goal_title">
+        <item>کاهش چربی</item>
+        <item>شکل گرفتن</item>
+        <item>افزایش عضله</item>
+    </string-array>
+    <string-array name="ges_screen_type">
+        <item>@string/ges_screen_type_all_day</item>
+        <item>@string/ges_screen_type_time</item>
+        <item>@string/ges_screen_type_close</item>
+    </string-array>
+    <string-array name="hr_section">
+        <item>@string/hr_section_warm_up</item>
+        <item>@string/hr_section_fat_burn</item>
+        <item>@string/hr_section_heart_lung_strengthen</item>
+        <item>@string/hr_section_stamina_strengthen</item>
+        <item>@string/hr_section_anaerobic_limit</item>
+        <item>@string/hr_section_other</item>
+    </string-array>
+    <string-array name="hr_sport">
+        <item>محدوده تپش قلب: سبک</item>
+        <item>محدوده تپش قلب: وزن</item>
+        <item>محدوده تپش قلب: هوازی</item>
+        <item>محدوده تپش قلب: غیرهوازی</item>
+        <item>محدوده تپش قلب: VO₂ حداکثری</item>
+    </string-array>
+    <string-array name="hr_sport_new">
+        <item>سبک</item>
+        <item>وزن</item>
+        <item>هوازی</item>
+        <item>غیرهوازی</item>
+        <item>VO₂ حداکثر</item>
+    </string-array>
+    <string-array name="lock_screen_type">
+        <item>بستن</item>
+        <item>نزدیک</item>
+        <item>دور</item>
+    </string-array>
+    <string-array name="member_add_weight_items">
+        <item>@string/member_add_weight_item_auto</item>
+        <item>@string/member_add_weight_item_manual</item>
+    </string-array>
+    <string-array name="mili_help_tips">
+        <item>"پیش از جفت‌سازی مچ‌بند Mi ۲ یا سایر مچ‌بندها روی آن ضربه زده تا مطمئن شوید باتری آن شارژ است.
+
+پیش از جفت‌سازی مچ‌بند Mi یا مچ‌بند Mi پلاس آن را شارژ کنید."</item>
+        <item>ابتدا بلوتوث را خاموش کرده،‌سپس با دستگاه فعلی جفت‌سازی کنید.</item>
+        <item>اگر مچ‌بند شارژ شده است ولی گوشی نمی‌تواند آن را ببیند، بلوتوث گوشی را دوباره راه‌اندازی کنید.</item>
+        <item>درصورتی که راه‌اندازی دوباره بلوتوث مشکل را حل نکرد، تلاش کنید گوشی را دوباره راه‌اندازی کنید.</item>
+    </string-array>
+    <string-array name="mili_help_title">
+        <item>آیا مچ‌بند شما شارژ شده است؟</item>
+        <item>آیا این مچ‌بند با دستگاه دیگری جفت شده است؟</item>
+        <item>بلوتوث را دوباره راه‌اندازی کنید</item>
+        <item>گوشی خود را دوباره راه‌اندازی کنید</item>
+    </string-array>
+    <string-array name="mili_pro_display_items">
+        <item>زمان</item>
+        <item>گام</item>
+        <item>مسافت</item>
+        <item>کالری</item>
+        <item>تپش قلب</item>
+        <item>باتری</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>ژانویه</item>
+        <item>فوریه</item>
+        <item>مارس</item>
+        <item>آوریل</item>
+        <item>می</item>
+        <item>جون</item>
+        <item>جولای</item>
+        <item>آگوست</item>
+        <item>سپتامبر</item>
+        <item>اکتبر</item>
+        <item>نوامبر</item>
+        <item>دسامبر</item>
+    </string-array>
+    <string-array name="muscle_content_leval">
+        <item>ناکافی</item>
+        <item>عادی</item>
+        <item>خوب</item>
+    </string-array>
+    <string-array name="ring_types">
+        <item>@string/ring_type_default</item>
+        <item>@string/ring_type_incall</item>
+    </string-array>
+    <string-array name="running_months">
+        <item>ژانویه</item>
+        <item>فوریه</item>
+        <item>مارس</item>
+        <item>آوریل</item>
+        <item>می</item>
+        <item>جون</item>
+        <item>جولای</item>
+        <item>آگوست</item>
+        <item>سپتامبر</item>
+        <item>اکتبر</item>
+        <item>نوامبر</item>
+        <item>دسامبر</item>
+    </string-array>
+    <string-array name="setting_hr_freq_types">
+        <item>@string/setting_heartrate_detect_freq_1</item>
+        <item>@string/setting_heartrate_detect_freq_10</item>
+        <item>@string/setting_heartrate_detect_freq_30</item>
+    </string-array>
+    <string-array name="setting_hr_types">
+        <item>@string/setting_heartrate_detect_auto</item>
+        <item>@string/setting_heartrate_detect_sleep</item>
+        <item>@string/setting_heartrate_detect_close</item>
+    </string-array>
+    <string-array name="setting_peyto_apps_array">
+        <item>سمت بالای ساعت</item>
+        <item>وضعیت</item>
+        <item>فعالیت‌ها</item>
+        <item>آب و هوا</item>
+        <item>هشدار</item>
+        <item>زمان‌سنج</item>
+        <item>قطب‌نما</item>
+        <item>تنظیمات بیشتر</item>
+    </string-array>
+    <string-array name="setting_tempo_apps_array">
+        <item>سمت بالای ساعت</item>
+        <item>وضعیت</item>
+        <item>اعلان‌ها</item>
+        <item>فعالیت‌ها</item>
+        <item>آب و هوا</item>
+        <item>هشدار</item>
+        <item>زمان‌سنج</item>
+        <item>تنظیمات</item>
+    </string-array>
+    <string-array name="setting_weather_temp_unit_array">
+        <item>@string/setting_weather_temp_c</item>
+        <item>@string/setting_weather_temp_f</item>
+    </string-array>
+    <string-array name="shoes_help_tips">
+        <item>در صورتی که از تراشه هوشمند برای مدت طولانی استفاده نکنید از کار خواهد ایستاد. آن را تکان داده و دوباره تلاش کنید.</item>
+        <item>عمر باتری تراشه هوشمند Amazfit سال است. در صورتی که برای دوره طولانی‌تری استفاده کرده‌اید، ممکن است برقی نداشته باشد.</item>
+        <item>ابتدا بلوتوث را خاموش کرده،‌ سپس با دستگاه فعلی جفت‌سازی کنید.</item>
+        <item>در صورتی که تراشه هوشمند شارژ باشد ولی هنگامی که به گوشی نزدیک می‌کنید شناسایی نشود، تلاش کنید بلوتوث گوشی را دوباره راه‌اندازی کنید.</item>
+        <item>درصورتی که راه‌اندازی دوباره بلوتوث مشکل را حل نکرد، تلاش کنید گوشی را دوباره راه‌اندازی کنید.</item>
+        <item>داده‌های کفش دویدن را زده و به صفحه بعدی فعالیت وارد شده تا داده‌ها به صورت خودکار همگام‌سازی شوند</item>
+    </string-array>
+    <string-array name="shoes_help_title">
+        <item>تراشه هوشمند را تکان دهید</item>
+        <item>آیا باتری شارژ شده است؟</item>
+        <item>آیا این تراشه هوشمند با دستگاه دیگری جفت شده است؟</item>
+        <item>راه‌اندازی دوباره بلوتوث</item>
+        <item>گوشی خود را دوباره راه‌اندازی کنید</item>
+        <item>چگونه داده‌های خود را همگام‌سازی کنیم؟</item>
+    </string-array>
+    <string-array name="show_body_shape_array">
+        <item>چاق</item>
+        <item>اضافه وزن</item>
+        <item>کمبود وزن</item>
+        <item>"کمبود
+ورزش"</item>
+        <item>متعادل</item>
+        <item>"عضلانی
+متعادل"</item>
+        <item>لاغر</item>
+        <item>"لاغر
+متعادل"</item>
+        <item>"عضلانی
+لاغر"</item>
+    </string-array>
+    <string-array name="timeline_type">
+        <item>فعالیت</item>
+        <item>پیاده‌روی کند</item>
+        <item>پیاده‌روی</item>
+        <item>پیاده‌روی تند</item>
+        <item>دویدن</item>
+        <item>ایستادن</item>
+        <item>نشستن</item>
+        <item>فعالیت سبک</item>
+        <item>به دست بسته نیست</item>
+        <item>درحال شارژ…</item>
+        <item>دراز کشیدن</item>
+    </string-array>
+    <string-array name="train_difficulity">
+        <item>بدون محدودیت</item>
+        <item>مقدماتی، ۱</item>
+        <item>متوسطه، ۲</item>
+        <item>پیشرفته، ۳</item>
+    </string-array>
+    <string-array name="unbind_device_description">
+        <item>@string/device_band</item>
+        <item>@string/device_weight</item>
+        <item>@string/device_shoe</item>
+        <item>@string/device_watch</item>
+    </string-array>
+    <string-array name="visceral_fat_leval">
+        <item>عادی</item>
+        <item>بالا</item>
+        <item>بسیار بالا</item>
+    </string-array>
+    <string-array name="water_leval">
+        <item>ناکافی</item>
+        <item>عادی</item>
+        <item>خوب</item>
+    </string-array>
+    <string-array name="wear_type">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+    </string-array>
+    <string-array name="wear_type_body">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="wear_type_chest">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/chest</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>یکشنبه</item>
+        <item>دوشنبه</item>
+        <item>سه‌شنبه</item>
+        <item>چهارشنبه</item>
+        <item>پنجشنبه</item>
+        <item>جمعه</item>
+        <item>شنبه</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>دوشنبه</item>
+        <item>سه شنبه</item>
+        <item>چهارشنبه</item>
+        <item>پنج شنبه</item>
+        <item>جمعه</item>
+        <item>شنبه</item>
+        <item>یکشنبه</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>دوشنبه</item>
+        <item>سه‌شنبه</item>
+        <item>چهارشنبه</item>
+        <item>پنجشنبه</item>
+        <item>جمعه</item>
+        <item>شنبه</item>
+        <item>یکشنبه</item>
+    </string-array>
+    <string-array name="weight3_body_figures">
+        <item>کمبود وزن</item>
+        <item>متعادل</item>
+        <item>اضافه وزن</item>
+        <item>چاق</item>
+    </string-array>
+    <string-array name="weight_bfs_help_tips">
+        <item>ابتدا بلوتوث را خاموش کرده،‌سپس با دستگاه فعلی جفت‌سازی کنید.</item>
+        <item>روی ترازو رفته تا ببینید آیا وزن شما را نشان می‌دهد یا نه. در صورتی که آیکون باتری ضعیف است نمایش داده شد، لطفاً باتری را تعویض کنید.</item>
+        <item>در صورتی که روی ترازو رفته و واکنشی نشان داده نشد، بررسی کنید که آیا باتری‌ها به درستی نصب شده‌اند یا نه.</item>
+        <item>در صورتی که باتری شارژ بوده و همچنان با نزدیک‌تر کردن گوشی به دستگاه نمی‌توانید آن را بیابید، تلاش کنید بلوتوث گوشی را دوباره راه‌اندازی کنید.</item>
+        <item>درصورتی که راه‌اندازی دوباره بلوتوث مشکل را حل نکرد، تلاش کنید گوشی را دوباره راه‌اندازی کنید.</item>
+    </string-array>
+    <string-array name="weight_bfs_help_title">
+        <item>آیا این ترازو با دستگاه دیگری جفت شده است؟</item>
+        <item>بررسی باتری ترازو</item>
+        <item>آیا باتری‌ها به درستی نصب شده‌اند؟</item>
+        <item>بلوتوث را دوباره راه‌اندازی کنید</item>
+        <item>گوشی خود را دوباره راه‌اندازی کنید</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>عادی</item>
+        <item>اضافه وزن</item>
+        <item>چاق</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_not_chinese">
+        <item>کمبود وزن</item>
+        <item>عادی</item>
+        <item>اضافه وزن</item>
+        <item>چاق I</item>
+        <item>چاق II</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>" کیلوگرم"</item>
+        <item>" جین"</item>
+        <item>" پوند"</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+        <item>@string/weight_bfs_unit_jin</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array_no_jin">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+    </string-array>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/detail_bg" android:layout_width="fill_parent" android:layout_height="74.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/avatar_container" android:background="@drawable/user_avatar_ring_bg" android:layout_width="51.0dip" android:layout_height="51.0dip" android:layout_centerVertical="true" android:layout_marginStart="25.0dip" android:layout_alignParentStart="true">
+        <ImageView android:id="@id/user_avatar" android:background="@drawable/default_user_avatar" android:layout_width="49.0dip" android:layout_height="49.0dip" android:scaleType="fitCenter" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/sport_type_ic_name_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="22.0dip" android:layout_marginEnd="22.0dip" android:layout_alignParentEnd="true">
+        <ImageView android:gravity="center" android:id="@id/sport_type_img" android:background="@drawable/ic_run_33" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="10.299988sp" android:textColor="@color/run_white_50_percent" android:gravity="center" android:id="@id/sport_type_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="13.0dip" android:layout_toStartOf="@id/sport_type_ic_name_layout" android:layout_toEndOf="@id/avatar_container">
+        <TextView android:textSize="16.0sp" android:textColor="@color/run_white_100_percent" android:ellipsize="end" android:id="@id/user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/run_white_50_percent" android:id="@id/user_sport_times" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

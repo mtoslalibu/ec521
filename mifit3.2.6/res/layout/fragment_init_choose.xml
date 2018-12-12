@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/black10" android:layout_width="fill_parent" android:layout_height="@dimen/divider" />
+    <android.support.v7.widget.RecyclerView android:id="@id/rcv_options" android:background="@color/white100" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+    <View android:background="@color/black10" android:layout_width="fill_parent" android:layout_height="@dimen/divider" />
+</LinearLayout>

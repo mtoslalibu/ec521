@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="avoid_type">
+        <item>@string/state_close</item>
+        <item>@string/avoid_enable_smart</item>
+        <item>@string/avoid_enable_time</item>
+    </string-array>
+    <string-array name="avoid_type_sub">
+        <item></item>
+        <item>@string/avoid_enable_smart_sub</item>
+        <item>@string/avoid_enable_time_sub</item>
+    </string-array>
+    <string-array name="bmi_for_adualt">
+        <item>ਘੱਟ</item>
+        <item>ਸਧਾਰਨ</item>
+        <item>ਜਿਆਦਾ</item>
+        <item>ਬਹੁਤ ਉੱਚ</item>
+    </string-array>
+    <string-array name="bmi_for_child">
+        <item>ਸਧਾਰਨ</item>
+        <item>ਜਿਆਦਾ</item>
+        <item>ਬਹੁਤ ਉੱਚ</item>
+    </string-array>
+    <string-array name="bmi_for_not_chinese">
+        <item>ਘੱਟ</item>
+        <item>ਸਧਾਰਨ</item>
+        <item>ਵਧਇਆ ਹੋਇਆ</item>
+        <item>ਉੱਚ</item>
+        <item>ਬਹੁਤ ਉੱਚ</item>
+    </string-array>
+    <string-array name="body_score_leval">
+        <item>ਬਹੁਤ ਮਾੜੀ</item>
+        <item>ਹੌਲੀ</item>
+        <item>ਸਧਾਰਨ</item>
+        <item>ਵਧੀਆ</item>
+        <item>ਸ਼ਾਨਦਾਰ</item>
+    </string-array>
+    <string-array name="body_shape_type_array">
+        <item>ਪਤਲੀ</item>
+        <item>ਸੰਤੂਲਿਤ ਪਤਲੀ</item>
+        <item>ਪਤਲਾ ਗਠੀਲਾ</item>
+        <item>ਕਸਰਤ ਦੀ ਕਮੀ</item>
+        <item>ਸੰਤੂਲਿਤ</item>
+        <item>ਸੰਤੁਲਤ ਗਠੀਲਾ</item>
+        <item>ਮੋਟਾਪਾ</item>
+        <item>ਜ਼ਿਆਦਾ ਵਜਨ</item>
+        <item>ਗਠੀਲਾ</item>
+    </string-array>
+    <string-array name="bodyfat_content_leval">
+        <item>ਬਹੁਤ ਘੱਟ</item>
+        <item>ਘੱਟ</item>
+        <item>ਸਧਾਰਨ</item>
+        <item>ਵਧਿਆ ਹੋਇਆ</item>
+        <item>ਉੱਚ</item>
+    </string-array>
+    <string-array name="bone_leval">
+        <item>ਨਾਕਾਫ਼ੀ</item>
+        <item>ਸਧਾਰਨ</item>
+        <item>ਵਧੀਆ</item>
+    </string-array>
+    <string-array name="brm_leval">
+        <item>ਤੁਹਾਡਾ ਟੀਚਾ ਪੂਰਾ ਨਹੀਂ ਹੋਇਆ</item>
+        <item>ਟੀਚਾ ਪੂਰਾ ਹੋਇਆ</item>
+    </string-array>
+    <string-array name="chaohu_help_tips">
+        <item>"ਘੜੀ 'ਤੇ ਮੌਜੂਦ ਬਟਨ ਨੂੰ ਦਬਾ ਕੇ ਦੇਖੋ, ਜੇਕਰ ਘੜੀ ਦੀ ਸਕ੍ਰੀਨ ਬੰਦ ਹੈ ਤਾਂ ਇਸਦੀ ਬੈਟਰੀ ਚਾਰਜ ਕਰਨ ਲਈ ਇਸਨੂੰ ਪਲਗ ਵਿੱਚ ਲਗਾਓ।"</item>
+        <item>ਪਹਿਲਾਂ ਬਲਿਊਟੁੱਥ ਬੰਦ ਕਰੋ ਫਿਰ ਮੌਜੂਦਾ ਡਿਵਾਈਸ ਨਾਲ ਪੇਅਰ ਕਰੋ।</item>
+        <item>ਜੇਕਰ ਬੈਂਡ ਚਾਰਜ ਕੀਤਾ ਹੋਇਆ ਹੈ ਪਰ ਫ਼ੋਨ ਇਸਨੂੰ ਦੇਖ ਨਹੀਂ ਸਕਦਾ ਤਾਂ ਫ਼ੋਨ ਦੇ ਬਲਿਊਟੁੱਥ ਨੂੰ ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</item>
+        <item>ਜੇਕਰ ਫ਼ੋਨ ਨੂੰ ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰਨ ਨਾਲ ਵੀ ਤੁਹਾਡੀ ਸਮੱਸਿਆ ਉਵੇਂ ਹੀ ਰਹਿੰਦੀ ਹੈ ਤਾਂ ਫ਼ੋਨ ਰੀਬੂਟ ਕਰਕੇ ਦੇਖੋ।</item>
+        <item>ਜਦੋਂ ਤੁਸੀਂ ਕਸਰਤ ਕਰ ਰਹੇ ਹੋਵੋ ਤਾਂ ਘੜੀ ਦਾ ਡਾਟਾ ਸਿੰਕ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ। ਇਹ ਸਤਰ ਖ਼ਤਮ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</item>
+    </string-array>
+    <string-array name="chaohu_help_title">
+        <item>ਕੀ ਤੁਹਾਡੀ ਘੜੀ ਚਾਰਜ ਕੀਤੀ ਹੋਈ ਹੈ?</item>
+        <item>ਕੀ ਇਹ ਘੜੀ ਕਿਸੇ ਹੋਰ ਡਿਵਾਈਸ ਨਾਲ ਪੇਅਰ ਕੀਤੀ ਗਈ ਹੈ?</item>
+        <item>ਬਲਿਊਟੁੱਥ ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰਕੇ ਦੇਖੋ</item>
+        <item>ਆਪਣਾ ਫ਼ੋਨ ਰੀਬੂਟ ਕਰਕੇ ਦੇਖੋ</item>
+        <item>ਵਰਕਆਉਟ ਸਮੇਂ ਡਾਟਾ ਸਿੰਕ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ</item>
+    </string-array>
+    <string-array name="chaohu_setting_run_types">
+        <item>@string/chaohu_setting_run_outdoor</item>
+        <item>@string/chaohu_setting_run_indoor</item>
+        <item>@string/chaohu_setting_run_ride</item>
+        <item>@string/chaohu_setting_run_walk</item>
+    </string-array>
+    <string-array name="colors">
+        <item>@string/blue</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/red</item>
+    </string-array>
+    <string-array name="common_cities">
+        <item>ਗੁਆਂਗਜ਼ੋਉ</item>
+        <item>ਸ਼ੇਨਜੇਨ</item>
+        <item>ਫ਼ੋਸ਼ਾਨ</item>
+        <item>ਡੋਂਗਯਾਨ</item>
+        <item>ਬੀਜਿੰਗ</item>
+        <item>ਨਾਨਜਿੰਗ</item>
+        <item>ਸੂਜ਼ੌ</item>
+        <item>ਸੈਂਗਸ਼ੋ</item>
+        <item>ਜਿਨਾਨ</item>
+        <item>ਕਿੰਗਦਾਓ</item>
+        <item>ਹਾਂਗਜ਼ੋ</item>
+        <item>ਨਿੰਗਬੋ</item>
+        <item>ਝੇਂਗਝੌ</item>
+        <item>ਕੈਫੇਂਗ</item>
+        <item>ਸ਼ੰਘਾਈ</item>
+        <item>ਸ਼ੀਜੀਯਾਜੁਆਂਗ</item>
+        <item>ਬਾਓਡਿੰਗ</item>
+        <item>ਚੇਂਗਦੂ</item>
+        <item>ਮਿਆਨਯੰਗ</item>
+        <item>ਸ਼ੇਨਯਾਂਗ</item>
+        <item>ਡੇਲਿਅਨ</item>
+    </string-array>
+    <string-array name="difficulty_content">
+        <item>ਤੰਦਰੁਸਤੀ ਸਿਖਲਾਈ ਲਈ ਨਵਾਂ ਹੱਥ</item>
+        <item>ਮੁੱਢਲਾ ਤੰਦਰੁਸਤੀ ਤਜਰਬਾ ਸੀ</item>
+        <item>ਚੰਗਾ ਤੰਦਰੁਸਤੀ ਤਜਰਬਾ ਸੀ ਅਤੇ ਚੰਗਾ ਆਕਾਰ ਬਣਾ ਲਿਆ ਸੀ</item>
+    </string-array>
+    <string-array name="difficulty_title">
+        <item>ਮੁੱਢਲੀ</item>
+        <item>ਦਰਮਿਆਨਾ</item>
+        <item>ਉਨੱਤ</item>
+    </string-array>
+    <string-array name="fitness_goal_content">
+        <item>ਚਰਬੀ ਘਟਾਉਣ ਦੇ ਲੱਛਣ</item>
+        <item>ਸਰੀਰ ਨੂੰ ਆਕਾਰ ਵਿੱਚ ਲਿਆਉਣ ਦਾ ਟੀਚਾ</item>
+        <item>ਮਾਸ-ਪੇਸ਼ੀਆ ਬਣਾਉਣ ਦਾ ਟੀਚਾ</item>
+    </string-array>
+    <string-array name="fitness_goal_title">
+        <item>ਕੱਟੋ</item>
+        <item>ਆਕਾਰ ਦੇਣਾ</item>
+        <item>ਫੁੱਲਣਾ</item>
+    </string-array>
+    <string-array name="ges_screen_type">
+        <item>@string/ges_screen_type_all_day</item>
+        <item>@string/ges_screen_type_time</item>
+        <item>@string/ges_screen_type_close</item>
+    </string-array>
+    <string-array name="hr_section">
+        <item>@string/hr_section_warm_up</item>
+        <item>@string/hr_section_fat_burn</item>
+        <item>@string/hr_section_heart_lung_strengthen</item>
+        <item>@string/hr_section_stamina_strengthen</item>
+        <item>@string/hr_section_anaerobic_limit</item>
+        <item>@string/hr_section_other</item>
+    </string-array>
+    <string-array name="hr_sport">
+        <item>ਹਿਰਦਾ ਗਤੀ ਜ਼ੋਨ: ਲਾਈਟ</item>
+        <item>ਹਿਰਦਾ ਗਤੀ ਜ਼ੋਨ: ਵਜ਼ਨ</item>
+        <item>ਹਿਰਦਾ ਗਤੀ ਜ਼ੋਨ: ਏਰੋਬਿਕ</item>
+        <item>ਹਿਰਦਾ ਗਤੀ ਜ਼ੋਨ: ਏਨੋਰੋਬਿਕ</item>
+        <item>ਹਿਰਦਾ ਗਤੀ ਜ਼ੋਨ: VO₂ ਅਧਿਕਤਮ</item>
+    </string-array>
+    <string-array name="hr_sport_new">
+        <item>ਹਲਕਾ</item>
+        <item>ਵਜਨ</item>
+        <item>ਏਰੋਬਿਕ</item>
+        <item>ਏਨੋਰੋਬਿਕ</item>
+        <item>VO₂ ਵੱਧ ਤੋਂ ਵੱਧ</item>
+    </string-array>
+    <string-array name="lock_screen_type">
+        <item>ਬੰਦ ਕਰੋ</item>
+        <item>ਨੇੜੇ</item>
+        <item>ਦੂਰ</item>
+    </string-array>
+    <string-array name="member_add_weight_items">
+        <item>@string/member_add_weight_item_auto</item>
+        <item>@string/member_add_weight_item_manual</item>
+    </string-array>
+    <string-array name="mili_help_tips">
+        <item>"Mi ਬੈਂਡ 2 ਜਾਂ ਹੋਰ ਬੈਂਡ ਪੇਅਰ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਇਹ ਦੇਖਣ ਲਈ ਬੈਂਡ ਟੈਪ ਕਰੋ ਕਿ ਡਿਵਾਈਸ ਚਾਰਜ ਹੈ ਜਾਂ ਨਹੀਂ।
+
+Mi ਬੈਂਡ ਜਾਂ Mi ਬੈਂਡ ਪਲਸ ਪੇਅਰ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਬੈਂਡ ਚਾਰਜ ਕਰੋ।"</item>
+        <item>ਪਹਿਲਾਂ ਬਲਿਊਟੁੱਥ ਬੰਦ ਕਰੋ, ਫਿਰ ਮੌਜੂਦਾ ਡਿਵਾਈਸ ਨਾਲ ਪੇਅਰ ਕਰੋ।</item>
+        <item>ਜੋਕਰ ਬੈਂਡ ਚਾਰਜ ਕੀਤਾ ਹੋਇਆ ਹੈ ਪਰ ਫ਼ੋਨ ਇਸਨੂੰ ਦੇਖ ਨਹੀਂ ਸਕਦਾ ਤਾਂ ਫ਼ੋਨ ਦੇ ਬਲਿਊਟੁੱਥ ਨੂੰ ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</item>
+        <item>ਜੇਕਰ ਬਲਿਊਟੁੱਥ ਦੁਬਾਰਾ ਤੋਂ ਸ਼ੁਰੂ ਕਰਨ ਨਾਲ ਤੁਹਾਡੀ ਸਮੱਸਿਆ ਹਲ ਨਹੀਂ ਹੁੰਦੀ ਤਾਂ ਫ਼ੋਨ ਰੀਬੂਟ ਕਰਕੇ ਦੋਖੋ।</item>
+    </string-array>
+    <string-array name="mili_help_title">
+        <item>ਕੀ ਤੁਹਾਡਾ ਬੈਂਡ ਚਾਰਜ ਕੀਤਾ ਹੋਇਆ ਹੈ?</item>
+        <item>ਕੀ ਇਹ ਬੈਂਡ ਕਿਸੇ ਹੋਰ ਡਿਵਾਈਸ ਨਾਲ ਪੇਅਰ ਕੀਤਾ ਗਿਆ ਹੈ?</item>
+        <item>ਬਲਿਊਟੁੱਥ ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ</item>
+        <item>ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਰੀਬੂਟ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ</item>
+    </string-array>
+    <string-array name="mili_pro_display_items">
+        <item>ਸਮਾਂ</item>
+        <item>ਕਦਮ</item>
+        <item>ਦੂਰੀ</item>
+        <item>ਕੈਲੋਰੀਆਂ</item>
+        <item>ਦਿਲ ਦੀ ਦਰ</item>
+        <item>ਬੈਟਰੀ</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>ਜਨ</item>
+        <item>ਫ਼ਰ</item>
+        <item>ਮਾਰਚ</item>
+        <item>ਅਪ੍ਰੈਲ</item>
+        <item>ਮਈ</item>
+        <item>ਜੂਨ</item>
+        <item>ਜੁਲਾਈ</item>
+        <item>ਅਗ</item>
+        <item>ਸਤੰ</item>
+        <item>ਅਕਤੂ</item>
+        <item>ਨਵੰ</item>
+        <item>ਦਿਸੰ</item>
+    </string-array>
+    <string-array name="muscle_content_leval">
+        <item>ਨਾਕਾਫ਼ੀ</item>
+        <item>ਸਧਾਰਨ</item>
+        <item>ਵਧੀਆ</item>
+    </string-array>
+    <string-array name="ring_types">
+        <item>@string/ring_type_default</item>
+        <item>@string/ring_type_incall</item>
+    </string-array>
+    <string-array name="running_months">
+        <item>ਜਨ</item>
+        <item>ਫ਼ਰ</item>
+        <item>ਮਾਰ</item>
+        <item>ਅਪ੍ਰੈਲ</item>
+        <item>ਮਈ</item>
+        <item>ਜੂਨ</item>
+        <item>ਜੁਲਾਈ</item>
+        <item>ਅਗ</item>
+        <item>ਸਤੰ</item>
+        <item>ਅਕਤੂ</item>
+        <item>ਨਵੰ</item>
+        <item>ਦਿਸੰ</item>
+    </string-array>
+    <string-array name="setting_hr_freq_types">
+        <item>@string/setting_heartrate_detect_freq_1</item>
+        <item>@string/setting_heartrate_detect_freq_10</item>
+        <item>@string/setting_heartrate_detect_freq_30</item>
+    </string-array>
+    <string-array name="setting_hr_types">
+        <item>@string/setting_heartrate_detect_auto</item>
+        <item>@string/setting_heartrate_detect_sleep</item>
+        <item>@string/setting_heartrate_detect_close</item>
+    </string-array>
+    <string-array name="setting_peyto_apps_array">
+        <item>ਘੜੀ ਦਾ ਚਿਹਰਾ</item>
+        <item>ਸਥਿਤੀ</item>
+        <item>ਗਤੀਵਿਧੀਆਂ</item>
+        <item>ਮੌਸਮ</item>
+        <item>ਅਲਾਰਮ</item>
+        <item>ਟਾਈਮਰ</item>
+        <item>ਕੰਪਾਸ</item>
+        <item>ਹੋਰ ਸੈਟਿੰਗਜ਼</item>
+    </string-array>
+    <string-array name="setting_tempo_apps_array">
+        <item>ਘੜੀ ਦਾ ਚਿਹਰਾ</item>
+        <item>ਸਥਿਤੀ</item>
+        <item>ਸੂਚਨਾਵਾਂ</item>
+        <item>ਗਤੀਵਿਧੀਆਂ</item>
+        <item>ਮੌਸਮ</item>
+        <item>ਅਲਾਰਮ</item>
+        <item>ਟਾਈਮਰ</item>
+        <item>ਸੈਟਿੰਗਜ਼</item>
+    </string-array>
+    <string-array name="setting_weather_temp_unit_array">
+        <item>@string/setting_weather_temp_c</item>
+        <item>@string/setting_weather_temp_f</item>
+    </string-array>
+    <string-array name="shoes_help_tips">
+        <item>ਜੇਕਰ ਤੁਸੀਂ ਸਮਾਰਟ ਚਿਪ ਨੂੰ ਲੰਮੇ ਸਮੇਂ ਤੋਂ ਵਰਤੋਂ ਵਿੱਚ ਨਹੀਂ ਲਿਆ ਰਹੇ ਤਾਂ ਇਹ ਕੰਮ ਕਰਨਾ ਬੰਦ ਕਰ ਦੇਵੇਗੀ। ਇਸਨੂੰ ਹਿਲਾਓ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</item>
+        <item>Amazfit ਸਮਾਰਟ ਚਿਪ ਦਾ ਬੈਟਰੀ ਜੀਵਨਕਾਲ 1 ਸਾਲ ਦੀ ਹੈ। ਜੇਕਰ ਤੁਸੀਂ ਇਸਦੀ ਵਰਤੋਂ ਲੰਮੇ ਸਮੇਂ ਤੋਂ ਕਰ ਰਹੇ ਹੋ ਤਾਂ ਹੋ ਸਕਦਾ ਹੈ ਇਸਦੀ ਬੈਟਰੀ ਨਾ ਬਚੀ ਹੋਵੇ।</item>
+        <item>ਪਹਿਲਾਂ ਬਲਿਊਟੁੱਥ ਬੰਦ ਕਰੋ ਫਿਰ ਮੌਜੂਦਾ ਡਿਵਾਈਸ ਨਾਲ ਪੇਅਰ ਕਰੋ।</item>
+        <item>"ਜੇਕਰ ਸਮਾਰਟ ਚਿਪ ਚਾਰਜ ਕੀਤੀ ਹੋਈ ਹੈ, ਪਰ ਉਸਨੂੰ ਫ਼ੋਨ ਦੇ ਨੇੜੇ ਲਿਆਉਣ 'ਤੇ ਉਸਦਾ ਪਤਾ ਨਹੀਂ ਲਗਾ ਪਾ ਰਹੇ ਤਾਂ ਫ਼ੋਨ ਦੇ ਬਲਿਊਟੁੱਥ ਨੂੰ ਰੀਬੂਟ ਕਰਕੇ ਦੇਖੋ।"</item>
+        <item>ਜੇਕਰ ਬਲਿਊਟੁੱਥ ਦੁਬਾਰਾ ਤੋਂ ਸ਼ੁਰੂ ਕਰਨ ਨਾਲ ਤੁਹਾਡੀ ਸਮੱਸਿਆ ਹਲ ਨਹੀਂ ਹੁੰਦੀ ਤਾਂ ਫ਼ੋਨ ਰੀਬੂਟ ਕਰਕੇ ਦੋਖੋ।</item>
+        <item>"ਰਨਿੰਗ ਬੂਟ ਡਾਟਾ 'ਤੇ ਟੈਪ ਕਰੋ ਅਤੇ ਡਾਟਾ ਆਪਣੇ ਆਪ ਹੀ ਸਿੰਕ ਕਰਨ ਲਈ ਅਗਲੀ ਗਤੀਵਿਧੀ ਪੰਨੇ ਵਿੱਚ ਦਾਖ਼ਲ ਹੋਵੋ"</item>
+    </string-array>
+    <string-array name="shoes_help_title">
+        <item>ਸਮਾਰਟ ਚਿਪ ਹਿਲਾਓ</item>
+        <item>ਕੀ ਬੈਟਰੀ ਚਾਰਜ ਕੀਤੀ ਹੋਈ ਹੈ?</item>
+        <item>ਕੀ ਇਹ ਸਮਾਰਟ ਚਿਪ ਕਿਸੇ ਹੋਰ ਡਿਵਾਈਸ ਨਾਲ ਪੇਅਰ ਕੀਤੀ ਗਈ ਹੈ?</item>
+        <item>ਬਲਿਊਟੁੱਥ ਦੁਬਾਰਾ ਤੋਂ ਸ਼ੁਰੂ ਕਰੋ</item>
+        <item>ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਰੀਬੂਟ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ</item>
+        <item>ਤੁਹਾਡੇ ਡਾਟਾ ਨੂ ਕਿਵੇਂ ਸਿੰਕ ਕਰਨਾ ਹੈ?</item>
+    </string-array>
+    <string-array name="show_body_shape_array">
+        <item>ਮੋਟਾਪਾ</item>
+        <item>ਸਧਾਰਨ ਤੋਂ ਵੱਧ ਵਜਨ</item>
+        <item>ਗਠੀਲਾ</item>
+        <item>"ਕਮੀ
+ਕਸਰਤ"</item>
+        <item>ਸੰਤੂਲਿਤ</item>
+        <item>"ਸੰਤੂਲਿਤ
+ਸੁਡੌਲ"</item>
+        <item>ਪਤਲੀ</item>
+        <item>"ਸੰਤੂਲਿਤ
+ਪਤਲੀ"</item>
+        <item>"ਪਤਲਾ
+ਸੁਡੌਲ"</item>
+    </string-array>
+    <string-array name="timeline_type">
+        <item>ਸਰਗਰਮੀ</item>
+        <item>ਹੌਲੀ ਗਤੀ ਨਾਲ ਚਲਣਾ</item>
+        <item>ਚੱਲਣਾ</item>
+        <item>ਤੇਜ਼ ਚੱਲਣਾ</item>
+        <item>ਦੌੜਣਾ</item>
+        <item>ਖੜੇ ਰਹਿਣਾ</item>
+        <item>ਬੈਠੇ ਰਹਿਣਾ</item>
+        <item>ਹਲਕੀ ਗਤੀਵਿਧੀ</item>
+        <item>ਨਹੀਂ ਪਾਇਆ ਹੈ</item>
+        <item>ਚਾਰਜ ਹੋ ਰਿਹਾ ਹੈ…</item>
+        <item>ਲੇਟੇ ਰਹਿਣਾ</item>
+    </string-array>
+    <string-array name="train_difficulity">
+        <item>ਸੀਮਿਤ ਨਹੀਂ</item>
+        <item>ਮੁੱਢਲੀ, 1</item>
+        <item>ਦਰਮਿਆਨੀ, 2</item>
+        <item>ਉੱਨਤ, 3</item>
+    </string-array>
+    <string-array name="unbind_device_description">
+        <item>@string/device_band</item>
+        <item>@string/device_weight</item>
+        <item>@string/device_shoe</item>
+        <item>@string/device_watch</item>
+    </string-array>
+    <string-array name="visceral_fat_leval">
+        <item>ਸਧਾਰਨ</item>
+        <item>ਜਿਆਦਾ</item>
+        <item>ਬਹੁਤ ਉੱਚ</item>
+    </string-array>
+    <string-array name="water_leval">
+        <item>ਨਾਕਾਫ਼ੀ</item>
+        <item>ਸਧਾਰਨ</item>
+        <item>ਵਧੀਆ</item>
+    </string-array>
+    <string-array name="wear_type">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+    </string-array>
+    <string-array name="wear_type_body">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="wear_type_chest">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/chest</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>ਐਤ</item>
+        <item>ਸੋਮ</item>
+        <item>ਮੰਗਲ</item>
+        <item>ਬੁੱਧ</item>
+        <item>ਵੀਰ</item>
+        <item>ਸ਼ੁੱਕਰ</item>
+        <item>ਸ਼ਨੀ</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>ਸੋਮਵਾਰ</item>
+        <item>ਮੰਗਲਵਾਰ</item>
+        <item>ਬੁੱਧਵਾਰ</item>
+        <item>ਵੀਰਵਾਰ</item>
+        <item>ਸ਼ੁੱਕਰਵਾਰ</item>
+        <item>ਸ਼ਨਿੱਚਰਵਾਰ</item>
+        <item>ਐਤਵਾਰ</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>ਸੋਮ</item>
+        <item>ਮੰਗਲ</item>
+        <item>ਬੁੱਧ</item>
+        <item>ਵੀਰ</item>
+        <item>ਸ਼ੁੱਕਰ</item>
+        <item>ਸ਼ਨੀ</item>
+        <item>ਐਤ</item>
+    </string-array>
+    <string-array name="weight3_body_figures">
+        <item>ਸਹੀ ਵਜਨ ਤੋਂ ਘੱਟ ਵਜਨ</item>
+        <item>ਸੰਤੁਲਤ</item>
+        <item>ਜ਼ਿਆਦਾ ਵਜਨ</item>
+        <item>ਮੋਟਾਪਾ</item>
+    </string-array>
+    <string-array name="weight_bfs_help_tips">
+        <item>ਪਹਿਲਾਂ ਬਲਿਊਟੁੱਥ ਬੰਦ ਕਰੋ ਫਿਰ ਮੌਜੂਦਾ ਡਿਵਾਈਸ ਨਾਲ ਪੇਅਰ ਕਰੋ।</item>
+        <item>"ਇਹ ਦੇਖਣ ਲਈ ਸਕੇਲ 'ਤੇ ਚੜ੍ਹੋ ਕਿ ਇਹ ਤੁਹਾਡਾ ਵਜ਼ਨ ਦਿਖਾਉਂਦਾ ਹੈ ਜਾਂ ਨਹੀਂ। ਜੇਕਰ ਇਹ ਬੈਟਰੀ ਆਈਕਾਨ ਦਰਸਾਉਂਦਾ ਹੈ ਤਾਂ ਬੈਟਰੀਆਂ ਬਦਲੋ।"</item>
+        <item>"ਜੇਕਰ ਸਕੇਲ 'ਤੇ ਚੜ੍ਹਨ ਤੋਂ ਬਾਅਦ ਕੋਈ ਪ੍ਰਤੀਕਿਰਿਆ ਨਹੀਂ ਮਿਲਦੀ ਤਾਂ ਦੇਖੋ ਕਿ ਬੈਟਰੀਆਂ ਸਹੀ ਤਰੀਕੇ ਨਾਲ ਇੰਸਟਾਲ ਕੀਤੀਆਂ ਗਈਆਂ ਹਨ।"</item>
+        <item>ਜੇਕਰ ਬੈਟਰੀ ਚਾਰਜ ਕੀਤੀ ਹੋਈ ਹੈ, ਪਰ ਫ਼ੋਨ ਨੂੰ ਡਿਵਾਈਸ ਦੇ ਨੇੜੇ ਲਿਆਉਣ ਦੇ ਬਾਵਜੂਦ ਵੀ ਤੁਸੀਂ ਡਿਵਾਈਸ ਨੂੰ ਨਹੀਂ ਲੱਭ ਪਾ ਰਹੇ ਹੋ ਤਾਂ ਫ਼ੋਨ ਦੇ ਬਲਿਊਟੁੱਥ ਨੂੰ ਦੁਬਾਰਾ ਤੋਂ ਸ਼ੁਰੂ ਕਰਕੇ ਦੇਖੋ।</item>
+        <item>ਜੇਕਰ ਫ਼ੋਨ ਨੂੰ ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰਨ ਨਾਲ ਵੀ ਤੁਹਾਡੀ ਸਮੱਸਿਆ ਉਵੇਂ ਹੀ ਰਹਿੰਦੀ ਹੈ ਤਾਂ ਫ਼ੋਨ ਰੀਬੂਟ ਕਰਕੇ ਦੇਖੋ।</item>
+    </string-array>
+    <string-array name="weight_bfs_help_title">
+        <item>ਕੀ ਇਹ ਸਕੇਲ ਹੋਰ ਡਿਵਾਈਸ ਨਾਲ ਪੇਅਰ ਕੀਤਾ ਗਿਆ ਹੈ?</item>
+        <item>ਸਕੇਲ ਦੀ ਬੈਟਰੀ ਦੇਖੋ</item>
+        <item>ਕੀ ਬੈਟਰੀਆਂ ਸਹੀ ਤਰ੍ਹਾਂ ਨਾਲ ਇੰਸਟਾਲ ਹੋ ਗਈਆਂ ਹਨ?</item>
+        <item>ਬਲਿਊਟੁੱਥ ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰਕੇ ਦੇਖੋ</item>
+        <item>ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਰੀਬੂਟ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>ਸਧਾਰਨ</item>
+        <item>ਸਧਾਰਨ ਤੋਂ ਵੱਧ ਵਜਨ</item>
+        <item>ਮੋਟਾਪਾ</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_not_chinese">
+        <item>ਸਧਾਰਨ ਤੋਂ ਘੱਟ ਵਜਨ</item>
+        <item>ਸਧਾਰਨ</item>
+        <item>ਸਧਾਰਨ ਤੋਂ ਵੱਧ ਵਜਨ</item>
+        <item>ਮੋਟਾਪਾ I</item>
+        <item>ਮੋਟਾਪਾ II</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>" ਕਿਗ੍ਰਾ"</item>
+        <item>" ਜਿਨ"</item>
+        <item>" lbs"</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+        <item>@string/weight_bfs_unit_jin</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array_no_jin">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+    </string-array>
+</resources>

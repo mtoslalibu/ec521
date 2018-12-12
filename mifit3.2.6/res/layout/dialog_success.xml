@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/shape_success_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="#ffff9c2c" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:layout_marginBottom="21.0dip" android:text="@string/share_success" android:drawableTop="@drawable/dialog_success" android:drawablePadding="1.0dip" />
+        <View android:background="@color/divide" android:layout_width="fill_parent" android:layout_height="@dimen/divider" />
+        <TextView android:textSize="14.0sp" android:textColor="#cb000000" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/go" android:background="@drawable/selector_button" android:layout_width="fill_parent" android:layout_height="52.0dip" android:text="@string/share_mifit_success" />
+        <View android:background="@color/divide" android:layout_width="fill_parent" android:layout_height="@dimen/divider" />
+        <TextView android:textSize="14.0sp" android:textColor="#cb000000" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/close" android:background="@drawable/selector_bottom" android:layout_width="fill_parent" android:layout_height="52.0dip" android:text="@string/share_close" />
+    </LinearLayout>
+</FrameLayout>

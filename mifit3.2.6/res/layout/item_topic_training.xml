@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_topic_item" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/pale_grey" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <View style="@style/VerticalDivider" />
+    <LinearLayout android:orientation="vertical" android:background="@color/white100" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/black70" android:id="@id/tx_topic_name" android:background="@drawable/bg_item" android:paddingTop="11.5dip" android:paddingBottom="11.5dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableEnd="@drawable/ic_arrow_right" android:paddingStart="@dimen/item_horizontal_margin" android:paddingEnd="@dimen/item_horizontal_margin" />
+        <android.support.v7.widget.RecyclerView android:id="@id/rcv_trainings" android:layout_width="fill_parent" android:layout_height="120.0dip" android:overScrollMode="never" />
+    </LinearLayout>
+    <View style="@style/VerticalDivider" />
+</LinearLayout>

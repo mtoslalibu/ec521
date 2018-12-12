@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_day_report_title_rank">
+        <item quantity="other">بۈگۈن%d%%ئىشلەتكۈچىدىن ئېشىپ كەتتىڭىز</item>
+    </plurals>
+    <plurals name="bf3_compare_last_mon">
+        <item quantity="other">%1$d كۈندىن بۇرۇنقىغا قارىغاندا</item>
+    </plurals>
+    <plurals name="bodyfat_3_health">
+        <item quantity="other">%d دانە ساغلاملىق كۆرسەتكۈچ</item>
+    </plurals>
+    <plurals name="bodyfat_3_need_attention">
+        <item quantity="other">%d تۈركۆرسەتكۈچكە ئەگىشىشكە مۇھتاج</item>
+    </plurals>
+    <plurals name="bodyfat_3_not_up_to_standard">
+        <item quantity="other">%d تۈر ئۆلچەمگە يەتمىگەن</item>
+    </plurals>
+    <plurals name="course_will_start_xdays_after">
+        <item quantity="other">%d كۈندىن كېيىن دەرس باشلىنىدۇ</item>
+    </plurals>
+    <plurals name="download_time">
+        <item quantity="other">%d قېتىم چۈشۈرگەن</item>
+    </plurals>
+    <plurals name="exercise_total_runtimes">
+        <item quantity="other">%1$d قېتىملىق ھەرىكەت</item>
+    </plurals>
+    <plurals name="have_finish_x_times_training">
+        <item quantity="other">%d قېتىملىق مەشىق تاماملاندى</item>
+    </plurals>
+    <plurals name="how_many_times">
+        <item quantity="other">%d -قېتىم</item>
+    </plurals>
+    <plurals name="incoming_call_delay_dialog_alert_tips">
+        <item quantity="other">تېلېفون كېلىپ%dسىكىنۇتتىن كېيىن ئەسكەرت</item>
+    </plurals>
+    <plurals name="input_out_of_max">
+        <item quantity="other">ئەڭ كۆپ بولغاندا %d تال خەت كىرگۈزگىلى بولىدۇ</item>
+    </plurals>
+    <plurals name="message_center_hour">
+        <item quantity="other">%dﺳﺎﺋﻪﺕ ﺑﯘﺭﯗﻥ</item>
+    </plurals>
+    <plurals name="message_center_minute">
+        <item quantity="other">%dمىنۇت بۇرۇن</item>
+    </plurals>
+    <plurals name="mili_setting_last_charge">
+        <item quantity="other">ئالدىنقى قېتىم زەرەتلىگەنگە %dكۈن بولدى</item>
+    </plurals>
+    <plurals name="next_rest_time">
+        <item quantity="other">%d\"</item>
+    </plurals>
+    <plurals name="next_rest_time_seconds">
+        <item quantity="other">%d سېكۇنت</item>
+    </plurals>
+    <plurals name="numberFoot">
+        <item quantity="other">%sئېڭگىلىز چى</item>
+    </plurals>
+    <plurals name="numberInch">
+        <item quantity="other">%sئېڭگىلىز سۇڭ</item>
+    </plurals>
+    <plurals name="people_attended">
+        <item quantity="other">%d كىشى قاتناشتى</item>
+    </plurals>
+    <plurals name="picker_number_of_items_selected">
+        <item quantity="other">%1$d تۈر تاللاندى</item>
+    </plurals>
+    <plurals name="run_insurance_remain_time_day">
+        <item quantity="other">يۈگرۈش سۇغۇرتىسىغا %1$d كۈن قالمىدى، چېكىپ داۋاملاشتۇرۇڭ</item>
+    </plurals>
+    <plurals name="running_history_record_sync_fail_unsync_count">
+        <item quantity="other">سىزنىڭ%dپارچە سانلىق مەلۇماتىڭىز قەدەمداشلانمىدى</item>
+    </plurals>
+    <plurals name="running_history_record_unsync_count">
+        <item quantity="other">سىزنىڭ%dپارچە سانلىق مەلۇماتىڭىز قەدەمداشلانمىدى</item>
+    </plurals>
+    <plurals name="running_record_cycle_times">
+        <item quantity="other">ۋېلىسپىت ھەيدەش %1$d قېتىم</item>
+    </plurals>
+    <plurals name="running_record_elli_times">
+        <item quantity="other">يۈگۈرۈش %1$d قېتىم</item>
+    </plurals>
+    <plurals name="running_record_run_times">
+        <item quantity="other">يۈگۈرۈش %1$d قېتىم</item>
+    </plurals>
+    <plurals name="running_record_training_times">
+        <item quantity="other">مەشىق %1$d قېتىم</item>
+    </plurals>
+    <plurals name="running_record_walk_times">
+        <item quantity="other">پىيادە مېڭىش %1$d قېتىم</item>
+    </plurals>
+    <plurals name="running_record_workout_times">
+        <item quantity="other">چېنىقىش %1$d قېتىم</item>
+    </plurals>
+    <plurals name="share_continue_max_day">
+        <item quantity="other">شەخىس ئەڭ يۇقۇرى خاتىرسى%dكۈن</item>
+    </plurals>
+    <plurals name="share_step_rank">
+        <item quantity="other">%d%% دىن ئوشۇق ئىشلەتكۈچى</item>
+    </plurals>
+    <plurals name="sleep_3_goal_title">
+        <item quantity="other">%d%% لىك كىشىدىن تاتلىق ئۇخلىدىڭىز</item>
+    </plurals>
+    <plurals name="start_train_after_x_day">
+        <item quantity="other">%s كۈندىن كېيىن باشلاش</item>
+    </plurals>
+    <plurals name="step_3_fr_header_rate_compare">
+        <item quantity="other">%d%%لىك كىشىدىن ئېشىپ كەتتىڭىز</item>
+    </plurals>
+    <plurals name="step_top_goal">
+        <item quantity="other">شەخىس ئەڭ يۇقۇرى خاتىرسى%dكۈن</item>
+    </plurals>
+    <plurals name="total_record_data">
+        <item quantity="other">ئومۇمى خاتىرە%dكۈن، يىغىپ ھېسابلاندى</item>
+    </plurals>
+    <plurals name="train_day_format">
+        <item quantity="other">ئالدىنقى مەشىق %d كۈن بۇرۇن</item>
+    </plurals>
+    <plurals name="training_consume_time_min">
+        <item quantity="other"> %1$d مىنۇت مەشق قىلىندى</item>
+    </plurals>
+    <plurals name="training_consume_time_sec">
+        <item quantity="other"> %1$d سېكۇنت مەشق قىلىندى</item>
+    </plurals>
+    <plurals name="training_notify_content">
+        <item quantity="other">مەشق دەرسىنىڭ%1$d -كۈنى،%2$d -مىنۇتتىكى%3$s سىزنى ساقلاۋاتىدۇ</item>
+    </plurals>
+    <plurals name="training_playing_title_time">
+        <item quantity="other"> %1$d سېكۇنت</item>
+    </plurals>
+    <plurals name="training_playing_title_times">
+        <item quantity="other"> %1$d  قېتىم</item>
+    </plurals>
+    <plurals name="training_rest_interval_time">
+        <item quantity="other"> %1$d  سېكۇنت دەم ئېلىش</item>
+    </plurals>
+    <plurals name="with_minute_time">
+        <item quantity="other">%d مىنۇت</item>
+    </plurals>
+    <plurals name="with_unit_times">
+        <item quantity="other">%d قېتىم</item>
+    </plurals>
+</resources>

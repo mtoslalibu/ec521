@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="avoid_type">
+        <item>@string/state_close</item>
+        <item>@string/avoid_enable_smart</item>
+        <item>@string/avoid_enable_time</item>
+    </string-array>
+    <string-array name="avoid_type_sub">
+        <item></item>
+        <item>@string/avoid_enable_smart_sub</item>
+        <item>@string/avoid_enable_time_sub</item>
+    </string-array>
+    <string-array name="bmi_for_adualt">
+        <item>低い</item>
+        <item>標準</item>
+        <item>高い</item>
+        <item>非常に高い</item>
+    </string-array>
+    <string-array name="bmi_for_child">
+        <item>標準</item>
+        <item>高い</item>
+        <item>非常に高い</item>
+    </string-array>
+    <string-array name="bmi_for_not_chinese">
+        <item>低い</item>
+        <item>標準</item>
+        <item>高め</item>
+        <item>高い</item>
+        <item>非常に高い</item>
+    </string-array>
+    <string-array name="body_score_leval">
+        <item>非常に悪い</item>
+        <item>悪い</item>
+        <item>普通</item>
+        <item>良い</item>
+        <item>非常に良い</item>
+    </string-array>
+    <string-array name="body_shape_type_array">
+        <item>Skinny</item>
+        <item>Balanced skinny</item>
+        <item>Skinny muscular</item>
+        <item>Lacks exercise</item>
+        <item>Balanced</item>
+        <item>Balanced muscular</item>
+        <item>Obese</item>
+        <item>Overweight</item>
+        <item>Thick-set</item>
+    </string-array>
+    <string-array name="bodyfat_content_leval">
+        <item>とても低い</item>
+        <item>低い</item>
+        <item>標準</item>
+        <item>高め</item>
+        <item>高い</item>
+    </string-array>
+    <string-array name="bone_leval">
+        <item>不足</item>
+        <item>標準</item>
+        <item>優良</item>
+    </string-array>
+    <string-array name="brm_leval">
+        <item>"Didn't reach goals"</item>
+        <item>Reached goal</item>
+    </string-array>
+    <string-array name="chaohu_help_tips">
+        <item>Try to press the button on the watch, if the watch screen is off, plug it in to charge its battery.</item>
+        <item>まずBluetoothをオフにし、現在のデバイスとペアリングしてください。</item>
+        <item>バンドが充電されているにもかかわらずスマートフォンに表示されない場合、スマートフォンのBluetoothを再起動してみてください。</item>
+        <item>Bluetoothを再起動しても問題が解決されない場合、スマートフォンを再起動してみてください。</item>
+        <item>運動している間、腕時計データは同期されません。セッションを終了してから再度同期してみてください。</item>
+    </string-array>
+    <string-array name="chaohu_help_title">
+        <item>Is your watch charged?</item>
+        <item>Is this watch paired with another device?</item>
+        <item>Try restarting Bluetooth</item>
+        <item>Try rebooting your phone</item>
+        <item>"Can't sync data during workouts"</item>
+    </string-array>
+    <string-array name="chaohu_setting_run_types">
+        <item>@string/chaohu_setting_run_outdoor</item>
+        <item>@string/chaohu_setting_run_indoor</item>
+        <item>@string/chaohu_setting_run_ride</item>
+        <item>@string/chaohu_setting_run_walk</item>
+    </string-array>
+    <string-array name="colors">
+        <item>@string/blue</item>
+        <item>@string/orange</item>
+        <item>@string/green</item>
+        <item>@string/red</item>
+    </string-array>
+    <string-array name="common_cities">
+        <item>Guangzhou</item>
+        <item>Shenzhen</item>
+        <item>Foshan</item>
+        <item>Dongguan</item>
+        <item>Beijing</item>
+        <item>Nanjing</item>
+        <item>Suzhou</item>
+        <item>Changzhou</item>
+        <item>Jinan</item>
+        <item>Qingdao</item>
+        <item>Hangzhou</item>
+        <item>Ningbo</item>
+        <item>Zhengzhou</item>
+        <item>Kaifeng</item>
+        <item>Shanghai</item>
+        <item>Shijiazhuang</item>
+        <item>Baoding</item>
+        <item>Chengdu</item>
+        <item>Mianyang</item>
+        <item>Shenyang</item>
+        <item>Dalian</item>
+    </string-array>
+    <string-array name="difficulty_content">
+        <item>フィットネストレーニング初心者</item>
+        <item>基本的なフィットネスの経験者</item>
+        <item>フィットネスの経験豊かで、既にシェイプアップされた体の持ち主</item>
+    </string-array>
+    <string-array name="difficulty_title">
+        <item>初級</item>
+        <item>中級</item>
+        <item>上級</item>
+    </string-array>
+    <string-array name="fitness_goal_content">
+        <item>脂肪燃焼を目指す</item>
+        <item>ボディラインのシェイプを目指す</item>
+        <item>筋肉増強を目指す</item>
+    </string-array>
+    <string-array name="fitness_goal_title">
+        <item>ダイエット</item>
+        <item>シェイプアップ</item>
+        <item>バルクアップ</item>
+    </string-array>
+    <string-array name="ges_screen_type">
+        <item>@string/ges_screen_type_all_day</item>
+        <item>@string/ges_screen_type_time</item>
+        <item>@string/ges_screen_type_close</item>
+    </string-array>
+    <string-array name="hr_section">
+        <item>@string/hr_section_warm_up</item>
+        <item>@string/hr_section_fat_burn</item>
+        <item>@string/hr_section_heart_lung_strengthen</item>
+        <item>@string/hr_section_stamina_strengthen</item>
+        <item>@string/hr_section_anaerobic_limit</item>
+        <item>@string/hr_section_other</item>
+    </string-array>
+    <string-array name="hr_sport">
+        <item>心拍ゾーン: ウォーミングアップ</item>
+        <item>心拍ゾーン: 脂肪燃焼</item>
+        <item>心拍ゾーン: 有酸素</item>
+        <item>心拍ゾーン: 無酸素</item>
+        <item>心拍ゾーン：最大酸素摂取量 (VO₂ max)</item>
+    </string-array>
+    <string-array name="hr_sport_new">
+        <item>ウォーミングアップ</item>
+        <item>脂肪燃焼</item>
+        <item>有酸素</item>
+        <item>無酸素</item>
+        <item>最大酸素摂取量 (VO₂ max)</item>
+    </string-array>
+    <string-array name="lock_screen_type">
+        <item>Close</item>
+        <item>Near</item>
+        <item>Far</item>
+    </string-array>
+    <string-array name="member_add_weight_items">
+        <item>@string/member_add_weight_item_auto</item>
+        <item>@string/member_add_weight_item_manual</item>
+    </string-array>
+    <string-array name="mili_help_tips">
+        <item>"Mi Band 2またはその他のバンドをペアリングする前に、バンドをタップしてデバイスが充電されているか確認してください。
+
+Mi BandまたはMi Band Pulseをペアリングする前にバンドを充電してください。"</item>
+        <item>まずBluetoothをオフにし、現在のデバイスとペアリングしてください。</item>
+        <item>バンドが充電されているにもかかわらずスマートフォンに表示されない場合、スマートフォンのBluetoothを再起動してみてください。</item>
+        <item>Bluetoothを再起動しても問題が解決されない場合、スマートフォンを再起動してみてください。</item>
+    </string-array>
+    <string-array name="mili_help_title">
+        <item>バンドは充電されていますか？</item>
+        <item>バンドは他のデバイスとペアリングされていますか？</item>
+        <item>Bluetoothを再起動してみる</item>
+        <item>スマートフォンを再起動してみる</item>
+    </string-array>
+    <string-array name="mili_pro_display_items">
+        <item>時間</item>
+        <item>歩数</item>
+        <item>距離</item>
+        <item>カロリー</item>
+        <item>心拍数</item>
+        <item>バッテリー</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+    <string-array name="muscle_content_leval">
+        <item>不足</item>
+        <item>標準</item>
+        <item>優良</item>
+    </string-array>
+    <string-array name="ring_types">
+        <item>@string/ring_type_default</item>
+        <item>@string/ring_type_incall</item>
+    </string-array>
+    <string-array name="running_months">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+    <string-array name="setting_hr_freq_types">
+        <item>@string/setting_heartrate_detect_freq_1</item>
+        <item>@string/setting_heartrate_detect_freq_10</item>
+        <item>@string/setting_heartrate_detect_freq_30</item>
+    </string-array>
+    <string-array name="setting_hr_types">
+        <item>@string/setting_heartrate_detect_auto</item>
+        <item>@string/setting_heartrate_detect_sleep</item>
+        <item>@string/setting_heartrate_detect_close</item>
+    </string-array>
+    <string-array name="setting_peyto_apps_array">
+        <item>文字盤</item>
+        <item>ステータス</item>
+        <item>アクティビティ</item>
+        <item>天気</item>
+        <item>アラーム</item>
+        <item>タイマー</item>
+        <item>コンパス</item>
+        <item>その他の設定</item>
+    </string-array>
+    <string-array name="setting_tempo_apps_array">
+        <item>文字盤</item>
+        <item>ステータス</item>
+        <item>通知</item>
+        <item>アクティビティ</item>
+        <item>天気</item>
+        <item>アラーム</item>
+        <item>タイマー</item>
+        <item>設定</item>
+    </string-array>
+    <string-array name="setting_weather_temp_unit_array">
+        <item>@string/setting_weather_temp_c</item>
+        <item>@string/setting_weather_temp_f</item>
+    </string-array>
+    <string-array name="shoes_help_tips">
+        <item>スマートチップは長期間使用されていないと動作を停止します。スマートチップを振ってから再度試してみてください。</item>
+        <item>Amazfit スマートチップの電池寿命は1年です。1年以上使用している場合は、電池が切れてしまっている可能性があります。</item>
+        <item>まずBluetoothをオフにし、現在のデバイスとペアリングしてください。</item>
+        <item>"If the smart chip is charged, but can't be detected when you bring the phone close to it, try rebooting the phone's Bluetooth."</item>
+        <item>Bluetoothを再起動しても問題が解決されない場合、スマートフォンを再起動してみてください。</item>
+        <item>ランニングシューズデータをタップして、次のアクティビティページに移動すると、自動的にデータを同期します。</item>
+    </string-array>
+    <string-array name="shoes_help_title">
+        <item>スマートチップを振ってください</item>
+        <item>バッテリーは充電されていますか？</item>
+        <item>スマートチップは他のデバイスとペアリングされていますか？</item>
+        <item>Bluetoothを再起動</item>
+        <item>スマートフォンを再起動してみる</item>
+        <item>データはどのように同期しますか？</item>
+    </string-array>
+    <string-array name="show_body_shape_array">
+        <item>Obese</item>
+        <item>Overweight</item>
+        <item>Thick-set</item>
+        <item>"Lacks
+exercise"</item>
+        <item>Balanced</item>
+        <item>"Balanced
+muscular"</item>
+        <item>Skinny</item>
+        <item>"Balanced
+skinny"</item>
+        <item>"Skinny
+muscular"</item>
+    </string-array>
+    <string-array name="timeline_type">
+        <item>アクティビティ</item>
+        <item>スローウォーキング</item>
+        <item>ウォーキング</item>
+        <item>ファストウォーキング</item>
+        <item>ランニング</item>
+        <item>スタンディング</item>
+        <item>座る</item>
+        <item>軽いアクティビティ</item>
+        <item>未装着</item>
+        <item>充電中…</item>
+        <item>横になる</item>
+    </string-array>
+    <string-array name="train_difficulity">
+        <item>制限なし</item>
+        <item>初級、1</item>
+        <item>中級、2</item>
+        <item>上級、3</item>
+    </string-array>
+    <string-array name="unbind_device_description">
+        <item>@string/device_band</item>
+        <item>@string/device_weight</item>
+        <item>@string/device_shoe</item>
+        <item>@string/device_watch</item>
+    </string-array>
+    <string-array name="visceral_fat_leval">
+        <item>標準</item>
+        <item>高い</item>
+        <item>非常に高い</item>
+    </string-array>
+    <string-array name="water_leval">
+        <item>不足</item>
+        <item>標準</item>
+        <item>優良</item>
+    </string-array>
+    <string-array name="wear_type">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+    </string-array>
+    <string-array name="wear_type_body">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/body</item>
+    </string-array>
+    <string-array name="wear_type_chest">
+        <item>@string/left_hand</item>
+        <item>@string/right_hand</item>
+        <item>@string/chest</item>
+    </string-array>
+    <string-array name="week_name">
+        <item>（日）</item>
+        <item>（月）</item>
+        <item>（火）</item>
+        <item>（水）</item>
+        <item>（木）</item>
+        <item>（金）</item>
+        <item>（土）</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>月曜日</item>
+        <item>火曜日</item>
+        <item>水曜日</item>
+        <item>木曜日</item>
+        <item>金曜日</item>
+        <item>土曜日</item>
+        <item>日曜日</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>（月）</item>
+        <item>（火）</item>
+        <item>（水）</item>
+        <item>（木）</item>
+        <item>（金）</item>
+        <item>（土）</item>
+        <item>（日）</item>
+    </string-array>
+    <string-array name="weight3_body_figures">
+        <item>痩せ気味</item>
+        <item>標準</item>
+        <item>太り気味</item>
+        <item>肥満</item>
+    </string-array>
+    <string-array name="weight_bfs_help_tips">
+        <item>まずBluetoothをオフにし、現在のデバイスとペアリングしてください。</item>
+        <item>体重計に乗り、体重が表示されるか確認してください。電池アイコンが表示された場合、電池を交換してください。</item>
+        <item>体重計に乗っても反応がない場合、電池が正しく取り付けられているかを確認してください。</item>
+        <item>"If the battery is charged, while you still can't find the device after you bring the phone closer to it, try to restart the phone's Bluetooth."</item>
+        <item>Bluetoothを再起動しても問題が解決されない場合、スマートフォンを再起動してみてください。</item>
+    </string-array>
+    <string-array name="weight_bfs_help_title">
+        <item>体重計は他のデバイスとペアリングされていますか？</item>
+        <item>体重計の電池残量を確認</item>
+        <item>電池は正しく取り付けられていますか？</item>
+        <item>Bluetoothを再起動してみる</item>
+        <item>スマートフォンを再起動してみる</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>正常</item>
+        <item>過体重</item>
+        <item>肥満</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_not_chinese">
+        <item>Underweight</item>
+        <item>正常</item>
+        <item>Overweight</item>
+        <item>肥満 I</item>
+        <item>肥満 II</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>" kg"</item>
+        <item>" 斤"</item>
+        <item>" lb"</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+        <item>@string/weight_bfs_unit_jin</item>
+    </string-array>
+    <string-array name="weightbfs_unit_array_no_jin">
+        <item>@string/weight_bfs_unit_kg</item>
+        <item>@string/weight_bfs_unit_pound</item>
+    </string-array>
+</resources>

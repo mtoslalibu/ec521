@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff8f8f8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="#ff00aecb" android:layout_width="fill_parent" android:layout_height="361.0dip" android:paddingStart="@dimen/mili_margin" android:paddingEnd="@dimen/mili_margin">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="28.0dip" android:src="@drawable/bind_googlefit_img" android:contentDescription="@string/app_name" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/info_content_size" android:textColor="@color/black40" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="52.0dip" android:text="@string/gf_tips" android:layout_above="@id/bind_googlefit_btn" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/black60" android:gravity="center" android:id="@id/bind_googlefit_btn" android:background="@drawable/common_corner_rect" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginTop="13.299988dip" android:layout_marginBottom="23.299988dip" android:text="@string/bind_google_fit_btn_text" android:layout_alignParentBottom="true" android:layout_marginStart="26.699982dip" android:layout_marginEnd="26.699982dip" />
+</RelativeLayout>

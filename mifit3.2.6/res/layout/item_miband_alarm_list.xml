@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@drawable/bg_item" android:layout_width="fill_parent" android:layout_height="58.0dip" android:minHeight="58.0dip" android:paddingStart="@dimen/common_item_padding" android:paddingEnd="@dimen/common_item_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/delete_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="11.299988sp" android:layout_centerVertical="true" android:layout_marginEnd="11.299988dip">
+        <ImageView android:layout_gravity="center" android:id="@id/alarm_delete" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/smart_alarm_delete" />
+        <FrameLayout android:layout_gravity="center" android:id="@id/loading_parent" android:background="@drawable/shape_loading_origin_bg" android:padding="2.0dip" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip">
+            <com.xiaomi.hm.health.baseui.widget.LoadingView android:layout_gravity="center" android:id="@id/loading_view" android:layout_width="15.0dip" android:layout_height="15.0dip" app:stroke="1.5dip" />
+        </FrameLayout>
+    </FrameLayout>
+    <com.xiaomi.hm.health.baseui.typeface.TypefaceTextView android:textSize="19.0sp" android:textColor="@color/black70" android:id="@id/miband_alarm_time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:fontFamily="km" android:layout_toEndOf="@id/delete_layout" />
+    <TextView android:textSize="7.299988sp" android:textColor="@color/black60" android:layout_gravity="center" android:id="@id/miband_alarm_ampm_text" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="4.299988dip" android:layout_toEndOf="@id/miband_alarm_time_text" />
+    <View android:id="@id/divider" android:background="@color/divide" android:layout_width="@dimen/divider" android:layout_height="26.699982dip" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" android:layout_toEndOf="@id/miband_alarm_ampm_text" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="11.0dip" android:layout_toEndOf="@id/divider">
+        <TextView android:textSize="10.0sp" android:textColor="@color/black60" android:gravity="center" android:id="@id/miband_alarm_repeat" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/black60" android:gravity="center" android:id="@id/miband_alarm_status" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <android.support.v7.widget.SwitchCompat android:layout_gravity="center" android:id="@id/miband_alarm_switch" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/switchStyle" />
+    <View android:background="@color/divide" android:layout_width="fill_parent" android:layout_height="@dimen/divider" android:layout_alignParentBottom="true" />
+</RelativeLayout>

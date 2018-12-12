@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="42.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/black40" android:id="@id/hr_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginStart="18.0dip" />
+    <View android:layout_alignParentTop="true" android:layout_marginEnd="18.0dip" android:layout_alignStart="@id/hr_date" style="@style/VerticalDivider" />
+    <View android:layout_alignParentBottom="true" android:layout_marginEnd="18.0dip" android:layout_alignStart="@id/hr_date" style="@style/VerticalDivider" />
+</RelativeLayout>
