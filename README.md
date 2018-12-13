@@ -42,9 +42,9 @@ This project is a demonstration of exploiting a vulnerability among the MiFit ap
 
 ## Authors
 
-* **Mert Toslali** - *Researcher* - [Toslali](https://github.com/mtoslalibu)
-* **Burak Aksar** - *Researcher* - [Aksar](https://github.com/aksarburak)
-* **Beliz Kaleli** - *Researcher* - [Kaleli](https://github.com/belizkaleli)
+* **Mert Toslali** - *Researcher* - [Toslali](https://github.com/mtoslalibu) - mtoslali@bu.edu
+* **Burak Aksar** - *Researcher* - [Aksar](https://github.com/aksarburak) - baksar@bu.edu    
+* **Beliz Kaleli** - *Researcher* - [Kaleli](https://github.com/belizkaleli) - bkaleli@bu.edu
 
 ## License
 
